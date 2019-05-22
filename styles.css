@@ -2,10 +2,11 @@ body {
   background-color: white;
 }
 
-div {
+div.head {
   text-align: center;
   color: black;
 }
+
 
 .button {
   background-color: gold;
