@@ -12,17 +12,6 @@ div.tab {
   background-color: gray;
 }
 
-.button {
-  background-color: gold;
-  border: none;
-  color: blue;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-
 .button2 {
   border: none;
   color: blue;
