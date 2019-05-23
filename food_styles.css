@@ -27,6 +27,11 @@ div.tab {
   color: orange;
 }
 
+.entry {
+	width: 700;
+	text-align: center;
+}
+
 
 .row {
 	width: 100%;
