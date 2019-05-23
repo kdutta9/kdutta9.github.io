@@ -64,7 +64,7 @@ input:focus, textarea:focus {
     border:1px solid #97d6eb;
 }
 
-#submit {
+submit {
     width:127px;
     height:38px;
     background:url(images/submit.jpg);
@@ -74,6 +74,6 @@ input:focus, textarea:focus {
     cursor:pointer;
 }
 
-#submit:hover {
+submit:hover {
 	    opacity:.9;
 }
