@@ -22,66 +22,32 @@ div.tab {
   font-size: 16px;
 }
 
-label {
-    display:block;
-    margin-top:20px;
-    letter-spacing:2px;
+input[type=text], select, textarea {
+  width: 50%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
 }
 
-.body {
-    display:block;
-    margin:0 auto;
-    width:576px;
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-form {
-    margin:0 auto;
-    width:459px;
+input[type=submit]:hover {
+  background-color: #45a049;
 }
 
-input, textarea {
-	width:439px;
-	height:27px;
-	background:#efefef;
-	border:1px solid #dedede;
-	padding:10px;
-	margin-top:3px;
-	font-size:0.9em;
-	color:#3a3a3a;
-}
-
-textarea {
-	height:213px;
-	background:url(images/textarea-bg.jpg) right no-repeat #efefef;
-}
-input, textarea {
-    width:439px;
-    height:27px;
-    background:#efefef;
-    border:1px solid #dedede;
-    padding:10px;
-    margin-top:3px;
-    font-size:0.9em;
-    color:#3a3a3a;
-    -moz-border-radius:5px;
-    -webkit-border-radius:5px;
-    border-radius:5px;
-}
-
-input:focus, textarea:focus {
-    border:1px solid #97d6eb;
-}
-
-submit {
-    width:127px;
-    height:38px;
-    background:url(images/submit.jpg);
-    text-indent:-9999px;
-    border:none;
-    margin-top:20px;
-    cursor:pointer;
-}
-
-submit:hover {
-	opacity:.9;
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
