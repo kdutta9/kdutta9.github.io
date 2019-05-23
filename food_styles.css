@@ -22,9 +22,14 @@ div.tab {
   font-size: 16px;
 }
 
+.stars {
+	align: middle;
+}
+
 .checked {
   color: orange;
 }
+
 
 .row {
 	width: 100%;
