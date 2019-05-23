@@ -28,7 +28,8 @@ div.tab {
 }
 
 .entry {
-	width: 700;
+	max-width: 600px;
+	min-width: 100px;
 	text-align: center;
 }
 
