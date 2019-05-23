@@ -12,6 +12,15 @@ div.tab {
   background-color: gold;
 }
 
+div.entry {
+	text-align: center;
+	background-color: gray;
+	max-width: 600;
+	displ: inline-block;
+	margin: auto;
+}
+
+
 .button2 {
   border: none;
   color: blue;
