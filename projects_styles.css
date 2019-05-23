@@ -13,10 +13,10 @@ div.tab {
 }
 
 div.entry {
-	text-align: center;
-	background-color: gray;
 	max-width: 600;
-	displ: inline-block;
+	text-align: center;
+	background-color: #C8C8C8;
+	display: inline-block;
 	margin: auto;
 }
 
