@@ -28,6 +28,8 @@ div.entry {
 	min-width: 100px;
 	background-color: powderblue;
 	text-align: center;
+	display: inline-block;
+	margin: auto;
 }
 
 div.taylor * {
