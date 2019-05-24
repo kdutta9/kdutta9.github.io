@@ -21,3 +21,17 @@ div.tab {
   display: inline-block;
   font-size: 16px;
 }
+
+div.entry {
+	border-radius: 25px;
+	max-width: 700px;
+	min-width: 100px;
+	display: inline-block;
+	margin: auto;
+	background-color: powderblue;
+}
+
+div.taylor * {
+	background-color: white;
+	color: white;
+}
