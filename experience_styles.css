@@ -12,6 +12,15 @@ div.tab {
   background-color: gold;
 }
 
+div.entry {
+	border-radius: 25px;
+	max-width: 700px;
+	min-width: 100px;
+	display: inline-block;
+	margin: auto;
+	background-color: powderblue;
+}
+
 .button2 {
   border: none;
   color: blue;
@@ -20,16 +29,6 @@ div.tab {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-}
-
-div.entry {
-	border-radius: 25px;
-	max-width: 700px;
-	min-width: 100px;
-	background-color: powderblue;
-	text-align: center;
-	display: inline-block;
-	margin: auto;
 }
 
 div.taylor * {
