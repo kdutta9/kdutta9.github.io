@@ -32,7 +32,7 @@ div.entry {
   font-size: 16px;
 }
 
-div.taylor {
+div.taylor * {
 	background-color: white;
 	color: white;
 }
