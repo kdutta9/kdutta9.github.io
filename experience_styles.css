@@ -15,10 +15,14 @@ div.tab {
 div.entry {
 	text-align: center;
 	border-radius: 25px;
-	min-width: 700px;
+	width: 700px;
 	display: inline-block;
 	margin: auto;
 	background-color: powderblue;
+}
+
+div.bullets {
+	text-align: left;
 }
 
 .button2 {
