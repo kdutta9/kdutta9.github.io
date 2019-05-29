@@ -30,3 +30,8 @@ div.entry {
 	margin: auto;
 	background-color: powderblue;
 }
+
+div.taylor * {
+	background-color: white;
+	color: white;
+}
