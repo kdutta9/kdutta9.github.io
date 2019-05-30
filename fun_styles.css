@@ -21,3 +21,7 @@ div.tab {
   display: inline-block;
   font-size: 16px;
 }
+
+div.entry {
+	display: inline-block;
+}
