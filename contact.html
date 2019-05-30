@@ -25,17 +25,19 @@ If you have any questions, comments, or concerns,
 I will get back to you as soon as possible!
 </p>
 
+<h6><font color="red">*</font> indicates required field</h6>
+
 </div>
 
 <!-- implement FormSpree -->
 <form action="https://formspree.io/kdutta@berkeley.edu" method="POST">
-	<p><label for="name">Name</label></p>
+	<p><label for="name">Name<font color="red">*</font></label></p>
     <p><input type="text" id="name" name="name" placeholder="Your name..." required></p>
 
-    <p><label for="email">Email</label></p>
+    <p><label for="email">Email<font color="red">*</font></label></p>
     <p><input type="text" id="email" name="email" placeholder="Your email.." required></p>
 
-    <p><label for="message">Message</label></p>
+    <p><label for="message">Message<font color="red">*</font></label></p>
     <p><textarea id="message" name="message" placeholder="Write something.." style="height:200px" required></textarea></p>
 
     <input type="submit" value="Submit">
