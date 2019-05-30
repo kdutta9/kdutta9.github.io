@@ -21,3 +21,19 @@ div.tab {
   display: inline-block;
   font-size: 16px;
 }
+
+div.entry {
+	max-width: 700px;
+	min-width: 100px;
+	display: inline-block;
+	margin: auto;
+}
+
+.row {
+	width: 100%;
+	text-align: center;
+}
+
+.img {
+  align: middle;
+}
