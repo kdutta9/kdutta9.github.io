@@ -27,7 +27,7 @@ div.entry {
 	min-width: 100px;
 	display: inline-block;
 	margin: auto;
-	text-justify: inter-word;
+	text-align: left;
 }
 
 .row {
