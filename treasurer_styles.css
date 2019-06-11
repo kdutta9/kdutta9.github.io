@@ -1,0 +1,40 @@
+body {
+  background-color: white;
+}
+
+div.head {
+  text-align: center;
+  color: black;
+}
+
+div.tab {
+  text-align: center;
+  background-color: powderblue;
+}
+
+.button2 {
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+div.entry {
+	max-width: 700px;
+	min-width: 100px;
+	display: inline-block;
+	margin: auto;
+	text-align: left;
+}
+
+.row {
+	width: 100%;
+	text-align: center;
+}
+
+div.card {
+  text-align: middle;
+}
