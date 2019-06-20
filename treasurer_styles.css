@@ -28,8 +28,8 @@ div.entry {
 	width: 700px;
 	display: inline-block;
 	margin: auto;
-	background-color: powderblue;
 }
+
 
 .row {
 	width: 100%;
@@ -38,4 +38,9 @@ div.entry {
 
 div.card {
   text-align: middle;
+}
+
+div.taylor * {
+	background-color: white;
+	color: white;
 }
