@@ -55,3 +55,9 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+
+footer {
+	background-color: powderblue;
+	text-align: center;
+	padding: 50px;
+}

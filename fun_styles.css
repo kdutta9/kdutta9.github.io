@@ -25,3 +25,9 @@ div.tab {
 div.entry {
 	display: inline-block;
 }
+
+footer {
+	background-color: powderblue;
+	text-align: center;
+	padding: 50px;
+}

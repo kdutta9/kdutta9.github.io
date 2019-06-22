@@ -38,3 +38,9 @@ div.entry {
 .img {
   align: middle;
 }
+
+footer {
+	background-color: powderblue;
+	text-align: center;
+	padding: 50px;
+}

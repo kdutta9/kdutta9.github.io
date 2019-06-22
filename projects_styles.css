@@ -35,3 +35,9 @@ div.taylor * {
 	background-color: white;
 	color: white;
 }
+
+footer {
+	background-color: powderblue;
+	text-align: center;
+	padding: 50px;
+}
