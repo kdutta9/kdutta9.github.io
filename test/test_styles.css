@@ -1,0 +1,12 @@
+body {
+	text-align: center;
+}
+
+div.header {
+	color: black;
+}
+
+div.map {
+	text-align: center;
+	display: inline-block;
+}
