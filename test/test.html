@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html>
-  <h3> Test 5 </h3>
+  <h3> Test 6 </h3>
 	
   <head>
     <link rel="stylesheet" href="test_styles.css" />
@@ -9,8 +9,50 @@
   <body>
   <script src="https://unpkg.com/d3-dag@0.2.3"></script>
   <script>
-  const data = {"nodes":[{"title":"Math 1A/B","id":1,"x":145.52326202392578,"y":-538.007884979248},{"id":5,"title":"Math 53","x":34.02335548400879,"y":-352.95892333984375},{"id":6,"title":"Math 54","x":262.3819885253906,"y":-354.9822082519531}],"edges":[{"source":1,"target":6},{"source":1,"target":5}]}
-  d3.dagHierarchy(data);
+var width = 500;
+var height = 500;
+
+var data = [10, 15, 20, 25, 30];
+var colors = ['#ffffcc','#c2e699','#78c679','#31a354','#006837'];
+
+var svg = d3.select("body")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+var g = svg.selectAll("g")
+            .data(data)
+            .enter()
+            .append("g")
+            .attr("transform", function(d, i) {
+                return "translate(0,0)";
+            })
+
+    g.append("circle")
+      .attr("cx", function(d, i) {
+            return i*100 + 50;
+      })
+      .attr("cy", function(d, i) {
+            return 100;
+      })
+      .attr("r", function(d) {
+            return d*1.5;
+      })
+      .attr("fill", function(d, i){
+            return colors[i];
+      })
+
+    g.append("text")
+     .attr("x", function(d, i) {
+            return i * 100 + 40;
+     })
+     .attr("y", 105)
+     .attr("stroke", "teal")
+     .attr("font-size", "12px")
+     .attr("font-family", "sans-serif")
+     .text(function(d) {
+            return d;
+     });
   </script>
   </body>
 
