@@ -2,12 +2,8 @@ body {
 	text-align: center;
 }
 
-div.header {
-	color: black;
-	font-family: "Cuprum";
-    text-transform: uppercase;
-    font-size: 1.7em;
-    font-weight: normal;
+div.note {
+	font-style:italic;
 }
 
 div.map {
