@@ -12,8 +12,9 @@ div.header {
 }
 
 div.profile {
-  display: inline-block;
-  vertical-align: middle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 50px;
   width: 350;
   height: 350;
