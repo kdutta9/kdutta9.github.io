@@ -2,7 +2,7 @@ body {
 	text-align: center;
 }
 
-.header {
+div.header {
   width: 100%;
   height: 400px;
   /* Insert background cover. */
@@ -10,7 +10,7 @@ body {
   background-size: cover;
 }
 
-.profile {
+div.profile {
   vertical-align: middle;
   padding-top: 50px;
   width: 50px;
