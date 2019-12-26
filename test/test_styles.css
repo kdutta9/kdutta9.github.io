@@ -13,7 +13,7 @@ div.header {
 div.profile {
   vertical-align: middle;
   padding-top: 50px;
-  max-width: 50px;
-  max-height: 50px;
+  width: 350;
+  height: 350;
   border-radius: 50%;
 }
