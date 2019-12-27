@@ -12,14 +12,13 @@ div.header {
 }
 
 div.profile {
-  display: block;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 50px;
-  width: 350;
-  height: 350;
+  width: 200px;
   border-radius: 50%;
   vertical-align: top;
-  background-color: gray;
+  background-color: powderblue;
   border-radius: 25px;
 }
