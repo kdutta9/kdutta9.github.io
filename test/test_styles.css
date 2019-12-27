@@ -24,3 +24,10 @@ div.profile {
   background-color: aliceblue;
   border-radius: 25px;
 }
+
+div.content {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+}
