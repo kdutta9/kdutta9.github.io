@@ -20,4 +20,6 @@ div.profile {
   height: 350;
   border-radius: 50%;
   vertical-align: top;
+  background-color: gray;
+  border-radius: 25px;
 }
