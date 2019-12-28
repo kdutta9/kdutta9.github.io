@@ -1,0 +1,56 @@
+{% extends "header.html" %}
+{% block content %}
+{% load staticfiles %}
+
+<head>
+<link href='https://fonts.googleapis.com/css?family=Puritan|Cuprum' rel='stylesheet' type='text/css' />
+</head>
+<style>
+h3{
+	padding-top:30px;
+    text-align: center;
+}
+
+body {
+	text-align: center;
+}
+
+div.note {
+	font-style:italic;
+}
+
+div.map {
+	text-align: center;
+	display: inline-block;
+}
+
+div.header {
+	padding-top: 5%;
+	color: black;
+	font-family: "Cuprum";
+    text-transform: uppercase;
+    font-size: 1.7em;
+    font-weight: normal;
+}
+</style>
+  
+<body>
+
+<div class="header">
+<h1>Statistics Course Map</h1>
+</div>
+
+<div class="note">
+<p>See <a href="https://statistics.berkeley.edu/programs/undergrad/major" rel="noopener noreferrer" target="_blank">major</a> 
+and <a href="https://statistics.berkeley.edu/programs/undergrad/minor" rel="noopener noreferrer" target="_blank">minor</a> 
+requirements for more information.
+</p>
+</div>
+
+
+<div class="map">
+</div>
+
+</body>
+
+   {% endblock %}
