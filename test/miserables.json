@@ -21,6 +21,7 @@
     {"id": "Stat 158", "group": 5},
     {"id": "Data 102", "group": 5},
   ],
+    /*
   "links": [
     {"source": "Data 8", "target": "Data 100", "value": 1},
     {"source": "Stat 133", "target": "Stat 135", "value": 1},
@@ -42,4 +43,5 @@
     {"source": "Stat 135", "target": "Stat 157", "value": 1},
     {"source": "Data 100", "target": "Stat 140", "value": 1}
   ]
+  **/
 }
