@@ -43,6 +43,7 @@ body {
   font-size: 16px;
   border: none;
   cursor: pointer;
+  padding-top: 15px;
 }
 
 /* Dropdown button on hover & focus */
@@ -54,7 +55,6 @@ body {
 .dropdown {
   position: relative;
   display: inline-block;
-  padding-top: 15px;
 }
 
 /* Dropdown Content (Hidden by Default) */
