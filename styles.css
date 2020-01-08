@@ -43,7 +43,6 @@ body {
   font-size: 16px;
   border: none;
   cursor: pointer;
-  clear: both;
 }
 
 /* Dropdown button on hover & focus */
@@ -85,7 +84,7 @@ body {
 .fa {
   font-size: 20px;
   width: 15px;
-  padding-right: 5px;
+  padding-right: 20px;
   text-align: center;
   text-decoration: none;
   float: left;
