@@ -12,6 +12,7 @@ body {
   background-color: #E0FFFF;
   overflow-x: hidden;
   padding-top: 100px;
+  padding-left: 100px;
 }
 
 .sidenav a {
