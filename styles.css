@@ -43,6 +43,7 @@ body {
   font-size: 16px;
   border: none;
   cursor: pointer;
+  clear: both;
 }
 
 /* Dropdown button on hover & focus */
