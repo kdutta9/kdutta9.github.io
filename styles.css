@@ -84,6 +84,7 @@ body {
 .fa {
   font-size: 20px;
   width: 10px;
+  padding-right: 5px;
   text-align: center;
   text-decoration: none;
   float: left;
@@ -97,15 +98,15 @@ body {
 
 /* LinkedIn */
 .fa-linkedin {
-  color: white;
+  color: black;
 }
 
 /* Github */
 .fa-github {
-  color: white;
+  color: black;
 }
 
 /* Instagram */
 .fa-instagram {
-  color: white;
+  color: black;
 }
