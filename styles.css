@@ -37,14 +37,12 @@ body {
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: #3498DB;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
+  background-color: LightGray;
+  color: MediumBlue;
+  padding: 10px;
+  font-size: 10px;
   border: none;
   cursor: pointer;
-  padding-top: 15px;
-  align: left;
 }
 
 /* Dropdown button on hover & focus */
