@@ -111,4 +111,5 @@ body {
 }
 
 .navigation {
+	display: inline-block;
 }
