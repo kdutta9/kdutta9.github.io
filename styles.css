@@ -110,3 +110,7 @@ body {
 .fa-instagram {
   color: black;
 }
+
+.navigation {
+  position: relative;
+}
