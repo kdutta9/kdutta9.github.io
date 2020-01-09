@@ -87,7 +87,6 @@ body {
   padding-right: 20px;
   text-align: center;
   text-decoration: none;
-  position: relative;
 }
 
 .fa:hover {
@@ -112,5 +111,5 @@ body {
 }
 
 .navigation {
-  position: relative;
+  color: red;
 }
