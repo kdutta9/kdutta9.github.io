@@ -40,6 +40,18 @@ footer {
 	padding: 50px;
 }
 
+/* Style all font awesome icons */
+.fa {
+  font-size: 40px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
 /* Set a specific color for each brand */
 
 /* LinkedIn */
