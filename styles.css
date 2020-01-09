@@ -87,7 +87,7 @@ body {
   padding-right: 20px;
   text-align: center;
   text-decoration: none;
-  float: left;
+  position: relative;
 }
 
 .fa:hover {
