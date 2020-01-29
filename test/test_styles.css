@@ -1,14 +1,5 @@
 body {
   text-align: center;
-  align: center;
-}
-
-div.header {
-  width: 100%;
-  height: 400px;
-  /* Insert background cover. */
-  background: url('https://i.pinimg.com/originals/bb/5d/e5/bb5de5da551383f99ab87fa52d3e4da0.jpg');
-  background-size: cover;
 }
 
 div.profile {
@@ -19,7 +10,7 @@ div.profile {
   height: 66px;
   vertical-align: top;
   background-color: aliceblue;
-  border-radius: 50%;
+  border-radius: 15px;
 }
 
 div.content {
