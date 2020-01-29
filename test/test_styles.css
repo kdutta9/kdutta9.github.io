@@ -19,7 +19,7 @@ div.profile {
   height: 66px;
   vertical-align: top;
   background-color: aliceblue;
-  border-radius: 25px;
+  border-radius: 50%;
 }
 
 div.content {
