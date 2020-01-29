@@ -18,3 +18,8 @@ div.content {
   padding-top: 50px;
   width: 100%;
 }
+
+footer {
+  display: block;
+  width: 100%
+}
