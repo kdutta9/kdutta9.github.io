@@ -2,7 +2,17 @@ body {
   text-align: center;
 }
 
+div.pic {
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 170px;
+  height: 66px;
+  vertical-align: top;
+}
+
 div.profile {
+  padding-top: 15px;
   margin-left: auto;
   margin-right: auto;
   width: 170px;
@@ -10,6 +20,7 @@ div.profile {
   vertical-align: top;
   background-color: aliceblue;
   border-radius: 15px;
+  padding-bottom: 50x;
 }
 
 .profile h5 {
