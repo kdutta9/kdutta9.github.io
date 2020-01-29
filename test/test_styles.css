@@ -14,11 +14,9 @@ div.header {
 div.profile {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 50px;
   min-width: 170px;
   max-width: 170px;
   height: 66px;
-  border-radius: 50%;
   vertical-align: top;
   background-color: aliceblue;
   border-radius: 25px;
