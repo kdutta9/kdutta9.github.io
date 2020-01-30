@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+}
+
+div.pic {
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 170px;
+  height: 66px;
+  vertical-align: top;
+  padding-bottom: 50px;
+}
+
+div.profile {
+  margin-left: auto;
+  margin-right: auto;
+  width: 170px;
+  height: 66px;
+  vertical-align: top;
+  background-color: aliceblue;
+  border-radius: 15px;
+  padding-bottom: 50px;
+}
+
+.profile h5 {
+  font-family: 'Avenir Black';
+  text-align: center;
+  margin: 5px;
+}
+
+div.content {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+footer {
+  display: block;
+  width: 100%
+}
