@@ -6,11 +6,17 @@ div.pic {
   padding-top: 100px;
   margin-left: auto;
   margin-right: auto;
-  width: 90px;
-  height: 90px;
+  width: 170px;
+  height: 66px;
   vertical-align: top;
   padding-bottom: 50px;
 }
+
+.pic img {
+  width: 90px;
+  height: 90px;
+}
+
 
 div.profile {
   margin-left: auto;
