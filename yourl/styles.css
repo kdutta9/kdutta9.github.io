@@ -29,9 +29,10 @@ div.profile {
   padding-bottom: 50px;
 }
 
-.profile h2 {
+.profile h6 {
   color: white;
   margin: 10px;
+  font-size: 1px;
 }
 
 .profile h5 {
