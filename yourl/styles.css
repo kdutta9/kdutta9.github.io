@@ -2,6 +2,10 @@ body {
   text-align: center;
 }
 
+a {
+	text-decoration:none;
+}
+
 div.pic {
   padding-top: 100px;
   margin-left: auto;
