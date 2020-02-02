@@ -75,6 +75,10 @@ div.content {
 
 footer {
   padding-top: 50px;
-  display: block;
-  width: 100%
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
 }
