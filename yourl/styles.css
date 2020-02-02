@@ -32,6 +32,7 @@ div.profile {
   vertical-align: top;
   opacity: 0.3;
   filter: alpha(opacity=30); /* For IE8 and earlier */
+  border-style: ridge;
   border-radius: 15px;
   padding-bottom: 50px;
 }
