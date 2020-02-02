@@ -1,9 +1,10 @@
 body {
   text-align: center;
+  background-color: #F2F2F7;
 }
 
 a {
-	text-decoration:none;
+  text-decoration: none;
 }
 
 div.pic {
@@ -29,7 +30,8 @@ div.profile {
   width: 400px;
   height: 100px;
   vertical-align: top;
-  background-color: aliceblue;
+  opacity: 0.3;
+  filter: alpha(opacity=30); /* For IE8 and earlier */
   border-radius: 15px;
   padding-bottom: 50px;
 }
