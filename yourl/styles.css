@@ -45,16 +45,18 @@ div.profile {
 
 .profile h2 {
   font-family: 'Avenir Black';
-  font-size: 25;
+  font-size: 35;
   text-align: center;
   margin: 15px;
+  font-weight: normal;
 }
 
 .profile h3 {
   font-family: 'Avenir Black';
-  font-size: 20;
+  font-size: 30;
   text-align: center;
   margin: 15px;
+  font-weight: normal;
 }
 
 .profile h5 {
@@ -62,12 +64,13 @@ div.profile {
   font-size: 10;
   text-align: center;
   margin: 15px;
+  font-weight: normal;
 }
 
 div.content {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 50px;
+  padding-top: 75px;
 }
 
 footer {
