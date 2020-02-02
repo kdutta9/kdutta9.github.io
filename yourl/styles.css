@@ -28,7 +28,7 @@ div.profile {
   margin-left: auto;
   margin-right: auto;
   width: 400px;
-  height: 100px;
+  height: 130px;
   vertical-align: top;
   opacity: 0.3;
   filter: alpha(opacity=30); /* For IE8 and earlier */
@@ -70,11 +70,10 @@ div.profile {
 div.content {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 75px;
+  padding-top: 150px;
 }
 
 footer {
-  padding-top: 50px;
   position: fixed;
   left: 0;
   bottom: 0;
