@@ -11,15 +11,15 @@ div.pic {
   padding-top: 100px;
   margin-left: auto;
   margin-right: auto;
-  width: 200px;
-  height: 200px;
+  width: 225px;
+  height: 225px;
   vertical-align: top;
   padding-bottom: 20px;
 }
 
 .pic img {
-  width: 180px;
-  height: 180px;
+  width: 195px;
+  height: 195px;
   border-radius: 50%;
 }
 
@@ -27,8 +27,8 @@ div.pic {
 div.profile {
   margin-left: auto;
   margin-right: auto;
-  width: 400px;
-  height: 130px;
+  width: 420px;
+  height: 150px;
   vertical-align: top;
   opacity: 0.3;
   filter: alpha(opacity=30); /* For IE8 and earlier */
