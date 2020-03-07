@@ -1,8 +1,10 @@
 <html>
 <head>
-<link rel='stylesheet' href='styles.css' />
+    {% load static %}
+<link rel="stylesheet" type="text/css" href="{% static "css/styles.css" %}">
 <link rel='icon' href='logo.png' type='image/x-icon'/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div style="background-image: url('https://lh3.googleusercontent.com/proxy/bzCKvvmZQoMZtCDySe1Fw8ZKmkYpJga1pUN9VW_vD1nQEU3mCKr9Jxj0uNYaetJiP6gebypSojNB8B0y2Gvs_3e6eiHBWB-vx2AMJV23krI');">
 <title>YouRL</title>
 </head>
 
@@ -10,7 +12,7 @@
 
 <!-- insert profile pic URL -->
 <div class="pic">
-<img src="prof.png" alt="Profile Picture">
+<img src="{% static "images/prof.png" %}" alt="Profile Picture">
 </div>
 
 
@@ -27,30 +29,31 @@
 <div class="content">
 <!-- Row 1 -->
 <p>
-<a href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank"> <img src="https://kdutta9.github.io/yourl/ig.png" alt="Instagram" height="170px" width="170px" hspace="15px"> </a>
-<a href="https://www.snapchat.com/" rel="noopener noreferrer" target="_blank"> <img src="https://kdutta9.github.io/yourl/snapchat.png" alt="Snapchat" height="170px" width="170px" hspace="15px"> </a>
-<a href="https://www.spotify.com/" rel="noopener noreferrer" target="_blank"> <img src="https://kdutta9.github.io/yourl/spotify.png" alt="Spotify" height="170px" width="170px" hspace="15px"> </a>
+<a href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank"> <img src="{% static "images/ig.png" %}" alt="Instagram" height="170px" width="170px" hspace="15px"> </a>
+<a href="https://www.snapchat.com/" rel="noopener noreferrer" target="_blank"> <img src="{% static "images/snapchat.png" %}" alt="Snapchat" height="170px" width="170px" hspace="15px"> </a>
+<a href="https://www.spotify.com/" rel="noopener noreferrer" target="_blank"> <img src="{% static "images/spotify.png" %}" alt="Spotify" height="170px" width="170px" hspace="15px"> </a>
 </p>
 
 <!-- Row 2 -->
 <p>
-<a href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank"> <img src="https://kdutta9.github.io/yourl/facebook.png" alt="Facebook" height="170px" width="170px" hspace="15px"> </a>
-<a href="https://www.youtube.com/" rel="noopener noreferrer" target="_blank"> <img src="https://kdutta9.github.io/yourl/youtube.png" alt="YouTube" height="170px" width="170px" hspace="15px"> </a>
-<a href="https://www.twitter.com/" rel="noopener noreferrer" target="_blank"> <img src="https://kdutta9.github.io/yourl/twitter.png" alt="Twitter" height="170px" width="170px" hspace="15px"> </a>
+<a href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank"> <img src="{% static "images/facebook.png" %}" alt="Facebook" height="170px" width="170px" hspace="15px"> </a>
+<a href="https://www.youtube.com/" rel="noopener noreferrer" target="_blank"> <img src="{% static "images/youtube.png" %}" alt="YouTube" height="170px" width="170px" hspace="15px"> </a>
+<a href="https://www.twitter.com/" rel="noopener noreferrer" target="_blank"> <img src="{% static "images/twitter.png" %}" alt="Twitter" height="170px" width="170px" hspace="15px"> </a>
 </p>
 
 <!-- Row 3 -->
 <p>
-<a href="https://www.pinterest.com/" rel="noopener noreferrer" target="_blank"> <img src="https://kdutta9.github.io/yourl/pinterest.png" alt="Pinterest" height="170px" width="170px" hspace="15px"> </a>
-<a href="https://www.tiktok.com/" rel="noopener noreferrer" target="_blank"> <img src="https://kdutta9.github.io/yourl/tiktok.png" alt="TikTok" height="170px" width="170px" hspace="15px"> </a>
-<a href="https://vsco.co/" rel="noopener noreferrer" target="_blank"> <img src="https://kdutta9.github.io/yourl/vsco.png" alt="VSCO" height="170px" width="170px" hspace="15px"> </a>
+<a href="https://www.pinterest.com/" rel="noopener noreferrer" target="_blank"> <img src="{% static "images/pinterest.png" %}" alt="Pinterest" height="170px" width="170px" hspace="15px"> </a>
+<a href="https://www.tiktok.com/" rel="noopener noreferrer" target="_blank"> <img src="{% static "images/tiktok.png" %}" alt="TikTok" height="170px" width="170px" hspace="15px"> </a>
+<a href="https://vsco.co/" rel="noopener noreferrer" target="_blank"> <img src="{% static "images/vsco.png" %}" alt="VSCO" height="170px" width="170px" hspace="15px"> </a>
 </p>
 </div>
 
 </body>
 
 <footer>
-<a href="https://www.withoutanylimit.com/yourl"> <img src="logo.png" alt="YouRL" height="50px" width="50px"> </a>
+        {% load static %}
+<a href="https://www.withoutanylimit.com/yourl"> <img src="{% static "images/logo.png" %}" alt="YouRL" height="50px" width="50px"> </a>
 </footer>
 
 </html>
