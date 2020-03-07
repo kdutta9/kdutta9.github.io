@@ -71,6 +71,7 @@ div.content {
   margin-left: auto;
   margin-right: auto;
   padding-top: 150px;
+  box-shadow: 5px 10px #888888;
 }
 
 footer {
