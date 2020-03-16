@@ -34,6 +34,17 @@ div.profile {
   border-style: ridge;
   border-radius: 15px;
   padding-bottom: 50px;
+  
+  /* Adding blur. */
+  
+  /* Use background image url. */
+  background-image: url('https://imgur.com/aT1vmYm');
+  /* Add the blur effect */
+  filter: blur(8px);
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .profile h6 {
