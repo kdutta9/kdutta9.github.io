@@ -34,6 +34,8 @@ div.profile {
   border-style: ridge;
   border-radius: 15px;
   padding-bottom: 50px;
+  background-color: gray;
+  opacity: 0.4;
 }
 
 .profile h6 {
