@@ -78,12 +78,3 @@ div.content {
   padding-top: 150px;
   box-shadow: 5px 10px #888888;
 }
-
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: white;
-  text-align: center;
-}
