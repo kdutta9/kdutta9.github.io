@@ -1,4 +1,4 @@
-# kdutta.github.io
+# kdutta9.github.io
 
 A personal website to host my endeavors in computer science, software development, and other professional projects.
 
