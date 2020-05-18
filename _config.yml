@@ -24,12 +24,12 @@ urls:
 # Edit these details
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "johndoe@gmail.com"
-author_location: India
-author_website_url: "http://johndoe.com"
-typewrite-text: devlopr is a jekyll theme built for developers. You can edit this in _config.yml file
+author: Kunal Dutta
+author_bio: Hi, my name is Kunal Dutta. Welcome to my website!
+author_email: "kdutta@berkeley.edu"
+author_location: California
+author_website_url: "http://kdutta.github.io"
+typewrite-text: Welcome to my website.
 
 author_work_experiences:
             - company_name: Google
