@@ -16,7 +16,8 @@ urls:
 # Edit these details
 author_logo: profile.png
 author: Kunal Dutta
-author_bio: Hi, I'm Kunal, a third-year student at the University of California, Berkeley, studying Computer Science and Mathematics. I started this website to blog about project development and host my professional profile. Please look around!
+author_bio: Hi, I'm Kunal, a third-year student at the University of California, Berkeley, studying Computer Science and Mathematics. I started this website to blog about project development and host my professional profile. 
+author_bio2: Outside of professional and academic endeavors, I enjoy basketball, spikeball, burritos, music, and matcha lattes. Please look around the site!
 author_location: California
 author_website_url: "http://kdutta9.github.io"
 typewrite-text: Welcome to my website.
@@ -28,33 +29,32 @@ author_education_details:
                 college_url: https://www.berkeley.edu/
                 college_degree: Computer Science
                 description: Bachelor of Arts
+                time: August 2018 - May 2022
                 visibility: true
 
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
-                visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
+              - project_thumbnail: project1.png
+                project_title: NBA Free Agency Frenzy
+                project_description: Analyzed NBA free agency signings in the monumental summer of 2016.
+                project_url: https://github.com/kdutta9/sagbfa19
+                url_title: Repository
                 visibility: true
                
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+            - company_name: Prep2Prep
+              company_logo: prep2prep.png
+              company_url: http://www.prep2prep.com/authorarticles.aspx?StaffMemberID=315
+              url_title: My Articles
+              designation: Sports Journalist
+              description: Reported on high school sports in the Bay Area.
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
-              visibility: true          
+            - company_name: Mathnasium
+              company_logo: mathnasium.png
+              company_url: https://www.mathnasium.com/
+              url_title: Company Site
+              designation: Math Instructor
+              description: Taught math to students in grades K-12.
+              visibility: true
 
 # social links
 github_username:  kdutta9

@@ -128,6 +128,7 @@ layout: default
     <div class="card">
       <h1 class="card-title">About</h1>
       <p>{{ site.author_bio }}</p>
+	  <p>{{ site.author_bio2 }}</p>
     </div>
     {% endif %} {% if site.show_author_project_details == true %}
     <div id="author_projects" class="card">
@@ -148,34 +149,12 @@ layout: default
           <p class="experience-desc">{{ project.project_description }}</p>
           <p>
             <a class="project-link" href="{{project.project_url}}"
-              >{{ project.project_url}}</a
+              rel="noopener noreferrer" target="_blank">{{ project.url_title}}</a
             >
           </p>
         </div>
       </div>
       <br />
-      {% endif %} {% endfor %}
-    </div>
-    {% endif %} {% if site.show_author_work_experiences == true %}
-    <div class="card">
-      <h1 class="card-title">Work Experience</h1>
-      <br />
-      {% for exp in site.author_work_experiences %} {% if exp.visibility == true
-      %}
-      <div class="row">
-        <div class="col-md-2">
-          <img
-            src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}"
-            class="company-logo"
-          />
-        </div>
-        <div class="col-md-6">
-          <h4 class="experience-title">{{ exp.designation }}</h4>
-          <h6 class="experience-info">{{ exp.company_name}}</h6>
-          <p class="experience-desc">{{ exp.description }}</p>
-          <p><a href="{{exp.company_url}}">{{ exp.company_url}}</a></p>
-        </div>
-      </div>
       {% endif %} {% endfor %}
     </div>
     {% endif %} {% if site.show_author_education_details == true %}
@@ -195,11 +174,61 @@ layout: default
           <h4 class="experience-title">{{detail.college_degree }}</h4>
           <h6 class="experience-info">{{detail.college_name}}</h6>
           <p class="experience-desc">{{detail.description}}</p>
-          <p><a href="{{detail.college_url}}">{{ detail.college_url}}</a></p>
+		  <p class="experience-desc"> Minor in Mathematics </p>
+		  <p class="experience-time">{{detail.time}}</p>
+          <p><a href="{{detail.college_url}}" rel="noopener noreferrer" target="_blank">{{ detail.college_url}}</a></p>
+        </div>
+      </div>
+      {% endif %} {% endfor %}
+	  </div>
+	{% endif %} {% if site.show_author_work_experiences == true %}
+    <div class="card">
+      <h1 class="card-title">Work Experience</h1>
+      <br />
+      {% for exp in site.author_work_experiences %} {% if exp.visibility == true
+      %}
+      <div class="row">
+        <div class="col-md-2">
+          <img
+            src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}"
+            class="company-logo"
+          />
+        </div>
+        <div class="col-md-6">
+          <h4 class="experience-title">{{ exp.designation }}</h4>
+          <h6 class="experience-info">{{ exp.company_name}}</h6>
+          <p class="experience-desc">{{ exp.description }}</p>
+          <p><a href="{{exp.company_url}}" rel="noopener noreferrer" target="_blank">{{ exp.url_title}}</a></p>
         </div>
       </div>
       {% endif %} {% endfor %}
     </div>
     {% endif %}
+	
+	<div class="card">
+      <h1 class="card-title">Coursework</h1>
+      <br />
+      <div>
+		<h4 class="experience-title">Spring 2020</h4>
+          <li> CS 170: Efficient Algorithms and Intractable Problems </li>
+		  <li> CS 61C: Great Ideas in Computer Architecture (Machine Structures) </li>
+		  <li> EECS 16B: Designing Information Devices and Systems II </li>
+		  
+		<h4 class="experience-title">Fall 2019</h4>
+          <li> CS 70: Discrete Mathematics and Probability Theory </li>
+		  <li> CS 61B: Data Structures </li>
+		  <li> CS 370: Adaptive Instruction Methods in Computer Science </li>
+		  
+		<h4 class="experience-title">Spring 2019</h4>
+          <li> CS 61A: Structure and Interpretation of Computer Programs </li>
+		  <li> EECS 16A: Designing Information Devices and Systems I </li>
+		  
+		<h4 class="experience-title">Fall 2018</h4>
+          <li> CS C8: The Foundations of Data Science </li>
+		  <li> CS 88: Computational Structures in Data Science </li>
+		  <li> MATH 54: Linear Algebra and Differential Equations </li>
+      </div>
+    </div>
+	
   </div>
 </div>
