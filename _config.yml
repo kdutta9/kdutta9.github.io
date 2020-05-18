@@ -46,11 +46,11 @@ author_work_experiences:
               visibility: true
 
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: berkeley.png
+                college_name: University of California, Berkeley
+                college_url: https://www.berkeley.edu/
+                college_degree: Computer Science
+                description: Bachelor of Arts
                 visibility: true
 
 author_project_details:
