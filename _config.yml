@@ -29,7 +29,7 @@ author_education_details:
                 college_url: https://www.berkeley.edu/
                 college_degree: Computer Science
                 description: Bachelor of Arts
-                             Minor in Mathematics
+                note: Minor in Mathematics
                 time: August 2018 - May 2022
                 visibility: true
 
@@ -48,15 +48,15 @@ author_work_experiences:
               url_title: My Articles
               designation: Sports Journalist
               description: Reported on high school sports in the Bay Area.
-                           June 2016 - Oct 2018
+              note: June 2016 - Oct 2018
               visibility: true
             - company_name: Mathnasium
               company_logo: mathnasium.png
               company_url: https://www.mathnasium.com/
               url_title: Company Site
               designation: Math Instructor
-                           June 2017 - May 2018
               description: Taught math to students in grades K-12.
+              note: June 2017 - May 2018
               visibility: true
 
 # social links
