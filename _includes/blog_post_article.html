@@ -6,11 +6,14 @@
       Posted by : {% if page.author %}
       <span itemprop="author" itemscope itemtype="http://schema.org/Person">
         <span itemprop="name">{{ page.author }}</span> </span
-      >{% endif %} at
-      <time datetime="{{ page.date }}" itemprop="datePublished"
-        >{{ page.date | date: "%b %-d, %Y" }}</time
       >
-    </p>
+	  {% endif %}
+	  </p>
+	 <p class="post-summary">
+      Date: 
+      <time datetime="{{ page.date }}" itemprop="datePublished"
+        >{{ page.date | date: "%b %-d, %Y" }}</time>
+	  </p>
     <span
       class="disqus-comment-count"
       data-disqus-identifier="{{ page.url }}"
