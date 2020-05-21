@@ -77,3 +77,8 @@ div.content {
 
 /* Responsive Media Queries */
 /* Smartphones */
+@media (min-width: 200px) and (max-width: 319px) {
+	width: 100%;
+	height: auto;
+	padding: 1px;
+}
