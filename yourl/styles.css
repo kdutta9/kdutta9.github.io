@@ -1,3 +1,11 @@
+html { 
+  background: url('https://www.solidbackgrounds.com/images/2560x1440/2560x1440-gray-solid-color-background.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
   text-align: center;
   color: black;
@@ -8,77 +16,57 @@ a {
 }
 
 div.pic {
-  padding-top: 100px;
+  padding-top: 10%;
   margin-left: auto;
   margin-right: auto;
-  width: 225px;
-  height: 225px;
   vertical-align: top;
-  padding-bottom: 20px;
+  margin-bottom: 5%;
 }
 
 .pic img {
-  width: 195px;
-  height: 195px;
-  border-radius: 50%;
+  height: 12%;
 }
 
 
 div.profile {
   margin-left: auto;
   margin-right: auto;
-  width: 420px;
-  height: 150px;
+  padding-top: 0px;
+  width: 50%;
+  height: 10%;
   vertical-align: top;
   opacity: 0.3;
   filter: alpha(opacity=30); /* For IE8 and earlier */
   border-style: ridge;
   border-radius: 15px;
-  padding-bottom: 50px;
+  padding-bottom: 3%;
   background-color: gray;
   opacity: 0.4;
 }
 
-.profile h6 {
-  color: white;
-  margin: 10px;
-  font-size: 1px;
-}
-
 .profile h2 {
   font-family: 'Avenir Black';
-  font-size: 35;
+  font-size: 100%;
   text-align: center;
-  margin: 15px;
-  font-weight: normal;
-}
-
-.profile h3 {
-  font-family: 'Avenir Black';
-  font-size: 30;
-  text-align: center;
-  margin: 15px;
+  margin-top: 2%;
+  margin-bottom: 0px;
   font-weight: normal;
 }
 
 .profile h5 {
   font-family: 'Avenir Black';
-  font-size: 10;
+  font-size: 20%;
   text-align: center;
-  margin: 15px;
+  margin-top: 1%;
   font-weight: normal;
 }
 
 div.content {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 150px;
+  margin-top: 0.5%;
 }
 
-/* Responsive Media Queries */
-/* Smartphones */
-@media (min-width: 200px) and (max-width: 319px) {
-	width: 100%;
-	height: auto;
-	padding: 1px;
+div.filler {
+	padding-bottom: 20%;
 }
