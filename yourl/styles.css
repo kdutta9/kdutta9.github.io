@@ -32,7 +32,7 @@ div.profile {
   margin-left: auto;
   margin-right: auto;
   padding-top: 0px;
-  width: 50%;
+  width: 45%;
   height: 10%;
   vertical-align: top;
   opacity: 0.3;
@@ -64,7 +64,7 @@ div.profile {
 div.content {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0.5%;
+  line-height: 0;
 }
 
 div.filler {
