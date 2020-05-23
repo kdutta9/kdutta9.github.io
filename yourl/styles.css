@@ -67,6 +67,14 @@ div.content {
   line-height: 0;
 }
 
+.content img {
+  box-shadow: 0px 0px 20px 0.5px #383636;
+  border-top-left-radius:20%;
+  border-top-right-radius:20%;
+  border-bottom-left-radius:20%;
+  border-bottom-right-radius:20%;
+}
+
 div.filler {
 	padding-bottom: 20%;
 }
