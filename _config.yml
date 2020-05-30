@@ -35,9 +35,9 @@ author_education_details:
 
 author_project_details:
               - project_thumbnail: project1.png
-                project_title: NBA Free Agency Frenzy
-                project_description: Analyzed NBA free agency signings in the monumental summer of 2016.
-                project_url: https://github.com/kdutta9/sagbfa19
+                project_title: Base Converter
+                project_description: Web application that converts numbers between base systems.
+                project_url: https://github.com/kdutta9/base-converter
                 url_title: Repository
                 visibility: true
                
