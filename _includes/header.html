@@ -14,33 +14,15 @@
           <a class="navbar-brand" href="/">{{site.title}}</a>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
+              {% for i in site.urls %}
               <li class="nav-item">
                 <a
                   class="nav-link"
-                  href="/about"
-                  >About Me</a
+                  href="{{ site.url}}{{site.baseurl}}{{ i.url }}"
+                  >{{ i.text }}</a
                 >
               </li>
-            </ul>
-			
-			<ul class="navbar-nav">
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="/blog"
-                  >Blog</a
-                >
-              </li>
-            </ul>
-			
-			<ul class="navbar-nav">
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="/contact"
-                  >Contact Me</a
-                >
-              </li>
+              {% endfor %}
             </ul>
           </div>
           <ul class="nav justify-content-end">
