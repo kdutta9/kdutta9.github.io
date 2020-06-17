@@ -34,11 +34,17 @@ author_education_details:
                 visibility: true
 
 author_project_details:
+              - project_thumbnail: posts/security-cam.jpg
+                project_title: AI Security Camera
+                project_description: DIY Security camera that can detect humans.
+                project_url: https://github.com/kdutta9/AI-SecurityCam
+                url_title: https://github.com/kdutta9/AI-SecurityCam
+                visibility: true
               - project_thumbnail: project1.png
                 project_title: Base Converter
                 project_description: Web application that converts numbers between base systems.
-                project_url: https://github.com/kdutta9/base-converter
-                url_title: Repository
+                project_url: https://base-conv.herokuapp.com/
+                url_title: https://base-conv.herokuapp.com/
                 visibility: true
                
 author_work_experiences:
