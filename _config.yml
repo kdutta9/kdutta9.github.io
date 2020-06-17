@@ -34,7 +34,7 @@ author_education_details:
                 visibility: true
 
 author_project_details:
-              - project_thumbnail: posts/security-cam.jpg
+              - project_thumbnail: posts/security-cam.JPG
                 project_title: AI Security Camera
                 project_description: DIY Security camera that can detect humans.
                 project_url: https://github.com/kdutta9/AI-SecurityCam

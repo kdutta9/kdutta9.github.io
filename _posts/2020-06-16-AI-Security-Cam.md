@@ -5,7 +5,7 @@ summary: A smart security camera I built with a Raspberry Pi.
 author: Kunal Dutta
 date: '2020-06-16 10:30:00 -0700'
 category: projects
-thumbnail: security-cam.jpg
+thumbnail: security-cam.JPG
 ---
 My first major project of Summer 2020 was to build a smart security camera! I built this with Python, a Raspberry Pi Zero W, and a camera module.
 
