@@ -5,7 +5,7 @@ summary: An IoT smart security camera I built with a Raspberry Pi.
 author: Kunal Dutta
 date: '2020-07-07 5:45:00 -0700'
 category: projects
-thumbnail: security-cam.JPG
+thumbnail: project2.png
 ---
 As said in my [previous post](https://kdutta9.github.io/projects/2020/06/16/AI-Security-Cam/), I wanted to create an adaptation 
 of [Adrian Rosebrock's security alert system](https://www.pyimagesearch.com/2019/03/25/building-a-raspberry-pi-security-camera-with-opencv/).
