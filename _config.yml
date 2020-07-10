@@ -35,10 +35,10 @@ author_education_details:
 
 author_project_details:
               - project_thumbnail: posts/security-cam.JPG
-                project_title: AI Security Camera
-                project_description: DIY Security camera that can detect humans.
-                project_url: https://github.com/kdutta9/AI-SecurityCam
-                url_title: https://github.com/kdutta9/AI-SecurityCam
+                project_title: Smart Surveillance System
+                project_description: IoT Security camera that sends alerts when motion is detected.
+                project_url: https://github.com/kdutta9/Smart-Surveillance
+                url_title: https://github.com/kdutta9/Smart-Surveillance
                 visibility: true
               - project_thumbnail: project1.png
                 project_title: Base Converter
