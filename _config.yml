@@ -48,6 +48,15 @@ author_project_details:
                 visibility: true
                
 author_work_experiences:
+            - company_name: ID Tech Camps
+              company_logo: idtech.png
+              company_url: https://www.idtech.com/
+              url_title: https://www.idtech.com/
+              designation: Computer Science Instructor
+              description: Developed curriculum for students in Java, Python, Machine Learning, and Cybersecurity.
+              note: June 2020 - Present
+              visibility: true
+
             - company_name: Prep2Prep
               company_logo: prep2prep.png
               company_url: http://www.prep2prep.com/authorarticles.aspx?StaffMemberID=315
@@ -55,14 +64,6 @@ author_work_experiences:
               designation: Sports Journalist
               description: Reported on high school sports in the Bay Area.
               note: June 2016 - Oct 2018
-              visibility: true
-            - company_name: Mathnasium
-              company_logo: mathnasium.png
-              company_url: https://www.mathnasium.com/
-              url_title: Company Site
-              designation: Math Instructor
-              description: Taught math to students in grades K-12.
-              note: June 2017 - May 2018
               visibility: true
 
 # social links
