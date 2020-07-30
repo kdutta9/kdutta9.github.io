@@ -3,7 +3,7 @@ layout: post
 title:  "Training a TensorFlow Lite Model"
 summary: I built a TFLite model to use in a mobile app.
 author: Kunal Dutta
-date: '2020-07-30 5:45:00 -0700'
+date: '2020-07-30 4:00:00 -0700'
 category: projects
 thumbnail: project3.png
 ---
