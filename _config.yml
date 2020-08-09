@@ -48,6 +48,15 @@ author_project_details:
                 visibility: true
                
 author_work_experiences:
+            - company_name: 808s and Fastbreak
+              company_logo: 8AF.png
+              company_url: https://808sandfastbreak.com/
+              url_title: https://808sandfastbreak.com/
+              designation: Chief Editor
+              description: Produce and manage blogs and podcast, maintain website.
+              note: July 2020 - Present
+              visibility: true
+              
             - company_name: iD Tech Camps
               company_logo: idtech.png
               company_url: https://www.idtech.com/
@@ -57,14 +66,6 @@ author_work_experiences:
               note: June 2020 - Present
               visibility: true
 
-            - company_name: Prep2Prep
-              company_logo: prep2prep.png
-              company_url: http://www.prep2prep.com/authorarticles.aspx?StaffMemberID=315
-              url_title: My Articles
-              designation: Sports Journalist
-              description: Reported on high school sports in the Bay Area.
-              note: June 2016 - Oct 2018
-              visibility: true
 
 # social links
 github_username:  kdutta9
