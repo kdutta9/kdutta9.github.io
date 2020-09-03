@@ -10,6 +10,8 @@ urls:
       url: /about
     - text: Blog
       url: /blog
+    - text: Teaching
+      url: /teaching
     - text: Contact Me
       url: /contact
 
