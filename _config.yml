@@ -31,7 +31,7 @@ author_education_details:
                 college_url: https://www.berkeley.edu/
                 college_degree: Computer Science
                 description: Bachelor of Arts
-                note: Minor in Mathematics
+                note: Minor in Public Policy
                 time: August 2018 - May 2022
                 visibility: true
 
@@ -49,23 +49,14 @@ author_project_details:
                 url_title: https://base-conv.herokuapp.com/
                 visibility: true
                
-author_work_experiences:
+author_work_experiences:              
             - company_name: UC Berkeley
               company_logo: berkeley.png
               company_url: https://cs61a.org/
               url_title: cs61a.org
               designation: Course Tutor
               description: 'Tutor for CS 61A: The Structure and Interpretation of Computer Programs.'
-              note: August 2020 - Present
-              visibility: true
-              
-            - company_name: 808s and Fastbreak
-              company_logo: 8AF.png
-              company_url: https://808sandfastbreak.com/
-              url_title: 808sandfastbreak.com
-              designation: Chief Editor
-              description: Produce and manage blogs and podcast, maintain website.
-              note: July 2020 - Present
+              note: August 2020 - December 2020
               visibility: true
               
             - company_name: iD Tech Camps
