@@ -18,8 +18,12 @@ urls:
 # Edit these details
 author_logo: profile.png
 author: Kunal Dutta
-author_bio: Hi, I'm Kunal, a third-year student at the University of California, Berkeley, from San Jose, CA. Currently, I am studying Computer Science and Mathematics and aspiring to work with technology as a career. I started this website to blog about project development and host my professional profile. 
-author_bio2: Outside of professional and academic endeavors, I enjoy basketball, spikeball, burritos, music, and matcha lattes. Please look around the site!
+author_bio: Hi, I'm Kunal, an undergraduate student at the University of California, Berkeley. 
+            Currently, I am studying Computer Science & Public Policy and 
+            aspiring to work with technology as a career. I started this website to blog about 
+            project development and personal hobbies. 
+author_bio2: Outside of professional and academic endeavors, I enjoy playing basketball, 
+             music, and fueling my coffee addiction. Please look around the site!
 author_location: California
 author_website_url: "https://808sandfastbreak.com/"
 typewrite-text: Welcome to my website.
@@ -32,7 +36,7 @@ author_education_details:
                 college_degree: Computer Science
                 description: Bachelor of Arts
                 note: Minor in Public Policy
-                time: August 2018 - May 2022
+                time: August 2018 - Present
                 visibility: true
 
 author_project_details:
@@ -73,7 +77,7 @@ author_work_experiences:
 github_username:  kdutta9
 linkedin_username: kdutta9
 instagram_username: kdutta9
-twitter_username: KunalDuttaCS
+twitter_username: KunalDuttaCA
 
 #for comments
 disqus_shortname: kdutta9
