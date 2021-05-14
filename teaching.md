@@ -21,7 +21,13 @@ My experience includes:
 <li> Teaching Assistant for <a href="https://branham.cuhsd.org/" rel="noopener noreferrer" target="_blank"> Branham High School </a> (subjects: History, Math, English) </li>
 </p>
 
-<h1 style="text-align:center;">Supplemental Content</h1>
+<h1 style="text-align:center;">Supplemental Videos</h1>
+<li><a href="https://youtu.be/izHxARiu27U" rel="noopener noreferrer" target="_blank">
+Learning About Pointers and Addresses in C </a></li>
+<li><a href="https://youtu.be/cDlAba6lvDA" rel="noopener noreferrer" target="_blank">
+How to Convert Numbers Between Bases </a></li>
+
+<h1 style="text-align:center; padding-top: 25px;">Supplemental Worksheets / Code Guides</h1>
 <p style="text-align:center;"> (Links to content I have made for students) </p>
 <li> <a href="https://drive.google.com/drive/u/0/folders/1mZBN18DJSVCb7e4ZjHDuNUxtKVp10Wil" rel="noopener noreferrer" target="_blank"> Computer Architecture Resources </a> </li>
 <li> <a href="https://github.com/kdutta9/CS-Education" rel="noopener noreferrer" target="_blank"> Intro to Computer Science Code </a> </li>
