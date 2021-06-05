@@ -82,9 +82,6 @@ twitter_username: KunalDuttaCA
 #for comments
 disqus_shortname: kdutta9
 
-# formspree (contact form)
-formspree_email: kdutta@berkeley.edu
-
 # syntax highlighter
 markdown: kramdown
 highlighter: rouge
