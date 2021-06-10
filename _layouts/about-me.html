@@ -95,13 +95,22 @@ layout: default
         >
           <i class="fab fa-flickr"></i>
         </a>
+        {% endif %} {% if site.strava_username %}
+        <a
+          class="social-link"
+          href="https://www.strava.com/athletes/{{ site.strava_username }}"
+          rel="noopener noreferrer" 
+          target="_blank"
+        >
+          <i class="fab fa-strava"></i>
+        </a>
         {% endif %}
       </p>
 
       {% if site.author_location %}
       <h6><i class="fas fa-map-marker-alt"></i> {{ site.author_location }}</h6>
       {% endif %} {% if site.author_email %}
-      <h6> <a href="mailto:kdutta@berkeley.edu?subject=Mail from Our Site"" rel="noopener noreferrer" 
+      <h6> <a href="mailto:kdutta@berkeley.edu?subject=Mail from Our Site" rel="noopener noreferrer" 
 	  target="_blank"><i class="fas fa-envelope"> </a></i>{{ site.author_email }}</h6>
       {% endif %} {% if site.author_website_url %}
       <h6><a href="https://808sandfastbreak.com" class="link" rel="noopener noreferrer" 
