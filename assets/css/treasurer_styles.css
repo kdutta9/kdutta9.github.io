@@ -1,0 +1,52 @@
+body {
+  background-color: white;
+}
+
+div.head {
+  text-align: center;
+  color: black;
+}
+
+div.tab {
+  text-align: center;
+  background-color: powderblue;
+}
+
+.button2 {
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+div.entry {
+	text-align: center;
+	border-radius: 25px;
+	width: 700px;
+	display: inline-block;
+	margin: auto;
+}
+
+
+.row {
+	width: 100%;
+	text-align: center;
+}
+
+div.card {
+  text-align: middle;
+}
+
+div.taylor * {
+	background-color: white;
+	color: white;
+}
+
+footer {
+	background-color: powderblue;
+	text-align: center;
+	padding: 50px;
+}
