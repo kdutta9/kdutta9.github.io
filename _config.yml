@@ -22,7 +22,7 @@ author_bio: Hi, I'm Kunal, an undergraduate student at the University of Califor
             Currently, I am studying Computer Science & Public Policy and 
             aspiring to work with technology as a career. I started this website to blog about 
             project development and personal hobbies. 
-author_bio2: Outside of professional and academic endeavors, I enjoy playing basketball, 
+author_bio2: Outside of professional and academic endeavors, I enjoy basketball, 
              music, and fueling my coffee addiction. Please look around the site!
 author_location: California
 author_website_url: "https://808sandfastbreak.com/"
@@ -53,7 +53,16 @@ author_project_details:
                 url_title: https://base-conv.herokuapp.com/
                 visibility: true
                
-author_work_experiences:              
+author_work_experiences:
+            - company_name: SoFi
+              company_logo: sofi.png
+              company_url: https://www.sofi.com/
+              url_title: sofi.com
+              designation: Software Engineer Intern
+              description: 'Worked on data infrastructure.'
+              note: June 2021 - August 2021
+              visibility: true
+
             - company_name: UC Berkeley
               company_logo: berkeley.png
               company_url: https://cs61a.org/
@@ -78,6 +87,7 @@ github_username:  kdutta9
 linkedin_username: kdutta9
 instagram_username: kdutta9
 twitter_username: KunalDuttaCA
+strava_username: 67490253
 
 #for comments
 disqus_shortname: kdutta9
