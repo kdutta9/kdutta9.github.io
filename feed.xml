@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://kdutta9.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kdutta9.github.io/" rel="alternate" type="text/html" /><updated>2021-07-16T04:55:53+00:00</updated><id>https://kdutta9.github.io/feed.xml</id><title type="html">Kunal Dutta</title><subtitle></subtitle><author><name>Kunal Dutta</name></author><entry><title type="html">Training a TensorFlow Lite Model</title><link href="https://kdutta9.github.io/projects/2020/07/30/training-tflite-model/" rel="alternate" type="text/html" title="Training a TensorFlow Lite Model" /><published>2020-07-30T11:00:00+00:00</published><updated>2020-07-30T11:00:00+00:00</updated><id>https://kdutta9.github.io/projects/2020/07/30/training-tflite-model</id><content type="html" xml:base="https://kdutta9.github.io/projects/2020/07/30/training-tflite-model/">&lt;p&gt;I have been working on creating a mobile application that can track a basketball shot, and count a shot as a make or miss.&lt;/p&gt;
+
+&lt;p&gt;After hours of researching about machine learning and object detection models, watching many tutorial videos, and reading documentation, I found that 
+Android applications are capable of real-time object detection by using a TensorFlow Lite (TFLite) model, with two classes: balls and hoops.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://github.com/tensorflow/models/&quot;&gt;documentation&lt;/a&gt; is confusing, but I found a great series of tutorials by The AI Guy, which allowed me
+to use the &lt;a href=&quot;https://www.analyticssteps.com/blogs/introduction-yolov4&quot;&gt;YOLOv4&lt;/a&gt; neural network to 
+&lt;a href=&quot;https://github.com/alexeyab/darknet&quot;&gt;create YOLO weights with Darknet&lt;/a&gt; and 
+then &lt;a href=&quot;https://github.com/theAIGuysCode/tensorflow-yolov4-tflite&quot;&gt;convert those weights into a TFLite model&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I used &lt;a href=&quot;https://github.com/tzutalin/labelImg&quot;&gt;LabelImg&lt;/a&gt; to create bounding boxes around my training and testing data, which automatically generated YOLO annotations for each image I boxed.&lt;/p&gt;
+
+&lt;p&gt;I used the Google Colab notebooks to train my model and convert the YOLOv4 weights into the TFLite model, because of its ease of use and free GPU.&lt;/p&gt;
+
+&lt;p&gt;As shown in the thumbnail, I was able to have some success in hoop detection. However, my model did not detect the ball.&lt;/p&gt;
+
+&lt;p&gt;For now, I have added the model into my work on shot tracking (check it out on &lt;a href=&quot;https://github.com/kdutta9/ShotTracker&quot;&gt;GitHub&lt;/a&gt;). I hope that the model works
+and that an Android app can run it properly.&lt;/p&gt;
+
+&lt;p&gt;Overall, I learned many things working on the project so far, especially as someone with minimal exposure to machine learning/artificial intelligence.
+I learned what TensorFlow is, how to use Google Colab, how to apply basic machine learning concepts (such as creating training and testing sets, using 
+evaluation metrics) to computer vision applications, and about cloud computing.&lt;/p&gt;
+
+&lt;p&gt;In the future, I want to be able to use Amazon Web Services or Google Cloud Platform to train a model, so it can be done remotely.&lt;/p&gt;
+
+&lt;p&gt;For the rest of the project, I need to implement the logic inside the app with Java and Android Studio, so it will test my coding skills after a break for 
+in favor of a greater machine learning focus. Hopefully I can do it well and quickly!&lt;/p&gt;</content><author><name>Kunal Dutta</name></author><category term="projects" /><summary type="html">I have been working on creating a mobile application that can track a basketball shot, and count a shot as a make or miss.</summary></entry><entry><title type="html">Motion Detection Surveillance Cam</title><link href="https://kdutta9.github.io/projects/2020/07/07/Smart-Surveillance/" rel="alternate" type="text/html" title="Motion Detection Surveillance Cam" /><published>2020-07-07T12:45:00+00:00</published><updated>2020-07-07T12:45:00+00:00</updated><id>https://kdutta9.github.io/projects/2020/07/07/Smart-Surveillance</id><content type="html" xml:base="https://kdutta9.github.io/projects/2020/07/07/Smart-Surveillance/">&lt;p&gt;As said in my &lt;a href=&quot;https://kdutta9.github.io/projects/2020/06/16/AI-Security-Cam/&quot;&gt;previous post&lt;/a&gt;, I wanted to create an adaptation 
+of &lt;a href=&quot;https://www.pyimagesearch.com/2019/03/25/building-a-raspberry-pi-security-camera-with-opencv/&quot;&gt;Adrian Rosebrock’s security alert system&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Again, I wanted to create the surveillance system on my Raspberry Pi Zero W and a functional camera, which allowed me to use WiFi but still keep
+a relatively low cost.&lt;/p&gt;
+
+&lt;p&gt;I used the Twilio API to send messages, based on the previous guide, and stored video files using AWS S3, which allowed Twilio to text me video
+files directly. This project was actually my first time working with an API and cloud storage, so I reached some milestones I have been meaning to meet
+for a while. Of course, using cloud storage and APIs are essential for many software engineering projects!&lt;/p&gt;
+
+&lt;p&gt;The tricky part was implementing motion detection. Using many guides, including Adrian Rosebrock’s as mentioned above, I was able to use OpenCV
+to “detect” motion when the camera read a frame that deviated from the calculated average frame, based on the grayscale of each frame. I liked this method,
+particularly because it introduced a more mathematical approach to computer vision, making it feel less magical and more engineering-focused.&lt;/p&gt;
+
+&lt;p&gt;When the system detected a deviation past a given threshold, it started writing a video file to disk and drew a bounding box around the detection using OpenCV 
+methods. When the frame returned to near average based on the given threshold, the video file ended and it sent the file to the cloud, which was sent to my
+texts using Twilio.&lt;/p&gt;
+
+&lt;p&gt;I saved the video files on a mounted shared network folder, which allowed my network to see any captures. This was helpful, as Twilio API has not been configured
+for group chats, so this workaround allowed the network to save and view files in a secure way.&lt;/p&gt;
+
+&lt;p&gt;My main challenges were implementing the logic for when to start/stop recording and mounting the network folder. Overall, the project featured more than just
+writing code, so the end-to-end functionality across multiple devices (network, Raspberry Pi, phone) was a fun challenge and a deeper dive into product engineering,
+which is what I would like to do as a future career.&lt;/p&gt;
+
+&lt;p&gt;If you would like to see the code and how to set up the project yourself, 
+check out my &lt;a href=&quot;https://github.com/kdutta9/Smart-Surveillance&quot;&gt;GitHub Repository&lt;/a&gt;.&lt;/p&gt;</content><author><name>Kunal Dutta</name></author><category term="projects" /><summary type="html">As said in my previous post, I wanted to create an adaptation of Adrian Rosebrock’s security alert system.</summary></entry><entry><title type="html">AI Security Camera Project</title><link href="https://kdutta9.github.io/projects/2020/06/16/AI-Security-Cam/" rel="alternate" type="text/html" title="AI Security Camera Project" /><published>2020-06-16T17:30:00+00:00</published><updated>2020-06-16T17:30:00+00:00</updated><id>https://kdutta9.github.io/projects/2020/06/16/AI-Security-Cam</id><content type="html" xml:base="https://kdutta9.github.io/projects/2020/06/16/AI-Security-Cam/">&lt;p&gt;My first major project of Summer 2020 was to build a smart security camera! I built this with Python, a Raspberry Pi Zero W, and a camera module.&lt;/p&gt;
+
+&lt;p&gt;Broadly, this camera generates a security feed on localhost and saves images of humans detected in memory.&lt;/p&gt;
+
+&lt;p&gt;The first step of the project was to generate a live feed of camera, similar to what &lt;a href=&quot;https://github.com/ccrisan/motioneyeos&quot;&gt;MotionEyeOS&lt;/a&gt; provides.
+I completed this using the PiVideoStream package to grab frames from the camera, and then looping together frames to create a live stream.
+Next, I added this live stream to a locally hosted web server using Flask, by displaying these frames on an HTML file, using 
+&lt;a href=&quot;https://blog.miguelgrinberg.com/post/video-streaming-with-flask&quot;&gt;Miguel Greenberg’s template&lt;/a&gt;. By adding a camera class like Mr. Greenberg suggested, 
+I was able to start and stop recording at the desire of my code, as opposed to creating an infinite loop that I would need to stop manually.
+Surprisingly, the video quality and frame rate was solid.&lt;/p&gt;
+
+&lt;p&gt;Now, I needed to set up object detection. I used OpenCV to set up detection using Haar Cascades, with their provided 
+&lt;a href=&quot;https://github.com/opencv/opencv/tree/master/data/haarcascades&quot;&gt;human detection models&lt;/a&gt;. To implement this within my code, I added detection within
+my aforementioned camera class. I learned the basics of object detection by reading some of 
+&lt;a href=&quot;https://www.pyimagesearch.com/2017/10/16/raspberry-pi-deep-learning-object-detection-with-opencv/&quot;&gt;Adrian Rosebrock’s blogs&lt;/a&gt;.
+Thankfully, OpenCV was pretty simple to use with a given model, so I essentially “plugged it in,” and then I wrote a method that would find the
+coordinates of detection and draw a box around the detection.&lt;/p&gt;
+
+&lt;p&gt;With that all done, I thought my project was ready to use, but during testing, I found my frame rate was extremely low, due to the heavy lifting in my code, which
+combined frame grabbing and object detection. I calculated frame rate using &lt;a href=&quot;https://github.com/jrosebr1/imutils/&quot;&gt;imutils&lt;/a&gt;, and found my frame rate
+was around 1 fps.&lt;/p&gt;
+
+&lt;p&gt;I implemented multithreading to speed up my project, so I separated the frame capture method into two: one for frame display and the other for object detection.
+Then, I simply enabled multithreading in my main function on the two methods. My frame rate had improved to ~ 15 fps, which I was happy with.&lt;/p&gt;
+
+&lt;p&gt;Now, I have a fast security live stream capable of human object detection!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/XbX89o3.jpg&quot; alt=&quot;Screenshot&quot; height=&quot;350px&quot; width=&quot;420px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For more details on code, usage, and requirements, check out my &lt;a href=&quot;https://github.com/kdutta9/AI-SecurityCam&quot;&gt;Github repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The next steps for this project are to introduce security alerts and a smart on/off switch and I will use 
+&lt;a href=&quot;https://www.pyimagesearch.com/2019/03/25/building-a-raspberry-pi-security-camera-with-opencv/&quot;&gt;Adrian Rosebrock’s guide&lt;/a&gt; as a reference.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading!&lt;/p&gt;</content><author><name>Kunal Dutta</name></author><category term="projects" /><summary type="html">My first major project of Summer 2020 was to build a smart security camera! I built this with Python, a Raspberry Pi Zero W, and a camera module.</summary></entry><entry><title type="html">Converting Numbers between Bases</title><link href="https://kdutta9.github.io/education/2020/05/30/base-converter/" rel="alternate" type="text/html" title="Converting Numbers between Bases" /><published>2020-05-30T12:30:00+00:00</published><updated>2020-05-30T12:30:00+00:00</updated><id>https://kdutta9.github.io/education/2020/05/30/base-converter</id><content type="html" xml:base="https://kdutta9.github.io/education/2020/05/30/base-converter/">&lt;p&gt;In computer architecture classes, students often learn about &lt;strong&gt;number representation&lt;/strong&gt;, or how to represent numbers in different methods.&lt;/p&gt;
+
+&lt;p&gt;One example in number representation is the use of different base systems. A base is essentially the number of “digits” that each place can represent (although
+digits is not technically correct, as it implies 0-9, but I am using it for lack of better word). For example, a number with base-8 can have numbers 0-7,
+and each place represents the base to the power, increasing leftward.&lt;/p&gt;
+
+&lt;p&gt;This is a confusing topic when first heard, and better explained with an example. When we take the decimal number 8145, we are just adding up powers of 10,
+and multiplying it by the number in each place. So, 8145 = 10&lt;sup&gt;3&lt;/sup&gt; * 8 + 10&lt;sup&gt;2&lt;/sup&gt; * 1 + 10&lt;sup&gt;1&lt;/sup&gt; * 4 + 10&lt;sup&gt;0&lt;/sup&gt; * 5 = 8000 + 100 + 40 + 5.&lt;/p&gt;
+
+&lt;p&gt;This carries to other bases. When have 523 in base-8, this breaks down to 523 = 8&lt;sup&gt;2&lt;/sup&gt; * 5 + 8&lt;sup&gt;1&lt;/sup&gt; * 2 + 8&lt;sup&gt;0&lt;/sup&gt; * 3 = 
+320 + 40 + 2 = 362 in decimal.
+So 362 is equal to 523 in base-8. So, that sums it up: a number when converted to a different base is the same value, but represented differently, akin
+to translating a word between languages. The word does not change meaning, but it is represented differently.&lt;/p&gt;
+
+&lt;p&gt;Note: to differentiate between base systems, we indicate the base with a subscript, and assume decimal with no base indicated. So, 523 in base-8 is written as
+523&lt;sub&gt;8&lt;/sub&gt;.&lt;/p&gt;
+
+&lt;p&gt;For bases over 10, we cannot use numeric characters to represent numbers over 1-digit, as it would be confusing to represent. For example, 10 could be interpreted
+as “10” or as “1” and “0” in different places. So, we use alphabetic characters: A=10, B=11,…, Z=35 (not case sensitive). Thus, we can represent numbers up 
+to base 36 using alphanumeric characters. When using base-37, we’ll have to use different symbols, but most people do not have to worry about that.&lt;/p&gt;
+
+&lt;p&gt;Let’s walk through an example of converting a base-16 (hexadecimal) number to decimal. 
+We can break down A27&lt;sub&gt;16&lt;/sub&gt; into 16&lt;sup&gt;2&lt;/sup&gt; * 10 (A=10) + 16&lt;sup&gt;1&lt;/sup&gt; * 2 + 16&lt;sup&gt;0&lt;/sup&gt; * 7 = 2560+32+7 = 2599&lt;sub&gt;10&lt;/sub&gt;.&lt;/p&gt;
+
+&lt;p&gt;For converting numbers between bases, and a more in-depth explanation of base systems, please watch my video on the topic:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=cDlAba6lvDA&quot; title=&quot;Converting Numbers Between Base Systems&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/cDlAba6lvDA/0.jpg&quot; alt=&quot;Converting Numbers Between Base Systems&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I also have developed a web application that converts numbers between bases 2-36. &lt;a href=&quot;http://base-conv.herokuapp.com/&quot;&gt;Check it out!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Thank you for reading my blog post and watching my video!&lt;/p&gt;</content><author><name>Kunal Dutta</name></author><category term="education" /><summary type="html">In computer architecture classes, students often learn about number representation, or how to represent numbers in different methods.</summary></entry><entry><title type="html">Hello, World!</title><link href="https://kdutta9.github.io/other/2020/05/18/hello-world/" rel="alternate" type="text/html" title="Hello, World!" /><published>2020-05-18T12:30:00+00:00</published><updated>2020-05-18T12:30:00+00:00</updated><id>https://kdutta9.github.io/other/2020/05/18/hello-world</id><content type="html" xml:base="https://kdutta9.github.io/other/2020/05/18/hello-world/">&lt;p&gt;Hello, World!&lt;/p&gt;
+
+&lt;p&gt;This is my first post to my redesigned website and newly created blog. I have recently completed my second year at UC Berkeley, and because of COVID-19,
+my summer plans have taken a halt. So, for Summer 2020, I am looking to fully immerse myself in projects and personal development.
+My plan is to blog about my process in developing projects and post educational content, and hopefully I can keep up with it.&lt;/p&gt;
+
+&lt;p&gt;So, today is a big day - it marks a start to an exciting summer ahead, and signifies a return to one of my first loves: writing. Through college so far, I regret
+not writing as much as I would’ve liked to and I am looking to change that. Perhaps I can take advantage of the unfortunate times we are in.&lt;/p&gt;
+
+&lt;p&gt;To new beginnings!&lt;/p&gt;</content><author><name>Kunal Dutta</name></author><category term="other" /><summary type="html">Hello, World!</summary></entry></feed>
