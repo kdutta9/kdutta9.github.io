@@ -1,6 +1,3 @@
-# kdutta9.github.io
+# kdutta.github.io
 
-A personal website to host my endeavors in computer science, software development, and other professional projects.
-
-Powered by [devlopr jekyll](https://github.com/sujaykundu777/devlopr-jekyll).
-
+Forked from [Point Theme](https://github.com/katavie/point-theme/).

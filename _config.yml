@@ -1,180 +1,48 @@
+# no trailing slash
+url: https://kdutta9.github.io
+
+# for header and meta tags
 title: Kunal Dutta
-subtitle: Blog & Personal Website
-description: >- # this means to ignore newlines until "baseurl:"
+description: Software Engineer, UC Berkeley Alum
 
-url: "https://kdutta9.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
-baseurl: "" # the subpath of your site, e.g. /blog
+# set external to true if linking outside your website
+# for internal, make sure to include preceding slash
+# nav-links:
+#   - name: Resume
+#     url: /
+#     external: false
 
-urls:
-    - text: About Me
-      url: /about
-    - text: Blog
-      url: /blog
-    - text: Teaching
-      url: /teaching
-    - text: Contact Me
-      url: /contact
 
-# Edit these details
-author_logo: profile.png
-author: Kunal Dutta
-author_bio: Hi, I'm Kunal, an undergraduate student at the University of California, Berkeley. 
-            Currently, I am studying Computer Science & Public Policy and 
-            aspiring to work with technology as a career. I started this website to blog about 
-            project development and personal hobbies. 
-author_bio2: Outside of professional and academic endeavors, I enjoy basketball, 
-             music, and fueling my coffee addiction. Please look around the site!
-author_location: California
-author_website_url: "https://808sandfastbreak.com/"
-typewrite-text: Welcome to my website.
-author_email: kdutta@berkeley.edu
-
-author_education_details:
-              - college_logo: berkeley.png
-                college_name: University of California, Berkeley
-                college_url: https://www.berkeley.edu/
-                college_degree: Computer Science
-                description: Bachelor of Arts
-                note: Minor in Public Policy
-                time: August 2018 - Present
-                visibility: true
-
-author_project_details:
-              - project_thumbnail: posts/security-cam.JPG
-                project_title: Smart Surveillance System
-                project_description: IoT Security camera that sends alerts when motion is detected.
-                project_url: https://github.com/kdutta9/Smart-Surveillance
-                url_title: https://github.com/kdutta9/Smart-Surveillance
-                visibility: true
-              - project_thumbnail: project1.png
-                project_title: Base Converter
-                project_description: Web application that converts numbers between base systems.
-                project_url: https://base-conv.herokuapp.com/
-                url_title: https://base-conv.herokuapp.com/
-                visibility: true
-               
-author_work_experiences:
-            - company_name: SoFi
-              company_logo: sofi.png
-              company_url: https://www.sofi.com/
-              url_title: sofi.com
-              designation: Software Engineer Intern
-              description: 'Worked on data infrastructure.'
-              note: June 2021 - August 2021
-              visibility: true
-
-            - company_name: UC Berkeley
-              company_logo: berkeley.png
-              company_url: https://cs61a.org/
-              url_title: cs61a.org
-              designation: Course Tutor
-              description: 'Tutor for CS 61A: The Structure and Interpretation of Computer Programs.'
-              note: August 2020 - December 2020
-              visibility: true
-              
-            - company_name: iD Tech Camps
-              company_logo: idtech.png
-              company_url: https://www.idtech.com/
-              url_title: www.idtech.com
-              designation: Computer Science Instructor
-              description: Developed curriculum for students in Java, Python, Machine Learning, and Cybersecurity.
-              note: June 2020 - September 2020
-              visibility: true
-
+greeting_image: /assets/img/profile.jpeg
 
 # social links
 github_username:  kdutta9
 linkedin_username: kdutta9
 instagram_username: kdutta9
-twitter_username: KunalDuttaCA
+twitter_username: kdutta9
 strava_username: 67490253
 
-#for comments
-disqus_shortname: kdutta9
+# show blog post excerpts on blog page
+show_excerpts: false
+excerpt_word_count: 70
 
-# syntax highlighter
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
+# long date: April 20, 1969
+long_date: false
+# short date: Apr ‘69
+short_date: true
 
-# google analytics
-google_analytics: UA-140681282-1
-
-# Choose what to show ( can be true or false)
-show_author_work_experiences: true
-show_author_education_details: true
-show_author_project_details: true
-
-# algolia search
-algolia:
-  application_id: D9WA1YKTRQ
-  index_name: blog_posts # You can replace that with whatever name you want
-  files_to_exclude: []
-  nodes_to_index: 'article'
-  search_only_api_key: 58ffdd7cd6c45ec1577a7fcd789b1b9a
-
-# pagination of posts
-paginate: 4
-per_page: 4
-paginate_path: "/blog/page/:num/"
-
-# minify
-# compress_html:
-#   clippings: all
-#   comments: ["<!-- ", " -->"]
-#   endings: all
-#   ignore:
-#     envs: ['development']
-
-# Archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#   layout: archive
-#   permalinks:
-#     category: '/category/:name/'
-
-# Shop
-# collections:
- # - products
-
-# Gallery
-# defaults:
-  # -
-    # scope:
-      # path: "gallery"
-    # values:
-      # permalink: /:path/:basename:output_ext
-
-# Build settings
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-algolia
-  - jekyll-menus
-
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
-destination: ./build
+defaults:
+  - # applies the default layout to all files in the project
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  - # sets is_post=true for all blog posts
+    scope:
+      path: ""
+      type: posts
+    values:
+      is_post: true
+permalink: /:title # so we have /about instead of /about.html, and /blog-post instead of /2019-11-22-blog-post.html
+sass:
+  style: compressed # compress the CSS file generated from the SCSS styles file

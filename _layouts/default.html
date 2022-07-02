@@ -1,27 +1,24 @@
----
-layout: compress
----
+{% include head.html %}
 
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en " }}">
-{%- include head.html -%}
-<body>
-        {%- include header.html -%}
-        <div class="col-lg-12">
-            {{ content }}
-        </div>
-        {%- include footer.html -%}
-     <script>
-            var options = {
-                classname: 'my-class',
-                id: 'my-id'
-            };
-            var nanobar = new Nanobar( options );
-            nanobar.go( 30 );
-            nanobar.go( 76 );
-            nanobar.go(100);
-        </script>
+{% if page.is_post %}<a
+  href="{{ '/blog' | prepend:site.url }}"
+  >← Back to all posts</a
+>{% endif %}
 
-   <script src="/assets/js/mode-switcher.js"></script>
-</body>
-</html>
+{% unless page.url == "/" %}
+<h1>
+  {% if page.title %}{{ page.title }}{% endif %}{% if post.title %}{{ post.title
+  }}{% endif %}
+</h1>
+{% endunless %}
+
+{% if page.date %}
+<span class="timestamp timestamp-block">
+  {% include post-date.html %}
+</span>
+{% endif %}
+
+
+{{ content }}
+
+{% include foot.html %}
