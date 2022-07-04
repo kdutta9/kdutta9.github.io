@@ -22,6 +22,9 @@ instagram_username: kdutta9
 twitter_username: kdutta9
 strava_username: 67490253
 
+# Formspree
+formspree_id: meqvgwzv
+
 # show blog post excerpts on blog page
 show_excerpts: false
 excerpt_word_count: 70

@@ -13,3 +13,31 @@ Check out <a href="./assets/docs/resume.pdf" class="link" rel="noopener noreferr
 and email <kdutta@berkeley.edu> or via 
 <a href="http://linkedin.com/in/{{site.linkedin_username}}" class="link" rel="noopener noreferrer" target="_blank">LinkedIn</a>
 if you want to connect!
+
+
+---
+
+You can also contact me directly using the form below!
+
+<!-- Formspree -->
+<form
+  action="https://formspree.io/f/{{site.formspree_id}}"
+  method="POST">
+
+  <label>
+    Your email:
+    <p>
+    <input type="email" name="email">
+	</p>
+  </label>
+  
+  <p>
+  	<label>
+    Your message:
+    	<p>
+    	<textarea name="message"></textarea>
+		</p>
+  	</label>
+	</p>
+  <button type="submit">Send</button>
+</form>
