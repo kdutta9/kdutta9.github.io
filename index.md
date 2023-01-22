@@ -4,17 +4,13 @@
 ## About Me
 ---
 
-Hi, I'm Kunal Dutta. I graduated from UC Berkeley in May 2022 with a B.A. in Computer Science.
-I currently work for SoFi as a Software Development Engineer in San Francisco, CA.
+Hi, I'm Kunal Dutta. I currently work for SoFi as a Software Development Engineer in San Francisco, CA. I graduated from UC Berkeley in May 2022 with a B.A. in Computer Science. I also spend time developing engineering projects indepedently.
 
-Outside of professional endeavors, I enjoy watching and playing basketball, fitness, finding new places
-to fuel my coffee addiction, making Spotify playlists, 
-constantly thinking about Bay Area sports, music, and generally having fun.
 
-My current goals are training for a Thanksgiving 5K run, surfing more often, learning guitar, and exploring
-San Francisco to the best of my ability.
+Outside of professional endeavors, I enjoy being outdoors, fitness, reading, coffee, beer, sports bars, and am always looking for things to do in the Bay Area.
 
-Check out <a href="./assets/docs/resume.pdf" class="link" rel="noopener noreferrer" target="_blank">My Resume</a>
+
+Check out <a href="./resume.pdf" class="link" rel="noopener noreferrer" target="_blank">My Resume</a>
 and reach out via email <kdutta@berkeley.edu> or
 <a href="http://linkedin.com/in/{{site.linkedin_username}}" class="link" rel="noopener noreferrer" target="_blank">LinkedIn</a>
 if you want to connect!
