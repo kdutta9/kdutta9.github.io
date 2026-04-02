@@ -46,6 +46,7 @@ Go to Settings in the app, or manage your subscription through your Apple ID set
 **The app isn't working as expected.**
 Try closing and reopening the app. If the issue persists, use the contact form above with details about the problem and your device model.
 
-### Privacy
+### Legal
 
-ZonedIn respects your privacy. We only collect the data necessary to provide the service. See our privacy practices in the app's Settings page.
+- [Privacy Policy](/zonedin-privacy-policy)
+- [Terms of Use (EULA)](/zonedin-terms-of-use)
