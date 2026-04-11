@@ -42,7 +42,6 @@ We use the following third-party services:
 - **Apple Sign-In** for authentication
 - **Supabase** for data storage and authentication
 - **OpenAI** for AI chat functionality
-- **RevenueCat** for subscription management
 
 Each service has its own privacy policy governing data it processes.
 
