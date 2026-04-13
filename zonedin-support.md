@@ -40,9 +40,6 @@ Tap "Continue with Apple" on the login screen. You can also use the app without 
 **How do I delete my account and data?**
 Use the contact form above with the "Account Deletion" subject, or email [kdutta@berkeley.edu](mailto:kdutta@berkeley.edu) with the subject "Account Deletion Request." We will process your request within 30 days.
 
-**How do I manage my subscription?**
-Go to Settings in the app, or manage your subscription through your Apple ID settings: Settings > Apple ID > Subscriptions.
-
 **The app isn't working as expected.**
 Try closing and reopening the app. If the issue persists, use the contact form above with details about the problem and your device model.
 
