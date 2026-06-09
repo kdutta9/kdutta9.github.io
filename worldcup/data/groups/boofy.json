@@ -1,0 +1,20 @@
+{
+  "id": "boofy",
+  "name": "Boofy",
+  "teamsPerPlayer": 4,
+  "legacy": true,
+  "players": [
+    { "name": "Nick", "teams": ["Japan", "DR Congo", "Bosnia & Herzegovina", "Belgium"] },
+    { "name": "Jack", "teams": ["Colombia", "Australia", "Austria", "Uruguay"] },
+    { "name": "Matt", "teams": ["Panama", "Uzbekistan", "Curaçao", "Haiti"] },
+    { "name": "Dante", "teams": ["Scotland", "Spain", "Türkiye", "Saudi Arabia"] },
+    { "name": "Jake", "teams": ["Qatar", "Switzerland", "Mexico", "New Zealand"] },
+    { "name": "Dino", "teams": ["Iran", "Portugal", "Canada", "Morocco"] },
+    { "name": "Adrian", "teams": ["Sweden", "Cape Verde", "Paraguay", "Jordan"] },
+    { "name": "Max", "teams": ["Norway", "Ghana", "United States", "Senegal"] },
+    { "name": "Rob", "teams": ["Tunisia", "Iraq", "England", "France"] },
+    { "name": "Shaya", "teams": ["Ecuador", "Czechia", "Ivory Coast", "Algeria"] },
+    { "name": "Kunal", "teams": ["Germany", "Brazil", "South Korea", "Netherlands"] },
+    { "name": "Nathan", "teams": ["Argentina", "South Africa", "Croatia", "Egypt"] }
+  ]
+}
