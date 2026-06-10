@@ -1,0 +1,97 @@
+{
+  "id": "sons-of-steve-kerr",
+  "name": "Sons of Steve Kerr",
+  "teamsPerPlayer": 6,
+  "seed": "C0B9B24FDF63",
+  "playerCount": 8,
+  "players": [
+    {
+      "name": "J Call",
+      "teams": [
+        "Argentina",
+        "Czechia",
+        "Switzerland",
+        "Croatia",
+        "Egypt",
+        "Qatar"
+      ]
+    },
+    {
+      "name": "Oanta",
+      "teams": [
+        "DR Congo",
+        "England",
+        "Senegal",
+        "Jordan",
+        "Haiti",
+        "Germany"
+      ]
+    },
+    {
+      "name": "Chris",
+      "teams": [
+        "Curaçao",
+        "Japan",
+        "Ivory Coast",
+        "Belgium",
+        "Mexico",
+        "Paraguay"
+      ]
+    },
+    {
+      "name": "HG",
+      "teams": [
+        "Ghana",
+        "Colombia",
+        "Australia",
+        "Algeria",
+        "South Africa",
+        "South Korea"
+      ]
+    },
+    {
+      "name": "Prozan",
+      "teams": [
+        "Iran",
+        "Scotland",
+        "United States",
+        "Panama",
+        "New Zealand",
+        "Brazil"
+      ]
+    },
+    {
+      "name": "Arnst",
+      "teams": [
+        "Morocco",
+        "Saudi Arabia",
+        "Portugal",
+        "Uzbekistan",
+        "Cape Verde",
+        "France"
+      ]
+    },
+    {
+      "name": "Burnes",
+      "teams": [
+        "Tunisia",
+        "Netherlands",
+        "Sweden",
+        "Uruguay",
+        "Canada",
+        "Spain"
+      ]
+    },
+    {
+      "name": "Kunal",
+      "teams": [
+        "Norway",
+        "Austria",
+        "Türkiye",
+        "Ecuador",
+        "Bosnia & Herzegovina",
+        "Iraq"
+      ]
+    }
+  ]
+}

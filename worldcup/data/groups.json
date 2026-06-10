@@ -1,3 +1,10 @@
 [
-  { "id": "boofy", "name": "Boofy" }
+  {
+    "id": "boofy",
+    "name": "Boofy"
+  },
+  {
+    "id": "sons-of-steve-kerr",
+    "name": "Sons of Steve Kerr"
+  }
 ]
