@@ -3,9 +3,17 @@
   "name": "Boofy",
   "bookName": "BOOFY SPORTSBOOK",
   "tagline": "Official betting partner of Boofy",
-  "stakes": null,
+  "stakes": {
+    "buyIn": "$20",
+    "pot": "$260",
+    "payouts": [
+      "1st $200",
+      "2nd $40",
+      "3rd $20"
+    ]
+  },
   "copy": {
-    "outright": "First place takes the pool. Dead-heat rules: ties split the cash.",
+    "outright": "First place takes $200 even — Dante topped up the pot. Dead-heat rules: ties split the cash.",
     "toCash": "Twelve seats, three podium spots. Any money is good money.",
     "spoon": "Somebody has to carry the shame until 2030.",
     "h2h": "The four strongest seats, priced against each other. Higher pool finish wins; tie on points = stakes returned (handled as half-win in pricing).",
