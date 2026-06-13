@@ -1,0 +1,49 @@
+{
+  "_note": "Replayable event log of real match results, keyed by match date. Source of truth — results.json and every book snapshot are derived from it. Enter/correct via npm run add-results.",
+  "matches": [
+    {
+      "id": 1,
+      "date": "2026-06-11",
+      "group": "A",
+      "a": "Mexico",
+      "b": "South Africa",
+      "score": [
+        2,
+        0
+      ]
+    },
+    {
+      "id": 2,
+      "date": "2026-06-11",
+      "group": "A",
+      "a": "South Korea",
+      "b": "Czechia",
+      "score": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "date": "2026-06-12",
+      "group": "B",
+      "a": "Canada",
+      "b": "Bosnia & Herzegovina",
+      "score": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "date": "2026-06-12",
+      "group": "D",
+      "a": "United States",
+      "b": "Paraguay",
+      "score": [
+        4,
+        1
+      ]
+    }
+  ]
+}
