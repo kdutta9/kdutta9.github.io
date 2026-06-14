@@ -44,6 +44,50 @@
         4,
         1
       ]
+    },
+    {
+      "id": 5,
+      "date": "2026-06-13",
+      "group": "B",
+      "a": "Qatar",
+      "b": "Switzerland",
+      "score": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": 6,
+      "date": "2026-06-13",
+      "group": "C",
+      "a": "Brazil",
+      "b": "Morocco",
+      "score": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "date": "2026-06-13",
+      "group": "C",
+      "a": "Haiti",
+      "b": "Scotland",
+      "score": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 8,
+      "date": "2026-06-13",
+      "group": "D",
+      "a": "Australia",
+      "b": "Türkiye",
+      "score": [
+        2,
+        0
+      ]
     }
   ]
 }
