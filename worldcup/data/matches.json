@@ -176,6 +176,50 @@
         1,
         1
       ]
+    },
+    {
+      "id": 17,
+      "date": "2026-06-16",
+      "group": "I",
+      "a": "France",
+      "b": "Senegal",
+      "score": [
+        3,
+        1
+      ]
+    },
+    {
+      "id": 18,
+      "date": "2026-06-16",
+      "group": "I",
+      "a": "Iraq",
+      "b": "Norway",
+      "score": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": 19,
+      "date": "2026-06-16",
+      "group": "J",
+      "a": "Argentina",
+      "b": "Algeria",
+      "score": [
+        3,
+        0
+      ]
+    },
+    {
+      "id": 20,
+      "date": "2026-06-16",
+      "group": "J",
+      "a": "Austria",
+      "b": "Jordan",
+      "score": [
+        3,
+        1
+      ]
     }
   ]
 }
