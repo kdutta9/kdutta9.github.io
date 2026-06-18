@@ -1,0 +1,1165 @@
+{
+  "id": "boofy",
+  "name": "Boofy",
+  "bookName": "BOOFY SPORTSBOOK",
+  "tagline": "Official betting partner of Boofy",
+  "stakes": {
+    "buyIn": "$20",
+    "pot": "$260",
+    "payouts": [
+      "1st $200",
+      "2nd $40",
+      "3rd $20"
+    ]
+  },
+  "copy": {
+    "outright": "First place takes $200 even — Dante topped up the pot. Dead-heat rules: ties split the cash.",
+    "toCash": "Twelve seats, three podium spots. Any money is good money.",
+    "spoon": "Somebody has to carry the shame until 2030.",
+    "h2h": "The four strongest seats, priced against each other. Higher pool finish wins; tie on points = stakes returned (handled as half-win in pricing).",
+    "watch": "Germany, Brazil, South Korea, Netherlands — the house's problem child drew a loaded hand. The model's median is 8 points. Main line:"
+  },
+  "meta": {
+    "sims": 400000,
+    "generated": "2026-06-17",
+    "date": "2026-06-17",
+    "seed": null,
+    "sources": "LIVE MARKET CONSENSUS",
+    "consensusDate": "2026-06-17",
+    "consensusSource": "kalshi:KXMENWORLDCUP-26",
+    "matchesConditioned": 24,
+    "calibrationErr": 0.0274,
+    "players": 12,
+    "teamsPerPlayer": 4
+  },
+  "outright": [
+    {
+      "player": "Rob",
+      "teams": [
+        "Tunisia",
+        "Iraq",
+        "England",
+        "France"
+      ],
+      "price": "+220",
+      "fairPct": 23.4
+    },
+    {
+      "player": "Kunal",
+      "teams": [
+        "Germany",
+        "Brazil",
+        "South Korea",
+        "Netherlands"
+      ],
+      "price": "+230",
+      "fairPct": 22.6
+    },
+    {
+      "player": "Dino",
+      "teams": [
+        "Iran",
+        "Portugal",
+        "Canada",
+        "Morocco"
+      ],
+      "price": "+510",
+      "fairPct": 12.1
+    },
+    {
+      "player": "Dante",
+      "teams": [
+        "Scotland",
+        "Spain",
+        "Türkiye",
+        "Saudi Arabia"
+      ],
+      "price": "+620",
+      "fairPct": 10.2
+    },
+    {
+      "player": "Nathan",
+      "teams": [
+        "Argentina",
+        "South Africa",
+        "Croatia",
+        "Egypt"
+      ],
+      "price": "+800",
+      "fairPct": 8.2
+    },
+    {
+      "player": "Max",
+      "teams": [
+        "Norway",
+        "Ghana",
+        "United States",
+        "Senegal"
+      ],
+      "price": "+840",
+      "fairPct": 7.9
+    },
+    {
+      "player": "Nick",
+      "teams": [
+        "Japan",
+        "DR Congo",
+        "Bosnia & Herzegovina",
+        "Belgium"
+      ],
+      "price": "+960",
+      "fairPct": 7
+    },
+    {
+      "player": "Jack",
+      "teams": [
+        "Colombia",
+        "Australia",
+        "Austria",
+        "Uruguay"
+      ],
+      "price": "+1900",
+      "fairPct": 3.7
+    },
+    {
+      "player": "Jake",
+      "teams": [
+        "Qatar",
+        "Switzerland",
+        "Mexico",
+        "New Zealand"
+      ],
+      "price": "+2850",
+      "fairPct": 2.5
+    },
+    {
+      "player": "Shaya",
+      "teams": [
+        "Ecuador",
+        "Czechia",
+        "Ivory Coast",
+        "Algeria"
+      ],
+      "price": "+4300",
+      "fairPct": 1.7
+    },
+    {
+      "player": "Adrian",
+      "teams": [
+        "Sweden",
+        "Cape Verde",
+        "Paraguay",
+        "Jordan"
+      ],
+      "price": "+14000",
+      "fairPct": 0.5
+    },
+    {
+      "player": "Matt",
+      "teams": [
+        "Panama",
+        "Uzbekistan",
+        "Curaçao",
+        "Haiti"
+      ],
+      "price": "+41000",
+      "fairPct": 0.2
+    }
+  ],
+  "toCash": [
+    {
+      "player": "Kunal",
+      "teams": [
+        "Germany",
+        "Brazil",
+        "South Korea",
+        "Netherlands"
+      ],
+      "price": "−260",
+      "fairPct": 58.1
+    },
+    {
+      "player": "Rob",
+      "teams": [
+        "Tunisia",
+        "Iraq",
+        "England",
+        "France"
+      ],
+      "price": "−140",
+      "fairPct": 46.9
+    },
+    {
+      "player": "Dino",
+      "teams": [
+        "Iran",
+        "Portugal",
+        "Canada",
+        "Morocco"
+      ],
+      "price": "+140",
+      "fairPct": 33.6
+    },
+    {
+      "player": "Max",
+      "teams": [
+        "Norway",
+        "Ghana",
+        "United States",
+        "Senegal"
+      ],
+      "price": "+175",
+      "fairPct": 29.3
+    },
+    {
+      "player": "Nick",
+      "teams": [
+        "Japan",
+        "DR Congo",
+        "Bosnia & Herzegovina",
+        "Belgium"
+      ],
+      "price": "+180",
+      "fairPct": 28.7
+    },
+    {
+      "player": "Dante",
+      "teams": [
+        "Scotland",
+        "Spain",
+        "Türkiye",
+        "Saudi Arabia"
+      ],
+      "price": "+195",
+      "fairPct": 27
+    },
+    {
+      "player": "Nathan",
+      "teams": [
+        "Argentina",
+        "South Africa",
+        "Croatia",
+        "Egypt"
+      ],
+      "price": "+210",
+      "fairPct": 26.1
+    },
+    {
+      "player": "Jack",
+      "teams": [
+        "Colombia",
+        "Australia",
+        "Austria",
+        "Uruguay"
+      ],
+      "price": "+250",
+      "fairPct": 23
+    },
+    {
+      "player": "Jake",
+      "teams": [
+        "Qatar",
+        "Switzerland",
+        "Mexico",
+        "New Zealand"
+      ],
+      "price": "+480",
+      "fairPct": 13.8
+    },
+    {
+      "player": "Shaya",
+      "teams": [
+        "Ecuador",
+        "Czechia",
+        "Ivory Coast",
+        "Algeria"
+      ],
+      "price": "+830",
+      "fairPct": 8.6
+    },
+    {
+      "player": "Adrian",
+      "teams": [
+        "Sweden",
+        "Cape Verde",
+        "Paraguay",
+        "Jordan"
+      ],
+      "price": "+2000",
+      "fairPct": 3.8
+    },
+    {
+      "player": "Matt",
+      "teams": [
+        "Panama",
+        "Uzbekistan",
+        "Curaçao",
+        "Haiti"
+      ],
+      "price": "+7300",
+      "fairPct": 1.1
+    }
+  ],
+  "spoon": [
+    {
+      "player": "Matt",
+      "teams": [
+        "Panama",
+        "Uzbekistan",
+        "Curaçao",
+        "Haiti"
+      ],
+      "price": "−270",
+      "fairPct": 58.6
+    },
+    {
+      "player": "Adrian",
+      "teams": [
+        "Sweden",
+        "Cape Verde",
+        "Paraguay",
+        "Jordan"
+      ],
+      "price": "+530",
+      "fairPct": 12.7
+    },
+    {
+      "player": "Shaya",
+      "teams": [
+        "Ecuador",
+        "Czechia",
+        "Ivory Coast",
+        "Algeria"
+      ],
+      "price": "+670",
+      "fairPct": 10.5
+    },
+    {
+      "player": "Jake",
+      "teams": [
+        "Qatar",
+        "Switzerland",
+        "Mexico",
+        "New Zealand"
+      ],
+      "price": "+2050",
+      "fairPct": 3.7
+    },
+    {
+      "player": "Dante",
+      "teams": [
+        "Scotland",
+        "Spain",
+        "Türkiye",
+        "Saudi Arabia"
+      ],
+      "price": "+2400",
+      "fairPct": 3.2
+    },
+    {
+      "player": "Nathan",
+      "teams": [
+        "Argentina",
+        "South Africa",
+        "Croatia",
+        "Egypt"
+      ],
+      "price": "+2450",
+      "fairPct": 3.1
+    },
+    {
+      "player": "Dino",
+      "teams": [
+        "Iran",
+        "Portugal",
+        "Canada",
+        "Morocco"
+      ],
+      "price": "+2600",
+      "fairPct": 3
+    },
+    {
+      "player": "Nick",
+      "teams": [
+        "Japan",
+        "DR Congo",
+        "Bosnia & Herzegovina",
+        "Belgium"
+      ],
+      "price": "+3200",
+      "fairPct": 2.4
+    },
+    {
+      "player": "Jack",
+      "teams": [
+        "Colombia",
+        "Australia",
+        "Austria",
+        "Uruguay"
+      ],
+      "price": "+7000",
+      "fairPct": 1.1
+    },
+    {
+      "player": "Rob",
+      "teams": [
+        "Tunisia",
+        "Iraq",
+        "England",
+        "France"
+      ],
+      "price": "+9500",
+      "fairPct": 0.8
+    },
+    {
+      "player": "Max",
+      "teams": [
+        "Norway",
+        "Ghana",
+        "United States",
+        "Senegal"
+      ],
+      "price": "+12000",
+      "fairPct": 0.7
+    },
+    {
+      "player": "Kunal",
+      "teams": [
+        "Germany",
+        "Brazil",
+        "South Korea",
+        "Netherlands"
+      ],
+      "price": "+33000",
+      "fairPct": 0.2
+    }
+  ],
+  "h2h": [
+    {
+      "a": "Kunal",
+      "b": "Rob",
+      "priceA": "−150",
+      "priceB": "+110"
+    },
+    {
+      "a": "Kunal",
+      "b": "Dino",
+      "priceA": "−260",
+      "priceB": "+180"
+    },
+    {
+      "a": "Kunal",
+      "b": "Max",
+      "priceA": "−290",
+      "priceB": "+200"
+    },
+    {
+      "a": "Rob",
+      "b": "Dino",
+      "priceA": "−170",
+      "priceB": "+125"
+    },
+    {
+      "a": "Rob",
+      "b": "Max",
+      "priceA": "−185",
+      "priceB": "+135"
+    },
+    {
+      "a": "Dino",
+      "b": "Max",
+      "priceA": "−120",
+      "priceB": "−110"
+    }
+  ],
+  "grudges": {
+    "title": "BAD BLOOD — GRUDGE MATCHES",
+    "blurb": "Some matchups are about money. These are not. Higher pool finish settles it; tie on points = stakes returned, beef continues.",
+    "pairs": [
+      {
+        "a": "Shaya",
+        "b": "Jake",
+        "note": "THE FOREVER FEUD",
+        "priceA": "+140",
+        "priceB": "−195"
+      },
+      {
+        "a": "Shaya",
+        "b": "Matt",
+        "note": "YES, SHAYA AGAIN",
+        "priceA": "−610",
+        "priceB": "+360"
+      }
+    ]
+  },
+  "caleb": {
+    "title": "CALEB'S CORNER — DEGEN SPECIALS",
+    "blurb": "Caleb is not in the pool. That has never once stopped him. The house posts the slips he'd actually ask for, and reserves the right to demand cash up front.",
+    "bets": [
+      {
+        "label": "Matt wins the whole pool (Panama · Uzbekistan · Curaçao · Haiti)",
+        "price": "+41000"
+      },
+      {
+        "label": "Matt cashes top 3",
+        "price": "+7300"
+      },
+      {
+        "label": "Shaya sweeps the beef — finishes above Jake AND Matt",
+        "price": "+210"
+      },
+      {
+        "label": "Kunal goes nuclear — Over 14.5 pts",
+        "price": "+2300"
+      },
+      {
+        "label": "Rob bricks it — Under 4.5 pts with England AND France",
+        "price": "+320"
+      }
+    ]
+  },
+  "watch": {
+    "player": "Kunal",
+    "title": "KUNAL WATCH — KUNAL TOTAL POINTS",
+    "teams": [
+      "Germany",
+      "Brazil",
+      "South Korea",
+      "Netherlands"
+    ],
+    "median": 8,
+    "mainLine": 7.5,
+    "ladder": [
+      {
+        "line": 4.5,
+        "over": "−2400",
+        "under": "+1050"
+      },
+      {
+        "line": 5.5,
+        "over": "−800",
+        "under": "+440"
+      },
+      {
+        "line": 6.5,
+        "over": "−290",
+        "under": "+200"
+      },
+      {
+        "line": 7.5,
+        "over": "−140",
+        "under": "+105"
+      },
+      {
+        "line": 8.5,
+        "over": "+125",
+        "under": "−170"
+      },
+      {
+        "line": 9.5,
+        "over": "+210",
+        "under": "−300"
+      },
+      {
+        "line": 10.5,
+        "over": "+320",
+        "under": "−510"
+      },
+      {
+        "line": 11.5,
+        "over": "+490",
+        "under": "−960"
+      },
+      {
+        "line": 12.5,
+        "over": "+780",
+        "under": "−2400"
+      }
+    ],
+    "hist": [
+      {
+        "pts": 0,
+        "pct": 0
+      },
+      {
+        "pts": 1,
+        "pct": 0.07
+      },
+      {
+        "pts": 2,
+        "pct": 0.52
+      },
+      {
+        "pts": 3,
+        "pct": 2.18
+      },
+      {
+        "pts": 4,
+        "pct": 5.21
+      },
+      {
+        "pts": 5,
+        "pct": 9.31
+      },
+      {
+        "pts": 6,
+        "pct": 13.31
+      },
+      {
+        "pts": 7,
+        "pct": 14.75
+      },
+      {
+        "pts": 8,
+        "pct": 13.39
+      },
+      {
+        "pts": 9,
+        "pct": 10.77
+      },
+      {
+        "pts": 10,
+        "pct": 8.38
+      },
+      {
+        "pts": 11,
+        "pct": 6.32
+      },
+      {
+        "pts": 12,
+        "pct": 5.17
+      },
+      {
+        "pts": 13,
+        "pct": 4.04
+      },
+      {
+        "pts": 14,
+        "pct": 2.71
+      },
+      {
+        "pts": 15,
+        "pct": 1.75
+      },
+      {
+        "pts": 16,
+        "pct": 1.09
+      },
+      {
+        "pts": 17,
+        "pct": 0.73
+      },
+      {
+        "pts": 18,
+        "pct": 0.26
+      }
+    ]
+  },
+  "faction": null,
+  "rosters": [
+    {
+      "player": "Kunal",
+      "avg": 8.3,
+      "teams": [
+        {
+          "name": "Germany",
+          "group": "E",
+          "makeKo": 99.4,
+          "qf": 34.2,
+          "winCup": 5.7,
+          "expPts": 2.48,
+          "titleOdds": "+1700"
+        },
+        {
+          "name": "Brazil",
+          "group": "C",
+          "makeKo": 88.6,
+          "qf": 35.6,
+          "winCup": 6,
+          "expPts": 2.3,
+          "titleOdds": "+1550"
+        },
+        {
+          "name": "South Korea",
+          "group": "A",
+          "makeKo": 89.7,
+          "qf": 13.8,
+          "winCup": 0.4,
+          "expPts": 1.5,
+          "titleOdds": "+24000"
+        },
+        {
+          "name": "Netherlands",
+          "group": "F",
+          "makeKo": 85.5,
+          "qf": 30,
+          "winCup": 4.1,
+          "expPts": 2.01,
+          "titleOdds": "+2300"
+        }
+      ]
+    },
+    {
+      "player": "Rob",
+      "avg": 7.4,
+      "teams": [
+        {
+          "name": "Tunisia",
+          "group": "F",
+          "makeKo": 21,
+          "qf": 3,
+          "winCup": 0.1,
+          "expPts": 0.34,
+          "titleOdds": "+110000"
+        },
+        {
+          "name": "Iraq",
+          "group": "I",
+          "makeKo": 32.5,
+          "qf": 10,
+          "winCup": 0.9,
+          "expPts": 0.71,
+          "titleOdds": "+11000"
+        },
+        {
+          "name": "England",
+          "group": "L",
+          "makeKo": 99.3,
+          "qf": 46.2,
+          "winCup": 9.4,
+          "expPts": 2.86,
+          "titleOdds": "+960"
+        },
+        {
+          "name": "France",
+          "group": "I",
+          "makeKo": 98.7,
+          "qf": 54.7,
+          "winCup": 17.2,
+          "expPts": 3.48,
+          "titleOdds": "+480"
+        }
+      ]
+    },
+    {
+      "player": "Dino",
+      "avg": 6.3,
+      "teams": [
+        {
+          "name": "Iran",
+          "group": "G",
+          "makeKo": 52.9,
+          "qf": 5.7,
+          "winCup": 0.1,
+          "expPts": 0.81,
+          "titleOdds": "+110000"
+        },
+        {
+          "name": "Portugal",
+          "group": "K",
+          "makeKo": 88.8,
+          "qf": 44.4,
+          "winCup": 10.1,
+          "expPts": 2.74,
+          "titleOdds": "+910"
+        },
+        {
+          "name": "Canada",
+          "group": "B",
+          "makeKo": 65.5,
+          "qf": 10,
+          "winCup": 0.3,
+          "expPts": 1.08,
+          "titleOdds": "+44000"
+        },
+        {
+          "name": "Morocco",
+          "group": "C",
+          "makeKo": 81.5,
+          "qf": 23.3,
+          "winCup": 2.1,
+          "expPts": 1.7,
+          "titleOdds": "+4800"
+        }
+      ]
+    },
+    {
+      "player": "Max",
+      "avg": 6.2,
+      "teams": [
+        {
+          "name": "Norway",
+          "group": "I",
+          "makeKo": 95.8,
+          "qf": 28.3,
+          "winCup": 2.6,
+          "expPts": 2.09,
+          "titleOdds": "+3800"
+        },
+        {
+          "name": "Ghana",
+          "group": "L",
+          "makeKo": 76.1,
+          "qf": 7.6,
+          "winCup": 0.1,
+          "expPts": 1.1,
+          "titleOdds": "+73000"
+        },
+        {
+          "name": "United States",
+          "group": "D",
+          "makeKo": 98.7,
+          "qf": 35.1,
+          "winCup": 3.1,
+          "expPts": 2.29,
+          "titleOdds": "+2900"
+        },
+        {
+          "name": "Senegal",
+          "group": "I",
+          "makeKo": 37.9,
+          "qf": 9,
+          "winCup": 0.5,
+          "expPts": 0.73,
+          "titleOdds": "+20000"
+        }
+      ]
+    },
+    {
+      "player": "Nick",
+      "avg": 6,
+      "teams": [
+        {
+          "name": "Japan",
+          "group": "F",
+          "makeKo": 77.8,
+          "qf": 18.8,
+          "winCup": 1.4,
+          "expPts": 1.5,
+          "titleOdds": "+7000"
+        },
+        {
+          "name": "DR Congo",
+          "group": "K",
+          "makeKo": 70.7,
+          "qf": 16.1,
+          "winCup": 1,
+          "expPts": 1.34,
+          "titleOdds": "+11000"
+        },
+        {
+          "name": "Bosnia & Herzegovina",
+          "group": "B",
+          "makeKo": 74.7,
+          "qf": 17.3,
+          "winCup": 0.9,
+          "expPts": 1.43,
+          "titleOdds": "+11000"
+        },
+        {
+          "name": "Belgium",
+          "group": "G",
+          "makeKo": 83.5,
+          "qf": 23,
+          "winCup": 1.6,
+          "expPts": 1.74,
+          "titleOdds": "+6200"
+        }
+      ]
+    },
+    {
+      "player": "Jack",
+      "avg": 5.8,
+      "teams": [
+        {
+          "name": "Colombia",
+          "group": "K",
+          "makeKo": 91.4,
+          "qf": 23.7,
+          "winCup": 1.5,
+          "expPts": 1.82,
+          "titleOdds": "+6600"
+        },
+        {
+          "name": "Australia",
+          "group": "D",
+          "makeKo": 90.9,
+          "qf": 11.7,
+          "winCup": 0.2,
+          "expPts": 1.45,
+          "titleOdds": "+44000"
+        },
+        {
+          "name": "Austria",
+          "group": "J",
+          "makeKo": 91.1,
+          "qf": 12,
+          "winCup": 0.3,
+          "expPts": 1.4,
+          "titleOdds": "+31000"
+        },
+        {
+          "name": "Uruguay",
+          "group": "H",
+          "makeKo": 61.9,
+          "qf": 12.4,
+          "winCup": 0.6,
+          "expPts": 1.1,
+          "titleOdds": "+16000"
+        }
+      ]
+    },
+    {
+      "player": "Dante",
+      "avg": 5.7,
+      "teams": [
+        {
+          "name": "Scotland",
+          "group": "C",
+          "makeKo": 76.9,
+          "qf": 9.5,
+          "winCup": 0.2,
+          "expPts": 1.18,
+          "titleOdds": "+44000"
+        },
+        {
+          "name": "Spain",
+          "group": "H",
+          "makeKo": 92,
+          "qf": 47.8,
+          "winCup": 13.3,
+          "expPts": 3.03,
+          "titleOdds": "+670"
+        },
+        {
+          "name": "Türkiye",
+          "group": "D",
+          "makeKo": 44.4,
+          "qf": 7.7,
+          "winCup": 0.4,
+          "expPts": 0.77,
+          "titleOdds": "+24000"
+        },
+        {
+          "name": "Saudi Arabia",
+          "group": "H",
+          "makeKo": 49.2,
+          "qf": 5.6,
+          "winCup": 0.1,
+          "expPts": 0.73,
+          "titleOdds": "+110000"
+        }
+      ]
+    },
+    {
+      "player": "Nathan",
+      "avg": 5.7,
+      "teams": [
+        {
+          "name": "Argentina",
+          "group": "J",
+          "makeKo": 99.5,
+          "qf": 49.1,
+          "winCup": 9.7,
+          "expPts": 2.96,
+          "titleOdds": "+930"
+        },
+        {
+          "name": "South Africa",
+          "group": "A",
+          "makeKo": 31.2,
+          "qf": 4.3,
+          "winCup": 0.1,
+          "expPts": 0.5,
+          "titleOdds": "+110000"
+        },
+        {
+          "name": "Croatia",
+          "group": "L",
+          "makeKo": 61,
+          "qf": 11.7,
+          "winCup": 0.7,
+          "expPts": 1.08,
+          "titleOdds": "+15000"
+        },
+        {
+          "name": "Egypt",
+          "group": "G",
+          "makeKo": 70.3,
+          "qf": 9.7,
+          "winCup": 0.2,
+          "expPts": 1.14,
+          "titleOdds": "+44000"
+        }
+      ]
+    },
+    {
+      "player": "Jake",
+      "avg": 4.8,
+      "teams": [
+        {
+          "name": "Qatar",
+          "group": "B",
+          "makeKo": 54.8,
+          "qf": 6.2,
+          "winCup": 0.1,
+          "expPts": 0.83,
+          "titleOdds": "+110000"
+        },
+        {
+          "name": "Switzerland",
+          "group": "B",
+          "makeKo": 68.7,
+          "qf": 14.4,
+          "winCup": 0.6,
+          "expPts": 1.26,
+          "titleOdds": "+17000"
+        },
+        {
+          "name": "Mexico",
+          "group": "A",
+          "makeKo": 95.6,
+          "qf": 22.7,
+          "winCup": 1.5,
+          "expPts": 1.89,
+          "titleOdds": "+6200"
+        },
+        {
+          "name": "New Zealand",
+          "group": "G",
+          "makeKo": 53.9,
+          "qf": 6,
+          "winCup": 0.1,
+          "expPts": 0.83,
+          "titleOdds": "+110000"
+        }
+      ]
+    },
+    {
+      "player": "Shaya",
+      "avg": 4,
+      "teams": [
+        {
+          "name": "Ecuador",
+          "group": "E",
+          "makeKo": 44.4,
+          "qf": 7.6,
+          "winCup": 0.3,
+          "expPts": 0.75,
+          "titleOdds": "+27000"
+        },
+        {
+          "name": "Czechia",
+          "group": "A",
+          "makeKo": 58.2,
+          "qf": 14.7,
+          "winCup": 0.9,
+          "expPts": 1.16,
+          "titleOdds": "+11000"
+        },
+        {
+          "name": "Ivory Coast",
+          "group": "E",
+          "makeKo": 88.8,
+          "qf": 12.8,
+          "winCup": 0.6,
+          "expPts": 1.45,
+          "titleOdds": "+20000"
+        },
+        {
+          "name": "Algeria",
+          "group": "J",
+          "makeKo": 39.6,
+          "qf": 4.6,
+          "winCup": 0.1,
+          "expPts": 0.59,
+          "titleOdds": "+110000"
+        }
+      ]
+    },
+    {
+      "player": "Adrian",
+      "avg": 3.3,
+      "teams": [
+        {
+          "name": "Sweden",
+          "group": "F",
+          "makeKo": 93,
+          "qf": 13.7,
+          "winCup": 0.4,
+          "expPts": 1.48,
+          "titleOdds": "+24000"
+        },
+        {
+          "name": "Cape Verde",
+          "group": "H",
+          "makeKo": 57.7,
+          "qf": 5.7,
+          "winCup": 0.1,
+          "expPts": 0.83,
+          "titleOdds": "+110000"
+        },
+        {
+          "name": "Paraguay",
+          "group": "D",
+          "makeKo": 34.1,
+          "qf": 3.7,
+          "winCup": 0.1,
+          "expPts": 0.52,
+          "titleOdds": "+110000"
+        },
+        {
+          "name": "Jordan",
+          "group": "J",
+          "makeKo": 28.5,
+          "qf": 3.5,
+          "winCup": 0.1,
+          "expPts": 0.43,
+          "titleOdds": "+110000"
+        }
+      ]
+    },
+    {
+      "player": "Matt",
+      "avg": 1.6,
+      "teams": [
+        {
+          "name": "Panama",
+          "group": "L",
+          "makeKo": 27,
+          "qf": 3.5,
+          "winCup": 0.1,
+          "expPts": 0.41,
+          "titleOdds": "+110000"
+        },
+        {
+          "name": "Uzbekistan",
+          "group": "K",
+          "makeKo": 23,
+          "qf": 3,
+          "winCup": 0.1,
+          "expPts": 0.35,
+          "titleOdds": "+110000"
+        },
+        {
+          "name": "Curaçao",
+          "group": "E",
+          "makeKo": 29.1,
+          "qf": 3.8,
+          "winCup": 0.1,
+          "expPts": 0.45,
+          "titleOdds": "+110000"
+        },
+        {
+          "name": "Haiti",
+          "group": "C",
+          "makeKo": 25.5,
+          "qf": 3.2,
+          "winCup": 0.1,
+          "expPts": 0.39,
+          "titleOdds": "+110000"
+        }
+      ]
+    }
+  ]
+}
