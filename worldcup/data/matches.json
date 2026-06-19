@@ -264,6 +264,50 @@
         1,
         3
       ]
+    },
+    {
+      "id": 25,
+      "date": "2026-06-18",
+      "group": "A",
+      "a": "Czechia",
+      "b": "South Africa",
+      "score": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": 26,
+      "date": "2026-06-18",
+      "group": "B",
+      "a": "Switzerland",
+      "b": "Bosnia & Herzegovina",
+      "score": [
+        4,
+        1
+      ]
+    },
+    {
+      "id": 27,
+      "date": "2026-06-18",
+      "group": "B",
+      "a": "Canada",
+      "b": "Qatar",
+      "score": [
+        6,
+        0
+      ]
+    },
+    {
+      "id": 28,
+      "date": "2026-06-18",
+      "group": "A",
+      "a": "Mexico",
+      "b": "South Korea",
+      "score": [
+        1,
+        0
+      ]
     }
   ]
 }
