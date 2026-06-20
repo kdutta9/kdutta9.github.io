@@ -308,6 +308,50 @@
         1,
         0
       ]
+    },
+    {
+      "id": 29,
+      "date": "2026-06-19",
+      "group": "D",
+      "a": "United States",
+      "b": "Australia",
+      "score": [
+        2,
+        0
+      ]
+    },
+    {
+      "id": 30,
+      "date": "2026-06-19",
+      "group": "C",
+      "a": "Scotland",
+      "b": "Morocco",
+      "score": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 31,
+      "date": "2026-06-19",
+      "group": "C",
+      "a": "Brazil",
+      "b": "Haiti",
+      "score": [
+        3,
+        0
+      ]
+    },
+    {
+      "id": 32,
+      "date": "2026-06-19",
+      "group": "D",
+      "a": "Türkiye",
+      "b": "Paraguay",
+      "score": [
+        0,
+        1
+      ]
     }
   ]
 }
