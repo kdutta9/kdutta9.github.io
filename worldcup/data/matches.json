@@ -352,6 +352,50 @@
         0,
         1
       ]
+    },
+    {
+      "id": 33,
+      "date": "2026-06-20",
+      "group": "F",
+      "a": "Netherlands",
+      "b": "Sweden",
+      "score": [
+        5,
+        1
+      ]
+    },
+    {
+      "id": 34,
+      "date": "2026-06-20",
+      "group": "E",
+      "a": "Germany",
+      "b": "Ivory Coast",
+      "score": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": 35,
+      "date": "2026-06-20",
+      "group": "E",
+      "a": "Ecuador",
+      "b": "Curaçao",
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 36,
+      "date": "2026-06-20",
+      "group": "F",
+      "a": "Tunisia",
+      "b": "Japan",
+      "score": [
+        0,
+        4
+      ]
     }
   ]
 }
