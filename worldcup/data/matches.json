@@ -396,6 +396,50 @@
         0,
         4
       ]
+    },
+    {
+      "id": 37,
+      "date": "2026-06-21",
+      "group": "H",
+      "a": "Spain",
+      "b": "Saudi Arabia",
+      "score": [
+        4,
+        0
+      ]
+    },
+    {
+      "id": 38,
+      "date": "2026-06-21",
+      "group": "G",
+      "a": "Belgium",
+      "b": "Iran",
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 39,
+      "date": "2026-06-21",
+      "group": "H",
+      "a": "Uruguay",
+      "b": "Cape Verde",
+      "score": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": 40,
+      "date": "2026-06-21",
+      "group": "G",
+      "a": "New Zealand",
+      "b": "Egypt",
+      "score": [
+        1,
+        3
+      ]
     }
   ]
 }
