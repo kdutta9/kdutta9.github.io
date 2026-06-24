@@ -484,6 +484,50 @@
         1,
         2
       ]
+    },
+    {
+      "id": 45,
+      "date": "2026-06-23",
+      "group": "K",
+      "a": "Portugal",
+      "b": "Uzbekistan",
+      "score": [
+        5,
+        0
+      ]
+    },
+    {
+      "id": 46,
+      "date": "2026-06-23",
+      "group": "L",
+      "a": "England",
+      "b": "Ghana",
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 47,
+      "date": "2026-06-23",
+      "group": "L",
+      "a": "Panama",
+      "b": "Croatia",
+      "score": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 48,
+      "date": "2026-06-23",
+      "group": "K",
+      "a": "Colombia",
+      "b": "DR Congo",
+      "score": [
+        1,
+        0
+      ]
     }
   ]
 }
