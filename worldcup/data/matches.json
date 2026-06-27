@@ -660,6 +660,72 @@
         0,
         0
       ]
+    },
+    {
+      "id": 61,
+      "date": "2026-06-26",
+      "group": "I",
+      "a": "Norway",
+      "b": "France",
+      "score": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": 62,
+      "date": "2026-06-26",
+      "group": "I",
+      "a": "Senegal",
+      "b": "Iraq",
+      "score": [
+        5,
+        0
+      ]
+    },
+    {
+      "id": 63,
+      "date": "2026-06-26",
+      "group": "H",
+      "a": "Cape Verde",
+      "b": "Saudi Arabia",
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 64,
+      "date": "2026-06-26",
+      "group": "H",
+      "a": "Uruguay",
+      "b": "Spain",
+      "score": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 65,
+      "date": "2026-06-26",
+      "group": "G",
+      "a": "Egypt",
+      "b": "Iran",
+      "score": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": 66,
+      "date": "2026-06-26",
+      "group": "G",
+      "a": "New Zealand",
+      "b": "Belgium",
+      "score": [
+        1,
+        5
+      ]
     }
   ]
 }

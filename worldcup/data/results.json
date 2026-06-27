@@ -1,17 +1,23 @@
 {
-  "updatedAt": "2026-06-26",
+  "updatedAt": "2026-06-27",
   "_note": "Furthest stage each team has reached. Omit a team to leave it at GROUP (0 pts). Stages: GROUP, R32, R16, QF, SF, RUNNER_UP, CHAMPION.",
   "stages": {
     "Australia": "R32",
+    "Belgium": "R32",
     "Brazil": "R32",
     "Canada": "R32",
+    "Cape Verde": "R32",
+    "Egypt": "R32",
+    "France": "R32",
     "Germany": "R32",
     "Ivory Coast": "R32",
     "Japan": "R32",
     "Mexico": "R32",
     "Morocco": "R32",
     "Netherlands": "R32",
+    "Norway": "R32",
     "South Africa": "R32",
+    "Spain": "R32",
     "Switzerland": "R32",
     "United States": "R32"
   }
