@@ -803,6 +803,107 @@
         0,
         1
       ]
+    },
+    {
+      "id": 74,
+      "date": "2026-06-29",
+      "round": "R32",
+      "a": "Germany",
+      "b": "Paraguay",
+      "score": [
+        1,
+        1
+      ],
+      "pens": "Paraguay"
+    },
+    {
+      "id": 75,
+      "date": "2026-06-29",
+      "round": "R32",
+      "a": "Netherlands",
+      "b": "Morocco",
+      "score": [
+        1,
+        1
+      ],
+      "pens": "Morocco"
+    },
+    {
+      "id": 76,
+      "date": "2026-06-29",
+      "round": "R32",
+      "a": "Brazil",
+      "b": "Japan",
+      "score": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": 77,
+      "date": "2026-06-30",
+      "round": "R32",
+      "a": "France",
+      "b": "Sweden",
+      "score": [
+        3,
+        0
+      ]
+    },
+    {
+      "id": 78,
+      "date": "2026-06-30",
+      "round": "R32",
+      "a": "Ivory Coast",
+      "b": "Norway",
+      "score": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 79,
+      "date": "2026-06-30",
+      "round": "R32",
+      "a": "Mexico",
+      "b": "Ecuador",
+      "score": [
+        2,
+        0
+      ]
+    },
+    {
+      "id": 80,
+      "date": "2026-07-01",
+      "round": "R32",
+      "a": "England",
+      "b": "DR Congo",
+      "score": [
+        2,
+        0
+      ]
+    },
+    {
+      "id": 81,
+      "date": "2026-07-01",
+      "round": "R32",
+      "a": "United States",
+      "b": "Bosnia & Herzegovina",
+      "score": [
+        2,
+        0
+      ]
+    },
+    {
+      "id": 82,
+      "date": "2026-07-01",
+      "round": "R32",
+      "a": "Belgium",
+      "b": "Senegal",
+      "score": [
+        3,
+        2
+      ]
     }
   ]
 }
