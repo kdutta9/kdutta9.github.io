@@ -904,6 +904,39 @@
         3,
         2
       ]
+    },
+    {
+      "id": 83,
+      "date": "2026-07-02",
+      "round": "R32",
+      "a": "Portugal",
+      "b": "Croatia",
+      "score": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": 84,
+      "date": "2026-07-02",
+      "round": "R32",
+      "a": "Spain",
+      "b": "Austria",
+      "score": [
+        3,
+        0
+      ]
+    },
+    {
+      "id": 85,
+      "date": "2026-07-02",
+      "round": "R32",
+      "a": "Switzerland",
+      "b": "Algeria",
+      "score": [
+        2,
+        0
+      ]
     }
   ]
 }
