@@ -389,7 +389,32 @@
     }
   ],
   "grudges": null,
-  "caleb": null,
+  "caleb": {
+    "title": "PROZAN'S PARLAY WINDOW — DEGEN SPECIALS",
+    "blurb": "Prozan is in the pool, which the house considers a market inefficiency. These are the slips he has actually asked for. Cash up front — we know him.",
+    "bets": [
+      {
+        "label": "Prozan wins the pool (the ladder out of the basement exists)",
+        "price": "+1500"
+      },
+      {
+        "label": "Prozan cashes top 3",
+        "price": "+550"
+      },
+      {
+        "label": "The Prozan special — USA AND Brazil both reach the quarters",
+        "price": "+160"
+      },
+      {
+        "label": "USA win the whole thing",
+        "price": "+2000"
+      },
+      {
+        "label": "Canada lift the trophy (Burnes insists he's never even been)",
+        "price": "+33000"
+      }
+    ]
+  },
   "watch": {
     "player": "HG",
     "title": "HUNTER WATCH — HG TOTAL POINTS",

@@ -515,24 +515,24 @@
     "blurb": "Caleb is not in the pool. That has never once stopped him. The house posts the slips he'd actually ask for, and reserves the right to demand cash up front.",
     "bets": [
       {
-        "label": "Matt wins the whole pool (Panama · Uzbekistan · Curaçao · Haiti)",
-        "price": null
+        "label": "Adrian wins the whole pool (Paraguay, and only Paraguay, remain)",
+        "price": "+48000"
       },
       {
-        "label": "Matt cashes top 3",
-        "price": null
-      },
-      {
-        "label": "Shaya sweeps the beef — finishes above Jake AND Matt",
-        "price": null
-      },
-      {
-        "label": "Kunal goes nuclear — Over 14.5 pts",
-        "price": null
+        "label": "Dante rises from 11th — cashes top 3 on Spain alone",
+        "price": "+620"
       },
       {
         "label": "Rob bricks it — Under 4.5 pts with England AND France",
         "price": "+1900"
+      },
+      {
+        "label": "Paraguay, slayers of Germany, reach the semifinal",
+        "price": "+2050"
+      },
+      {
+        "label": "Hosts with the most — Mexico win the whole thing",
+        "price": "+1350"
       }
     ]
   },
