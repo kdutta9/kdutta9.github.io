@@ -937,6 +937,40 @@
         2,
         0
       ]
+    },
+    {
+      "id": 86,
+      "date": "2026-07-03",
+      "round": "R32",
+      "a": "Argentina",
+      "b": "Cape Verde",
+      "score": [
+        3,
+        2
+      ]
+    },
+    {
+      "id": 87,
+      "date": "2026-07-03",
+      "round": "R32",
+      "a": "Colombia",
+      "b": "Ghana",
+      "score": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": 88,
+      "date": "2026-07-03",
+      "round": "R32",
+      "a": "Australia",
+      "b": "Egypt",
+      "score": [
+        1,
+        1
+      ],
+      "pens": "Egypt"
     }
   ]
 }
