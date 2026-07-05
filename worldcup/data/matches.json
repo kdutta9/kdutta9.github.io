@@ -971,6 +971,28 @@
         1
       ],
       "pens": "Egypt"
+    },
+    {
+      "id": 89,
+      "date": "2026-07-04",
+      "round": "R16",
+      "a": "Paraguay",
+      "b": "France",
+      "score": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 90,
+      "date": "2026-07-04",
+      "round": "R16",
+      "a": "Canada",
+      "b": "Morocco",
+      "score": [
+        0,
+        3
+      ]
     }
   ]
 }
