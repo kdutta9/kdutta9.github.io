@@ -1015,6 +1015,28 @@
         2,
         3
       ]
+    },
+    {
+      "id": 93,
+      "date": "2026-07-06",
+      "round": "R16",
+      "a": "Portugal",
+      "b": "Spain",
+      "score": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 94,
+      "date": "2026-07-06",
+      "round": "R16",
+      "a": "United States",
+      "b": "Belgium",
+      "score": [
+        1,
+        4
+      ]
     }
   ]
 }
