@@ -1037,6 +1037,29 @@
         1,
         4
       ]
+    },
+    {
+      "id": 95,
+      "date": "2026-07-07",
+      "round": "R16",
+      "a": "Argentina",
+      "b": "Egypt",
+      "score": [
+        3,
+        2
+      ]
+    },
+    {
+      "id": 96,
+      "date": "2026-07-07",
+      "round": "R16",
+      "a": "Switzerland",
+      "b": "Colombia",
+      "score": [
+        0,
+        0
+      ],
+      "pens": "Switzerland"
     }
   ]
 }
