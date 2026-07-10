@@ -21,14 +21,14 @@
   },
   "meta": {
     "sims": 400000,
-    "generated": "2026-07-08",
-    "date": "2026-07-08",
+    "generated": "2026-07-09",
+    "date": "2026-07-09",
     "seed": "C0B9B24FDF63",
     "sources": "LIVE MARKET CONSENSUS",
-    "consensusDate": "2026-07-08",
-    "consensusSource": "kalshi:KXMENWORLDCUP-26 + polymarket:world-cup-winner + oddsapi:soccer_fifa_world_cup_winner",
-    "matchesConditioned": 96,
-    "calibrationErr": 0.0092,
+    "consensusDate": "2026-07-09",
+    "consensusSource": "kalshi:KXMENWORLDCUP-26",
+    "matchesConditioned": 97,
+    "calibrationErr": 0.0173,
     "players": 8,
     "teamsPerPlayer": 6
   },
@@ -43,8 +43,8 @@
         "Cape Verde",
         "France"
       ],
-      "price": "−125",
-      "fairPct": 41.5
+      "price": "−120",
+      "fairPct": 40.3
     },
     {
       "player": "J Call",
@@ -56,8 +56,8 @@
         "Egypt",
         "Qatar"
       ],
-      "price": "+250",
-      "fairPct": 21.3
+      "price": "+240",
+      "fairPct": 21.5
     },
     {
       "player": "Burnes",
@@ -70,7 +70,7 @@
         "Spain"
       ],
       "price": "+290",
-      "fairPct": 19
+      "fairPct": 19.1
     },
     {
       "player": "Oanta",
@@ -82,8 +82,8 @@
         "Haiti",
         "Germany"
       ],
-      "price": "+600",
-      "fairPct": 10.6
+      "price": "+590",
+      "fairPct": 10.7
     },
     {
       "player": "Kunal",
@@ -95,8 +95,8 @@
         "Bosnia & Herzegovina",
         "Iraq"
       ],
-      "price": "+1800",
-      "fairPct": 3.9
+      "price": "+1600",
+      "fairPct": 4.4
     },
     {
       "player": "Chris",
@@ -108,8 +108,8 @@
         "Mexico",
         "Paraguay"
       ],
-      "price": "+1850",
-      "fairPct": 3.8
+      "price": "+1800",
+      "fairPct": 3.9
     },
     {
       "player": "HG",
@@ -165,7 +165,7 @@
         "Qatar"
       ],
       "price": "−2400",
-      "fairPct": 96.7
+      "fairPct": 96.5
     },
     {
       "player": "Chris",
@@ -177,8 +177,8 @@
         "Mexico",
         "Paraguay"
       ],
-      "price": "−310",
-      "fairPct": 60.4
+      "price": "−290",
+      "fairPct": 59.5
     },
     {
       "player": "Burnes",
@@ -203,8 +203,8 @@
         "Haiti",
         "Germany"
       ],
-      "price": "+410",
-      "fairPct": 15.6
+      "price": "+400",
+      "fairPct": 16.1
     },
     {
       "player": "Kunal",
@@ -216,8 +216,8 @@
         "Bosnia & Herzegovina",
         "Iraq"
       ],
-      "price": "+1250",
-      "fairPct": 5.8
+      "price": "+1100",
+      "fairPct": 6.6
     },
     {
       "player": "HG",
@@ -366,31 +366,31 @@
     {
       "a": "Arnst",
       "b": "J Call",
-      "priceA": "−165",
+      "priceA": "−160",
       "priceB": "+120"
     },
     {
       "a": "Arnst",
       "b": "Chris",
       "priceA": "−2400",
-      "priceB": "+1150"
+      "priceB": "+1100"
     },
     {
       "a": "Arnst",
       "b": "Burnes",
-      "priceA": "−680",
+      "priceA": "−670",
       "priceB": "+390"
     },
     {
       "a": "J Call",
       "b": "Chris",
       "priceA": "−2400",
-      "priceB": "+810"
+      "priceB": "+770"
     },
     {
       "a": "J Call",
       "b": "Burnes",
-      "priceA": "−680",
+      "priceA": "−670",
       "priceB": "+390"
     },
     {
@@ -402,15 +402,15 @@
   ],
   "grudges": null,
   "caleb": {
-    "title": "HAWAII WEST SPECIALS — QF MORNING",
-    "blurb": "Three seats knotted at the top on 9 — and two of them, J Call and Arnst, drew both sides of a quarterfinal, so nobody but themselves can knock them out of the lead. Chris has to beat Spain to keep pace. The DKE Civil War is settled — New DKE clinched it the day the bracket set — so Hawaii West takes the marquee. Doors open early Thursday for France–Morocco, loosies on the bar at a dollar a stick. Cash up front; the jukebox still doesn't take IOUs.",
+    "title": "HAWAII WEST SPECIALS — DOORS OPEN SATURDAY",
+    "blurb": "France 2, Morocco 0 — Arnst nets exactly one point for it, since Morocco was already locked at 3 and France just moved up a rung to the semis. Barely dents the three-way logjam at the top. The real business is Saturday's doubleheader, so the bar opens the card wide: loosies on the counter at a dollar a stick, the jukebox still doesn't take IOUs.",
     "bets": [
       {
-        "label": "The logjam breaks his way — J Call, guaranteed a semifinalist (Argentina vs Switzerland, both his), wins the pool",
-        "price": "+250"
+        "label": "The logjam breaks his way — Jacob Call wins the pool",
+        "price": "+240"
       },
       {
-        "label": "Battle of the men who play themselves — J Call (Argentina/Switzerland) finishes above Arnst (France/Morocco)",
+        "label": "Battle of the men who play themselves — J Call (Argentina/Switzerland) finishes above Arnst, now with a one-point bigger cushion",
         "price": "+120"
       },
       {
@@ -418,12 +418,16 @@
         "price": "+250"
       },
       {
-        "label": "Chris holds serve — the fallen favorite (Belgium) beats Spain and cashes top 3",
-        "price": "−310"
+        "label": "Kunal (Norway) outscores Oanta (England) — Saturday at Hawaii West, adjudicated over a poorly mixed Mai Tai",
+        "price": "+135"
+      },
+      {
+        "label": "Oanta's last stand — top 3 or nothing, and it hinges on England getting past Erling Haaland",
+        "price": "+400"
       },
       {
         "label": "The Hawaii West parlay — Norway AND Argentina both reach the semis, drinks on the doubters",
-        "price": "+240"
+        "price": "+220"
       }
     ]
   },
@@ -443,23 +447,23 @@
     "ladder": [
       {
         "line": 10.5,
-        "over": "−115",
-        "under": "−120"
+        "over": "−110",
+        "under": "−125"
       },
       {
         "line": 11.5,
-        "over": "+340",
-        "under": "−550"
+        "over": "+330",
+        "under": "−540"
       },
       {
         "line": 12.5,
-        "over": "+340",
-        "under": "−550"
+        "over": "+330",
+        "under": "−540"
       },
       {
         "line": 13.5,
-        "over": "+340",
-        "under": "−550"
+        "over": "+330",
+        "under": "−540"
       }
     ],
     "hist": [
@@ -505,11 +509,11 @@
       },
       {
         "pts": 10,
-        "pct": 50.67
+        "pct": 51.45
       },
       {
         "pts": 11,
-        "pct": 28.02
+        "pct": 27.01
       },
       {
         "pts": 12,
@@ -521,7 +525,7 @@
       },
       {
         "pts": 14,
-        "pct": 21.32
+        "pct": 21.54
       }
     ]
   },
@@ -576,7 +580,7 @@
           ]
         }
       ],
-      "avg": 29.1,
+      "avg": 29,
       "moneyline": null,
       "spread": {
         "line": "+1.5",
@@ -637,7 +641,7 @@
           ]
         }
       ],
-      "avg": 35.8,
+      "avg": 35.9,
       "moneyline": null,
       "spread": {
         "line": "−1.5",
@@ -655,7 +659,7 @@
   "rosters": [
     {
       "player": "Arnst",
-      "avg": 11.7,
+      "avg": 11.6,
       "settled": false,
       "teams": [
         {
@@ -663,9 +667,9 @@
           "group": "C",
           "makeKo": 100,
           "qf": 100,
-          "winCup": 2.9,
-          "expPts": 3.4,
-          "titleOdds": "+3300"
+          "winCup": 0,
+          "expPts": 3,
+          "titleOdds": "OUT"
         },
         {
           "name": "Saudi Arabia",
@@ -708,9 +712,9 @@
           "group": "I",
           "makeKo": 100,
           "qf": 100,
-          "winCup": 32.8,
-          "expPts": 5.26,
-          "titleOdds": "+200"
+          "winCup": 34.1,
+          "expPts": 5.61,
+          "titleOdds": "+195"
         }
       ]
     },
@@ -724,9 +728,9 @@
           "group": "J",
           "makeKo": 100,
           "qf": 100,
-          "winCup": 18.9,
-          "expPts": 4.69,
-          "titleOdds": "+430"
+          "winCup": 19.4,
+          "expPts": 4.72,
+          "titleOdds": "+420"
         },
         {
           "name": "Czechia",
@@ -742,9 +746,9 @@
           "group": "B",
           "makeKo": 100,
           "qf": 100,
-          "winCup": 2.5,
-          "expPts": 3.45,
-          "titleOdds": "+4100"
+          "winCup": 2.2,
+          "expPts": 3.42,
+          "titleOdds": "+4400"
         },
         {
           "name": "Croatia",
@@ -812,9 +816,9 @@
           "group": "G",
           "makeKo": 100,
           "qf": 100,
-          "winCup": 2.5,
-          "expPts": 3.43,
-          "titleOdds": "+3800"
+          "winCup": 2.6,
+          "expPts": 3.45,
+          "titleOdds": "+3700"
         },
         {
           "name": "Mexico",
@@ -891,9 +895,9 @@
           "group": "H",
           "makeKo": 100,
           "qf": 100,
-          "winCup": 19,
-          "expPts": 4.63,
-          "titleOdds": "+430"
+          "winCup": 19.1,
+          "expPts": 4.62,
+          "titleOdds": "+420"
         }
       ]
     },
@@ -916,9 +920,9 @@
           "group": "L",
           "makeKo": 100,
           "qf": 100,
-          "winCup": 15.6,
-          "expPts": 4.42,
-          "titleOdds": "+540"
+          "winCup": 16.1,
+          "expPts": 4.43,
+          "titleOdds": "+520"
         },
         {
           "name": "Senegal",
@@ -960,7 +964,7 @@
     },
     {
       "player": "Kunal",
-      "avg": 6.7,
+      "avg": 6.8,
       "settled": false,
       "teams": [
         {
@@ -968,9 +972,9 @@
           "group": "I",
           "makeKo": 100,
           "qf": 100,
-          "winCup": 5.8,
-          "expPts": 3.73,
-          "titleOdds": "+1600"
+          "winCup": 6.6,
+          "expPts": 3.77,
+          "titleOdds": "+1400"
         },
         {
           "name": "Austria",

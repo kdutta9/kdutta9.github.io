@@ -651,6 +651,7 @@
     {
       "player": "Kunal",
       "avg": 8,
+      "settled": false,
       "teams": [
         {
           "name": "Germany",
@@ -693,6 +694,7 @@
     {
       "player": "Rob",
       "avg": 7.3,
+      "settled": false,
       "teams": [
         {
           "name": "Tunisia",
@@ -735,6 +737,7 @@
     {
       "player": "Dante",
       "avg": 6.5,
+      "settled": false,
       "teams": [
         {
           "name": "Scotland",
@@ -777,6 +780,7 @@
     {
       "player": "Dino",
       "avg": 6.5,
+      "settled": false,
       "teams": [
         {
           "name": "Iran",
@@ -819,6 +823,7 @@
     {
       "player": "Nathan",
       "avg": 5.9,
+      "settled": false,
       "teams": [
         {
           "name": "Argentina",
@@ -861,6 +866,7 @@
     {
       "player": "Max",
       "avg": 5.5,
+      "settled": false,
       "teams": [
         {
           "name": "Norway",
@@ -903,6 +909,7 @@
     {
       "player": "Jack",
       "avg": 5.2,
+      "settled": false,
       "teams": [
         {
           "name": "Colombia",
@@ -945,6 +952,7 @@
     {
       "player": "Nick",
       "avg": 5,
+      "settled": false,
       "teams": [
         {
           "name": "Japan",
@@ -987,6 +995,7 @@
     {
       "player": "Jake",
       "avg": 4.8,
+      "settled": false,
       "teams": [
         {
           "name": "Qatar",
@@ -1029,6 +1038,7 @@
     {
       "player": "Shaya",
       "avg": 4.6,
+      "settled": false,
       "teams": [
         {
           "name": "Ecuador",
@@ -1071,6 +1081,7 @@
     {
       "player": "Adrian",
       "avg": 3.4,
+      "settled": false,
       "teams": [
         {
           "name": "Sweden",
@@ -1113,6 +1124,7 @@
     {
       "player": "Matt",
       "avg": 2.3,
+      "settled": false,
       "teams": [
         {
           "name": "Panama",

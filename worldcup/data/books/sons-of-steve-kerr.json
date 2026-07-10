@@ -640,6 +640,7 @@
     {
       "player": "Burnes",
       "avg": 10,
+      "settled": false,
       "teams": [
         {
           "name": "Tunisia",
@@ -700,6 +701,7 @@
     {
       "player": "Arnst",
       "avg": 9.4,
+      "settled": false,
       "teams": [
         {
           "name": "Morocco",
@@ -760,6 +762,7 @@
     {
       "player": "J Call",
       "avg": 8.6,
+      "settled": false,
       "teams": [
         {
           "name": "Argentina",
@@ -820,6 +823,7 @@
     {
       "player": "Oanta",
       "avg": 8.1,
+      "settled": false,
       "teams": [
         {
           "name": "DR Congo",
@@ -880,6 +884,7 @@
     {
       "player": "Chris",
       "avg": 7.6,
+      "settled": false,
       "teams": [
         {
           "name": "Curaçao",
@@ -940,6 +945,7 @@
     {
       "player": "Prozan",
       "avg": 7.6,
+      "settled": false,
       "teams": [
         {
           "name": "Iran",
@@ -1000,6 +1006,7 @@
     {
       "player": "Kunal",
       "avg": 7.3,
+      "settled": false,
       "teams": [
         {
           "name": "Norway",
@@ -1060,6 +1067,7 @@
     {
       "player": "HG",
       "avg": 6.3,
+      "settled": false,
       "teams": [
         {
           "name": "Ghana",

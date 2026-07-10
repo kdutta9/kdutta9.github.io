@@ -21,14 +21,14 @@
   },
   "meta": {
     "sims": 400000,
-    "generated": "2026-07-08",
-    "date": "2026-07-08",
+    "generated": "2026-07-09",
+    "date": "2026-07-09",
     "seed": null,
     "sources": "LIVE MARKET CONSENSUS",
-    "consensusDate": "2026-07-08",
-    "consensusSource": "kalshi:KXMENWORLDCUP-26 + polymarket:world-cup-winner + oddsapi:soccer_fifa_world_cup_winner",
-    "matchesConditioned": 96,
-    "calibrationErr": 0.0092,
+    "consensusDate": "2026-07-09",
+    "consensusSource": "kalshi:KXMENWORLDCUP-26",
+    "matchesConditioned": 97,
+    "calibrationErr": 0.0173,
     "players": 12,
     "teamsPerPlayer": 4
   },
@@ -41,8 +41,8 @@
         "England",
         "France"
       ],
-      "price": "−260",
-      "fairPct": 53.5
+      "price": "−330",
+      "fairPct": 56.8
     },
     {
       "player": "Nathan",
@@ -52,8 +52,8 @@
         "Croatia",
         "Egypt"
       ],
-      "price": "+185",
-      "fairPct": 26.2
+      "price": "+180",
+      "fairPct": 26.5
     },
     {
       "player": "Max",
@@ -63,19 +63,8 @@
         "United States",
         "Senegal"
       ],
-      "price": "+650",
-      "fairPct": 9.9
-    },
-    {
-      "player": "Dino",
-      "teams": [
-        "Iran",
-        "Portugal",
-        "Canada",
-        "Morocco"
-      ],
-      "price": "+1850",
-      "fairPct": 3.8
+      "price": "+580",
+      "fairPct": 10.9
     },
     {
       "player": "Nick",
@@ -85,8 +74,8 @@
         "Bosnia & Herzegovina",
         "Belgium"
       ],
-      "price": "+2850",
-      "fairPct": 2.5
+      "price": "+2700",
+      "fairPct": 2.6
     },
     {
       "player": "Jake",
@@ -96,8 +85,8 @@
         "Mexico",
         "New Zealand"
       ],
-      "price": "+2900",
-      "fairPct": 2.5
+      "price": "+3300",
+      "fairPct": 2.2
     },
     {
       "player": "Dante",
@@ -107,8 +96,8 @@
         "Türkiye",
         "Saudi Arabia"
       ],
-      "price": "+4400",
-      "fairPct": 1.6
+      "price": "+6800",
+      "fairPct": 1.1
     },
     {
       "player": "Jack",
@@ -133,6 +122,17 @@
       "price": null,
       "fairPct": 0,
       "status": "dead"
+    },
+    {
+      "player": "Dino",
+      "teams": [
+        "Iran",
+        "Portugal",
+        "Canada",
+        "Morocco"
+      ],
+      "price": null,
+      "fairPct": 0
     },
     {
       "player": "Adrian",
@@ -173,17 +173,6 @@
   ],
   "toCash": [
     {
-      "player": "Nathan",
-      "teams": [
-        "Argentina",
-        "South Africa",
-        "Croatia",
-        "Egypt"
-      ],
-      "price": "−2400",
-      "fairPct": 82.7
-    },
-    {
       "player": "Rob",
       "teams": [
         "Tunisia",
@@ -192,7 +181,18 @@
         "France"
       ],
       "price": "−2400",
-      "fairPct": 78.5
+      "fairPct": 87.4
+    },
+    {
+      "player": "Nathan",
+      "teams": [
+        "Argentina",
+        "South Africa",
+        "Croatia",
+        "Egypt"
+      ],
+      "price": "−2400",
+      "fairPct": 85
     },
     {
       "player": "Max",
@@ -202,8 +202,8 @@
         "United States",
         "Senegal"
       ],
-      "price": "−290",
-      "fairPct": 59.4
+      "price": "−350",
+      "fairPct": 62.3
     },
     {
       "player": "Dino",
@@ -213,8 +213,8 @@
         "Canada",
         "Morocco"
       ],
-      "price": "−125",
-      "fairPct": 44.5
+      "price": "+175",
+      "fairPct": 28.9
     },
     {
       "player": "Dante",
@@ -224,8 +224,8 @@
         "Türkiye",
         "Saudi Arabia"
       ],
-      "price": "+340",
-      "fairPct": 18.1
+      "price": "+320",
+      "fairPct": 19.1
     },
     {
       "player": "Nick",
@@ -235,8 +235,8 @@
         "Bosnia & Herzegovina",
         "Belgium"
       ],
-      "price": "+560",
-      "fairPct": 12.2
+      "price": "+510",
+      "fairPct": 13.1
     },
     {
       "player": "Jake",
@@ -246,8 +246,8 @@
         "Mexico",
         "New Zealand"
       ],
-      "price": "+1600",
-      "fairPct": 4.7
+      "price": "+1800",
+      "fairPct": 4.2
     },
     {
       "player": "Jack",
@@ -460,20 +460,20 @@
     {
       "a": "Rob",
       "b": "Nathan",
-      "priceA": "−190",
-      "priceB": "+140"
+      "priceA": "−230",
+      "priceB": "+165"
     },
     {
       "a": "Rob",
       "b": "Max",
-      "priceA": "−380",
-      "priceB": "+250"
+      "priceA": "−500",
+      "priceB": "+310"
     },
     {
       "a": "Rob",
       "b": "Dino",
-      "priceA": "−510",
-      "priceB": "+320"
+      "priceA": "−2400",
+      "priceB": "+1050"
     },
     {
       "a": "Nathan",
@@ -484,14 +484,14 @@
     {
       "a": "Nathan",
       "b": "Dino",
-      "priceA": "−480",
-      "priceB": "+300"
+      "priceA": "−1350",
+      "priceB": "+590"
     },
     {
       "a": "Max",
       "b": "Dino",
-      "priceA": "−170",
-      "priceB": "+125"
+      "priceA": "−300",
+      "priceB": "+210"
     }
   ],
   "grudges": {
@@ -517,28 +517,28 @@
     ]
   },
   "caleb": {
-    "title": "CALEB'S CORNER — QF MORNING",
-    "blurb": "Three seats knotted at 7 — Dino, Max, Nathan — and the man one point back drew both England and France, so Rob personally lines up against two of the three co-leaders: his France meets Dino's Morocco on Thursday, his England meets Max's Norway on Saturday. Caleb has a slip on every inch of it. Cash up front — he knows the drill.",
+    "title": "CALEB'S CORNER — ONE DOWN, THREE TO GO",
+    "blurb": "France 2, Morocco 0 — book it. Dino's Cinderella died with the final whistle; Iran, Portugal, Canada, Morocco, all four teams cooked, he's frozen on 7 points for the rest of his natural life. Rob banked his semifinalist and pulls clear at the top of the pool with just England left to close it out Saturday. Spain–Belgium Friday and the Norway–England / Argentina–Switzerland doubleheader Saturday settle basically everyone else's summer. Caleb has a slip on what's left. Cash up front — he knows the drill.",
     "bets": [
       {
-        "label": "Rob runs the table — France past Morocco, England past Norway, he laps the field, Over 12.5 points",
-        "price": "+450"
+        "label": "Rob runs the table — Over 12.5 points with and England vs France final",
+        "price": "+370"
       },
       {
-        "label": "The final is Rob vs Rob — England AND France both reach it",
-        "price": "+450"
+        "label": "Max, a dirty Brit, wins the whole pool — step one is sending England home Saturday",
+        "price": "+580"
       },
       {
-        "label": "The full Cinderella survives — Morocco (Dino) knocks out Rob's France and wins the pool",
-        "price": "+1850"
+        "label": "One more closer to the money — Jake climbs past Nathan in the pool, riding Switzerland's shot at Argentina",
+        "price": "+1650"
       },
       {
-        "label": "Max, a dirty Brit, sends England home Saturday and wins the whole pool",
-        "price": "+650"
+        "label": "Dante's Inferno — top 3 or bust, and it starts with Spain getting past Belgium Friday",
+        "price": "+320"
       },
       {
-        "label": "One more closer to the money — Switzerland takes down Argentina for Jake",
-        "price": "+1500"
+        "label": "The last two with a pulse — Max (Norway) outlasts Dante (Spain) for whatever's left on the board",
+        "price": "−1400"
       }
     ]
   },
@@ -551,43 +551,38 @@
       "England",
       "France"
     ],
-    "median": 9,
+    "median": 11,
     "mainLine": 9.5,
     "ladder": [
       {
-        "line": 6.5,
-        "over": "−2400",
-        "under": "+980"
-      },
-      {
         "line": 7.5,
-        "over": "−410",
-        "under": "+270"
+        "over": "−900",
+        "under": "+470"
       },
       {
         "line": 8.5,
-        "over": "−165",
-        "under": "+120"
+        "over": "−220",
+        "under": "+155"
       },
       {
         "line": 9.5,
-        "over": "−110",
-        "under": "−125"
+        "over": "−115",
+        "under": "−115"
       },
       {
         "line": 10.5,
-        "over": "−110",
-        "under": "−125"
+        "over": "−115",
+        "under": "−115"
       },
       {
         "line": 11.5,
-        "over": "+200",
-        "under": "−290"
+        "over": "+160",
+        "under": "−220"
       },
       {
         "line": 12.5,
-        "over": "+450",
-        "under": "−820"
+        "over": "+370",
+        "under": "−630"
       }
     ],
     "hist": [
@@ -617,19 +612,19 @@
       },
       {
         "pts": 6,
-        "pct": 8.61
+        "pct": 0
       },
       {
         "pts": 7,
-        "pct": 16.66
+        "pct": 16.28
       },
       {
         "pts": 8,
-        "pct": 16.81
+        "pct": 20.07
       },
       {
         "pts": 9,
-        "pct": 9.5
+        "pct": 13.5
       },
       {
         "pts": 10,
@@ -637,15 +632,15 @@
       },
       {
         "pts": 11,
-        "pct": 17.61
+        "pct": 14.14
       },
       {
         "pts": 12,
-        "pct": 13.74
+        "pct": 16.3
       },
       {
         "pts": 13,
-        "pct": 17.07
+        "pct": 19.71
       }
     ]
   },
@@ -653,7 +648,7 @@
   "rosters": [
     {
       "player": "Rob",
-      "avg": 9.7,
+      "avg": 10,
       "settled": false,
       "teams": [
         {
@@ -679,18 +674,18 @@
           "group": "L",
           "makeKo": 100,
           "qf": 100,
-          "winCup": 15.6,
-          "expPts": 4.42,
-          "titleOdds": "+540"
+          "winCup": 16.1,
+          "expPts": 4.43,
+          "titleOdds": "+520"
         },
         {
           "name": "France",
           "group": "I",
           "makeKo": 100,
           "qf": 100,
-          "winCup": 32.8,
-          "expPts": 5.26,
-          "titleOdds": "+200"
+          "winCup": 34.1,
+          "expPts": 5.61,
+          "titleOdds": "+195"
         }
       ]
     },
@@ -704,9 +699,9 @@
           "group": "J",
           "makeKo": 100,
           "qf": 100,
-          "winCup": 18.9,
-          "expPts": 4.69,
-          "titleOdds": "+430"
+          "winCup": 19.4,
+          "expPts": 4.72,
+          "titleOdds": "+420"
         },
         {
           "name": "South Africa",
@@ -739,7 +734,7 @@
     },
     {
       "player": "Max",
-      "avg": 7.7,
+      "avg": 7.8,
       "settled": false,
       "teams": [
         {
@@ -747,9 +742,9 @@
           "group": "I",
           "makeKo": 100,
           "qf": 100,
-          "winCup": 5.8,
-          "expPts": 3.73,
-          "titleOdds": "+1600"
+          "winCup": 6.6,
+          "expPts": 3.77,
+          "titleOdds": "+1400"
         },
         {
           "name": "Ghana",
@@ -782,8 +777,8 @@
     },
     {
       "player": "Dino",
-      "avg": 7.4,
-      "settled": false,
+      "avg": 7,
+      "settled": true,
       "teams": [
         {
           "name": "Iran",
@@ -817,9 +812,9 @@
           "group": "C",
           "makeKo": 100,
           "qf": 100,
-          "winCup": 2.9,
-          "expPts": 3.4,
-          "titleOdds": "+3300"
+          "winCup": 0,
+          "expPts": 3,
+          "titleOdds": "OUT"
         }
       ]
     },
@@ -860,9 +855,9 @@
           "group": "G",
           "makeKo": 100,
           "qf": 100,
-          "winCup": 2.5,
-          "expPts": 3.43,
-          "titleOdds": "+3800"
+          "winCup": 2.6,
+          "expPts": 3.45,
+          "titleOdds": "+3700"
         }
       ]
     },
@@ -885,9 +880,9 @@
           "group": "B",
           "makeKo": 100,
           "qf": 100,
-          "winCup": 2.5,
-          "expPts": 3.45,
-          "titleOdds": "+4100"
+          "winCup": 2.2,
+          "expPts": 3.42,
+          "titleOdds": "+4400"
         },
         {
           "name": "Mexico",
@@ -928,9 +923,9 @@
           "group": "H",
           "makeKo": 100,
           "qf": 100,
-          "winCup": 19,
-          "expPts": 4.63,
-          "titleOdds": "+430"
+          "winCup": 19.1,
+          "expPts": 4.62,
+          "titleOdds": "+420"
         },
         {
           "name": "Türkiye",

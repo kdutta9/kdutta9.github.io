@@ -1060,6 +1060,17 @@
         0
       ],
       "pens": "Switzerland"
+    },
+    {
+      "id": 97,
+      "date": "2026-07-09",
+      "round": "QF",
+      "a": "France",
+      "b": "Morocco",
+      "score": [
+        2,
+        0
+      ]
     }
   ]
 }
