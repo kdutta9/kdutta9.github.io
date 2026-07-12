@@ -1082,6 +1082,28 @@
         2,
         1
       ]
+    },
+    {
+      "id": 99,
+      "date": "2026-07-11",
+      "round": "QF",
+      "a": "Norway",
+      "b": "England",
+      "score": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 100,
+      "date": "2026-07-11",
+      "round": "QF",
+      "a": "Argentina",
+      "b": "Switzerland",
+      "score": [
+        3,
+        1
+      ]
     }
   ]
 }
