@@ -17,7 +17,7 @@
     "toCash": "Twelve seats, three podium spots. Any money is good money.",
     "spoon": "Somebody has to carry the shame until 2030.",
     "h2h": "The four strongest seats, priced against each other. Higher pool finish wins; tie on points = stakes returned (handled as half-win in pricing).",
-    "watch": "France died in the semifinal and took the Rob-vs-Rob final with it — but England is still Rob's, and at noon on July 15 England vs Nathan's Argentina decides the whole pool: win it and Rob banks a finalist and the title is his to lose; lose it and he settles for runner-up in the pool at 8. The model's median is 9 points. Main line:"
+    "watch": "France died in the semifinal and took the Rob-vs-Rob final with it — but England is still Rob's, and England vs Nathan's Argentina decides the whole pool: win it and Rob banks a finalist and the title is his to lose; lose it and he settles for runner-up in the pool at 8. The model's median is 9 points. Main line:"
   },
   "meta": {
     "sims": 400000,
@@ -502,38 +502,10 @@
       "priceB": "−105"
     },
     {
-      "a": "Rob",
-      "b": "Dino",
-      "priceA": null,
-      "priceB": null,
-      "settled": "a"
-    },
-    {
-      "a": "Rob",
-      "b": "Max",
-      "priceA": null,
-      "priceB": null,
-      "settled": "a"
-    },
-    {
-      "a": "Nathan",
-      "b": "Dino",
-      "priceA": null,
-      "priceB": null,
-      "settled": "a"
-    },
-    {
-      "a": "Nathan",
-      "b": "Max",
-      "priceA": null,
-      "priceB": null,
-      "settled": "a"
-    },
-    {
-      "a": "Dino",
-      "b": "Max",
-      "priceA": "−115",
-      "priceB": "−115"
+      "a": "Dante",
+      "b": "Dino & Max",
+      "priceA": "−160",
+      "priceB": "+115"
     }
   ],
   "grudges": {
@@ -560,14 +532,14 @@
   },
   "caleb": {
     "title": "CALEB'S CORNER — ONE GAME FOR THE POOL",
-    "blurb": "Spain 2, France 0 — and the Rob-vs-Rob final everyone dreaded died with it. But look what it left: Rob still owns England, Nathan owns Argentina, and their teams play each other at noon on July 15 for the final. Whoever wins banks a finalist and clears the whole frozen field — so this one semifinal IS the pool. Dante's Spain is already in the final, but his ceiling is 8: he grabs the last podium chair only if Spain actually lifts the Cup. Caleb has a slip on all of it. Cash up front — he knows the drill.",
+    "blurb": "Spain 2, France 0 — and the Rob-vs-Rob final everyone dreaded died with it. But look what it left: Rob still owns England, Nathan owns Argentina, and their teams meet at noon for the final. Whoever wins banks a finalist and clears the whole frozen field — so this one semifinal IS the pool. Dante's Spain is already in the final, but his ceiling is 8: he grabs the last podium chair only if Spain actually lifts the Cup. Caleb has a slip on all of it. Cash up front — he knows the drill.",
     "bets": [
       {
-        "label": "Rob wins the pool — his England beats Nathan's Argentina at noon on July 15 and it's over",
+        "label": "Rob wins the pool — his England beats Nathan's Argentina and it's over",
         "price": "−250"
       },
       {
-        "label": "Nathan wins the pool — his Argentina beats Rob's England at noon on July 15 and the $200 is his",
+        "label": "Nathan wins the pool — his Argentina beats Rob's England and the $200 is his",
         "price": "−175"
       },
       {
@@ -575,11 +547,7 @@
         "price": "−250"
       },
       {
-        "label": "Dino backs into third — Cinderella's corpse, frozen at 7 with every team dead, cashes only if Spain loses the final and Dante stalls at 5",
-        "price": "+270"
-      },
-      {
-        "label": "Max backs into third — a dirty Brit whose Norway fell to England, also frozen at 7, splitting that last spot with Dino on the same Spain-flops parlay",
+        "label": "Dino and Max back into third — the two frozen sevens (Cinderella's corpse and a dirty Brit killed by his own country) split the last seat if Spain loses the final",
         "price": "+270"
       }
     ]

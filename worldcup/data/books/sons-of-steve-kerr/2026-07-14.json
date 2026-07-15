@@ -17,7 +17,7 @@
     "toCash": "Any money is good money ($30 still buys a burrito).",
     "spoon": "Somebody has to carry the shame until 2030.",
     "h2h": "The four strongest seats, priced against each other. Higher pool finish wins; tie on points = stakes returned (handled as half-win in pricing).",
-    "watch": "Spain's rout of France reshaped the whole top of the board, but J Call's Argentina is still standing and still his most live hand. Beat Oanta's England at noon on July 15 and he's in the final with a live title shot at Spain; lose and he's frozen at 10 — either way he is banked into the podium. The model's median is 10 points. Main line:"
+    "watch": "Spain's rout of France reshaped the whole top of the board, but J Call's Argentina is still standing and still his most live hand. Beat Oanta's England and he's in the final with a live title shot at Spain; lose and he's frozen at 10 — either way he is banked into the podium. The model's median is 10 points. Main line:"
   },
   "meta": {
     "sims": 400000,
@@ -431,18 +431,18 @@
   "grudges": null,
   "caleb": {
     "title": "THE OANTA INVITATIONAL — THE LAST SEMIFINAL",
-    "blurb": "Spain 2, France 0 — the tournament favorite is dead and Spain is in the final. That froze Arnst at 10: locked onto the podium, barred from first, only the size of his check still live. Burnes now holds the whole pool in one result — Spain lifting the Cup is the $150. The other seat in the final is settled at noon on July 15 at Hawaii West: Oanta's England vs J Call's Argentina, winner faces Spain, loser is done. Cash up front; the jukebox still doesn't take IOUs.",
+    "blurb": "Spain 2, France 0 — the tournament favorite is dead and Spain is in the final. That froze Arnst at 10: locked onto the podium, barred from first, only the size of his check still live. Burnes now holds the whole pool in one result — Spain lifting the Cup is the $150. The other seat in the final is settled at noon at Hawaii West: Oanta's England vs J Call's Argentina, winner faces Spain, loser is done. Cash up front; the jukebox still doesn't take IOUs.",
     "bets": [
       {
         "label": "Burnes wins the pool — Spain lifts the Cup and the $150 is his; the board's favorite",
         "price": "−340"
       },
       {
-        "label": "Oanta wins the pool — England beats Argentina at noon on July 15, then dethrones Spain in the final",
+        "label": "Oanta wins the pool — England beats Argentina, then dethrones Spain in the final",
         "price": "+220"
       },
       {
-        "label": "J Call wins the pool — Argentina beats England at noon on July 15, then dethrones Spain in the final",
+        "label": "J Call wins the pool — Argentina beats England, then dethrones Spain in the final",
         "price": "+280"
       },
       {
