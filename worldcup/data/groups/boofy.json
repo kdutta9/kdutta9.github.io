@@ -3,6 +3,7 @@
   "name": "Boofy",
   "teamsPerPlayer": 4,
   "legacy": true,
+  "tiebreak": "gd",
   "players": [
     { "name": "Nick", "teams": ["Japan", "DR Congo", "Bosnia & Herzegovina", "Belgium"] },
     { "name": "Jack", "teams": ["Colombia", "Australia", "Austria", "Uruguay"] },

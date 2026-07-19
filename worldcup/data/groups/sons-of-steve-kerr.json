@@ -4,6 +4,7 @@
   "teamsPerPlayer": 6,
   "seed": "C0B9B24FDF63",
   "playerCount": 8,
+  "tiebreak": "shootout",
   "players": [
     {
       "name": "J Call",
