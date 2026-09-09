@@ -98,7 +98,7 @@
       "a": {
         "rosterId": 8,
         "manager": "kdutta",
-        "team": "kdutta"
+        "team": "T-Posers"
       },
       "b": {
         "rosterId": 5,
@@ -311,7 +311,7 @@
         {
           "rosterId": 8,
           "manager": "kdutta",
-          "team": "kdutta",
+          "team": "T-Posers",
           "pct": 6.1,
           "price": "+1200"
         },
@@ -438,7 +438,7 @@
       {
         "rosterId": 8,
         "manager": "kdutta",
-        "team": "kdutta",
+        "team": "T-Posers",
         "projFinish": 5.2,
         "medianFinish": 5,
         "projWins": 7.3,
@@ -843,7 +843,7 @@
           {
             "rosterId": 8,
             "manager": "kdutta",
-            "team": "kdutta",
+            "team": "T-Posers",
             "pct": 11.4,
             "price": "+550"
           },
@@ -956,7 +956,7 @@
           {
             "rosterId": 8,
             "manager": "kdutta",
-            "team": "kdutta",
+            "team": "T-Posers",
             "pct": 8.5,
             "price": "+840"
           },
@@ -1051,7 +1051,7 @@
       {
         "rosterId": 8,
         "manager": "kdutta",
-        "team": "kdutta",
+        "team": "T-Posers",
         "line": 7.5,
         "expected": 7.3,
         "over": "−105",
@@ -1588,7 +1588,7 @@
     {
       "rosterId": 8,
       "manager": "kdutta",
-      "team": "kdutta",
+      "team": "T-Posers",
       "projected": 128.9,
       "players": [
         {
@@ -1848,7 +1848,7 @@
     {
       "rosterId": 8,
       "manager": "kdutta",
-      "team": "kdutta",
+      "team": "T-Posers",
       "projected": 105
     },
     {
@@ -1924,7 +1924,7 @@
     {
       "rosterId": 8,
       "manager": "kdutta",
-      "team": "kdutta",
+      "team": "T-Posers",
       "pWin": 57.1,
       "pLow": 6.1,
       "pHigh": 14
