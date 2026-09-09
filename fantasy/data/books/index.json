@@ -1,0 +1,20 @@
+[
+  {
+    "id": "dkenasty",
+    "name": "DKEnasty",
+    "bookName": "DKENASTY SPORTSBOOK",
+    "kind": "league"
+  },
+  {
+    "id": "nicks",
+    "name": "Nick's",
+    "bookName": "NICK'S SPORTSBOOK",
+    "kind": "league"
+  },
+  {
+    "id": "crossover",
+    "name": "The Crossover",
+    "bookName": "THE CROSSOVER",
+    "kind": "crossover"
+  }
+]

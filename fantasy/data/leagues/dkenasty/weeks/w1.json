@@ -1,0 +1,817 @@
+{
+  "id": "dkenasty",
+  "season": "2026",
+  "week": 1,
+  "pulledAt": "2026-09-09T09:15:57.566Z",
+  "playersDate": "2026-09-09",
+  "league": {
+    "name": "Dynasty",
+    "scoring_settings": {
+      "sack": 1,
+      "fgm_40_49": 4,
+      "pass_int": -1,
+      "pts_allow_0": 10,
+      "pass_2pt": 2,
+      "st_td": 6,
+      "rec_td": 6,
+      "fgm_30_39": 3,
+      "xpmiss": -1,
+      "rush_td": 6,
+      "rec_2pt": 2,
+      "st_fum_rec": 1,
+      "fgmiss": -1,
+      "ff": 1,
+      "rec": 1,
+      "pts_allow_14_20": 1,
+      "fgm_0_19": 3,
+      "int": 2,
+      "def_st_fum_rec": 1,
+      "fum_lost": -2,
+      "pts_allow_1_6": 7,
+      "fgm_20_29": 3,
+      "pts_allow_21_27": 0,
+      "xpm": 1,
+      "rush_2pt": 2,
+      "fum_rec": 2,
+      "def_st_td": 6,
+      "fgm_50p": 5,
+      "def_td": 6,
+      "safe": 2,
+      "pass_yd": 0.04,
+      "blk_kick": 2,
+      "pass_td": 4,
+      "rush_yd": 0.1,
+      "fum": 0,
+      "pts_allow_28_34": -1,
+      "pts_allow_35p": -4,
+      "fum_rec_td": 6,
+      "rec_yd": 0.1,
+      "def_st_ff": 1,
+      "pts_allow_7_13": 4,
+      "st_ff": 1
+    },
+    "roster_positions": [
+      "QB",
+      "RB",
+      "RB",
+      "WR",
+      "WR",
+      "TE",
+      "FLEX",
+      "FLEX",
+      "K",
+      "DEF",
+      "BN",
+      "BN",
+      "BN",
+      "BN",
+      "BN",
+      "BN",
+      "BN"
+    ],
+    "settings": {
+      "best_ball": 0,
+      "waiver_budget": 100,
+      "disable_adds": 0,
+      "capacity_override": 0,
+      "taxi_deadline": 0,
+      "draft_rounds": 3,
+      "reserve_allow_na": 0,
+      "start_week": 1,
+      "playoff_seed_type": 0,
+      "playoff_teams": 6,
+      "veto_votes_needed": 5,
+      "num_teams": 12,
+      "daily_waivers_hour": 0,
+      "playoff_type": 0,
+      "taxi_slots": 1,
+      "sub_start_time_eligibility": 0,
+      "daily_waivers_days": 5461,
+      "sub_lock_if_starter_active": 0,
+      "playoff_week_start": 15,
+      "waiver_clear_days": 2,
+      "reserve_allow_doubtful": 0,
+      "commissioner_direct_invite": 0,
+      "veto_auto_poll": 0,
+      "reserve_allow_dnr": 0,
+      "taxi_allow_vets": 0,
+      "waiver_day_of_week": 2,
+      "playoff_round_type": 0,
+      "reserve_allow_out": 0,
+      "reserve_allow_sus": 0,
+      "veto_show_votes": 0,
+      "trade_deadline": 11,
+      "taxi_years": 1,
+      "daily_waivers": 0,
+      "faab_suggestions": 0,
+      "disable_trades": 0,
+      "pick_trading": 1,
+      "type": 2,
+      "max_keepers": 1,
+      "waiver_type": 0,
+      "max_subs": 0,
+      "league_average_match": 0,
+      "trade_review_days": 2,
+      "bench_lock": 0,
+      "offseason_adds": 0,
+      "leg": 1,
+      "reserve_slots": 1,
+      "reserve_allow_cov": 0,
+      "daily_waivers_last_ran": 19
+    }
+  },
+  "users": [
+    {
+      "user_id": "1000477849335234560",
+      "display_name": "ethansmith2580"
+    },
+    {
+      "user_id": "1004919110507081728",
+      "display_name": "rnath499"
+    },
+    {
+      "user_id": "1030950382731628544",
+      "display_name": "Garrettrh"
+    },
+    {
+      "user_id": "1125599191713120256",
+      "display_name": "Keeyan99"
+    },
+    {
+      "user_id": "1126366830563569664",
+      "display_name": "samlaur"
+    },
+    {
+      "user_id": "1133633891434414080",
+      "display_name": "BotBinLaden"
+    },
+    {
+      "user_id": "1134643347680952320",
+      "display_name": "Christopheryu21"
+    },
+    {
+      "user_id": "982414335727210496",
+      "display_name": "tal262000"
+    },
+    {
+      "user_id": "996584691635490816",
+      "display_name": "kdutta"
+    },
+    {
+      "user_id": "996587614507548672",
+      "display_name": "jc199"
+    },
+    {
+      "user_id": "996587741225889792",
+      "display_name": "MBurnes"
+    },
+    {
+      "user_id": "996943484835680256",
+      "display_name": "lanek12"
+    }
+  ],
+  "rosters": [
+    {
+      "roster_id": 1,
+      "owner_id": "996943484835680256",
+      "players": [
+        "10859",
+        "11581",
+        "11603",
+        "11618",
+        "11628",
+        "11786",
+        "12484",
+        "12507",
+        "12508",
+        "12526",
+        "13293",
+        "13305",
+        "13311",
+        "13317",
+        "6806",
+        "7564",
+        "7611",
+        "8144",
+        "PHI"
+      ],
+      "starters": [
+        "12508",
+        "12507",
+        "7611",
+        "7564",
+        "8144",
+        "10859",
+        "12526",
+        "6806",
+        "11786",
+        "PHI"
+      ],
+      "reserve": [
+        "12484"
+      ],
+      "taxi": [
+        "13311"
+      ],
+      "settings": {
+        "fpts": 0,
+        "fpts_decimal": 0,
+        "losses": 0,
+        "ties": 0,
+        "total_moves": 0,
+        "waiver_budget_used": 0,
+        "waiver_position": 10,
+        "wins": 0
+      }
+    },
+    {
+      "roster_id": 2,
+      "owner_id": "982414335727210496",
+      "players": [
+        "10213",
+        "10236",
+        "11560",
+        "11655",
+        "12509",
+        "12522",
+        "12527",
+        "13301",
+        "2747",
+        "421",
+        "7547",
+        "7569",
+        "8130",
+        "8142",
+        "9226",
+        "9488",
+        "9500",
+        "9508",
+        "NE"
+      ],
+      "starters": [
+        "11560",
+        "9226",
+        "12527",
+        "9488",
+        "7547",
+        "8130",
+        "7569",
+        "9500",
+        "2747",
+        "NE"
+      ],
+      "reserve": [],
+      "taxi": [
+        "12509"
+      ],
+      "settings": {
+        "fpts": 0,
+        "fpts_decimal": 0,
+        "losses": 0,
+        "ties": 0,
+        "total_moves": 0,
+        "waiver_budget_used": 0,
+        "waiver_position": 2,
+        "wins": 0
+      }
+    },
+    {
+      "roster_id": 3,
+      "owner_id": "1125599191713120256",
+      "players": [
+        "10232",
+        "11646",
+        "12474",
+        "12517",
+        "2133",
+        "3257",
+        "3451",
+        "4034",
+        "4046",
+        "5001",
+        "5872",
+        "6794",
+        "6813",
+        "8132",
+        "8154",
+        "9754",
+        "SEA"
+      ],
+      "starters": [
+        "4046",
+        "6813",
+        "4034",
+        "6794",
+        "10232",
+        "12517",
+        "2133",
+        "11646",
+        "3451",
+        "SEA"
+      ],
+      "reserve": [],
+      "taxi": [],
+      "settings": {
+        "fpts": 0,
+        "fpts_decimal": 0,
+        "losses": 0,
+        "ties": 0,
+        "total_moves": 0,
+        "waiver_budget_used": 0,
+        "waiver_position": 1,
+        "wins": 0
+      }
+    },
+    {
+      "roster_id": 4,
+      "owner_id": "996587741225889792",
+      "players": [
+        "10222",
+        "10229",
+        "11586",
+        "11792",
+        "11834",
+        "12469",
+        "13288",
+        "13294",
+        "13345",
+        "3321",
+        "6790",
+        "6801",
+        "6904",
+        "8110",
+        "8136",
+        "9480",
+        "9487",
+        "LAC"
+      ],
+      "starters": [
+        "6904",
+        "6790",
+        "8136",
+        "6801",
+        "10229",
+        "8110",
+        "10222",
+        "9487",
+        "11792",
+        "LAC"
+      ],
+      "reserve": [],
+      "taxi": [
+        "13288"
+      ],
+      "settings": {
+        "fpts": 0,
+        "fpts_decimal": 0,
+        "losses": 0,
+        "ties": 0,
+        "total_moves": 0,
+        "waiver_budget_used": 0,
+        "waiver_position": 7,
+        "wins": 0
+      }
+    },
+    {
+      "roster_id": 5,
+      "owner_id": "996584691635490816",
+      "players": [
+        "11584",
+        "11610",
+        "12015",
+        "12514",
+        "12533",
+        "13285",
+        "13346",
+        "4039",
+        "4199",
+        "4881",
+        "5012",
+        "7002",
+        "7523",
+        "8138",
+        "8146",
+        "8148",
+        "8167",
+        "JAX"
+      ],
+      "starters": [
+        "4881",
+        "8138",
+        "11584",
+        "12514",
+        "8148",
+        "7002",
+        "12533",
+        "8146",
+        "12015",
+        "JAX"
+      ],
+      "reserve": [],
+      "taxi": [
+        "13285"
+      ],
+      "settings": {
+        "fpts": 0,
+        "fpts_decimal": 0,
+        "losses": 0,
+        "ties": 0,
+        "total_moves": 0,
+        "waiver_budget_used": 0,
+        "waiver_position": 5,
+        "wins": 0
+      }
+    },
+    {
+      "roster_id": 6,
+      "owner_id": "996587614507548672",
+      "players": [
+        "11237",
+        "11563",
+        "11576",
+        "11624",
+        "12490",
+        "12492",
+        "12512",
+        "13275",
+        "13330",
+        "3163",
+        "4037",
+        "5859",
+        "7049",
+        "7839",
+        "8150",
+        "8210",
+        "9221",
+        "9502",
+        "PIT"
+      ],
+      "starters": [
+        "3163",
+        "9221",
+        "8150",
+        "5859",
+        "4037",
+        "8210",
+        "12512",
+        "12490",
+        "7839",
+        "PIT"
+      ],
+      "reserve": [
+        "9502"
+      ],
+      "taxi": [
+        "13275"
+      ],
+      "settings": {
+        "fpts": 0,
+        "fpts_decimal": 0,
+        "losses": 0,
+        "ties": 0,
+        "total_moves": 0,
+        "waiver_budget_used": 0,
+        "waiver_position": 4,
+        "wins": 0
+      }
+    },
+    {
+      "roster_id": 7,
+      "owner_id": "1126366830563569664",
+      "players": [
+        "11533",
+        "11564",
+        "11583",
+        "12481",
+        "12529",
+        "13281",
+        "13337",
+        "2449",
+        "3198",
+        "4866",
+        "4892",
+        "5844",
+        "5846",
+        "6786",
+        "8131",
+        "8134",
+        "8228",
+        "8698",
+        "LAR"
+      ],
+      "starters": [
+        "11564",
+        "3198",
+        "4866",
+        "6786",
+        "2449",
+        "8131",
+        "12481",
+        "8228",
+        "11533",
+        "LAR"
+      ],
+      "reserve": [
+        "13281"
+      ],
+      "taxi": [
+        "13337"
+      ],
+      "settings": {
+        "fpts": 0,
+        "fpts_decimal": 0,
+        "losses": 0,
+        "ties": 0,
+        "total_moves": 0,
+        "waiver_budget_used": 0,
+        "waiver_position": 8,
+        "wins": 0
+      }
+    },
+    {
+      "roster_id": 8,
+      "owner_id": "1030950382731628544",
+      "players": [
+        "11604",
+        "11631",
+        "11632",
+        "11635",
+        "11638",
+        "12504",
+        "13405",
+        "13417",
+        "3294",
+        "5927",
+        "5947",
+        "6650",
+        "7021",
+        "7594",
+        "8155",
+        "8183",
+        "9224",
+        "9504",
+        "SF"
+      ],
+      "starters": [
+        "3294",
+        "9224",
+        "8155",
+        "11632",
+        "11635",
+        "11604",
+        "5927",
+        "7021",
+        "6650",
+        "SF"
+      ],
+      "reserve": [
+        "11638"
+      ],
+      "taxi": [
+        "13405"
+      ],
+      "settings": {
+        "fpts": 0,
+        "fpts_decimal": 0,
+        "losses": 0,
+        "ties": 0,
+        "total_moves": 0,
+        "waiver_budget_used": 0,
+        "waiver_position": 3,
+        "wins": 0
+      }
+    },
+    {
+      "roster_id": 9,
+      "owner_id": "1134643347680952320",
+      "players": [
+        "11566",
+        "11637",
+        "12518",
+        "12530",
+        "12711",
+        "13268",
+        "13269",
+        "13286",
+        "13414",
+        "2216",
+        "3214",
+        "4035",
+        "6819",
+        "7526",
+        "7588",
+        "8121",
+        "9753",
+        "9756",
+        "DET"
+      ],
+      "starters": [
+        "11566",
+        "7588",
+        "13286",
+        "7526",
+        "2216",
+        "12518",
+        "3214",
+        "9756",
+        "12711",
+        "DET"
+      ],
+      "reserve": [
+        "9753"
+      ],
+      "taxi": [
+        "13268"
+      ],
+      "settings": {
+        "fpts": 0,
+        "fpts_decimal": 0,
+        "losses": 0,
+        "ties": 0,
+        "total_moves": 0,
+        "waiver_budget_used": 0,
+        "waiver_position": 9,
+        "wins": 0
+      }
+    },
+    {
+      "roster_id": 10,
+      "owner_id": "1000477849335234560",
+      "players": [
+        "12493",
+        "12531",
+        "13276",
+        "1479",
+        "4217",
+        "4227",
+        "4983",
+        "5022",
+        "5045",
+        "5850",
+        "5892",
+        "6797",
+        "6804",
+        "7543",
+        "7567",
+        "8137",
+        "9493",
+        "9511",
+        "HOU"
+      ],
+      "starters": [
+        "6797",
+        "7543",
+        "5892",
+        "9493",
+        "8137",
+        "4217",
+        "4983",
+        "5045",
+        "4227",
+        "HOU"
+      ],
+      "reserve": [
+        "12531"
+      ],
+      "taxi": [
+        "13276"
+      ],
+      "settings": {
+        "fpts": 0,
+        "fpts_decimal": 0,
+        "losses": 0,
+        "ties": 0,
+        "total_moves": 0,
+        "waiver_budget_used": 0,
+        "waiver_position": 12,
+        "wins": 0
+      }
+    },
+    {
+      "roster_id": 11,
+      "owner_id": "1004919110507081728",
+      "players": [
+        "10219",
+        "11625",
+        "11627",
+        "12501",
+        "12519",
+        "12536",
+        "13296",
+        "13402",
+        "13413",
+        "1945",
+        "4984",
+        "5967",
+        "7553",
+        "8112",
+        "9225",
+        "9484",
+        "9509",
+        "DEN"
+      ],
+      "starters": [
+        "4984",
+        "9509",
+        "5967",
+        "8112",
+        "12519",
+        "9484",
+        "7553",
+        "12501",
+        "1945",
+        "DEN"
+      ],
+      "reserve": [],
+      "taxi": [
+        "13413"
+      ],
+      "settings": {
+        "fpts": 0,
+        "fpts_decimal": 0,
+        "losses": 0,
+        "ties": 0,
+        "total_moves": 0,
+        "waiver_budget_used": 0,
+        "waiver_position": 6,
+        "wins": 0
+      }
+    },
+    {
+      "roster_id": 12,
+      "owner_id": "1133633891434414080",
+      "players": [
+        "11620",
+        "12489",
+        "12506",
+        "12534",
+        "13274",
+        "13279",
+        "13287",
+        "13298",
+        "1466",
+        "6770",
+        "7525",
+        "8126",
+        "8151",
+        "8259",
+        "8408",
+        "8676",
+        "9997",
+        "BAL"
+      ],
+      "starters": [
+        "6770",
+        "8151",
+        "13287",
+        "7525",
+        "9997",
+        "12506",
+        "13279",
+        "11620",
+        "8259",
+        "BAL"
+      ],
+      "reserve": [],
+      "taxi": [
+        "13274"
+      ],
+      "settings": {
+        "fpts": 0,
+        "fpts_decimal": 0,
+        "losses": 0,
+        "ties": 0,
+        "total_moves": 0,
+        "waiver_budget_used": 0,
+        "waiver_position": 11,
+        "wins": 0
+      }
+    }
+  ],
+  "matchups": [
+    [
+      8,
+      10
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      4,
+      11
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      5
+    ]
+  ]
+}

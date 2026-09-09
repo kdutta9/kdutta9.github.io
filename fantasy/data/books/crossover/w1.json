@@ -1,0 +1,336 @@
+{
+  "id": "crossover",
+  "week": 1,
+  "season": "2026",
+  "bookName": "THE CROSSOVER",
+  "tagline": "6 managers, two leagues, one weekend",
+  "leagues": [
+    {
+      "id": "nicks",
+      "bookName": "NICK'S SPORTSBOOK",
+      "displayName": "Nick's"
+    },
+    {
+      "id": "dkenasty",
+      "bookName": "DKENASTY SPORTSBOOK",
+      "displayName": "DKEnasty"
+    }
+  ],
+  "meta": {
+    "sources": "THE TWO COMMITTED LEAGUE SHEETS",
+    "sims": 25000,
+    "pulledAt": "2026-09-09T09:15:57.566Z",
+    "disclosures": [
+      "Built from each league's own posted probabilities, multiplied. The two leagues are treated as independent.",
+      "A manager who rosters the same player in both leagues is more correlated than that — these prices are conservative on the doubles and long on the splits.",
+      "Rosters frozen as of the Tuesday pull — waivers and trades after it are not priced.",
+      "Lineups simulated as optimal; real managers are not, so totals run a touch high.",
+      "Player scores drawn independently, so stacked rosters are slightly under-varianced and moneylines run slightly long.",
+      "Season futures assume this week's rosters play out the year. Injuries, trades and the waiver wire are not forecast — only the historical size of that error is.",
+      "Playoff seeding is simulated on wins then points-for, and playoff games are simulated as games, not decided by season totals.",
+      "Not real betting."
+    ]
+  },
+  "managers": [
+    {
+      "manager": "Christopheryu21",
+      "seats": [
+        {
+          "league": "nicks",
+          "rosterId": 5,
+          "manager": "Christopheryu21",
+          "team": "Cal's Disappointing Week 1 Performance",
+          "pWin": 41.5,
+          "pLow": 17,
+          "pHigh": 3
+        },
+        {
+          "league": "dkenasty",
+          "rosterId": 9,
+          "manager": "Christopheryu21",
+          "team": "Trust the Process",
+          "pWin": 39.6,
+          "pLow": 15.5,
+          "pHigh": 3
+        }
+      ],
+      "slips": [
+        {
+          "label": "Wins in both",
+          "copy": "Sweeps the weekend.",
+          "pct": 16.4,
+          "price": "+470"
+        },
+        {
+          "label": "Loses both",
+          "copy": "Swept.",
+          "pct": 35.3,
+          "price": "+165"
+        },
+        {
+          "label": "Low scorer in BOTH",
+          "copy": "Karaoke at Silver Clouds and the eleven-leg parlay, same weekend.",
+          "pct": 2.6,
+          "price": "+3400"
+        },
+        {
+          "label": "High scorer in BOTH",
+          "copy": "Picks the song and watches the parlay.",
+          "pct": 0.1,
+          "price": "+103000"
+        }
+      ]
+    },
+    {
+      "manager": "Keeyan99",
+      "seats": [
+        {
+          "league": "nicks",
+          "rosterId": 6,
+          "manager": "Keeyan99",
+          "team": "Comet club?",
+          "pWin": 58.5,
+          "pLow": 10.4,
+          "pHigh": 5.8
+        },
+        {
+          "league": "dkenasty",
+          "rosterId": 3,
+          "manager": "Keeyan99",
+          "team": "Yan Dynasty",
+          "pWin": 39.8,
+          "pLow": 4.2,
+          "pHigh": 13.2
+        }
+      ],
+      "slips": [
+        {
+          "label": "Wins in both",
+          "copy": "Sweeps the weekend.",
+          "pct": 23.3,
+          "price": "+300"
+        },
+        {
+          "label": "Loses both",
+          "copy": "Swept.",
+          "pct": 25,
+          "price": "+270"
+        },
+        {
+          "label": "Low scorer in BOTH",
+          "copy": "Karaoke at Silver Clouds and the eleven-leg parlay, same weekend.",
+          "pct": 0.4,
+          "price": "+21000"
+        },
+        {
+          "label": "High scorer in BOTH",
+          "copy": "Picks the song and watches the parlay.",
+          "pct": 0.8,
+          "price": "+12000"
+        }
+      ]
+    },
+    {
+      "manager": "MBurnes",
+      "seats": [
+        {
+          "league": "nicks",
+          "rosterId": 10,
+          "manager": "MBurnes",
+          "team": "George Droyd",
+          "pWin": 51.2,
+          "pLow": 4.5,
+          "pHigh": 11.8
+        },
+        {
+          "league": "dkenasty",
+          "rosterId": 4,
+          "manager": "MBurnes",
+          "team": "Little St. Lane’s",
+          "pWin": 46.2,
+          "pLow": 14.3,
+          "pHigh": 3.5
+        }
+      ],
+      "slips": [
+        {
+          "label": "Wins in both",
+          "copy": "Sweeps the weekend.",
+          "pct": 23.7,
+          "price": "+290"
+        },
+        {
+          "label": "Loses both",
+          "copy": "Swept.",
+          "pct": 26.3,
+          "price": "+250"
+        },
+        {
+          "label": "Low scorer in BOTH",
+          "copy": "Karaoke at Silver Clouds and the eleven-leg parlay, same weekend.",
+          "pct": 0.6,
+          "price": "+14000"
+        },
+        {
+          "label": "High scorer in BOTH",
+          "copy": "Picks the song and watches the parlay.",
+          "pct": 0.4,
+          "price": "+22000"
+        }
+      ]
+    },
+    {
+      "manager": "jc199",
+      "seats": [
+        {
+          "league": "nicks",
+          "rosterId": 3,
+          "manager": "jc199",
+          "team": "Return of the Menace",
+          "pWin": 48.8,
+          "pLow": 4.9,
+          "pHigh": 11.2
+        },
+        {
+          "league": "dkenasty",
+          "rosterId": 6,
+          "manager": "jc199",
+          "team": "Disciples of Yakub",
+          "pWin": 54.1,
+          "pLow": 7.3,
+          "pHigh": 7.5
+        }
+      ],
+      "slips": [
+        {
+          "label": "Wins in both",
+          "copy": "Sweeps the weekend.",
+          "pct": 26.4,
+          "price": "+250"
+        },
+        {
+          "label": "Loses both",
+          "copy": "Swept.",
+          "pct": 23.5,
+          "price": "+300"
+        },
+        {
+          "label": "Low scorer in BOTH",
+          "copy": "Karaoke at Silver Clouds and the eleven-leg parlay, same weekend.",
+          "pct": 0.4,
+          "price": "+26000"
+        },
+        {
+          "label": "High scorer in BOTH",
+          "copy": "Picks the song and watches the parlay.",
+          "pct": 0.8,
+          "price": "+11000"
+        }
+      ]
+    },
+    {
+      "manager": "kdutta",
+      "seats": [
+        {
+          "league": "nicks",
+          "rosterId": 1,
+          "manager": "kdutta",
+          "team": "Garbers mirror selfie",
+          "pWin": 39.3,
+          "pLow": 7.4,
+          "pHigh": 6.8
+        },
+        {
+          "league": "dkenasty",
+          "rosterId": 5,
+          "manager": "kdutta",
+          "team": "3 AM afters in bull room",
+          "pWin": 36.4,
+          "pLow": 8.1,
+          "pHigh": 5.9
+        }
+      ],
+      "slips": [
+        {
+          "label": "Wins in both",
+          "copy": "Sweeps the weekend.",
+          "pct": 14.3,
+          "price": "+550"
+        },
+        {
+          "label": "Loses both",
+          "copy": "Swept.",
+          "pct": 38.6,
+          "price": "+140"
+        },
+        {
+          "label": "Low scorer in BOTH",
+          "copy": "Karaoke at Silver Clouds and the eleven-leg parlay, same weekend.",
+          "pct": 0.6,
+          "price": "+15000"
+        },
+        {
+          "label": "High scorer in BOTH",
+          "copy": "Picks the song and watches the parlay.",
+          "pct": 0.4,
+          "price": "+23000"
+        }
+      ]
+    },
+    {
+      "manager": "rnath499",
+      "seats": [
+        {
+          "league": "nicks",
+          "rosterId": 2,
+          "manager": "rnath499",
+          "team": "Haircut Haircut 🗣️",
+          "pWin": 50.2,
+          "pLow": 6.5,
+          "pHigh": 10.6
+        },
+        {
+          "league": "dkenasty",
+          "rosterId": 11,
+          "manager": "rnath499",
+          "team": "The Washington Redskins",
+          "pWin": 53.8,
+          "pLow": 11.2,
+          "pHigh": 4.7
+        }
+      ],
+      "slips": [
+        {
+          "label": "Wins in both",
+          "copy": "Sweeps the weekend.",
+          "pct": 27,
+          "price": "+240"
+        },
+        {
+          "label": "Loses both",
+          "copy": "Swept.",
+          "pct": 23,
+          "price": "+300"
+        },
+        {
+          "label": "Low scorer in BOTH",
+          "copy": "Karaoke at Silver Clouds and the eleven-leg parlay, same weekend.",
+          "pct": 0.7,
+          "price": "+13000"
+        },
+        {
+          "label": "High scorer in BOTH",
+          "copy": "Picks the song and watches the parlay.",
+          "pct": 0.5,
+          "price": "+19000"
+        }
+      ]
+    }
+  ],
+  "headline": {
+    "label": "ANY shared manager is low scorer in both leagues",
+    "copy": "Someone sings for their supper and files an eleven-leg parlay in the same weekend.",
+    "pct": 5.3,
+    "price": "+1650"
+  }
+}
