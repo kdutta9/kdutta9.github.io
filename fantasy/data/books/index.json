@@ -6,6 +6,12 @@
     "kind": "league"
   },
   {
+    "id": "loog",
+    "name": "League of Ordinary Gentlemen",
+    "bookName": "THE ORDINARY GENTLEMEN",
+    "kind": "league"
+  },
+  {
     "id": "nicks",
     "name": "Nick's",
     "bookName": "NICK'S SPORTSBOOK",

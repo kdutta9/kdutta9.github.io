@@ -5118,7 +5118,8 @@
     "int": 0.44,
     "pts_allow_28_34": 1,
     "pts_ppr": 3.43,
-    "sack": 1.86
+    "sack": 1.86,
+    "yds_allow_350_399": 1.0
   },
   "ATL": {
     "blk_kick": 0.05,
@@ -5163,7 +5164,8 @@
     "pts_allow_21_27": 1,
     "pts_ppr": 5.98,
     "sack": 2.26,
-    "st_td": 0.06
+    "st_td": 0.06,
+    "yds_allow_350_399": 1.0
   },
   "CHI": {
     "blk_kick": 0.06,
@@ -5185,7 +5187,8 @@
     "int": 0.72,
     "pts_allow_21_27": 1,
     "pts_ppr": 6.19,
-    "sack": 2.54
+    "sack": 2.54,
+    "yds_allow_350_399": 1.0
   },
   "CLE": {
     "blk_kick": 0.05,
@@ -5219,7 +5222,8 @@
     "int": 0.74,
     "pts_allow_21_27": 1,
     "pts_ppr": 7.17,
-    "sack": 2.55
+    "sack": 2.55,
+    "yds_allow_350_399": 1.0
   },
   "DET": {
     "blk_kick": 0.06,
@@ -5255,7 +5259,8 @@
     "pts_ppr": 7.07,
     "sack": 2.25,
     "safe": 0.05,
-    "st_td": 0.05
+    "st_td": 0.05,
+    "yds_allow_350_399": 1.0
   },
   "IND": {
     "blk_kick": 0.05,
@@ -5266,7 +5271,8 @@
     "int": 0.63,
     "pts_allow_21_27": 1,
     "pts_ppr": 5.61,
-    "sack": 2.1
+    "sack": 2.1,
+    "yds_allow_350_399": 1.0
   },
   "JAX": {
     "blk_kick": 0.07,
@@ -5312,7 +5318,8 @@
     "pts_ppr": 7.06,
     "sack": 2.42,
     "safe": 0.05,
-    "st_td": 0.05
+    "st_td": 0.05,
+    "yds_allow_350_399": 1.0
   },
   "LV": {
     "blk_kick": 0.09,
@@ -5369,7 +5376,8 @@
     "pts_allow_28_34": 1,
     "pts_ppr": 3.79,
     "sack": 2.01,
-    "st_td": 0.05
+    "st_td": 0.05,
+    "yds_allow_350_399": 1.0
   },
   "NYG": {
     "blk_kick": 0.05,
@@ -5380,7 +5388,8 @@
     "int": 0.63,
     "pts_allow_21_27": 1,
     "pts_ppr": 5.69,
-    "sack": 2.21
+    "sack": 2.21,
+    "yds_allow_350_399": 1.0
   },
   "NYJ": {
     "blk_kick": 0.09,
@@ -5414,7 +5423,8 @@
     "int": 0.92,
     "pts_allow_14_20": 1,
     "pts_ppr": 8.94,
-    "sack": 2.98
+    "sack": 2.98,
+    "yds_allow_350_399": 1.0
   },
   "SEA": {
     "blk_kick": 0.05,
@@ -5427,7 +5437,8 @@
     "pts_ppr": 8.81,
     "sack": 2.45,
     "safe": 0.05,
-    "st_td": 0.05
+    "st_td": 0.05,
+    "yds_allow_350_399": 1.0
   },
   "SF": {
     "blk_kick": 0.05,
@@ -5438,7 +5449,8 @@
     "int": 0.64,
     "pts_allow_21_27": 1,
     "pts_ppr": 5.69,
-    "sack": 2.15
+    "sack": 2.15,
+    "yds_allow_350_399": 1.0
   },
   "TB": {
     "blk_kick": 0.05,
@@ -5449,7 +5461,8 @@
     "int": 0.59,
     "pts_allow_21_27": 1,
     "pts_ppr": 5.58,
-    "sack": 2.2
+    "sack": 2.2,
+    "yds_allow_350_399": 1.0
   },
   "TEN": {
     "blk_kick": 0.09,

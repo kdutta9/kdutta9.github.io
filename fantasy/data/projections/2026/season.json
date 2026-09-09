@@ -1409,15 +1409,15 @@
     "gp": 18
   },
   "3198": {
-    "gp": 18,
-    "rec_td": 1,
-    "rush_td": 12,
-    "rec": 17,
     "fum_lost": 2,
-    "rush_2pt": 1,
-    "rush_yd": 1406,
+    "gp": 18,
     "pts_ppr": 246.9,
-    "rec_yd": 133
+    "rec": 17,
+    "rec_td": 1,
+    "rec_yd": 133,
+    "rush_2pt": 1,
+    "rush_td": 12,
+    "rush_yd": 1406
   },
   "3199": {
     "gp": 18
@@ -2887,15 +2887,15 @@
     "gp": 18
   },
   "4866": {
-    "gp": 18,
-    "rec_td": 2,
-    "rush_td": 8,
-    "rec": 37,
     "fum_lost": 1,
-    "rush_2pt": 1,
-    "rush_yd": 1220,
+    "gp": 18,
     "pts_ppr": 246.7,
-    "rec_yd": 277
+    "rec": 37,
+    "rec_td": 2,
+    "rec_yd": 277,
+    "rush_2pt": 1,
+    "rush_td": 8,
+    "rush_yd": 1220
   },
   "4874": {
     "gp": 18
@@ -3924,15 +3924,15 @@
     "rush_yd": 503
   },
   "5850": {
-    "gp": 18,
-    "rec_td": 1,
-    "rush_td": 3,
-    "rec": 14,
     "fum_lost": 1,
-    "rush_2pt": 1,
-    "rush_yd": 390,
+    "gp": 18,
     "pts_ppr": 87.2,
-    "rec_yd": 102
+    "rec": 14,
+    "rec_td": 1,
+    "rec_yd": 102,
+    "rush_2pt": 1,
+    "rush_td": 3,
+    "rush_yd": 390
   },
   "5854": {
     "gp": 18
@@ -5041,15 +5041,15 @@
     "rush_yd": 732
   },
   "6813": {
-    "gp": 18,
-    "rec_td": 1,
-    "rush_td": 11,
-    "rec": 36,
     "fum_lost": 2,
-    "rush_2pt": 1,
-    "rush_yd": 1385,
+    "gp": 18,
     "pts_ppr": 272.3,
-    "rec_yd": 278
+    "rec": 36,
+    "rec_td": 1,
+    "rec_yd": 278,
+    "rush_2pt": 1,
+    "rush_td": 11,
+    "rush_yd": 1385
   },
   "6814": {
     "gp": 18
@@ -5950,15 +5950,15 @@
     "gp": 18
   },
   "7543": {
-    "gp": 18,
-    "rec_td": 2,
-    "rush_td": 6,
-    "rec": 36,
     "fum_lost": 1,
-    "rush_2pt": 1,
-    "rush_yd": 950,
+    "gp": 18,
     "pts_ppr": 207.7,
-    "rec_yd": 287
+    "rec": 36,
+    "rec_td": 2,
+    "rec_yd": 287,
+    "rush_2pt": 1,
+    "rush_td": 6,
+    "rush_yd": 950
   },
   "7545": {
     "gp": 18
@@ -6828,15 +6828,15 @@
     "rush_yd": 6
   },
   "8138": {
-    "gp": 18,
-    "rec_td": 2,
-    "rush_td": 11,
-    "rec": 31,
     "fum_lost": 2,
-    "rush_2pt": 1,
-    "rush_yd": 1270,
+    "gp": 18,
     "pts_ppr": 260.8,
-    "rec_yd": 268
+    "rec": 31,
+    "rec_td": 2,
+    "rec_yd": 268,
+    "rush_2pt": 1,
+    "rush_td": 11,
+    "rush_yd": 1270
   },
   "8139": {
     "gp": 18,
@@ -7749,14 +7749,14 @@
     "gp": 18
   },
   "8917": {
-    "gp": 18,
-    "rec_td": 2,
-    "rush_td": 1,
-    "rec": 21,
     "fum_lost": 1,
-    "rush_yd": 77,
+    "gp": 18,
     "pts_ppr": 71.5,
-    "rec_yd": 268
+    "rec": 21,
+    "rec_td": 2,
+    "rec_yd": 268,
+    "rush_td": 1,
+    "rush_yd": 77
   },
   "8921": {
     "gp": 18
@@ -7786,15 +7786,15 @@
     "gp": 18
   },
   "9221": {
-    "gp": 18,
-    "rec_td": 3,
-    "rush_td": 12,
-    "rec": 63,
     "fum_lost": 1,
-    "rush_2pt": 1,
-    "rush_yd": 1251,
+    "gp": 18,
     "pts_ppr": 331.4,
-    "rec_yd": 533
+    "rec": 63,
+    "rec_td": 3,
+    "rec_yd": 533,
+    "rush_2pt": 1,
+    "rush_td": 12,
+    "rush_yd": 1251
   },
   "9222": {
     "gp": 18
@@ -8032,15 +8032,15 @@
     "rush_yd": 388
   },
   "9509": {
-    "gp": 18,
-    "rec_td": 3,
-    "rush_td": 9,
-    "rec": 64,
     "fum_lost": 2,
-    "rush_2pt": 1,
-    "rush_yd": 1372,
+    "gp": 18,
     "pts_ppr": 324.9,
-    "rec_yd": 537
+    "rec": 64,
+    "rec_td": 3,
+    "rec_yd": 537,
+    "rush_2pt": 1,
+    "rush_td": 9,
+    "rush_yd": 1372
   },
   "9510": {
     "gp": 18
@@ -10660,11 +10660,11 @@
   },
   "12530": {
     "gp": 18,
-    "rec_td": 3,
-    "rec": 35,
-    "rush_yd": 21,
     "pts_ppr": 100.6,
-    "rec_yd": 415
+    "rec": 35,
+    "rec_td": 3,
+    "rec_yd": 415,
+    "rush_yd": 21
   },
   "12531": {
     "gp": 18,
@@ -11597,14 +11597,14 @@
     "rush_yd": 7
   },
   "13286": {
-    "gp": 18,
-    "rec_td": 1,
-    "rush_td": 7,
-    "rec": 19,
     "fum_lost": 1,
-    "rush_yd": 912,
+    "gp": 18,
     "pts_ppr": 170,
-    "rec_yd": 138
+    "rec": 19,
+    "rec_td": 1,
+    "rec_yd": 138,
+    "rush_td": 7,
+    "rush_yd": 912
   },
   "13287": {
     "fum_lost": 1,
@@ -12786,7 +12786,8 @@
     "gp": 1,
     "int": 8,
     "pts_ppr": 66,
-    "sack": 34
+    "sack": 34,
+    "yds_allow_0_100": 1.0
   },
   "ATL": {
     "blk_kick": 1,
@@ -12794,7 +12795,8 @@
     "gp": 1,
     "int": 11,
     "pts_ppr": 83,
-    "sack": 41
+    "sack": 41,
+    "yds_allow_0_100": 1.0
   },
   "BAL": {
     "blk_kick": 1,
@@ -12802,7 +12804,8 @@
     "gp": 1,
     "int": 14,
     "pts_ppr": 95,
-    "sack": 45
+    "sack": 45,
+    "yds_allow_0_100": 1.0
   },
   "BUF": {
     "blk_kick": 1,
@@ -12810,7 +12813,8 @@
     "gp": 1,
     "int": 12,
     "pts_ppr": 84,
-    "sack": 40
+    "sack": 40,
+    "yds_allow_0_100": 1.0
   },
   "CAR": {
     "blk_kick": 1,
@@ -12818,7 +12822,8 @@
     "gp": 1,
     "int": 11,
     "pts_ppr": 81,
-    "sack": 39
+    "sack": 39,
+    "yds_allow_0_100": 1.0
   },
   "CHI": {
     "blk_kick": 1,
@@ -12826,7 +12831,8 @@
     "gp": 1,
     "int": 12,
     "pts_ppr": 85,
-    "sack": 41
+    "sack": 41,
+    "yds_allow_0_100": 1.0
   },
   "CIN": {
     "blk_kick": 1,
@@ -12834,7 +12840,8 @@
     "gp": 1,
     "int": 11,
     "pts_ppr": 79,
-    "sack": 39
+    "sack": 39,
+    "yds_allow_0_100": 1.0
   },
   "CLE": {
     "blk_kick": 1,
@@ -12842,7 +12849,8 @@
     "gp": 1,
     "int": 10,
     "pts_ppr": 74,
-    "sack": 36
+    "sack": 36,
+    "yds_allow_0_100": 1.0
   },
   "DAL": {
     "blk_kick": 1,
@@ -12850,7 +12858,8 @@
     "gp": 1,
     "int": 12,
     "pts_ppr": 86,
-    "sack": 42
+    "sack": 42,
+    "yds_allow_0_100": 1.0
   },
   "DEN": {
     "blk_kick": 1,
@@ -12858,7 +12867,8 @@
     "gp": 1,
     "int": 14,
     "pts_ppr": 96,
-    "sack": 48
+    "sack": 48,
+    "yds_allow_0_100": 1.0
   },
   "DET": {
     "blk_kick": 1,
@@ -12866,7 +12876,8 @@
     "gp": 1,
     "int": 13,
     "pts_ppr": 92,
-    "sack": 42
+    "sack": 42,
+    "yds_allow_0_100": 1.0
   },
   "GB": {
     "blk_kick": 1,
@@ -12874,7 +12885,8 @@
     "gp": 1,
     "int": 12,
     "pts_ppr": 86,
-    "sack": 42
+    "sack": 42,
+    "yds_allow_0_100": 1.0
   },
   "HOU": {
     "blk_kick": 1,
@@ -12882,7 +12894,8 @@
     "gp": 1,
     "int": 16,
     "pts_ppr": 104,
-    "sack": 48
+    "sack": 48,
+    "yds_allow_0_100": 1.0
   },
   "IND": {
     "blk_kick": 1,
@@ -12890,7 +12903,8 @@
     "gp": 1,
     "int": 12,
     "pts_ppr": 84,
-    "sack": 40
+    "sack": 40,
+    "yds_allow_0_100": 1.0
   },
   "JAX": {
     "blk_kick": 1,
@@ -12898,7 +12912,8 @@
     "gp": 1,
     "int": 13,
     "pts_ppr": 91,
-    "sack": 43
+    "sack": 43,
+    "yds_allow_0_100": 1.0
   },
   "KC": {
     "blk_kick": 1,
@@ -12906,7 +12921,8 @@
     "gp": 1,
     "int": 12,
     "pts_ppr": 87,
-    "sack": 43
+    "sack": 43,
+    "yds_allow_0_100": 1.0
   },
   "LAC": {
     "blk_kick": 1,
@@ -12914,7 +12930,8 @@
     "gp": 1,
     "int": 12,
     "pts_ppr": 86,
-    "sack": 42
+    "sack": 42,
+    "yds_allow_0_100": 1.0
   },
   "LAR": {
     "blk_kick": 1,
@@ -12922,7 +12939,8 @@
     "gp": 1,
     "int": 15,
     "pts_ppr": 106,
-    "sack": 52
+    "sack": 52,
+    "yds_allow_0_100": 1.0
   },
   "LV": {
     "blk_kick": 1,
@@ -12930,7 +12948,8 @@
     "gp": 1,
     "int": 8,
     "pts_ppr": 65,
-    "sack": 33
+    "sack": 33,
+    "yds_allow_0_100": 1.0
   },
   "MIA": {
     "blk_kick": 1,
@@ -12938,7 +12957,8 @@
     "gp": 1,
     "int": 7,
     "pts_ppr": 62,
-    "sack": 34
+    "sack": 34,
+    "yds_allow_0_100": 1.0
   },
   "MIN": {
     "blk_kick": 1,
@@ -12946,7 +12966,8 @@
     "gp": 1,
     "int": 13,
     "pts_ppr": 92,
-    "sack": 44
+    "sack": 44,
+    "yds_allow_0_100": 1.0
   },
   "NE": {
     "blk_kick": 1,
@@ -12954,7 +12975,8 @@
     "gp": 1,
     "int": 13,
     "pts_ppr": 92,
-    "sack": 44
+    "sack": 44,
+    "yds_allow_0_100": 1.0
   },
   "NO": {
     "blk_kick": 1,
@@ -12962,7 +12984,8 @@
     "gp": 1,
     "int": 10,
     "pts_ppr": 77,
-    "sack": 39
+    "sack": 39,
+    "yds_allow_0_100": 1.0
   },
   "NYG": {
     "blk_kick": 1,
@@ -12970,7 +12993,8 @@
     "gp": 1,
     "int": 12,
     "pts_ppr": 86,
-    "sack": 42
+    "sack": 42,
+    "yds_allow_0_100": 1.0
   },
   "NYJ": {
     "blk_kick": 1,
@@ -12978,7 +13002,8 @@
     "gp": 1,
     "int": 7,
     "pts_ppr": 64,
-    "sack": 34
+    "sack": 34,
+    "yds_allow_0_100": 1.0
   },
   "PHI": {
     "blk_kick": 1,
@@ -12986,7 +13011,8 @@
     "gp": 1,
     "int": 15,
     "pts_ppr": 98,
-    "sack": 46
+    "sack": 46,
+    "yds_allow_0_100": 1.0
   },
   "PIT": {
     "blk_kick": 1,
@@ -12994,7 +13020,8 @@
     "gp": 1,
     "int": 13,
     "pts_ppr": 88,
-    "sack": 42
+    "sack": 42,
+    "yds_allow_0_100": 1.0
   },
   "SEA": {
     "blk_kick": 1,
@@ -13002,7 +13029,8 @@
     "gp": 1,
     "int": 16,
     "pts_ppr": 103,
-    "sack": 47
+    "sack": 47,
+    "yds_allow_0_100": 1.0
   },
   "SF": {
     "blk_kick": 1,
@@ -13010,7 +13038,8 @@
     "gp": 1,
     "int": 12,
     "pts_ppr": 84,
-    "sack": 40
+    "sack": 40,
+    "yds_allow_0_100": 1.0
   },
   "TB": {
     "blk_kick": 1,
@@ -13018,7 +13047,8 @@
     "gp": 1,
     "int": 11,
     "pts_ppr": 81,
-    "sack": 41
+    "sack": 41,
+    "yds_allow_0_100": 1.0
   },
   "TEN": {
     "blk_kick": 1,
@@ -13026,7 +13056,8 @@
     "gp": 1,
     "int": 9,
     "pts_ppr": 67,
-    "sack": 33
+    "sack": 33,
+    "yds_allow_0_100": 1.0
   },
   "WAS": {
     "blk_kick": 1,
@@ -13034,6 +13065,7 @@
     "gp": 1,
     "int": 10,
     "pts_ppr": 75,
-    "sack": 39
+    "sack": 39,
+    "yds_allow_0_100": 1.0
   }
 }
