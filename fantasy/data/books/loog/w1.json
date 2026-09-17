@@ -217,7 +217,7 @@
       "b": {
         "rosterId": 4,
         "manager": "Zregi4",
-        "team": "Zregi4"
+        "team": "Skat in LaPorta Potty"
       },
       "moneyline": {
         "pA": 61.1,
@@ -255,7 +255,7 @@
         {
           "rosterId": 4,
           "manager": "Zregi4",
-          "team": "Zregi4",
+          "team": "Skat in LaPorta Potty",
           "pct": 18.7,
           "price": "+330"
         },
@@ -726,7 +726,7 @@
       {
         "rosterId": 4,
         "manager": "Zregi4",
-        "team": "Zregi4",
+        "team": "Skat in LaPorta Potty",
         "projFinish": 6,
         "medianFinish": 6,
         "projWins": 6.4,
@@ -878,7 +878,7 @@
           {
             "rosterId": 4,
             "manager": "Zregi4",
-            "team": "Zregi4",
+            "team": "Skat in LaPorta Potty",
             "pct": 7.5,
             "price": "+890"
           },
@@ -914,7 +914,7 @@
           {
             "rosterId": 4,
             "manager": "Zregi4",
-            "team": "Zregi4",
+            "team": "Skat in LaPorta Potty",
             "pct": 12.5,
             "price": "+540"
           },
@@ -1011,7 +1011,7 @@
       {
         "rosterId": 4,
         "manager": "Zregi4",
-        "team": "Zregi4",
+        "team": "Skat in LaPorta Potty",
         "line": 6.5,
         "expected": 6.4,
         "over": "−105",
@@ -1300,7 +1300,7 @@
     {
       "rosterId": 4,
       "manager": "Zregi4",
-      "team": "Zregi4",
+      "team": "Skat in LaPorta Potty",
       "projected": 113.5,
       "players": [
         {
@@ -1824,7 +1824,7 @@
     {
       "rosterId": 4,
       "manager": "Zregi4",
-      "team": "Zregi4",
+      "team": "Skat in LaPorta Potty",
       "projected": 100.8
     },
     {
@@ -1892,7 +1892,7 @@
     {
       "rosterId": 4,
       "manager": "Zregi4",
-      "team": "Zregi4",
+      "team": "Skat in LaPorta Potty",
       "pWin": 38.9,
       "pLow": 18.7,
       "pHigh": 4.4

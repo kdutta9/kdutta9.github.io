@@ -1,8 +1,10 @@
 {
   "season": "2026",
-  "week": 1,
-  "pulledAt": "2026-09-09T14:22:06.381Z",
+  "week": 2,
+  "pulledAt": "2026-09-16T08:22:03.860Z",
   "leagues": [
-    "loog"
+    "dkenasty",
+    "loog",
+    "nicks"
   ]
 }

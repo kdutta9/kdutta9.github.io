@@ -2,25 +2,16 @@
   {
     "id": "dkenasty",
     "name": "DKEnasty",
-    "bookName": "DKENASTY SPORTSBOOK",
-    "kind": "league"
+    "bookName": "DKENASTY SPORTSBOOK"
   },
   {
     "id": "loog",
     "name": "League of Ordinary Gentlemen",
-    "bookName": "THE ORDINARY GENTLEMEN",
-    "kind": "league"
+    "bookName": "THE ORDINARY GENTLEMEN"
   },
   {
     "id": "nicks",
     "name": "Nick's",
-    "bookName": "NICK'S SPORTSBOOK",
-    "kind": "league"
-  },
-  {
-    "id": "crossover",
-    "name": "The Crossover",
-    "bookName": "THE CROSSOVER",
-    "kind": "crossover"
+    "bookName": "NICK'S SPORTSBOOK"
   }
 ]
