@@ -1,0 +1,2421 @@
+{
+  "id": "loog",
+  "week": 4,
+  "season": "2026",
+  "bookName": "THE ORDINARY GENTLEMEN",
+  "tagline": "Official betting partner of the League of Ordinary Gentlemen",
+  "displayName": "League of Ordinary Gentlemen",
+  "stakes": {
+    "buyIn": "$50",
+    "pot": "$500",
+    "structure": "places-1-through-3-pay",
+    "payouts": [
+      {
+        "place": 1,
+        "label": "$350",
+        "note": null
+      },
+      {
+        "place": 2,
+        "label": "$100",
+        "note": null
+      },
+      {
+        "place": 3,
+        "label": "$50",
+        "note": "buy-in back"
+      }
+    ],
+    "hysa": null
+  },
+  "preview": {
+    "writtenWeek": 1,
+    "standfirst": "Ten seats, five hundred dollars, three of them paid. Sixth season, two keepers a side, and the flattest board of the three books.",
+    "paragraphs": [
+      "In an even ten-team league every seat would hold a 10% title chance. The favourite here opens at 15.9%, the longest price at 7.0% — a 2.3× spread between the best and worst rosters. The same model priced Nick's at 3.4× and DKEnasty at 6.5× on the same afternoon, so this is comfortably the tightest of the three. The likeliest reason is simply that ten teams share the player pool that the other two spread across twelve: every roster here is deeper, and depth is what compresses the gap between the top and the bottom of a league. Six of ten make the playoffs, which means more than half the field is in, and on these numbers no seat is below a 50% shot at that.",
+      "Fifty dollars in, three places out: $350, $100, and the buy-in back for third. Nine starters rather than ten puts weekly totals in the 234–252 range, a little under the other two books. The one genuinely lopsided line on the card is Jahmyracle on Ice at −260 over bmilgram, a 14.2-point projection gap that comes out at 67.2% once the vig is stripped — the largest edge on any of the three sheets this week. Last place is settled on the consolation bracket rather than on record, so a bad team that wins a single game in week 15 climbs straight out of it."
+    ]
+  },
+  "meta": {
+    "seed": 1592621581,
+    "sims": 25000,
+    "sources": "SLEEPER PROJECTIONS · 25K SIMS · VARIANCE FIT ON 2025 RESIDUALS",
+    "pulledAt": "2026-10-01T20:25:37.192Z",
+    "playersDate": "2026-10-01",
+    "scoringKeys": 147,
+    "throughWeek": 14,
+    "mae": 0.2519,
+    "overrides": [],
+    "disclosures": [
+      "Rosters frozen as of the pull — trades and pickups after it are not priced. A slot nobody on the roster can play is priced at the best free agent eligible for it, and marked waivers.",
+      "Lineups simulated as optimal; real managers are not, so totals run a touch high.",
+      "Player scores drawn independently, so stacked rosters are slightly under-varianced and moneylines run slightly long.",
+      "Season futures assume this week's rosters play out the year. Injuries, trades and the waiver wire are not forecast — only the historical size of that error is.",
+      "Playoff seeding is simulated on wins then points-for, and playoff games are simulated as games, not decided by season totals.",
+      "Not real betting."
+    ]
+  },
+  "matchups": [
+    {
+      "a": {
+        "rosterId": 3,
+        "manager": "tazioer",
+        "team": "McLovin"
+      },
+      "b": {
+        "rosterId": 10,
+        "manager": "bmilgram",
+        "team": "bmilgram"
+      },
+      "moneyline": {
+        "pA": 61.3,
+        "a": "−195",
+        "b": "+140"
+      },
+      "spread": {
+        "line": -9,
+        "a": "−9.0",
+        "b": "+9.0",
+        "price": "−110",
+        "pCover": 50.1
+      },
+      "total": {
+        "line": 255.5,
+        "over": "−110",
+        "under": "−110",
+        "pOver": 50.1
+      },
+      "projected": {
+        "a": 133.1,
+        "b": 123.9
+      },
+      "simMedian": {
+        "a": 131.7,
+        "b": 122.6
+      }
+    },
+    {
+      "a": {
+        "rosterId": 1,
+        "manager": "rbrodskiy",
+        "team": "Easy Breece-y"
+      },
+      "b": {
+        "rosterId": 6,
+        "manager": "tushawarma",
+        "team": "❄️"
+      },
+      "moneyline": {
+        "pA": 65.2,
+        "a": "−230",
+        "b": "+165"
+      },
+      "spread": {
+        "line": -12,
+        "a": "−12.0",
+        "b": "+12.0",
+        "price": "−110",
+        "pCover": 50.3
+      },
+      "total": {
+        "line": 239,
+        "over": "−110",
+        "under": "−110",
+        "pOver": 49.9
+      },
+      "projected": {
+        "a": 126.3,
+        "b": 113.7
+      },
+      "simMedian": {
+        "a": 125,
+        "b": 112.7
+      }
+    },
+    {
+      "a": {
+        "rosterId": 5,
+        "manager": "aruni3",
+        "team": "aruni3"
+      },
+      "b": {
+        "rosterId": 4,
+        "manager": "Zregi4",
+        "team": "Skat in LaPorta Potty"
+      },
+      "moneyline": {
+        "pA": 59.2,
+        "a": "−175",
+        "b": "+130"
+      },
+      "spread": {
+        "line": -7,
+        "a": "−7.0",
+        "b": "+7.0",
+        "price": "−110",
+        "pCover": 50
+      },
+      "total": {
+        "line": 241.5,
+        "over": "−110",
+        "under": "−110",
+        "pOver": 49.9
+      },
+      "projected": {
+        "a": 125,
+        "b": 118
+      },
+      "simMedian": {
+        "a": 123.4,
+        "b": 116.6
+      }
+    },
+    {
+      "a": {
+        "rosterId": 7,
+        "manager": "jirish42",
+        "team": "Jahmyracle on Ice"
+      },
+      "b": {
+        "rosterId": 2,
+        "manager": "shayaz",
+        "team": "Step Brockers"
+      },
+      "moneyline": {
+        "pA": 79.1,
+        "a": "−570",
+        "b": "+340"
+      },
+      "spread": {
+        "line": -26,
+        "a": "−26.0",
+        "b": "+26.0",
+        "price": "−110",
+        "pCover": 50.3
+      },
+      "total": {
+        "line": 254,
+        "over": "−110",
+        "under": "−110",
+        "pOver": 50
+      },
+      "projected": {
+        "a": 141.1,
+        "b": 114.5
+      },
+      "simMedian": {
+        "a": 139.4,
+        "b": 112.9
+      }
+    },
+    {
+      "a": {
+        "rosterId": 8,
+        "manager": "kdutta",
+        "team": "T-Posers"
+      },
+      "b": {
+        "rosterId": 9,
+        "manager": "MattGar0124",
+        "team": "The Warren Ukraine"
+      },
+      "moneyline": {
+        "pA": 54.9,
+        "a": "−145",
+        "b": "+105"
+      },
+      "spread": {
+        "line": -4,
+        "a": "−4.0",
+        "b": "+4.0",
+        "price": "−110",
+        "pCover": 49.8
+      },
+      "total": {
+        "line": 251.5,
+        "over": "−110",
+        "under": "−110",
+        "pOver": 49.9
+      },
+      "projected": {
+        "a": 128.6,
+        "b": 124.9
+      },
+      "simMedian": {
+        "a": 127.2,
+        "b": 123.1
+      }
+    }
+  ],
+  "punishment": {
+    "weekly": {
+      "name": "LOW SCORER OF THE WEEK",
+      "copy": "Fewest points in the league in a given week. No forfeit attached — this one is just the number.",
+      "rows": [
+        {
+          "rosterId": 6,
+          "manager": "tushawarma",
+          "team": "❄️",
+          "pct": 19,
+          "price": "+320"
+        },
+        {
+          "rosterId": 2,
+          "manager": "shayaz",
+          "team": "Step Brockers",
+          "pct": 18.8,
+          "price": "+330"
+        },
+        {
+          "rosterId": 4,
+          "manager": "Zregi4",
+          "team": "Skat in LaPorta Potty",
+          "pct": 14,
+          "price": "+470"
+        },
+        {
+          "rosterId": 10,
+          "manager": "bmilgram",
+          "team": "bmilgram",
+          "pct": 9.2,
+          "price": "+770"
+        },
+        {
+          "rosterId": 9,
+          "manager": "MattGar0124",
+          "team": "The Warren Ukraine",
+          "pct": 8.9,
+          "price": "+800"
+        },
+        {
+          "rosterId": 5,
+          "manager": "aruni3",
+          "team": "aruni3",
+          "pct": 8.5,
+          "price": "+840"
+        },
+        {
+          "rosterId": 1,
+          "manager": "rbrodskiy",
+          "team": "Easy Breece-y",
+          "pct": 7.9,
+          "price": "+920"
+        },
+        {
+          "rosterId": 8,
+          "manager": "kdutta",
+          "team": "T-Posers",
+          "pct": 6.8,
+          "price": "+1050"
+        },
+        {
+          "rosterId": 3,
+          "manager": "tazioer",
+          "team": "McLovin",
+          "pct": 4.5,
+          "price": "+1700"
+        },
+        {
+          "rosterId": 7,
+          "manager": "jirish42",
+          "team": "Jahmyracle on Ice",
+          "pct": 2.5,
+          "price": "+3100"
+        }
+      ]
+    },
+    "paired": null,
+    "joints": [],
+    "season": {
+      "name": "LAST PLACE",
+      "copy": "Tenth. Settled on the consolation bracket rather than on record, so a bad team that wins one game in week 15 climbs out of it."
+    }
+  },
+  "futures": {
+    "structure": "places-1-through-3-pay",
+    "payingPlaces": [
+      1,
+      2,
+      3
+    ],
+    "standings": [
+      {
+        "rosterId": 7,
+        "manager": "jirish42",
+        "team": "Jahmyracle on Ice",
+        "projFinish": 3.8,
+        "medianFinish": 3,
+        "projWins": 8.6,
+        "projLosses": 5.4,
+        "projPoints": 1701,
+        "dist": [
+          19.5,
+          17.2,
+          15.6,
+          14.2,
+          9.7,
+          9.9,
+          3.7,
+          3.7,
+          3.3,
+          3.2
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$350",
+            "pct": 19.5,
+            "price": "+310"
+          },
+          {
+            "place": 2,
+            "label": "$100",
+            "pct": 17.2,
+            "price": "+370"
+          },
+          {
+            "place": 3,
+            "label": "$50",
+            "pct": 15.6,
+            "price": "+410"
+          }
+        ],
+        "inTheMoney": 52.2,
+        "playoffs": 86,
+        "bye": 46.6,
+        "pointsTitle": 41.4,
+        "last": 3.2,
+        "rank": 1
+      },
+      {
+        "rosterId": 5,
+        "manager": "aruni3",
+        "team": "aruni3",
+        "projFinish": 4.7,
+        "medianFinish": 4,
+        "projWins": 8,
+        "projLosses": 6,
+        "projPoints": 1533,
+        "dist": [
+          13.6,
+          13.6,
+          12.7,
+          12.3,
+          10.9,
+          11.5,
+          6.6,
+          6.4,
+          6.3,
+          6.2
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$350",
+            "pct": 13.6,
+            "price": "+490"
+          },
+          {
+            "place": 2,
+            "label": "$100",
+            "pct": 13.6,
+            "price": "+490"
+          },
+          {
+            "place": 3,
+            "label": "$50",
+            "pct": 12.7,
+            "price": "+530"
+          }
+        ],
+        "inTheMoney": 39.9,
+        "playoffs": 74.6,
+        "bye": 29.3,
+        "pointsTitle": 10,
+        "last": 6.2,
+        "rank": 2
+      },
+      {
+        "rosterId": 8,
+        "manager": "kdutta",
+        "team": "T-Posers",
+        "projFinish": 4.8,
+        "medianFinish": 5,
+        "projWins": 7.8,
+        "projLosses": 6.2,
+        "projPoints": 1541,
+        "dist": [
+          12.9,
+          12.3,
+          12.3,
+          11.9,
+          11.2,
+          11.5,
+          6.8,
+          7.3,
+          6.7,
+          7.1
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$350",
+            "pct": 12.9,
+            "price": "+520"
+          },
+          {
+            "place": 2,
+            "label": "$100",
+            "pct": 12.3,
+            "price": "+550"
+          },
+          {
+            "place": 3,
+            "label": "$50",
+            "pct": 12.3,
+            "price": "+550"
+          }
+        ],
+        "inTheMoney": 37.5,
+        "playoffs": 72.1,
+        "bye": 27.5,
+        "pointsTitle": 11,
+        "last": 7.1,
+        "rank": 3
+      },
+      {
+        "rosterId": 3,
+        "manager": "tazioer",
+        "team": "McLovin",
+        "projFinish": 5.3,
+        "medianFinish": 5,
+        "projWins": 7.4,
+        "projLosses": 6.6,
+        "projPoints": 1529,
+        "dist": [
+          8.8,
+          10.6,
+          10.6,
+          12.8,
+          11.3,
+          13.1,
+          7,
+          8.4,
+          8.1,
+          9.3
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$350",
+            "pct": 8.8,
+            "price": "+810"
+          },
+          {
+            "place": 2,
+            "label": "$100",
+            "pct": 10.6,
+            "price": "+660"
+          },
+          {
+            "place": 3,
+            "label": "$50",
+            "pct": 10.6,
+            "price": "+660"
+          }
+        ],
+        "inTheMoney": 29.9,
+        "playoffs": 67.2,
+        "bye": 21.7,
+        "pointsTitle": 8.4,
+        "last": 9.3,
+        "rank": 4
+      },
+      {
+        "rosterId": 10,
+        "manager": "bmilgram",
+        "team": "bmilgram",
+        "projFinish": 5.6,
+        "medianFinish": 5,
+        "projWins": 7.1,
+        "projLosses": 6.9,
+        "projPoints": 1503,
+        "dist": [
+          8.4,
+          9.8,
+          9.6,
+          10.9,
+          11.3,
+          12.1,
+          8.2,
+          9.4,
+          9.4,
+          10.8
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$350",
+            "pct": 8.4,
+            "price": "+850"
+          },
+          {
+            "place": 2,
+            "label": "$100",
+            "pct": 9.8,
+            "price": "+720"
+          },
+          {
+            "place": 3,
+            "label": "$50",
+            "pct": 9.6,
+            "price": "+730"
+          }
+        ],
+        "inTheMoney": 27.8,
+        "playoffs": 62.1,
+        "bye": 18.5,
+        "pointsTitle": 6.6,
+        "last": 10.8,
+        "rank": 5
+      },
+      {
+        "rosterId": 1,
+        "manager": "rbrodskiy",
+        "team": "Easy Breece-y",
+        "projFinish": 5.7,
+        "medianFinish": 6,
+        "projWins": 6.7,
+        "projLosses": 7.3,
+        "projPoints": 1492,
+        "dist": [
+          9.9,
+          9,
+          9.2,
+          8.7,
+          9.9,
+          9.1,
+          11.8,
+          11.2,
+          11.1,
+          10.1
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$350",
+            "pct": 9.9,
+            "price": "+710"
+          },
+          {
+            "place": 2,
+            "label": "$100",
+            "pct": 9,
+            "price": "+790"
+          },
+          {
+            "place": 3,
+            "label": "$50",
+            "pct": 9.2,
+            "price": "+770"
+          }
+        ],
+        "inTheMoney": 28.1,
+        "playoffs": 55.8,
+        "bye": 15.5,
+        "pointsTitle": 6.6,
+        "last": 10.1,
+        "rank": 6
+      },
+      {
+        "rosterId": 6,
+        "manager": "tushawarma",
+        "team": "❄️",
+        "projFinish": 5.8,
+        "medianFinish": 6,
+        "projWins": 7,
+        "projLosses": 7,
+        "projPoints": 1468,
+        "dist": [
+          7.6,
+          8.8,
+          9.3,
+          10.4,
+          10.7,
+          11.2,
+          9.4,
+          10.5,
+          10.3,
+          11.8
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$350",
+            "pct": 7.6,
+            "price": "+960"
+          },
+          {
+            "place": 2,
+            "label": "$100",
+            "pct": 8.8,
+            "price": "+810"
+          },
+          {
+            "place": 3,
+            "label": "$50",
+            "pct": 9.3,
+            "price": "+760"
+          }
+        ],
+        "inTheMoney": 25.6,
+        "playoffs": 58,
+        "bye": 16.3,
+        "pointsTitle": 4.5,
+        "last": 11.8,
+        "rank": 7
+      },
+      {
+        "rosterId": 2,
+        "manager": "shayaz",
+        "team": "Step Brockers",
+        "projFinish": 6.1,
+        "medianFinish": 7,
+        "projWins": 6.2,
+        "projLosses": 7.8,
+        "projPoints": 1463,
+        "dist": [
+          7.8,
+          7.3,
+          8.1,
+          7.2,
+          9.1,
+          8.1,
+          14,
+          13.3,
+          13.1,
+          12
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$350",
+            "pct": 7.8,
+            "price": "+930"
+          },
+          {
+            "place": 2,
+            "label": "$100",
+            "pct": 7.3,
+            "price": "+1000"
+          },
+          {
+            "place": 3,
+            "label": "$50",
+            "pct": 8.1,
+            "price": "+890"
+          }
+        ],
+        "inTheMoney": 23.2,
+        "playoffs": 47.6,
+        "bye": 10.4,
+        "pointsTitle": 4.5,
+        "last": 12,
+        "rank": 8
+      },
+      {
+        "rosterId": 9,
+        "manager": "MattGar0124",
+        "team": "The Warren Ukraine",
+        "projFinish": 6.5,
+        "medianFinish": 7,
+        "projWins": 6,
+        "projLosses": 8,
+        "projPoints": 1426,
+        "dist": [
+          5.8,
+          6.2,
+          6.8,
+          6.7,
+          8.7,
+          7.9,
+          14.1,
+          14,
+          15,
+          14.8
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$350",
+            "pct": 5.8,
+            "price": "+1300"
+          },
+          {
+            "place": 2,
+            "label": "$100",
+            "pct": 6.2,
+            "price": "+1200"
+          },
+          {
+            "place": 3,
+            "label": "$50",
+            "pct": 6.8,
+            "price": "+1100"
+          }
+        ],
+        "inTheMoney": 18.8,
+        "playoffs": 42,
+        "bye": 8.5,
+        "pointsTitle": 2.8,
+        "last": 14.8,
+        "rank": 9
+      },
+      {
+        "rosterId": 4,
+        "manager": "Zregi4",
+        "team": "Skat in LaPorta Potty",
+        "projFinish": 6.7,
+        "medianFinish": 7,
+        "projWins": 5.2,
+        "projLosses": 8.8,
+        "projPoints": 1460,
+        "dist": [
+          5.8,
+          5.3,
+          5.8,
+          4.9,
+          7.1,
+          5.6,
+          18.3,
+          15.8,
+          16.7,
+          14.7
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$350",
+            "pct": 5.8,
+            "price": "+1300"
+          },
+          {
+            "place": 2,
+            "label": "$100",
+            "pct": 5.3,
+            "price": "+1400"
+          },
+          {
+            "place": 3,
+            "label": "$50",
+            "pct": 5.8,
+            "price": "+1300"
+          }
+        ],
+        "inTheMoney": 16.9,
+        "playoffs": 34.5,
+        "bye": 5.7,
+        "pointsTitle": 4.3,
+        "last": 14.7,
+        "rank": 10
+      }
+    ],
+    "markets": [
+      {
+        "key": "championship",
+        "name": "CHAMPIONSHIP",
+        "pays": "$350",
+        "rows": [
+          {
+            "rosterId": 7,
+            "manager": "jirish42",
+            "team": "Jahmyracle on Ice",
+            "pct": 19.5,
+            "price": "+280"
+          },
+          {
+            "rosterId": 5,
+            "manager": "aruni3",
+            "team": "aruni3",
+            "pct": 13.6,
+            "price": "+440"
+          },
+          {
+            "rosterId": 8,
+            "manager": "kdutta",
+            "team": "T-Posers",
+            "pct": 12.9,
+            "price": "+480"
+          },
+          {
+            "rosterId": 1,
+            "manager": "rbrodskiy",
+            "team": "Easy Breece-y",
+            "pct": 9.9,
+            "price": "+650"
+          },
+          {
+            "rosterId": 3,
+            "manager": "tazioer",
+            "team": "McLovin",
+            "pct": 8.8,
+            "price": "+740"
+          },
+          {
+            "rosterId": 10,
+            "manager": "bmilgram",
+            "team": "bmilgram",
+            "pct": 8.4,
+            "price": "+780"
+          },
+          {
+            "rosterId": 2,
+            "manager": "shayaz",
+            "team": "Step Brockers",
+            "pct": 7.8,
+            "price": "+850"
+          },
+          {
+            "rosterId": 6,
+            "manager": "tushawarma",
+            "team": "❄️",
+            "pct": 7.6,
+            "price": "+880"
+          },
+          {
+            "rosterId": 4,
+            "manager": "Zregi4",
+            "team": "Skat in LaPorta Potty",
+            "pct": 5.8,
+            "price": "+1200"
+          },
+          {
+            "rosterId": 9,
+            "manager": "MattGar0124",
+            "team": "The Warren Ukraine",
+            "pct": 5.8,
+            "price": "+1200"
+          }
+        ]
+      },
+      {
+        "key": "lastPlace",
+        "name": "LAST PLACE",
+        "copy": "Tenth. Settled on the consolation bracket rather than on record, so a bad team that wins one game in week 15 climbs out of it.",
+        "pays": null,
+        "rows": [
+          {
+            "rosterId": 9,
+            "manager": "MattGar0124",
+            "team": "The Warren Ukraine",
+            "pct": 14.8,
+            "price": "+440"
+          },
+          {
+            "rosterId": 4,
+            "manager": "Zregi4",
+            "team": "Skat in LaPorta Potty",
+            "pct": 14.7,
+            "price": "+440"
+          },
+          {
+            "rosterId": 2,
+            "manager": "shayaz",
+            "team": "Step Brockers",
+            "pct": 12,
+            "price": "+570"
+          },
+          {
+            "rosterId": 6,
+            "manager": "tushawarma",
+            "team": "❄️",
+            "pct": 11.8,
+            "price": "+580"
+          },
+          {
+            "rosterId": 10,
+            "manager": "bmilgram",
+            "team": "bmilgram",
+            "pct": 10.8,
+            "price": "+640"
+          },
+          {
+            "rosterId": 1,
+            "manager": "rbrodskiy",
+            "team": "Easy Breece-y",
+            "pct": 10.1,
+            "price": "+690"
+          },
+          {
+            "rosterId": 3,
+            "manager": "tazioer",
+            "team": "McLovin",
+            "pct": 9.3,
+            "price": "+760"
+          },
+          {
+            "rosterId": 8,
+            "manager": "kdutta",
+            "team": "T-Posers",
+            "pct": 7.1,
+            "price": "+1050"
+          },
+          {
+            "rosterId": 5,
+            "manager": "aruni3",
+            "team": "aruni3",
+            "pct": 6.2,
+            "price": "+1200"
+          },
+          {
+            "rosterId": 7,
+            "manager": "jirish42",
+            "team": "Jahmyracle on Ice",
+            "pct": 3.2,
+            "price": "+2400"
+          }
+        ]
+      }
+    ],
+    "winTotals": [
+      {
+        "rosterId": 1,
+        "manager": "rbrodskiy",
+        "team": "Easy Breece-y",
+        "line": 6.5,
+        "expected": 6.7,
+        "over": "−130",
+        "under": "−105",
+        "pOver": 52.4
+      },
+      {
+        "rosterId": 2,
+        "manager": "shayaz",
+        "team": "Step Brockers",
+        "line": 6.5,
+        "expected": 6.2,
+        "over": "+110",
+        "under": "−150",
+        "pOver": 44.4
+      },
+      {
+        "rosterId": 3,
+        "manager": "tazioer",
+        "team": "McLovin",
+        "line": 7.5,
+        "expected": 7.4,
+        "over": "−105",
+        "under": "−130",
+        "pOver": 47.7
+      },
+      {
+        "rosterId": 4,
+        "manager": "Zregi4",
+        "team": "Skat in LaPorta Potty",
+        "line": 5.5,
+        "expected": 5.2,
+        "over": "+110",
+        "under": "−145",
+        "pOver": 44.8
+      },
+      {
+        "rosterId": 5,
+        "manager": "aruni3",
+        "team": "aruni3",
+        "line": 8.5,
+        "expected": 8,
+        "over": "+120",
+        "under": "−165",
+        "pOver": 42
+      },
+      {
+        "rosterId": 6,
+        "manager": "tushawarma",
+        "team": "❄️",
+        "line": 6.5,
+        "expected": 7,
+        "over": "−160",
+        "under": "+115",
+        "pOver": 57.1
+      },
+      {
+        "rosterId": 7,
+        "manager": "jirish42",
+        "team": "Jahmyracle on Ice",
+        "line": 8.5,
+        "expected": 8.6,
+        "over": "−135",
+        "under": "+100",
+        "pOver": 53.6
+      },
+      {
+        "rosterId": 8,
+        "manager": "kdutta",
+        "team": "T-Posers",
+        "line": 7.5,
+        "expected": 7.8,
+        "over": "−145",
+        "under": "+105",
+        "pOver": 54.8
+      },
+      {
+        "rosterId": 9,
+        "manager": "MattGar0124",
+        "team": "The Warren Ukraine",
+        "line": 5.5,
+        "expected": 6,
+        "over": "−155",
+        "under": "+115",
+        "pOver": 56.7
+      },
+      {
+        "rosterId": 10,
+        "manager": "bmilgram",
+        "team": "bmilgram",
+        "line": 7.5,
+        "expected": 7.1,
+        "over": "+120",
+        "under": "−160",
+        "pOver": 42.6
+      }
+    ]
+  },
+  "lineups": [
+    {
+      "rosterId": 1,
+      "manager": "rbrodskiy",
+      "team": "Easy Breece-y",
+      "projected": 126.3,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "team": "LAR",
+          "mu": 15.9
+        },
+        {
+          "slot": "RB",
+          "name": "Jonathan Taylor",
+          "position": "RB",
+          "team": "IND",
+          "mu": 21.5
+        },
+        {
+          "slot": "RB",
+          "name": "Aaron Jones",
+          "position": "RB",
+          "team": "MIN",
+          "mu": 14.5
+        },
+        {
+          "slot": "WR",
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU",
+          "mu": 18.6
+        },
+        {
+          "slot": "WR",
+          "name": "DeVonta Smith",
+          "position": "WR",
+          "team": "PHI",
+          "mu": 13.3
+        },
+        {
+          "slot": "TE",
+          "name": "Tyler Warren",
+          "position": "TE",
+          "team": "IND",
+          "mu": 12.1
+        },
+        {
+          "slot": "FLEX",
+          "name": "Braelon Allen",
+          "position": "RB",
+          "team": "NYJ",
+          "mu": 12.9
+        },
+        {
+          "slot": "K",
+          "name": "Tyler Loop",
+          "position": "K",
+          "team": "BAL",
+          "mu": 6.9
+        },
+        {
+          "slot": "DEF",
+          "name": "Baltimore Ravens",
+          "position": "DEF",
+          "team": "BAL",
+          "mu": 10.7
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 2,
+      "manager": "shayaz",
+      "team": "Step Brockers",
+      "projected": 114.5,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Brock Purdy",
+          "position": "QB",
+          "team": "SF",
+          "mu": 19.2
+        },
+        {
+          "slot": "RB",
+          "name": "David Montgomery",
+          "position": "RB",
+          "team": "HOU",
+          "mu": 15
+        },
+        {
+          "slot": "RB",
+          "name": "Omarion Hampton",
+          "position": "RB",
+          "team": "LAC",
+          "mu": 9.4
+        },
+        {
+          "slot": "WR",
+          "name": "Christian Watson",
+          "position": "WR",
+          "team": "GB",
+          "mu": 15.1
+        },
+        {
+          "slot": "WR",
+          "name": "George Pickens",
+          "position": "WR",
+          "team": "DAL",
+          "mu": 14.6
+        },
+        {
+          "slot": "TE",
+          "name": "Brock Bowers",
+          "position": "TE",
+          "team": "LV",
+          "mu": 15.3
+        },
+        {
+          "slot": "FLEX",
+          "name": "Tetairoa McMillan",
+          "position": "WR",
+          "team": "CAR",
+          "mu": 14
+        },
+        {
+          "slot": "K",
+          "name": "Jason Myers",
+          "position": "K",
+          "team": "SEA",
+          "mu": 6.9
+        },
+        {
+          "slot": "DEF",
+          "name": "Houston Texans",
+          "position": "DEF",
+          "team": "HOU",
+          "mu": 5
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 3,
+      "manager": "tazioer",
+      "team": "McLovin",
+      "projected": 133.1,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Tyler Shough",
+          "position": "QB",
+          "team": "NO",
+          "mu": 17.5
+        },
+        {
+          "slot": "RB",
+          "name": "Jeremiyah Love",
+          "position": "RB",
+          "team": "ARI",
+          "mu": 15.9
+        },
+        {
+          "slot": "RB",
+          "name": "Ashton Jeanty",
+          "position": "RB",
+          "team": "LV",
+          "mu": 15.5
+        },
+        {
+          "slot": "WR",
+          "name": "Garrett Wilson",
+          "position": "WR",
+          "team": "NYJ",
+          "mu": 18.7
+        },
+        {
+          "slot": "WR",
+          "name": "Zay Flowers",
+          "position": "WR",
+          "team": "BAL",
+          "mu": 17.5
+        },
+        {
+          "slot": "TE",
+          "name": "Trey McBride",
+          "position": "TE",
+          "team": "ARI",
+          "mu": 17.5
+        },
+        {
+          "slot": "FLEX",
+          "name": "Rhamondre Stevenson",
+          "position": "RB",
+          "team": "NE",
+          "mu": 12.4
+        },
+        {
+          "slot": "K",
+          "name": "Will Reichard",
+          "position": "K",
+          "team": "MIN",
+          "mu": 7.2
+        },
+        {
+          "slot": "DEF",
+          "name": "Minnesota Vikings",
+          "position": "DEF",
+          "team": "MIN",
+          "mu": 10.7
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 4,
+      "manager": "Zregi4",
+      "team": "Skat in LaPorta Potty",
+      "projected": 118,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Josh Allen",
+          "position": "QB",
+          "team": "BUF",
+          "mu": 22.8
+        },
+        {
+          "slot": "RB",
+          "name": "Cam Skattebo",
+          "position": "RB",
+          "team": "NYG",
+          "mu": 15.3
+        },
+        {
+          "slot": "RB",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "mu": 14.1
+        },
+        {
+          "slot": "WR",
+          "name": "Drake London",
+          "position": "WR",
+          "team": "ATL",
+          "mu": 16
+        },
+        {
+          "slot": "WR",
+          "name": "Malik Nabers",
+          "position": "WR",
+          "team": "NYG",
+          "mu": 13.9
+        },
+        {
+          "slot": "TE",
+          "name": "Sam LaPorta",
+          "position": "TE",
+          "team": "DET",
+          "mu": 10.9
+        },
+        {
+          "slot": "FLEX",
+          "name": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "team": "WAS",
+          "mu": 11.9
+        },
+        {
+          "slot": "K",
+          "name": "Cam Little",
+          "position": "K",
+          "team": "JAX",
+          "mu": 6.2
+        },
+        {
+          "slot": "DEF",
+          "name": "Chicago Bears",
+          "position": "DEF",
+          "team": "CHI",
+          "mu": 6.7
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 5,
+      "manager": "aruni3",
+      "team": "aruni3",
+      "projected": 125,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Jalen Hurts",
+          "position": "QB",
+          "team": "PHI",
+          "mu": 16.2
+        },
+        {
+          "slot": "RB",
+          "name": "Chase Brown",
+          "position": "RB",
+          "team": "CIN",
+          "mu": 17.2
+        },
+        {
+          "slot": "RB",
+          "name": "Kyren Williams",
+          "position": "RB",
+          "team": "LAR",
+          "mu": 13.5
+        },
+        {
+          "slot": "WR",
+          "name": "Chris Olave",
+          "position": "WR",
+          "team": "NO",
+          "mu": 19.1
+        },
+        {
+          "slot": "WR",
+          "name": "Ja'Marr Chase",
+          "position": "WR",
+          "team": "CIN",
+          "mu": 18.6
+        },
+        {
+          "slot": "TE",
+          "name": "Mark Andrews",
+          "position": "TE",
+          "team": "BAL",
+          "mu": 9.6
+        },
+        {
+          "slot": "FLEX",
+          "name": "Mike Evans",
+          "position": "WR",
+          "team": "SF",
+          "mu": 13.9
+        },
+        {
+          "slot": "K",
+          "name": "Harrison Butker",
+          "position": "K",
+          "team": "KC",
+          "mu": 6.8
+        },
+        {
+          "slot": "DEF",
+          "name": "Seattle Seahawks",
+          "position": "DEF",
+          "team": "SEA",
+          "mu": 10
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 6,
+      "manager": "tushawarma",
+      "team": "❄️",
+      "projected": 113.7,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Lamar Jackson",
+          "position": "QB",
+          "team": "BAL",
+          "mu": 21.4
+        },
+        {
+          "slot": "RB",
+          "name": "D'Andre Swift",
+          "position": "RB",
+          "team": "CHI",
+          "mu": 16.7
+        },
+        {
+          "slot": "RB",
+          "name": "TreVeyon Henderson",
+          "position": "RB",
+          "team": "NE",
+          "mu": 9.4
+        },
+        {
+          "slot": "WR",
+          "name": "CeeDee Lamb",
+          "position": "WR",
+          "team": "DAL",
+          "mu": 17.4
+        },
+        {
+          "slot": "WR",
+          "name": "Michael Wilson",
+          "position": "WR",
+          "team": "ARI",
+          "mu": 14.6
+        },
+        {
+          "slot": "TE",
+          "name": "George Kittle",
+          "position": "TE",
+          "team": "SF",
+          "mu": 11.9
+        },
+        {
+          "slot": "FLEX",
+          "name": "Jameson Williams",
+          "position": "WR",
+          "team": "DET",
+          "mu": 11.2
+        },
+        {
+          "slot": "K",
+          "name": "Ka'imi Fairbairn",
+          "position": "K",
+          "team": "HOU",
+          "mu": 7.1
+        },
+        {
+          "slot": "DEF",
+          "name": "New England Patriots",
+          "position": "DEF",
+          "team": "NE",
+          "mu": 4
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 7,
+      "manager": "jirish42",
+      "team": "Jahmyracle on Ice",
+      "projected": 141.1,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Drake Maye",
+          "position": "QB",
+          "team": "NE",
+          "mu": 17.5
+        },
+        {
+          "slot": "RB",
+          "name": "Jahmyr Gibbs",
+          "position": "RB",
+          "team": "DET",
+          "mu": 25.1
+        },
+        {
+          "slot": "RB",
+          "name": "Derrick Henry",
+          "position": "RB",
+          "team": "BAL",
+          "mu": 19.5
+        },
+        {
+          "slot": "WR",
+          "name": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "team": "SEA",
+          "mu": 22.2
+        },
+        {
+          "slot": "WR",
+          "name": "Jalen Coker",
+          "position": "WR",
+          "team": "CAR",
+          "mu": 14.9
+        },
+        {
+          "slot": "TE",
+          "name": "Dalton Kincaid",
+          "position": "TE",
+          "team": "BUF",
+          "mu": 12.2
+        },
+        {
+          "slot": "FLEX",
+          "name": "Chuba Hubbard",
+          "position": "RB",
+          "team": "CAR",
+          "mu": 16.3
+        },
+        {
+          "slot": "K",
+          "name": "Cameron Dicker",
+          "position": "K",
+          "team": "LAC",
+          "mu": 5.8
+        },
+        {
+          "slot": "DEF",
+          "name": "Pittsburgh Steelers",
+          "position": "DEF",
+          "team": "PIT",
+          "mu": 7.8
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 8,
+      "manager": "kdutta",
+      "team": "T-Posers",
+      "projected": 128.6,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Jared Goff",
+          "position": "QB",
+          "team": "DET",
+          "mu": 16.8
+        },
+        {
+          "slot": "RB",
+          "name": "Christian McCaffrey",
+          "position": "RB",
+          "team": "SF",
+          "mu": 18.7
+        },
+        {
+          "slot": "RB",
+          "name": "James Cook",
+          "position": "RB",
+          "team": "BUF",
+          "mu": 17.2
+        },
+        {
+          "slot": "WR",
+          "name": "Amon-Ra St. Brown",
+          "position": "WR",
+          "team": "DET",
+          "mu": 18.6
+        },
+        {
+          "slot": "WR",
+          "name": "Parker Washington",
+          "position": "WR",
+          "team": "JAX",
+          "mu": 17
+        },
+        {
+          "slot": "TE",
+          "name": "Juwan Johnson",
+          "position": "TE",
+          "team": "NO",
+          "mu": 11.8
+        },
+        {
+          "slot": "FLEX",
+          "name": "Tee Higgins",
+          "position": "WR",
+          "team": "CIN",
+          "mu": 16.4
+        },
+        {
+          "slot": "K",
+          "name": "Jake Bates",
+          "position": "K",
+          "team": "DET",
+          "mu": 6.4
+        },
+        {
+          "slot": "DEF",
+          "name": "Arizona Cardinals",
+          "position": "DEF",
+          "team": "ARI",
+          "mu": 5.7
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 9,
+      "manager": "MattGar0124",
+      "team": "The Warren Ukraine",
+      "projected": 124.9,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Joe Burrow",
+          "position": "QB",
+          "team": "CIN",
+          "mu": 18.4
+        },
+        {
+          "slot": "RB",
+          "name": "Bijan Robinson",
+          "position": "RB",
+          "team": "ATL",
+          "mu": 22
+        },
+        {
+          "slot": "RB",
+          "name": "Jaylen Warren",
+          "position": "RB",
+          "team": "PIT",
+          "mu": 18.5
+        },
+        {
+          "slot": "WR",
+          "name": "DJ Moore",
+          "position": "WR",
+          "team": "BUF",
+          "mu": 13.9
+        },
+        {
+          "slot": "WR",
+          "name": "Stefon Diggs",
+          "position": "WR",
+          "team": "WAS",
+          "mu": 11.2
+        },
+        {
+          "slot": "TE",
+          "name": "Harold Fannin",
+          "position": "TE",
+          "team": "CLE",
+          "mu": 11.6
+        },
+        {
+          "slot": "FLEX",
+          "name": "Javonte Williams",
+          "position": "RB",
+          "team": "DAL",
+          "mu": 14.9
+        },
+        {
+          "slot": "K",
+          "name": "Brandon Aubrey",
+          "position": "K",
+          "team": "DAL",
+          "mu": 6.8
+        },
+        {
+          "slot": "DEF",
+          "name": "Green Bay Packers",
+          "position": "DEF",
+          "team": "GB",
+          "mu": 7.5
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 10,
+      "manager": "bmilgram",
+      "team": "bmilgram",
+      "projected": 123.9,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Trevor Lawrence",
+          "position": "QB",
+          "team": "JAX",
+          "mu": 19.3
+        },
+        {
+          "slot": "RB",
+          "name": "Kenneth Walker",
+          "position": "RB",
+          "team": "KC",
+          "mu": 19.8
+        },
+        {
+          "slot": "RB",
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "team": "PHI",
+          "mu": 14.6
+        },
+        {
+          "slot": "WR",
+          "name": "Justin Jefferson",
+          "position": "WR",
+          "team": "MIN",
+          "mu": 16.4
+        },
+        {
+          "slot": "WR",
+          "name": "Davante Adams",
+          "position": "WR",
+          "team": "LAR",
+          "mu": 14.8
+        },
+        {
+          "slot": "TE",
+          "name": "Travis Kelce",
+          "position": "TE",
+          "team": "KC",
+          "mu": 11.8
+        },
+        {
+          "slot": "FLEX",
+          "name": "Rashee Rice",
+          "position": "WR",
+          "team": "KC",
+          "mu": 14
+        },
+        {
+          "slot": "K",
+          "name": "Evan McPherson",
+          "position": "K",
+          "team": "CIN",
+          "mu": 7
+        },
+        {
+          "slot": "DEF",
+          "name": "San Francisco 49ers",
+          "position": "DEF",
+          "team": "SF",
+          "mu": 6.1
+        }
+      ],
+      "emptySlots": []
+    }
+  ],
+  "restOfSeason": [
+    {
+      "rosterId": 1,
+      "manager": "rbrodskiy",
+      "team": "Easy Breece-y",
+      "projected": 102.6
+    },
+    {
+      "rosterId": 2,
+      "manager": "shayaz",
+      "team": "Step Brockers",
+      "projected": 101.6
+    },
+    {
+      "rosterId": 3,
+      "manager": "tazioer",
+      "team": "McLovin",
+      "projected": 99.8
+    },
+    {
+      "rosterId": 4,
+      "manager": "Zregi4",
+      "team": "Skat in LaPorta Potty",
+      "projected": 100.2
+    },
+    {
+      "rosterId": 5,
+      "manager": "aruni3",
+      "team": "aruni3",
+      "projected": 104.7
+    },
+    {
+      "rosterId": 6,
+      "manager": "tushawarma",
+      "team": "❄️",
+      "projected": 98.8
+    },
+    {
+      "rosterId": 7,
+      "manager": "jirish42",
+      "team": "Jahmyracle on Ice",
+      "projected": 109.1
+    },
+    {
+      "rosterId": 8,
+      "manager": "kdutta",
+      "team": "T-Posers",
+      "projected": 103.9
+    },
+    {
+      "rosterId": 9,
+      "manager": "MattGar0124",
+      "team": "The Warren Ukraine",
+      "projected": 98.3
+    },
+    {
+      "rosterId": 10,
+      "manager": "bmilgram",
+      "team": "bmilgram",
+      "projected": 99.7
+    }
+  ],
+  "settled": {
+    "week": 3,
+    "matchups": [
+      {
+        "a": {
+          "rosterId": 3,
+          "manager": "tazioer",
+          "team": "McLovin",
+          "points": 139.4
+        },
+        "b": {
+          "rosterId": 1,
+          "manager": "rbrodskiy",
+          "team": "Easy Breece-y",
+          "points": 104.7
+        },
+        "played": true,
+        "posted": {
+          "moneyline": {
+            "pA": 50.5,
+            "a": "−120",
+            "b": "−115"
+          },
+          "spread": {
+            "line": -0.5,
+            "a": "−0.5",
+            "b": "+0.5",
+            "price": "−110",
+            "pCover": 49.9
+          },
+          "total": {
+            "line": 237,
+            "over": "−110",
+            "under": "−110",
+            "pOver": 50.2
+          }
+        },
+        "margin": 34.7,
+        "total": 244.1,
+        "winner": "a",
+        "ats": "a",
+        "ou": "a",
+        "brier": 0.245
+      },
+      {
+        "a": {
+          "rosterId": 10,
+          "manager": "bmilgram",
+          "team": "bmilgram",
+          "points": 116.68
+        },
+        "b": {
+          "rosterId": 5,
+          "manager": "aruni3",
+          "team": "aruni3",
+          "points": 114.62
+        },
+        "played": true,
+        "posted": {
+          "moneyline": {
+            "pA": 52.8,
+            "a": "−130",
+            "b": "−105"
+          },
+          "spread": {
+            "line": -2.5,
+            "a": "−2.5",
+            "b": "+2.5",
+            "price": "−110",
+            "pCover": 49.8
+          },
+          "total": {
+            "line": 245,
+            "over": "−110",
+            "under": "−110",
+            "pOver": 50.1
+          }
+        },
+        "margin": 2.06,
+        "total": 231.3,
+        "winner": "a",
+        "ats": "b",
+        "ou": "b",
+        "brier": 0.223
+      },
+      {
+        "a": {
+          "rosterId": 2,
+          "manager": "shayaz",
+          "team": "Step Brockers",
+          "points": 121.78
+        },
+        "b": {
+          "rosterId": 6,
+          "manager": "tushawarma",
+          "team": "❄️",
+          "points": 95.14
+        },
+        "played": true,
+        "posted": {
+          "moneyline": {
+            "pA": 52.6,
+            "a": "−130",
+            "b": "−105"
+          },
+          "spread": {
+            "line": -2,
+            "a": "−2.0",
+            "b": "+2.0",
+            "price": "−110",
+            "pCover": 50.1
+          },
+          "total": {
+            "line": 240,
+            "over": "−110",
+            "under": "−110",
+            "pOver": 49.8
+          }
+        },
+        "margin": 26.64,
+        "total": 216.92,
+        "winner": "a",
+        "ats": "a",
+        "ou": "b",
+        "brier": 0.225
+      },
+      {
+        "a": {
+          "rosterId": 8,
+          "manager": "kdutta",
+          "team": "T-Posers",
+          "points": 135.94
+        },
+        "b": {
+          "rosterId": 4,
+          "manager": "Zregi4",
+          "team": "Skat in LaPorta Potty",
+          "points": 110.06
+        },
+        "played": true,
+        "posted": {
+          "moneyline": {
+            "pA": 66.7,
+            "a": "−250",
+            "b": "+180"
+          },
+          "spread": {
+            "line": -13.5,
+            "a": "−13.5",
+            "b": "+13.5",
+            "price": "−110",
+            "pCover": 49.7
+          },
+          "total": {
+            "line": 238.5,
+            "over": "−110",
+            "under": "−110",
+            "pOver": 49.9
+          }
+        },
+        "margin": 25.88,
+        "total": 246,
+        "winner": "a",
+        "ats": "a",
+        "ou": "a",
+        "brier": 0.111
+      },
+      {
+        "a": {
+          "rosterId": 7,
+          "manager": "jirish42",
+          "team": "Jahmyracle on Ice",
+          "points": 150.8
+        },
+        "b": {
+          "rosterId": 9,
+          "manager": "MattGar0124",
+          "team": "The Warren Ukraine",
+          "points": 126.08
+        },
+        "played": true,
+        "posted": {
+          "moneyline": {
+            "pA": 69.6,
+            "a": "−300",
+            "b": "+210"
+          },
+          "spread": {
+            "line": -16.5,
+            "a": "−16.5",
+            "b": "+16.5",
+            "price": "−110",
+            "pCover": 50.1
+          },
+          "total": {
+            "line": 256,
+            "over": "−110",
+            "under": "−110",
+            "pOver": 50.2
+          }
+        },
+        "margin": 24.72,
+        "total": 276.88,
+        "winner": "a",
+        "ats": "a",
+        "ou": "a",
+        "brier": 0.092
+      }
+    ],
+    "reportCard": {
+      "games": 5,
+      "straightUp": {
+        "w": 5,
+        "l": 0,
+        "p": 0
+      },
+      "ats": {
+        "w": 4,
+        "l": 1,
+        "p": 0
+      },
+      "total": {
+        "w": 3,
+        "l": 2,
+        "p": 0
+      },
+      "brier": 0.179,
+      "coinFlip": 0.25,
+      "expectedChalkWins": 2.92
+    },
+    "high": {
+      "rosterId": 7,
+      "manager": "jirish42",
+      "team": "Jahmyracle on Ice",
+      "points": 150.8
+    },
+    "low": {
+      "rosterId": 6,
+      "manager": "tushawarma",
+      "team": "❄️",
+      "points": 95.14
+    },
+    "punishment": {
+      "low": {
+        "name": "LOW SCORER OF THE WEEK",
+        "rosterId": 6,
+        "manager": "tushawarma",
+        "team": "❄️",
+        "points": 95.14,
+        "price": "+680",
+        "pct": 10.3,
+        "rank": 5,
+        "of": 10,
+        "favourite": {
+          "rosterId": 4,
+          "manager": "Zregi4",
+          "team": "Skat in LaPorta Potty",
+          "pct": 17.7,
+          "price": "+350"
+        },
+        "hitFavourite": false
+      },
+      "high": null,
+      "joint": null
+    },
+    "bench": [
+      {
+        "rosterId": 2,
+        "manager": "shayaz",
+        "team": "Step Brockers",
+        "points": 121.78,
+        "best": 160.58,
+        "left": 38.8,
+        "missed": [
+          {
+            "name": "Kenyon Sadiq",
+            "position": "TE",
+            "points": 23.5
+          },
+          {
+            "name": "Luther Burden",
+            "position": "WR",
+            "points": 19.8
+          },
+          {
+            "name": "Houston Texans",
+            "position": "DEF",
+            "points": 11
+          }
+        ]
+      },
+      {
+        "rosterId": 6,
+        "manager": "tushawarma",
+        "team": "❄️",
+        "points": 95.14,
+        "best": 128.54,
+        "left": 33.4,
+        "missed": [
+          {
+            "name": "Michael Wilson",
+            "position": "WR",
+            "points": 25.9
+          },
+          {
+            "name": "Rachaad White",
+            "position": "RB",
+            "points": 11.1
+          },
+          {
+            "name": "Jameson Williams",
+            "position": "WR",
+            "points": 8.9
+          }
+        ]
+      },
+      {
+        "rosterId": 9,
+        "manager": "MattGar0124",
+        "team": "The Warren Ukraine",
+        "points": 126.08,
+        "best": 156.18,
+        "left": 30.1,
+        "missed": [
+          {
+            "name": "Harold Fannin",
+            "position": "TE",
+            "points": 24.1
+          },
+          {
+            "name": "Los Angeles Rams",
+            "position": "DEF",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "rosterId": 3,
+        "manager": "tazioer",
+        "team": "McLovin",
+        "points": 139.4,
+        "best": 164.6,
+        "left": 25.2,
+        "missed": [
+          {
+            "name": "Terry McLaurin",
+            "position": "WR",
+            "points": 19.7
+          },
+          {
+            "name": "Wan'Dale Robinson",
+            "position": "WR",
+            "points": 18.7
+          },
+          {
+            "name": "New York Giants",
+            "position": "DEF",
+            "points": 9
+          }
+        ]
+      },
+      {
+        "rosterId": 10,
+        "manager": "bmilgram",
+        "team": "bmilgram",
+        "points": 116.68,
+        "best": 133.18,
+        "left": 16.5,
+        "missed": [
+          {
+            "name": "Jordan Addison",
+            "position": "WR",
+            "points": 20
+          },
+          {
+            "name": "RJ Harvey",
+            "position": "RB",
+            "points": 10.7
+          }
+        ]
+      },
+      {
+        "rosterId": 4,
+        "manager": "Zregi4",
+        "team": "Skat in LaPorta Potty",
+        "points": 110.06,
+        "best": 122.26,
+        "left": 12.2,
+        "missed": [
+          {
+            "name": "Tony Pollard",
+            "position": "RB",
+            "points": 13.6
+          },
+          {
+            "name": "DK Metcalf",
+            "position": "WR",
+            "points": 12.1
+          },
+          {
+            "name": "Jake Ferguson",
+            "position": "TE",
+            "points": 9.3
+          }
+        ]
+      },
+      {
+        "rosterId": 8,
+        "manager": "kdutta",
+        "team": "T-Posers",
+        "points": 135.94,
+        "best": 148.04,
+        "left": 12.1,
+        "missed": [
+          {
+            "name": "Bhayshul Tuten",
+            "position": "RB",
+            "points": 17
+          },
+          {
+            "name": "Los Angeles Chargers",
+            "position": "DEF",
+            "points": 13
+          }
+        ]
+      },
+      {
+        "rosterId": 1,
+        "manager": "rbrodskiy",
+        "team": "Easy Breece-y",
+        "points": 104.7,
+        "best": 113.9,
+        "left": 9.2,
+        "missed": [
+          {
+            "name": "Aaron Jones",
+            "position": "RB",
+            "points": 14.2
+          },
+          {
+            "name": "Josh Downs",
+            "position": "WR",
+            "points": 12.7
+          }
+        ]
+      },
+      {
+        "rosterId": 7,
+        "manager": "jirish42",
+        "team": "Jahmyracle on Ice",
+        "points": 150.8,
+        "best": 157.2,
+        "left": 6.4,
+        "missed": [
+          {
+            "name": "Carnell Tate",
+            "position": "WR",
+            "points": 11.8
+          }
+        ]
+      },
+      {
+        "rosterId": 5,
+        "manager": "aruni3",
+        "team": "aruni3",
+        "points": 114.62,
+        "best": 114.62,
+        "left": 0,
+        "missed": []
+      }
+    ],
+    "versus": [
+      {
+        "rosterId": 3,
+        "manager": "tazioer",
+        "team": "McLovin",
+        "points": 139.4,
+        "projected": 119.5,
+        "diff": 19.9
+      },
+      {
+        "rosterId": 7,
+        "manager": "jirish42",
+        "team": "Jahmyracle on Ice",
+        "points": 150.8,
+        "projected": 137.2,
+        "diff": 13.6
+      },
+      {
+        "rosterId": 8,
+        "manager": "kdutta",
+        "team": "T-Posers",
+        "points": 135.94,
+        "projected": 126.8,
+        "diff": 9.14
+      },
+      {
+        "rosterId": 9,
+        "manager": "MattGar0124",
+        "team": "The Warren Ukraine",
+        "points": 126.08,
+        "projected": 120.3,
+        "diff": 5.78
+      },
+      {
+        "rosterId": 2,
+        "manager": "shayaz",
+        "team": "Step Brockers",
+        "points": 121.78,
+        "projected": 121.8,
+        "diff": -0.02
+      },
+      {
+        "rosterId": 4,
+        "manager": "Zregi4",
+        "team": "Skat in LaPorta Potty",
+        "points": 110.06,
+        "projected": 113,
+        "diff": -2.94
+      },
+      {
+        "rosterId": 5,
+        "manager": "aruni3",
+        "team": "aruni3",
+        "points": 114.62,
+        "projected": 122.3,
+        "diff": -7.68
+      },
+      {
+        "rosterId": 10,
+        "manager": "bmilgram",
+        "team": "bmilgram",
+        "points": 116.68,
+        "projected": 124.5,
+        "diff": -7.82
+      },
+      {
+        "rosterId": 1,
+        "manager": "rbrodskiy",
+        "team": "Easy Breece-y",
+        "points": 104.7,
+        "projected": 118.8,
+        "diff": -14.1
+      },
+      {
+        "rosterId": 6,
+        "manager": "tushawarma",
+        "team": "❄️",
+        "points": 95.14,
+        "projected": 119.7,
+        "diff": -24.56
+      }
+    ]
+  }
+}
