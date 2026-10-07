@@ -57,7 +57,7 @@
       "b": {
         "rosterId": 10,
         "manager": "ethansmith2580",
-        "team": "ETN SZN"
+        "team": "‘22 LA Rams "
       },
       "moneyline": {
         "pA": 51.3,
@@ -133,7 +133,7 @@
       "b": {
         "rosterId": 1,
         "manager": "lanek12",
-        "team": "Tal top Smitty bottom"
+        "team": "Lane Doe"
       },
       "moneyline": {
         "pA": 53.1,
@@ -299,7 +299,7 @@
         {
           "rosterId": 10,
           "manager": "ethansmith2580",
-          "team": "ETN SZN",
+          "team": "‘22 LA Rams ",
           "pct": 11.3,
           "price": "+610"
         },
@@ -313,7 +313,7 @@
         {
           "rosterId": 1,
           "manager": "lanek12",
-          "team": "Tal top Smitty bottom",
+          "team": "Lane Doe",
           "pct": 10,
           "price": "+700"
         },
@@ -615,6 +615,44 @@
         "rank": 6
       },
       {
+        "rosterId": 1,
+        "manager": "lanek12",
+        "team": "Lane Doe",
+        "projFinish": 6.5,
+        "medianFinish": 7,
+        "projWins": 6.7,
+        "projLosses": 7.3,
+        "projPoints": 1620,
+        "dist": [
+          8.2,
+          7.9,
+          7.9,
+          6.9,
+          8.8,
+          7.4,
+          11.2,
+          9.6,
+          9.4,
+          7.9,
+          8.2,
+          6.5
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$1,200",
+            "pct": 8.2,
+            "price": "+870"
+          }
+        ],
+        "inTheMoney": 8.2,
+        "playoffs": 47.2,
+        "bye": 10.2,
+        "pointsTitle": 4,
+        "last": 6.5,
+        "rank": 7
+      },
+      {
         "rosterId": 8,
         "manager": "Garrettrh",
         "team": "Rat",
@@ -650,44 +688,6 @@
         "bye": 10.6,
         "pointsTitle": 4.7,
         "last": 7,
-        "rank": 7
-      },
-      {
-        "rosterId": 1,
-        "manager": "lanek12",
-        "team": "Tal top Smitty bottom",
-        "projFinish": 6.5,
-        "medianFinish": 7,
-        "projWins": 6.7,
-        "projLosses": 7.3,
-        "projPoints": 1620,
-        "dist": [
-          8.2,
-          7.9,
-          7.9,
-          6.9,
-          8.8,
-          7.4,
-          11.2,
-          9.6,
-          9.4,
-          7.9,
-          8.2,
-          6.5
-        ],
-        "money": [
-          {
-            "place": 1,
-            "label": "$1,200",
-            "pct": 8.2,
-            "price": "+870"
-          }
-        ],
-        "inTheMoney": 8.2,
-        "playoffs": 47.2,
-        "bye": 10.2,
-        "pointsTitle": 4,
-        "last": 6.5,
         "rank": 8
       },
       {
@@ -731,7 +731,7 @@
       {
         "rosterId": 10,
         "manager": "ethansmith2580",
-        "team": "ETN SZN",
+        "team": "‘22 LA Rams ",
         "projFinish": 8,
         "medianFinish": 8,
         "projWins": 5.4,
@@ -878,18 +878,18 @@
             "price": "+710"
           },
           {
+            "rosterId": 1,
+            "manager": "lanek12",
+            "team": "Lane Doe",
+            "pct": 8.2,
+            "price": "+800"
+          },
+          {
             "rosterId": 8,
             "manager": "Garrettrh",
             "team": "Rat",
             "pct": 8.2,
             "price": "+810"
-          },
-          {
-            "rosterId": 1,
-            "manager": "lanek12",
-            "team": "Tal top Smitty bottom",
-            "pct": 8.2,
-            "price": "+800"
           },
           {
             "rosterId": 5,
@@ -915,7 +915,7 @@
           {
             "rosterId": 10,
             "manager": "ethansmith2580",
-            "team": "ETN SZN",
+            "team": "‘22 LA Rams ",
             "pct": 4.1,
             "price": "+1700"
           },
@@ -958,7 +958,7 @@
           {
             "rosterId": 10,
             "manager": "ethansmith2580",
-            "team": "ETN SZN",
+            "team": "‘22 LA Rams ",
             "pct": 11.5,
             "price": "+590"
           },
@@ -986,7 +986,7 @@
           {
             "rosterId": 1,
             "manager": "lanek12",
-            "team": "Tal top Smitty bottom",
+            "team": "Lane Doe",
             "pct": 6.5,
             "price": "+1150"
           },
@@ -1032,7 +1032,7 @@
       {
         "rosterId": 1,
         "manager": "lanek12",
-        "team": "Tal top Smitty bottom",
+        "team": "Lane Doe",
         "line": 6.5,
         "expected": 6.7,
         "over": "−140",
@@ -1122,7 +1122,7 @@
       {
         "rosterId": 10,
         "manager": "ethansmith2580",
-        "team": "ETN SZN",
+        "team": "‘22 LA Rams ",
         "line": 5.5,
         "expected": 5.4,
         "over": "−105",
@@ -1155,7 +1155,7 @@
     {
       "rosterId": 1,
       "manager": "lanek12",
-      "team": "Tal top Smitty bottom",
+      "team": "Lane Doe",
       "projected": 129.1,
       "players": [
         {
@@ -1867,7 +1867,7 @@
     {
       "rosterId": 10,
       "manager": "ethansmith2580",
-      "team": "ETN SZN",
+      "team": "‘22 LA Rams ",
       "projected": 126.9,
       "players": [
         {
@@ -2106,7 +2106,7 @@
     {
       "rosterId": 1,
       "manager": "lanek12",
-      "team": "Tal top Smitty bottom",
+      "team": "Lane Doe",
       "projected": 114.5
     },
     {
@@ -2160,7 +2160,7 @@
     {
       "rosterId": 10,
       "manager": "ethansmith2580",
-      "team": "ETN SZN",
+      "team": "‘22 LA Rams ",
       "projected": 110.8
     },
     {
@@ -2189,7 +2189,7 @@
         "b": {
           "rosterId": 10,
           "manager": "ethansmith2580",
-          "team": "ETN SZN",
+          "team": "‘22 LA Rams ",
           "points": 109.24
         },
         "played": true,
@@ -2312,7 +2312,7 @@
         "b": {
           "rosterId": 1,
           "manager": "lanek12",
-          "team": "Tal top Smitty bottom",
+          "team": "Lane Doe",
           "points": 104.1
         },
         "played": true,
@@ -2511,7 +2511,7 @@
       {
         "rosterId": 10,
         "manager": "ethansmith2580",
-        "team": "ETN SZN",
+        "team": "‘22 LA Rams ",
         "points": 109.24,
         "best": 140.18,
         "left": 30.94,
@@ -2586,7 +2586,7 @@
       {
         "rosterId": 1,
         "manager": "lanek12",
-        "team": "Tal top Smitty bottom",
+        "team": "Lane Doe",
         "points": 104.1,
         "best": 126.1,
         "left": 22,
@@ -2784,7 +2784,7 @@
       {
         "rosterId": 10,
         "manager": "ethansmith2580",
-        "team": "ETN SZN",
+        "team": "‘22 LA Rams ",
         "points": 109.24,
         "projected": 125.4,
         "diff": -16.16
@@ -2800,7 +2800,7 @@
       {
         "rosterId": 1,
         "manager": "lanek12",
-        "team": "Tal top Smitty bottom",
+        "team": "Lane Doe",
         "points": 104.1,
         "projected": 131.6,
         "diff": -27.5
