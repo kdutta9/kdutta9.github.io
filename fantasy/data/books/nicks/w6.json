@@ -74,7 +74,7 @@
       "a": {
         "rosterId": 5,
         "manager": "Christopheryu21",
-        "team": "Need TE HMU"
+        "team": "Need Crumbs HMU"
       },
       "b": {
         "rosterId": 8,
@@ -226,12 +226,12 @@
       "a": {
         "rosterId": 7,
         "manager": "prozan",
-        "team": "Perc Thuggins"
+        "team": "Need RB HMU"
       },
       "b": {
         "rosterId": 4,
         "manager": "arnst",
-        "team": "Nonchalant Dreadhead"
+        "team": "Need Loan HMU"
       },
       "moneyline": {
         "pA": 61.1,
@@ -264,7 +264,7 @@
       "a": {
         "rosterId": 9,
         "manager": "goochsniffer2nd",
-        "team": "Got My Noahs in Paris"
+        "team": "Loan Shark"
       },
       "b": {
         "rosterId": 6,
@@ -349,7 +349,7 @@
         {
           "rosterId": 4,
           "manager": "arnst",
-          "team": "Nonchalant Dreadhead",
+          "team": "Need Loan HMU",
           "pct": 5.4,
           "price": "+1350"
         },
@@ -363,14 +363,14 @@
         {
           "rosterId": 5,
           "manager": "Christopheryu21",
-          "team": "Need TE HMU",
+          "team": "Need Crumbs HMU",
           "pct": 4.8,
           "price": "+1550"
         },
         {
           "rosterId": 9,
           "manager": "goochsniffer2nd",
-          "team": "Got My Noahs in Paris",
+          "team": "Loan Shark",
           "pct": 4.7,
           "price": "+1600"
         },
@@ -384,7 +384,7 @@
         {
           "rosterId": 7,
           "manager": "prozan",
-          "team": "Perc Thuggins",
+          "team": "Need RB HMU",
           "pct": 2.5,
           "price": "+3200"
         }
@@ -397,21 +397,21 @@
         {
           "rosterId": 7,
           "manager": "prozan",
-          "team": "Perc Thuggins",
+          "team": "Need RB HMU",
           "pct": 19,
           "price": "+320"
         },
         {
           "rosterId": 9,
           "manager": "goochsniffer2nd",
-          "team": "Got My Noahs in Paris",
+          "team": "Loan Shark",
           "pct": 10.9,
           "price": "+640"
         },
         {
           "rosterId": 5,
           "manager": "Christopheryu21",
-          "team": "Need TE HMU",
+          "team": "Need Crumbs HMU",
           "pct": 10.8,
           "price": "+640"
         },
@@ -425,7 +425,7 @@
         {
           "rosterId": 4,
           "manager": "arnst",
-          "team": "Nonchalant Dreadhead",
+          "team": "Need Loan HMU",
           "pct": 9.9,
           "price": "+710"
         },
@@ -490,7 +490,7 @@
         "high": {
           "rosterId": 7,
           "manager": "prozan",
-          "team": "Perc Thuggins"
+          "team": "Need RB HMU"
         },
         "pct": 4.3,
         "price": "+2050"
@@ -504,7 +504,7 @@
         "high": {
           "rosterId": 7,
           "manager": "prozan",
-          "team": "Perc Thuggins"
+          "team": "Need RB HMU"
         },
         "pct": 2.7,
         "price": "+3300"
@@ -518,7 +518,7 @@
         "high": {
           "rosterId": 9,
           "manager": "goochsniffer2nd",
-          "team": "Got My Noahs in Paris"
+          "team": "Loan Shark"
         },
         "pct": 2.6,
         "price": "+3500"
@@ -532,7 +532,7 @@
         "high": {
           "rosterId": 5,
           "manager": "Christopheryu21",
-          "team": "Need TE HMU"
+          "team": "Need Crumbs HMU"
         },
         "pct": 2.6,
         "price": "+3500"
@@ -560,7 +560,7 @@
         "high": {
           "rosterId": 4,
           "manager": "arnst",
-          "team": "Nonchalant Dreadhead"
+          "team": "Need Loan HMU"
         },
         "pct": 2.4,
         "price": "+3800"
@@ -639,7 +639,7 @@
       {
         "rosterId": 7,
         "manager": "prozan",
-        "team": "Perc Thuggins",
+        "team": "Need RB HMU",
         "projFinish": 4.6,
         "medianFinish": 4,
         "projWins": 8.7,
@@ -695,7 +695,7 @@
       {
         "rosterId": 4,
         "manager": "arnst",
-        "team": "Nonchalant Dreadhead",
+        "team": "Need Loan HMU",
         "projFinish": 4.9,
         "medianFinish": 4,
         "projWins": 8.7,
@@ -863,7 +863,7 @@
       {
         "rosterId": 9,
         "manager": "goochsniffer2nd",
-        "team": "Got My Noahs in Paris",
+        "team": "Loan Shark",
         "projFinish": 6.6,
         "medianFinish": 7,
         "projWins": 6.7,
@@ -1031,7 +1031,7 @@
       {
         "rosterId": 5,
         "manager": "Christopheryu21",
-        "team": "Need TE HMU",
+        "team": "Need Crumbs HMU",
         "projFinish": 7.2,
         "medianFinish": 7,
         "projWins": 6.4,
@@ -1269,7 +1269,7 @@
           {
             "rosterId": 4,
             "manager": "arnst",
-            "team": "Nonchalant Dreadhead",
+            "team": "Need Loan HMU",
             "pct": 12,
             "price": "+520"
           },
@@ -1283,7 +1283,7 @@
           {
             "rosterId": 7,
             "manager": "prozan",
-            "team": "Perc Thuggins",
+            "team": "Need RB HMU",
             "pct": 11,
             "price": "+570"
           },
@@ -1297,7 +1297,7 @@
           {
             "rosterId": 9,
             "manager": "goochsniffer2nd",
-            "team": "Got My Noahs in Paris",
+            "team": "Loan Shark",
             "pct": 7.4,
             "price": "+900"
           },
@@ -1318,7 +1318,7 @@
           {
             "rosterId": 5,
             "manager": "Christopheryu21",
-            "team": "Need TE HMU",
+            "team": "Need Crumbs HMU",
             "pct": 5.6,
             "price": "+1200"
           },
@@ -1375,7 +1375,7 @@
           {
             "rosterId": 5,
             "manager": "Christopheryu21",
-            "team": "Need TE HMU",
+            "team": "Need Crumbs HMU",
             "pct": 10.1,
             "price": "+690"
           },
@@ -1396,7 +1396,7 @@
           {
             "rosterId": 9,
             "manager": "goochsniffer2nd",
-            "team": "Got My Noahs in Paris",
+            "team": "Loan Shark",
             "pct": 7.4,
             "price": "+990"
           },
@@ -1417,14 +1417,14 @@
           {
             "rosterId": 4,
             "manager": "arnst",
-            "team": "Nonchalant Dreadhead",
+            "team": "Need Loan HMU",
             "pct": 3.1,
             "price": "+2500"
           },
           {
             "rosterId": 7,
             "manager": "prozan",
-            "team": "Perc Thuggins",
+            "team": "Need RB HMU",
             "pct": 2,
             "price": "+3900"
           },
@@ -1472,7 +1472,7 @@
       {
         "rosterId": 4,
         "manager": "arnst",
-        "team": "Nonchalant Dreadhead",
+        "team": "Need Loan HMU",
         "line": 8.5,
         "expected": 8.7,
         "over": "−140",
@@ -1482,7 +1482,7 @@
       {
         "rosterId": 5,
         "manager": "Christopheryu21",
-        "team": "Need TE HMU",
+        "team": "Need Crumbs HMU",
         "line": 6.5,
         "expected": 6.4,
         "over": "−105",
@@ -1502,7 +1502,7 @@
       {
         "rosterId": 7,
         "manager": "prozan",
-        "team": "Perc Thuggins",
+        "team": "Need RB HMU",
         "line": 8.5,
         "expected": 8.7,
         "over": "−135",
@@ -1522,7 +1522,7 @@
       {
         "rosterId": 9,
         "manager": "goochsniffer2nd",
-        "team": "Got My Noahs in Paris",
+        "team": "Loan Shark",
         "line": 6.5,
         "expected": 6.7,
         "over": "−140",
@@ -1804,7 +1804,7 @@
     {
       "rosterId": 4,
       "manager": "arnst",
-      "team": "Nonchalant Dreadhead",
+      "team": "Need Loan HMU",
       "projected": 132,
       "players": [
         {
@@ -1883,7 +1883,7 @@
     {
       "rosterId": 5,
       "manager": "Christopheryu21",
-      "team": "Need TE HMU",
+      "team": "Need Crumbs HMU",
       "projected": 133.3,
       "players": [
         {
@@ -2041,7 +2041,7 @@
     {
       "rosterId": 7,
       "manager": "prozan",
-      "team": "Perc Thuggins",
+      "team": "Need RB HMU",
       "projected": 141.8,
       "players": [
         {
@@ -2200,7 +2200,7 @@
     {
       "rosterId": 9,
       "manager": "goochsniffer2nd",
-      "team": "Got My Noahs in Paris",
+      "team": "Loan Shark",
       "projected": 134.2,
       "players": [
         {
@@ -2536,13 +2536,13 @@
     {
       "rosterId": 4,
       "manager": "arnst",
-      "team": "Nonchalant Dreadhead",
+      "team": "Need Loan HMU",
       "projected": 111.1
     },
     {
       "rosterId": 5,
       "manager": "Christopheryu21",
-      "team": "Need TE HMU",
+      "team": "Need Crumbs HMU",
       "projected": 106.4
     },
     {
@@ -2554,7 +2554,7 @@
     {
       "rosterId": 7,
       "manager": "prozan",
-      "team": "Perc Thuggins",
+      "team": "Need RB HMU",
       "projected": 109.2
     },
     {
@@ -2566,7 +2566,7 @@
     {
       "rosterId": 9,
       "manager": "goochsniffer2nd",
-      "team": "Got My Noahs in Paris",
+      "team": "Loan Shark",
       "projected": 109.8
     },
     {
@@ -2601,7 +2601,7 @@
         "b": {
           "rosterId": 5,
           "manager": "Christopheryu21",
-          "team": "Need TE HMU",
+          "team": "Need Crumbs HMU",
           "points": 106.02
         },
         "played": true,
@@ -2724,7 +2724,7 @@
         "b": {
           "rosterId": 4,
           "manager": "arnst",
-          "team": "Nonchalant Dreadhead",
+          "team": "Need Loan HMU",
           "points": 93.8
         },
         "played": true,
@@ -2800,13 +2800,13 @@
         "a": {
           "rosterId": 7,
           "manager": "prozan",
-          "team": "Perc Thuggins",
+          "team": "Need RB HMU",
           "points": 145.94
         },
         "b": {
           "rosterId": 9,
           "manager": "goochsniffer2nd",
-          "team": "Got My Noahs in Paris",
+          "team": "Loan Shark",
           "points": 150.14
         },
         "played": true,
@@ -2885,7 +2885,7 @@
         "favourite": {
           "rosterId": 4,
           "manager": "arnst",
-          "team": "Nonchalant Dreadhead",
+          "team": "Need Loan HMU",
           "pct": 18.7,
           "price": "+330"
         },
@@ -2959,7 +2959,7 @@
       {
         "rosterId": 9,
         "manager": "goochsniffer2nd",
-        "team": "Got My Noahs in Paris",
+        "team": "Loan Shark",
         "points": 150.14,
         "best": 177.26,
         "left": 27.12,
@@ -2984,7 +2984,7 @@
       {
         "rosterId": 7,
         "manager": "prozan",
-        "team": "Perc Thuggins",
+        "team": "Need RB HMU",
         "points": 145.94,
         "best": 170.74,
         "left": 24.8,
@@ -3117,7 +3117,7 @@
       {
         "rosterId": 4,
         "manager": "arnst",
-        "team": "Nonchalant Dreadhead",
+        "team": "Need Loan HMU",
         "points": 93.8,
         "best": 93.8,
         "left": 0,
@@ -3126,7 +3126,7 @@
       {
         "rosterId": 5,
         "manager": "Christopheryu21",
-        "team": "Need TE HMU",
+        "team": "Need Crumbs HMU",
         "points": 106.02,
         "best": 106.02,
         "left": 0,
@@ -3161,7 +3161,7 @@
       {
         "rosterId": 9,
         "manager": "goochsniffer2nd",
-        "team": "Got My Noahs in Paris",
+        "team": "Loan Shark",
         "points": 150.14,
         "projected": 138.2,
         "diff": 11.94
@@ -3169,7 +3169,7 @@
       {
         "rosterId": 7,
         "manager": "prozan",
-        "team": "Perc Thuggins",
+        "team": "Need RB HMU",
         "points": 145.94,
         "projected": 140.6,
         "diff": 5.34
@@ -3185,7 +3185,7 @@
       {
         "rosterId": 5,
         "manager": "Christopheryu21",
-        "team": "Need TE HMU",
+        "team": "Need Crumbs HMU",
         "points": 106.02,
         "projected": 110.8,
         "diff": -4.78
@@ -3209,7 +3209,7 @@
       {
         "rosterId": 4,
         "manager": "arnst",
-        "team": "Nonchalant Dreadhead",
+        "team": "Need Loan HMU",
         "points": 93.8,
         "projected": 111,
         "diff": -17.2

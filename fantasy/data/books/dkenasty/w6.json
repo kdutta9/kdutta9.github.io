@@ -242,7 +242,7 @@
       "a": {
         "rosterId": 12,
         "manager": "BotBinLaden",
-        "team": "Saddam Hussein Al-B’esnoy"
+        "team": "K9 FentPack"
       },
       "b": {
         "rosterId": 8,
@@ -334,7 +334,7 @@
         {
           "rosterId": 12,
           "manager": "BotBinLaden",
-          "team": "Saddam Hussein Al-B’esnoy",
+          "team": "K9 FentPack",
           "pct": 4.2,
           "price": "+1800"
         },
@@ -579,7 +579,7 @@
       {
         "rosterId": 12,
         "manager": "BotBinLaden",
-        "team": "Saddam Hussein Al-B’esnoy",
+        "team": "K9 FentPack",
         "projFinish": 5.9,
         "medianFinish": 6,
         "projWins": 7.6,
@@ -887,7 +887,7 @@
           {
             "rosterId": 12,
             "manager": "BotBinLaden",
-            "team": "Saddam Hussein Al-B’esnoy",
+            "team": "K9 FentPack",
             "pct": 8.2,
             "price": "+800"
           },
@@ -986,7 +986,7 @@
           {
             "rosterId": 12,
             "manager": "BotBinLaden",
-            "team": "Saddam Hussein Al-B’esnoy",
+            "team": "K9 FentPack",
             "pct": 5,
             "price": "+1500"
           },
@@ -1142,7 +1142,7 @@
       {
         "rosterId": 12,
         "manager": "BotBinLaden",
-        "team": "Saddam Hussein Al-B’esnoy",
+        "team": "K9 FentPack",
         "line": 7.5,
         "expected": 7.6,
         "over": "−130",
@@ -2024,7 +2024,7 @@
     {
       "rosterId": 12,
       "manager": "BotBinLaden",
-      "team": "Saddam Hussein Al-B’esnoy",
+      "team": "K9 FentPack",
       "projected": 134.6,
       "players": [
         {
@@ -2171,7 +2171,7 @@
     {
       "rosterId": 12,
       "manager": "BotBinLaden",
-      "team": "Saddam Hussein Al-B’esnoy",
+      "team": "K9 FentPack",
       "projected": 110.3
     }
   ],
@@ -2387,7 +2387,7 @@
         "a": {
           "rosterId": 12,
           "manager": "BotBinLaden",
-          "team": "Saddam Hussein Al-B’esnoy",
+          "team": "K9 FentPack",
           "points": 72.8
         },
         "b": {
@@ -2455,7 +2455,7 @@
     "low": {
       "rosterId": 12,
       "manager": "BotBinLaden",
-      "team": "Saddam Hussein Al-B’esnoy",
+      "team": "K9 FentPack",
       "points": 72.8
     },
     "punishment": {
@@ -2463,7 +2463,7 @@
         "name": "THE PARLAY WINDOW",
         "rosterId": 12,
         "manager": "BotBinLaden",
-        "team": "Saddam Hussein Al-B’esnoy",
+        "team": "K9 FentPack",
         "points": 72.8,
         "price": "+690",
         "pct": 10.1,
@@ -2595,7 +2595,7 @@
       {
         "rosterId": 12,
         "manager": "BotBinLaden",
-        "team": "Saddam Hussein Al-B’esnoy",
+        "team": "K9 FentPack",
         "points": 72.8,
         "best": 86.9,
         "left": 14.1,
@@ -2805,7 +2805,7 @@
       {
         "rosterId": 12,
         "manager": "BotBinLaden",
-        "team": "Saddam Hussein Al-B’esnoy",
+        "team": "K9 FentPack",
         "points": 72.8,
         "projected": 121.2,
         "diff": -48.4
