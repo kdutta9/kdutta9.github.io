@@ -1350,6 +1350,17 @@ byline: The House · Week 7
          "Charlie" nickname cleared by Kunal for print. 4-2, −250 over Rat this week.
        Lane (lanek12, Lane Doe, r1) lost 112.14–101.96 to Ethan (ethansmith2580, '22 LA Rams, r10): Ethan's first win, now 1-5.
          Lane's excuse (via Kunal): Ethan is a "bye week merchant." All ten of Lane's starters played and scored.
+         RETRACTED 2026-10-22: the first post said "There were no byes." Wrong. Ja'Marr Chase (CIN) and Sam LaPorta (DET)
+           were on bye, 0 pts on Lane's bench, and the w6 sheet priced Lane (114.1) without them. Lane in the chat:
+           "Just blatant ai hallucinations". The math (variance.json closed form; w7 projections Chase 18.85, LaPorta 12.82
+           stand in for the bye week, which had none):
+           They'd have replaced Gainwell 3.4 (FLEX) and Barner 4.6 (TE), so Lane needed > 18.18 from the pair to beat 112.14.
+           Pair by week, w1–w5: 13.0, 43.7, 32.2, 28.1, 39.5 → avg 31.3, cleared 18.18 in 4 of 5. Model P = 86.4% (sigma 12.26).
+           Pre-game with both in (Chase for Dobbins 7.6 FLEX, LaPorta for Barner 7.6): Lane 130.6 vs 133.5,
+           Ethan 53.5% → −135 / +100, against the posted −370 / +250.
+           Lane's only wk6 move: Sat 2026-10-17 13:07, +Carolina DEF −Pittsburgh DEF (CAR scored 4). Gainwell added wk5 (10/8).
+           Ethan had no confirmed byes: Jacobs/Montgomery/Etienne lacked w6 projections, but HOU and NO played (injury, not bye).
+           Kunal's call (2026-10-22): correction stays, Lane stays Excuse Man; commish = league villain.
          Ethan's K Nick Folk 1, DEF Houston 1. Lane left 6.4 on the bench. Lane 2-4, playoffs 42.7 → 32.2.
          Lane was the +300 favourite to be low and finished 3rd-lowest. New nickname: "Excuse Man."
        Chris (Christopheryu21, Trust the Process, r9) 98, wk6 LOW, priced +460 → places the parlay. His 2nd (wk3).
@@ -1406,13 +1417,36 @@ would win and had no idea anyone would score.
 **Ethan won.** After five losses, the '22 LA Rams beat Lane, **112.14 to 101.96**. Ethan's kicker
 scored one point. His defence scored one point. Lane lost anyway.
 
-Lane's explanation was that Ethan is a **bye week merchant**. The house pulled the box score. All
-ten of Lane's starters played, and all ten scored. His best possible lineup, bench included, scored
-**108.36**, which still loses to Ethan by 3.78. There were no byes. There was just Ethan.
+Lane's explanation was that Ethan is a **bye week merchant**, and the group chat named him **Excuse
+Man** for it.
 
-So the house would like to formally introduce the commissioner by his new name: **Excuse Man.**
-Last week he called Laur inactive and founded a Laneocracy. Then he lost to a winless team and
-blamed the calendar.
+**CORRECTION.** The first version of this card said: "There were no byes. There was just Ethan."
+**There were byes.** Ja'Marr Chase and Sam LaPorta both had the week off, and both sat on Lane's
+bench for zero points. Worse, they were on the house's own sheet, which priced Lane without them at
++250. The house regrets the error. The commissioner responded in the group chat:
+
+> "Just blatant ai hallucinations 🤦‍♂️"
+
+**The house accepts the correction. It does not accept the excuse.**
+
+Here's the math, since the commissioner asked. Lane lost by 10.18. With Chase and LaPorta in for
+Kenny Gainwell's 3.4 and AJ Barner's 4.6, he needed **18.19** from the pair, and the house makes
+that **86%**. So yes, the byes probably cost him the game.
+
+Byes have been on the schedule since the spring, and every manager in this league gets them.
+Here's how Lane handled his: **one roster move all week.** On Saturday afternoon he swapped the
+Steelers defence for the Panthers. The Panthers scored **4**. His flex was Kenny Gainwell, picked
+up the week before, who scored **3.4**. That was the plan.
+
+And this is the commissioner. He can move any player on any roster in this league, and he has: ask
+Ethan about his Puka. He could edit anybody's lineup, and he couldn't fill his own. He wrote the
+Laneocracy, which takes a pick from a manager who doesn't send a parlay leg on time. The house
+proposes an amendment: same penalty for a commissioner who starts AJ Barner and blames the
+calendar.
+
+Ethan didn't schedule the Bengals' bye. He just showed up the week Lane didn't. The record now reads:
+the house was wrong about the byes, and right about Lane. He keeps the name. **Excuse Man**, now
+with a footnote.
 
 And **Chris places the parlay**, which is its own story, just below.
 
@@ -1423,7 +1457,8 @@ And **Chris places the parlay**, which is its own story, just below.
        Chargers 0-6, on bye wk7 (verified, see nicks w7 receipts). Leg count per week not verified.
      Chris: favourite for low in 4 of the first 5 weeks; low in wk3 (as fav) and wk6 (+460). This is his 2nd slip.
      Loveland plays TNF (Bears home, Thu 2026-10-22), so a slip placed after kickoff can't carry that leg as-is.
-     Jakobi Lane is not in this repo's player data; his leg is priced blind at 50%.
+     Ja'Kobi Lane (WR BAL, id 13293) is on Lane's own roster; w7 projection 6.44 PPR. Yardage leg, so still 50%.
+       (The first post said he wasn't in the data: the search missed the apostrophe.)
      Jefferson, Saquon and Golden were Questionable on the 2026-10-22 pull.
      ML sources: ESPN/bet365/Vegas Insider/SBR listings, 2026-10-19 to 10-21.
      Full output, including the off-board markets: node scripts/props/parlay-w7.mjs -->
@@ -1432,7 +1467,7 @@ Four of the first five weeks, the house made Chris the favourite to finish last.
 didn't, he did. He places the first slip of the Laneocracy.
 
 **The slip:** Loveland under receiving yards · Jets ML · Jefferson over receiving yards · Walker over
-rushing yards · Jonathan Taylor anytime TD · Pickens anytime TD · Saquon over rushing yards · Jakobi
+rushing yards · Jonathan Taylor anytime TD · Pickens anytime TD · Saquon over rushing yards · Ja'Kobi
 Lane over receiving yards · Skattebo over rushing yards · 49ers ML · Golden over receiving yards.
 
 Seven are yardage props with no line yet, so coin flips. The rest: Jets **66%**, 49ers **62%**,
@@ -1517,8 +1552,8 @@ second half.
 has a 0.9% chance to win the league. He's still a **−145** favourite over Lane, because Jonathan
 Taylor and Justin Jefferson are still on his roster and the house can read a depth chart.
 
-The house would like to get ahead of it this time. Neither projected lineup has a player on bye. If Lane loses,
-the house will be accepting new excuses only.
+The house checked twice this time, against its own sheet. Chase and LaPorta are back, and neither
+projected lineup has a player on bye. If Lane loses this one, the excuse will have to be new.
 
 ## matchup:5-10
 
