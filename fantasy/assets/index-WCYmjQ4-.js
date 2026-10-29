@@ -1747,7 +1747,7 @@ And later, the commissioner:
 
 > "So many of you fuckers are unethical and not sneaky athletic"
 
-The house has read that sentence many times and is still not sure what "sneaky athletic" means.
+The house has read that sentence many times and is still not sure what this means.
 It is sure of the order of events. The commissioner was called about a lineup on Saturday night,
 the lineup ran on Sunday, and afterwards he called the league unethical. This is the man who
 wrote the Laneocracy. **He cleared the tank, then condemned it.** The house's best read is that
