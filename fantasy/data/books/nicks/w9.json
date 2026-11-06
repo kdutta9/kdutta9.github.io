@@ -1,0 +1,3248 @@
+{
+  "id": "nicks",
+  "week": 9,
+  "season": "2026",
+  "bookName": "NICK'S SPORTSBOOK",
+  "tagline": "Official betting partner of Nick's",
+  "displayName": "Nick's",
+  "stakes": {
+    "buyIn": "$50",
+    "pot": "$600",
+    "structure": "places-1-through-4-pay",
+    "payouts": [
+      {
+        "place": 1,
+        "label": "$450",
+        "note": "the rest of the pot"
+      },
+      {
+        "place": 2,
+        "label": "$100",
+        "note": null
+      },
+      {
+        "place": 3,
+        "label": "$50",
+        "note": "buy-in back"
+      },
+      {
+        "place": 4,
+        "label": "the interest",
+        "note": "accrued interest on the pot sitting in a SoFi HYSA at 4.50% APY"
+      }
+    ],
+    "hysa": {
+      "principal": 600,
+      "apy": 0.045,
+      "start": "2026-09-01",
+      "payout": "2026-12-30",
+      "_comment": "4th place prize is COMPUTED, not fixed. See DESIGN.md 6.2."
+    }
+  },
+  "preview": {
+    "standfirst": "Twelve seats, six hundred dollars, and four of them get paid. This is the flattest field the model has priced — and one seat it has already given up on.",
+    "paragraphs": [
+      "Start with the shape of the board, because it is the whole story. In a perfectly even twelve-team league every seat would hold an 8.3% title chance. The favourite here holds 12.9%. The longshot holds 3.8%. That is a 3.4× spread between the best and worst rosters in the league, which sounds like a lot until you look at what the same number does one league over, where it is nearly double. Nobody in this room drafted their way to a championship. They drafted their way to a coin flip with a slight lean, and then they will spend fourteen weeks pretending otherwise.",
+      "The money is what makes this league read differently from a normal one. Four places pay, and they pay in descending order of dignity: four hundred and fifty dollars, then one hundred, then your buy-in handed back to you, then — for fourth exactly — whatever interest the pot happened to earn sitting in a savings account since September. That last prize is real, it is computed live further down this page, and at the time of writing it would not cover a sandwich. It is also the funniest line on either sheet, because somebody is going to finish fourth and have to decide whether to be happy about it.",
+      "Because four places pay, the number that actually governs this room is not the championship — it is the MONEY column in the table above, the chance a season ends with something in your hand. The favourite sits at 45.6%. Chris, at the bottom, sits at 18.1%. Every other seat is somewhere between, which is another way of saying almost everybody here is genuinely live and will still be genuinely live in November. Read the gold blocks rather than the ladders: four of twelve finishes pay in this league, and how much gold a seat carries is the whole of its season.",
+      "Then there are the forfeits. Last place spends a day at Bus Stop, open to close, with an hour off for every beer he drinks and an hour back on for every ten the rest of the league drinks — a punishment whose incentives are so badly designed that it loops back around to perfect. And every single week, the low scorer sings at Silver Clouds, with the song chosen by that week's high scorer. Those two markets are priced together on the week card, because they are not independent events: a hundred and forty point week makes you the DJ and makes somebody else the singer.",
+      "Which brings us to the seat this book has already buried. Chris drew a roster that finishes last in all seven futures markets on this sheet — last in the championship, last in top two, last in money back, last in the playoffs, last in the bye, last in points, and, inevitably, first in the Bus Stop at +370. His lineup forfeits its kicker slot outright, because nobody eligible is on the roster, which is worth about eight points a week he is spotting the field. He also never set a team name. And on the opening weekend of the season, his Golden Bears lost to UCLA. The house has taken the liberty of naming the seat for him."
+    ],
+    "writtenWeek": 1
+  },
+  "meta": {
+    "seed": 1592530047,
+    "sims": 25000,
+    "sources": "SLEEPER PROJECTIONS · 25K SIMS · VARIANCE FIT ON 2025 RESIDUALS",
+    "pulledAt": "2026-11-06T05:54:29.001Z",
+    "playersDate": "2026-11-06",
+    "scoringKeys": 48,
+    "throughWeek": 14,
+    "mae": 0.0239,
+    "overrides": [],
+    "disclosures": [
+      "Rosters frozen as of the pull — trades and pickups after it are not priced. A slot nobody on the roster can play is priced at the best free agent eligible for it, and marked waivers.",
+      "Lineups simulated as optimal; real managers are not, so totals run a touch high.",
+      "Player scores drawn independently, so stacked rosters are slightly under-varianced and moneylines run slightly long.",
+      "Season futures assume this week's rosters play out the year. Injuries, trades and the waiver wire are not forecast — only the historical size of that error is.",
+      "Playoff seeding is simulated on wins then points-for, and playoff games are simulated as games, not decided by season totals.",
+      "Not real betting."
+    ]
+  },
+  "matchups": [
+    {
+      "a": {
+        "rosterId": 5,
+        "manager": "Christopheryu21",
+        "team": "Need Crumbs HMU"
+      },
+      "b": {
+        "rosterId": 10,
+        "manager": "MBurnes",
+        "team": "George Droyd"
+      },
+      "moneyline": {
+        "pA": 63.6,
+        "a": "−220",
+        "b": "+155"
+      },
+      "spread": {
+        "line": -11,
+        "a": "−11.0",
+        "b": "+11.0",
+        "price": "−110",
+        "pCover": 50.1
+      },
+      "total": {
+        "line": 257,
+        "over": "−110",
+        "under": "−110",
+        "pOver": 49.8
+      },
+      "projected": {
+        "a": 135.1,
+        "b": 123.7
+      },
+      "simMedian": {
+        "a": 133.4,
+        "b": 122.3
+      }
+    },
+    {
+      "a": {
+        "rosterId": 7,
+        "manager": "prozan",
+        "team": "Need RB HMU"
+      },
+      "b": {
+        "rosterId": 12,
+        "manager": "TheHumSack",
+        "team": "Death By Foriegn War "
+      },
+      "moneyline": {
+        "pA": 71.2,
+        "a": "−330",
+        "b": "+220"
+      },
+      "spread": {
+        "line": -18.5,
+        "a": "−18.5",
+        "b": "+18.5",
+        "price": "−110",
+        "pCover": 50.1
+      },
+      "total": {
+        "line": 266,
+        "over": "−110",
+        "under": "−110",
+        "pOver": 49.8
+      },
+      "projected": {
+        "a": 142.7,
+        "b": 124.5
+      },
+      "simMedian": {
+        "a": 141.5,
+        "b": 122.9
+      }
+    },
+    {
+      "a": {
+        "rosterId": 1,
+        "manager": "kdutta",
+        "team": "Garbers mirror selfie"
+      },
+      "b": {
+        "rosterId": 9,
+        "manager": "goochsniffer2nd",
+        "team": "Loan Shark"
+      },
+      "moneyline": {
+        "pA": 57.8,
+        "a": "−165",
+        "b": "+120"
+      },
+      "spread": {
+        "line": -6,
+        "a": "−6.0",
+        "b": "+6.0",
+        "price": "−110",
+        "pCover": 50.1
+      },
+      "total": {
+        "line": 257.5,
+        "over": "−110",
+        "under": "−110",
+        "pOver": 49.9
+      },
+      "projected": {
+        "a": 132.5,
+        "b": 126.3
+      },
+      "simMedian": {
+        "a": 131.1,
+        "b": 124.9
+      }
+    },
+    {
+      "a": {
+        "rosterId": 8,
+        "manager": "A5Kobe",
+        "team": "Beriousbeast"
+      },
+      "b": {
+        "rosterId": 6,
+        "manager": "Keeyan99",
+        "team": "Comet club?"
+      },
+      "moneyline": {
+        "pA": 80.4,
+        "a": "−640",
+        "b": "+370"
+      },
+      "spread": {
+        "line": -29,
+        "a": "−29.0",
+        "b": "+29.0",
+        "price": "−110",
+        "pCover": 50.2
+      },
+      "total": {
+        "line": 281.5,
+        "over": "−110",
+        "under": "−110",
+        "pOver": 50.2
+      },
+      "projected": {
+        "a": 156.2,
+        "b": 126.7
+      },
+      "simMedian": {
+        "a": 154.6,
+        "b": 125.1
+      }
+    },
+    {
+      "a": {
+        "rosterId": 4,
+        "manager": "arnst",
+        "team": "Need Loan HMU"
+      },
+      "b": {
+        "rosterId": 2,
+        "manager": "rnath499",
+        "team": "Haircut Haircut 🗣️"
+      },
+      "moneyline": {
+        "pA": 51.5,
+        "a": "−125",
+        "b": "−110"
+      },
+      "spread": {
+        "line": -1,
+        "a": "−1.0",
+        "b": "+1.0",
+        "price": "−110",
+        "pCover": 50.3
+      },
+      "total": {
+        "line": 264.5,
+        "over": "−110",
+        "under": "−110",
+        "pOver": 50.1
+      },
+      "projected": {
+        "a": 133.8,
+        "b": 132.2
+      },
+      "simMedian": {
+        "a": 132.3,
+        "b": 130.8
+      }
+    },
+    {
+      "a": {
+        "rosterId": 3,
+        "manager": "jc199",
+        "team": "Return of the Menace"
+      },
+      "b": {
+        "rosterId": 11,
+        "manager": "FonckYou",
+        "team": "Gus’s Balls"
+      },
+      "moneyline": {
+        "pA": 69.1,
+        "a": "−290",
+        "b": "+200"
+      },
+      "spread": {
+        "line": -15,
+        "a": "−15.0",
+        "b": "+15.0",
+        "price": "−110",
+        "pCover": 50.3
+      },
+      "total": {
+        "line": 241,
+        "over": "−110",
+        "under": "−110",
+        "pOver": 50.2
+      },
+      "projected": {
+        "a": 128.9,
+        "b": 113.6
+      },
+      "simMedian": {
+        "a": 127.6,
+        "b": 112.1
+      }
+    }
+  ],
+  "punishment": {
+    "weekly": {
+      "name": "KARAOKE",
+      "copy": "Low scorer of the week sings at Silver Clouds. The week's high scorer picks the song.",
+      "rows": [
+        {
+          "rosterId": 11,
+          "manager": "FonckYou",
+          "team": "Gus’s Balls",
+          "pct": 23.9,
+          "price": "+230"
+        },
+        {
+          "rosterId": 10,
+          "manager": "MBurnes",
+          "team": "George Droyd",
+          "pct": 11.7,
+          "price": "+580"
+        },
+        {
+          "rosterId": 12,
+          "manager": "TheHumSack",
+          "team": "Death By Foriegn War ",
+          "pct": 11.2,
+          "price": "+610"
+        },
+        {
+          "rosterId": 9,
+          "manager": "goochsniffer2nd",
+          "team": "Loan Shark",
+          "pct": 10.1,
+          "price": "+690"
+        },
+        {
+          "rosterId": 6,
+          "manager": "Keeyan99",
+          "team": "Comet club?",
+          "pct": 10,
+          "price": "+700"
+        },
+        {
+          "rosterId": 3,
+          "manager": "jc199",
+          "team": "Return of the Menace",
+          "pct": 7.7,
+          "price": "+930"
+        },
+        {
+          "rosterId": 2,
+          "manager": "rnath499",
+          "team": "Haircut Haircut 🗣️",
+          "pct": 6.3,
+          "price": "+1200"
+        },
+        {
+          "rosterId": 4,
+          "manager": "arnst",
+          "team": "Need Loan HMU",
+          "pct": 5.4,
+          "price": "+1400"
+        },
+        {
+          "rosterId": 1,
+          "manager": "kdutta",
+          "team": "Garbers mirror selfie",
+          "pct": 5.2,
+          "price": "+1450"
+        },
+        {
+          "rosterId": 5,
+          "manager": "Christopheryu21",
+          "team": "Need Crumbs HMU",
+          "pct": 4.9,
+          "price": "+1550"
+        },
+        {
+          "rosterId": 7,
+          "manager": "prozan",
+          "team": "Need RB HMU",
+          "pct": 2.8,
+          "price": "+2700"
+        },
+        {
+          "rosterId": 8,
+          "manager": "A5Kobe",
+          "team": "Beriousbeast",
+          "pct": 0.7,
+          "price": "+12000"
+        }
+      ]
+    },
+    "paired": {
+      "name": "SONG SELECT",
+      "copy": "Sets the song. Low scorer of the week sings at Silver Clouds. The week's high scorer picks the song.",
+      "rows": [
+        {
+          "rosterId": 8,
+          "manager": "A5Kobe",
+          "team": "Beriousbeast",
+          "pct": 31.7,
+          "price": "+155"
+        },
+        {
+          "rosterId": 7,
+          "manager": "prozan",
+          "team": "Need RB HMU",
+          "pct": 15.5,
+          "price": "+420"
+        },
+        {
+          "rosterId": 5,
+          "manager": "Christopheryu21",
+          "team": "Need Crumbs HMU",
+          "pct": 8.6,
+          "price": "+830"
+        },
+        {
+          "rosterId": 4,
+          "manager": "arnst",
+          "team": "Need Loan HMU",
+          "pct": 7.6,
+          "price": "+960"
+        },
+        {
+          "rosterId": 2,
+          "manager": "rnath499",
+          "team": "Haircut Haircut 🗣️",
+          "pct": 7.1,
+          "price": "+1000"
+        },
+        {
+          "rosterId": 1,
+          "manager": "kdutta",
+          "team": "Garbers mirror selfie",
+          "pct": 6.7,
+          "price": "+1100"
+        },
+        {
+          "rosterId": 3,
+          "manager": "jc199",
+          "team": "Return of the Menace",
+          "pct": 5.5,
+          "price": "+1350"
+        },
+        {
+          "rosterId": 6,
+          "manager": "Keeyan99",
+          "team": "Comet club?",
+          "pct": 4.7,
+          "price": "+1600"
+        },
+        {
+          "rosterId": 9,
+          "manager": "goochsniffer2nd",
+          "team": "Loan Shark",
+          "pct": 4.6,
+          "price": "+1650"
+        },
+        {
+          "rosterId": 12,
+          "manager": "TheHumSack",
+          "team": "Death By Foriegn War ",
+          "pct": 3.5,
+          "price": "+2200"
+        },
+        {
+          "rosterId": 10,
+          "manager": "MBurnes",
+          "team": "George Droyd",
+          "pct": 3.4,
+          "price": "+2300"
+        },
+        {
+          "rosterId": 11,
+          "manager": "FonckYou",
+          "team": "Gus’s Balls",
+          "pct": 1.2,
+          "price": "+6800"
+        }
+      ]
+    },
+    "joints": [
+      {
+        "low": {
+          "rosterId": 11,
+          "manager": "FonckYou",
+          "team": "Gus’s Balls"
+        },
+        "high": {
+          "rosterId": 8,
+          "manager": "A5Kobe",
+          "team": "Beriousbeast"
+        },
+        "pct": 7.3,
+        "price": "+1200"
+      },
+      {
+        "low": {
+          "rosterId": 11,
+          "manager": "FonckYou",
+          "team": "Gus’s Balls"
+        },
+        "high": {
+          "rosterId": 7,
+          "manager": "prozan",
+          "team": "Need RB HMU"
+        },
+        "pct": 3.8,
+        "price": "+2400"
+      },
+      {
+        "low": {
+          "rosterId": 10,
+          "manager": "MBurnes",
+          "team": "George Droyd"
+        },
+        "high": {
+          "rosterId": 8,
+          "manager": "A5Kobe",
+          "team": "Beriousbeast"
+        },
+        "pct": 3.7,
+        "price": "+2400"
+      },
+      {
+        "low": {
+          "rosterId": 12,
+          "manager": "TheHumSack",
+          "team": "Death By Foriegn War "
+        },
+        "high": {
+          "rosterId": 8,
+          "manager": "A5Kobe",
+          "team": "Beriousbeast"
+        },
+        "pct": 3.7,
+        "price": "+2400"
+      },
+      {
+        "low": {
+          "rosterId": 9,
+          "manager": "goochsniffer2nd",
+          "team": "Loan Shark"
+        },
+        "high": {
+          "rosterId": 8,
+          "manager": "A5Kobe",
+          "team": "Beriousbeast"
+        },
+        "pct": 3.2,
+        "price": "+2750"
+      },
+      {
+        "low": {
+          "rosterId": 6,
+          "manager": "Keeyan99",
+          "team": "Comet club?"
+        },
+        "high": {
+          "rosterId": 8,
+          "manager": "A5Kobe",
+          "team": "Beriousbeast"
+        },
+        "pct": 3.1,
+        "price": "+2900"
+      }
+    ],
+    "season": {
+      "name": "THE BUS STOP",
+      "copy": "Last place spends a day at Bus Stop, open to close. Every beer he drinks takes an hour off. Every ten beers the rest of the league drinks puts an hour back on."
+    }
+  },
+  "futures": {
+    "structure": "places-1-through-4-pay",
+    "payingPlaces": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "standings": [
+      {
+        "rosterId": 8,
+        "manager": "A5Kobe",
+        "team": "Beriousbeast",
+        "projFinish": 2.5,
+        "medianFinish": 2,
+        "projWins": 10.4,
+        "projLosses": 3.6,
+        "projPoints": 2123,
+        "dist": [
+          32.2,
+          23.7,
+          20.8,
+          16.5,
+          2.9,
+          3.2,
+          0.2,
+          0.2,
+          0.1,
+          0.1,
+          0,
+          0
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$450",
+            "pct": 32.2,
+            "price": "+150"
+          },
+          {
+            "place": 2,
+            "label": "$100",
+            "pct": 23.7,
+            "price": "+240"
+          },
+          {
+            "place": 3,
+            "label": "$50",
+            "pct": 20.8,
+            "price": "+280"
+          },
+          {
+            "place": 4,
+            "label": "the interest",
+            "pct": 16.5,
+            "price": "+380"
+          }
+        ],
+        "inTheMoney": 93.3,
+        "playoffs": 99.4,
+        "bye": 86.4,
+        "pointsTitle": 69.7,
+        "last": 0,
+        "rank": 1
+      },
+      {
+        "rosterId": 7,
+        "manager": "prozan",
+        "team": "Need RB HMU",
+        "projFinish": 3.1,
+        "medianFinish": 3,
+        "projWins": 9.7,
+        "projLosses": 4.3,
+        "projPoints": 2017,
+        "dist": [
+          19.6,
+          22.4,
+          19,
+          21,
+          6.9,
+          8.8,
+          0.4,
+          0.5,
+          0.5,
+          0.7,
+          0.1,
+          0.1
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$450",
+            "pct": 19.6,
+            "price": "+310"
+          },
+          {
+            "place": 2,
+            "label": "$100",
+            "pct": 22.4,
+            "price": "+260"
+          },
+          {
+            "place": 3,
+            "label": "$50",
+            "pct": 19,
+            "price": "+320"
+          },
+          {
+            "place": 4,
+            "label": "the interest",
+            "pct": 21,
+            "price": "+280"
+          }
+        ],
+        "inTheMoney": 82,
+        "playoffs": 97.7,
+        "bye": 69.2,
+        "pointsTitle": 23.4,
+        "last": 0.1,
+        "rank": 2
+      },
+      {
+        "rosterId": 1,
+        "manager": "kdutta",
+        "team": "Garbers mirror selfie",
+        "projFinish": 5,
+        "medianFinish": 5,
+        "projWins": 8,
+        "projLosses": 6,
+        "projPoints": 1858,
+        "dist": [
+          9.9,
+          11.3,
+          11.5,
+          12.9,
+          15,
+          16.9,
+          3.8,
+          4.8,
+          4.5,
+          5.7,
+          1.7,
+          2
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$450",
+            "pct": 9.9,
+            "price": "+710"
+          },
+          {
+            "place": 2,
+            "label": "$100",
+            "pct": 11.3,
+            "price": "+600"
+          },
+          {
+            "place": 3,
+            "label": "$50",
+            "pct": 11.5,
+            "price": "+600"
+          },
+          {
+            "place": 4,
+            "label": "the interest",
+            "pct": 12.9,
+            "price": "+520"
+          }
+        ],
+        "inTheMoney": 45.6,
+        "playoffs": 77.5,
+        "bye": 16.9,
+        "pointsTitle": 2.5,
+        "last": 2,
+        "rank": 3
+      },
+      {
+        "rosterId": 6,
+        "manager": "Keeyan99",
+        "team": "Comet club?",
+        "projFinish": 5.8,
+        "medianFinish": 6,
+        "projWins": 7.7,
+        "projLosses": 6.3,
+        "projPoints": 1767,
+        "dist": [
+          7.1,
+          8.5,
+          9.1,
+          11,
+          14,
+          15.1,
+          5.5,
+          6.9,
+          6.6,
+          7.8,
+          3.7,
+          4.7
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$450",
+            "pct": 7.1,
+            "price": "+1050"
+          },
+          {
+            "place": 2,
+            "label": "$100",
+            "pct": 8.5,
+            "price": "+840"
+          },
+          {
+            "place": 3,
+            "label": "$50",
+            "pct": 9.1,
+            "price": "+780"
+          },
+          {
+            "place": 4,
+            "label": "the interest",
+            "pct": 11,
+            "price": "+630"
+          }
+        ],
+        "inTheMoney": 35.7,
+        "playoffs": 64.8,
+        "bye": 9,
+        "pointsTitle": 0.5,
+        "last": 4.7,
+        "rank": 4
+      },
+      {
+        "rosterId": 4,
+        "manager": "arnst",
+        "team": "Need Loan HMU",
+        "projFinish": 6,
+        "medianFinish": 6,
+        "projWins": 7.3,
+        "projLosses": 6.7,
+        "projPoints": 1783,
+        "dist": [
+          8.4,
+          8.5,
+          9.3,
+          8.7,
+          12.7,
+          11.6,
+          8.2,
+          8.1,
+          7.4,
+          7.2,
+          4.8,
+          5
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$450",
+            "pct": 8.4,
+            "price": "+850"
+          },
+          {
+            "place": 2,
+            "label": "$100",
+            "pct": 8.5,
+            "price": "+840"
+          },
+          {
+            "place": 3,
+            "label": "$50",
+            "pct": 9.3,
+            "price": "+760"
+          },
+          {
+            "place": 4,
+            "label": "the interest",
+            "pct": 8.7,
+            "price": "+820"
+          }
+        ],
+        "inTheMoney": 34.9,
+        "playoffs": 59.2,
+        "bye": 5.5,
+        "pointsTitle": 0.8,
+        "last": 5,
+        "rank": 5
+      },
+      {
+        "rosterId": 2,
+        "manager": "rnath499",
+        "team": "Haircut Haircut 🗣️",
+        "projFinish": 6.2,
+        "medianFinish": 6,
+        "projWins": 6.9,
+        "projLosses": 7.1,
+        "projPoints": 1826,
+        "dist": [
+          7,
+          7.8,
+          8.8,
+          8.2,
+          12.5,
+          10.6,
+          9.2,
+          8.8,
+          8.8,
+          8,
+          5.3,
+          5
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$450",
+            "pct": 7,
+            "price": "+1050"
+          },
+          {
+            "place": 2,
+            "label": "$100",
+            "pct": 7.8,
+            "price": "+920"
+          },
+          {
+            "place": 3,
+            "label": "$50",
+            "pct": 8.8,
+            "price": "+810"
+          },
+          {
+            "place": 4,
+            "label": "the interest",
+            "pct": 8.2,
+            "price": "+870"
+          }
+        ],
+        "inTheMoney": 31.8,
+        "playoffs": 54.9,
+        "bye": 5.9,
+        "pointsTitle": 1.3,
+        "last": 5,
+        "rank": 6
+      },
+      {
+        "rosterId": 3,
+        "manager": "jc199",
+        "team": "Return of the Menace",
+        "projFinish": 6.8,
+        "medianFinish": 6,
+        "projWins": 7,
+        "projLosses": 7,
+        "projPoints": 1795,
+        "dist": [
+          4.4,
+          5.7,
+          6.5,
+          8.4,
+          12.2,
+          13.8,
+          6.7,
+          9,
+          8.5,
+          10.8,
+          6.5,
+          7.5
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$450",
+            "pct": 4.4,
+            "price": "+1700"
+          },
+          {
+            "place": 2,
+            "label": "$100",
+            "pct": 5.7,
+            "price": "+1300"
+          },
+          {
+            "place": 3,
+            "label": "$50",
+            "pct": 6.5,
+            "price": "+1100"
+          },
+          {
+            "place": 4,
+            "label": "the interest",
+            "pct": 8.4,
+            "price": "+860"
+          }
+        ],
+        "inTheMoney": 25,
+        "playoffs": 51.1,
+        "bye": 3.8,
+        "pointsTitle": 0.7,
+        "last": 7.5,
+        "rank": 7
+      },
+      {
+        "rosterId": 5,
+        "manager": "Christopheryu21",
+        "team": "Need Crumbs HMU",
+        "projFinish": 7.6,
+        "medianFinish": 8,
+        "projWins": 6,
+        "projLosses": 8,
+        "projPoints": 1773,
+        "dist": [
+          3.8,
+          4.1,
+          5.1,
+          4.6,
+          8,
+          6.3,
+          12.3,
+          11.7,
+          11.9,
+          11,
+          10.6,
+          10.7
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$450",
+            "pct": 3.8,
+            "price": "+2000"
+          },
+          {
+            "place": 2,
+            "label": "$100",
+            "pct": 4.1,
+            "price": "+1850"
+          },
+          {
+            "place": 3,
+            "label": "$50",
+            "pct": 5.1,
+            "price": "+1500"
+          },
+          {
+            "place": 4,
+            "label": "the interest",
+            "pct": 4.6,
+            "price": "+1650"
+          }
+        ],
+        "inTheMoney": 17.5,
+        "playoffs": 31.9,
+        "bye": 1.3,
+        "pointsTitle": 0.5,
+        "last": 10.7,
+        "rank": 8
+      },
+      {
+        "rosterId": 11,
+        "manager": "FonckYou",
+        "team": "Gus’s Balls",
+        "projFinish": 8.3,
+        "medianFinish": 9,
+        "projWins": 6.3,
+        "projLosses": 7.7,
+        "projPoints": 1622,
+        "dist": [
+          2.7,
+          3,
+          3.7,
+          3.5,
+          5.8,
+          5.2,
+          11.1,
+          11.8,
+          11.9,
+          13,
+          13.4,
+          15
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$450",
+            "pct": 2.7,
+            "price": "+2900"
+          },
+          {
+            "place": 2,
+            "label": "$100",
+            "pct": 3,
+            "price": "+2600"
+          },
+          {
+            "place": 3,
+            "label": "$50",
+            "pct": 3.7,
+            "price": "+2100"
+          },
+          {
+            "place": 4,
+            "label": "the interest",
+            "pct": 3.5,
+            "price": "+2150"
+          }
+        ],
+        "inTheMoney": 12.8,
+        "playoffs": 23.8,
+        "bye": 1.2,
+        "pointsTitle": 0,
+        "last": 15,
+        "rank": 9
+      },
+      {
+        "rosterId": 10,
+        "manager": "MBurnes",
+        "team": "George Droyd",
+        "projFinish": 8.4,
+        "medianFinish": 9,
+        "projWins": 5.7,
+        "projLosses": 8.3,
+        "projPoints": 1706,
+        "dist": [
+          2.7,
+          2.4,
+          3.3,
+          2.4,
+          4.7,
+          3.6,
+          14.1,
+          12.9,
+          13.3,
+          11.7,
+          14.8,
+          14
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$450",
+            "pct": 2.7,
+            "price": "+2850"
+          },
+          {
+            "place": 2,
+            "label": "$100",
+            "pct": 2.4,
+            "price": "+3200"
+          },
+          {
+            "place": 3,
+            "label": "$50",
+            "pct": 3.3,
+            "price": "+2350"
+          },
+          {
+            "place": 4,
+            "label": "the interest",
+            "pct": 2.4,
+            "price": "+3200"
+          }
+        ],
+        "inTheMoney": 10.8,
+        "playoffs": 19.1,
+        "bye": 0.3,
+        "pointsTitle": 0.1,
+        "last": 14,
+        "rank": 10
+      },
+      {
+        "rosterId": 9,
+        "manager": "goochsniffer2nd",
+        "team": "Loan Shark",
+        "projFinish": 8.7,
+        "medianFinish": 9,
+        "projWins": 5.4,
+        "projLosses": 8.6,
+        "projPoints": 1760,
+        "dist": [
+          2,
+          2.3,
+          2.6,
+          2.6,
+          5,
+          4.6,
+          11.2,
+          12.2,
+          12.3,
+          13.2,
+          14.8,
+          17.2
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$450",
+            "pct": 2,
+            "price": "+4000"
+          },
+          {
+            "place": 2,
+            "label": "$100",
+            "pct": 2.3,
+            "price": "+3500"
+          },
+          {
+            "place": 3,
+            "label": "$50",
+            "pct": 2.6,
+            "price": "+2950"
+          },
+          {
+            "place": 4,
+            "label": "the interest",
+            "pct": 2.6,
+            "price": "+2900"
+          }
+        ],
+        "inTheMoney": 9.5,
+        "playoffs": 19.2,
+        "bye": 0.5,
+        "pointsTitle": 0.3,
+        "last": 17.2,
+        "rank": 11
+      },
+      {
+        "rosterId": 12,
+        "manager": "TheHumSack",
+        "team": "Death By Foriegn War ",
+        "projFinish": 9.6,
+        "medianFinish": 10,
+        "projWins": 3.6,
+        "projLosses": 10.4,
+        "projPoints": 1616,
+        "dist": [
+          0.3,
+          0.2,
+          0.2,
+          0.2,
+          0.3,
+          0.2,
+          17.4,
+          13.2,
+          14.1,
+          10.9,
+          24.2,
+          18.9
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$450",
+            "pct": 0.3,
+            "price": "+31000"
+          },
+          {
+            "place": 2,
+            "label": "$100",
+            "pct": 0.2,
+            "price": "+42000"
+          },
+          {
+            "place": 3,
+            "label": "$50",
+            "pct": 0.2,
+            "price": "+34000"
+          },
+          {
+            "place": 4,
+            "label": "the interest",
+            "pct": 0.2,
+            "price": "+41000"
+          }
+        ],
+        "inTheMoney": 0.9,
+        "playoffs": 1.4,
+        "bye": 0,
+        "pointsTitle": 0,
+        "last": 18.9,
+        "rank": 12
+      }
+    ],
+    "markets": [
+      {
+        "key": "championship",
+        "name": "CHAMPIONSHIP",
+        "pays": "$450",
+        "rows": [
+          {
+            "rosterId": 8,
+            "manager": "A5Kobe",
+            "team": "Beriousbeast",
+            "pct": 32.2,
+            "price": "+130"
+          },
+          {
+            "rosterId": 7,
+            "manager": "prozan",
+            "team": "Need RB HMU",
+            "pct": 19.6,
+            "price": "+280"
+          },
+          {
+            "rosterId": 1,
+            "manager": "kdutta",
+            "team": "Garbers mirror selfie",
+            "pct": 9.9,
+            "price": "+650"
+          },
+          {
+            "rosterId": 4,
+            "manager": "arnst",
+            "team": "Need Loan HMU",
+            "pct": 8.4,
+            "price": "+780"
+          },
+          {
+            "rosterId": 6,
+            "manager": "Keeyan99",
+            "team": "Comet club?",
+            "pct": 7.1,
+            "price": "+940"
+          },
+          {
+            "rosterId": 2,
+            "manager": "rnath499",
+            "team": "Haircut Haircut 🗣️",
+            "pct": 7,
+            "price": "+960"
+          },
+          {
+            "rosterId": 3,
+            "manager": "jc199",
+            "team": "Return of the Menace",
+            "pct": 4.4,
+            "price": "+1600"
+          },
+          {
+            "rosterId": 5,
+            "manager": "Christopheryu21",
+            "team": "Need Crumbs HMU",
+            "pct": 3.8,
+            "price": "+1850"
+          },
+          {
+            "rosterId": 10,
+            "manager": "MBurnes",
+            "team": "George Droyd",
+            "pct": 2.7,
+            "price": "+2650"
+          },
+          {
+            "rosterId": 11,
+            "manager": "FonckYou",
+            "team": "Gus’s Balls",
+            "pct": 2.7,
+            "price": "+2700"
+          },
+          {
+            "rosterId": 9,
+            "manager": "goochsniffer2nd",
+            "team": "Loan Shark",
+            "pct": 2,
+            "price": "+3700"
+          },
+          {
+            "rosterId": 12,
+            "manager": "TheHumSack",
+            "team": "Death By Foriegn War ",
+            "pct": 0.3,
+            "price": "+28000"
+          }
+        ]
+      },
+      {
+        "key": "lastPlace",
+        "name": "THE BUS STOP",
+        "copy": "Last place spends a day at Bus Stop, open to close. Every beer he drinks takes an hour off. Every ten beers the rest of the league drinks puts an hour back on.",
+        "pays": null,
+        "rows": [
+          {
+            "rosterId": 12,
+            "manager": "TheHumSack",
+            "team": "Death By Foriegn War ",
+            "pct": 18.9,
+            "price": "+320"
+          },
+          {
+            "rosterId": 9,
+            "manager": "goochsniffer2nd",
+            "team": "Loan Shark",
+            "pct": 17.2,
+            "price": "+360"
+          },
+          {
+            "rosterId": 11,
+            "manager": "FonckYou",
+            "team": "Gus’s Balls",
+            "pct": 15,
+            "price": "+430"
+          },
+          {
+            "rosterId": 10,
+            "manager": "MBurnes",
+            "team": "George Droyd",
+            "pct": 14,
+            "price": "+470"
+          },
+          {
+            "rosterId": 5,
+            "manager": "Christopheryu21",
+            "team": "Need Crumbs HMU",
+            "pct": 10.7,
+            "price": "+650"
+          },
+          {
+            "rosterId": 3,
+            "manager": "jc199",
+            "team": "Return of the Menace",
+            "pct": 7.5,
+            "price": "+970"
+          },
+          {
+            "rosterId": 2,
+            "manager": "rnath499",
+            "team": "Haircut Haircut 🗣️",
+            "pct": 5,
+            "price": "+1500"
+          },
+          {
+            "rosterId": 4,
+            "manager": "arnst",
+            "team": "Need Loan HMU",
+            "pct": 5,
+            "price": "+1500"
+          },
+          {
+            "rosterId": 6,
+            "manager": "Keeyan99",
+            "team": "Comet club?",
+            "pct": 4.7,
+            "price": "+1600"
+          },
+          {
+            "rosterId": 1,
+            "manager": "kdutta",
+            "team": "Garbers mirror selfie",
+            "pct": 2,
+            "price": "+3900"
+          },
+          {
+            "rosterId": 7,
+            "manager": "prozan",
+            "team": "Need RB HMU",
+            "pct": 0.1,
+            "price": "+91000"
+          },
+          {
+            "rosterId": 8,
+            "manager": "A5Kobe",
+            "team": "Beriousbeast",
+            "pct": 0,
+            "price": "+500000"
+          }
+        ]
+      }
+    ],
+    "winTotals": [
+      {
+        "rosterId": 1,
+        "manager": "kdutta",
+        "team": "Garbers mirror selfie",
+        "line": 7.5,
+        "expected": 8,
+        "over": "−195",
+        "under": "+145",
+        "pOver": 61.7
+      },
+      {
+        "rosterId": 2,
+        "manager": "rnath499",
+        "team": "Haircut Haircut 🗣️",
+        "line": 6.5,
+        "expected": 6.9,
+        "over": "−195",
+        "under": "+140",
+        "pOver": 61.3
+      },
+      {
+        "rosterId": 3,
+        "manager": "jc199",
+        "team": "Return of the Menace",
+        "line": 6.5,
+        "expected": 7,
+        "over": "−190",
+        "under": "+140",
+        "pOver": 61.1
+      },
+      {
+        "rosterId": 4,
+        "manager": "arnst",
+        "team": "Need Loan HMU",
+        "line": 7.5,
+        "expected": 7.3,
+        "over": "−105",
+        "under": "−130",
+        "pOver": 47.1
+      },
+      {
+        "rosterId": 5,
+        "manager": "Christopheryu21",
+        "team": "Need Crumbs HMU",
+        "line": 6.5,
+        "expected": 6,
+        "over": "+145",
+        "under": "−195",
+        "pOver": 38.3
+      },
+      {
+        "rosterId": 6,
+        "manager": "Keeyan99",
+        "team": "Comet club?",
+        "line": 7.5,
+        "expected": 7.7,
+        "over": "−140",
+        "under": "+105",
+        "pOver": 54.3
+      },
+      {
+        "rosterId": 7,
+        "manager": "prozan",
+        "team": "Need RB HMU",
+        "line": 9.5,
+        "expected": 9.7,
+        "over": "−170",
+        "under": "+125",
+        "pOver": 58.9
+      },
+      {
+        "rosterId": 8,
+        "manager": "A5Kobe",
+        "team": "Beriousbeast",
+        "line": 10.5,
+        "expected": 10.4,
+        "over": "−115",
+        "under": "−115",
+        "pOver": 50.2
+      },
+      {
+        "rosterId": 9,
+        "manager": "goochsniffer2nd",
+        "team": "Loan Shark",
+        "line": 5.5,
+        "expected": 5.4,
+        "over": "+100",
+        "under": "−135",
+        "pOver": 46.4
+      },
+      {
+        "rosterId": 10,
+        "manager": "MBurnes",
+        "team": "George Droyd",
+        "line": 5.5,
+        "expected": 5.7,
+        "over": "−135",
+        "under": "−100",
+        "pOver": 53.4
+      },
+      {
+        "rosterId": 11,
+        "manager": "FonckYou",
+        "team": "Gus’s Balls",
+        "line": 6.5,
+        "expected": 6.3,
+        "over": "+125",
+        "under": "−170",
+        "pOver": 41.7
+      },
+      {
+        "rosterId": 12,
+        "manager": "TheHumSack",
+        "team": "Death By Foriegn War ",
+        "line": 3.5,
+        "expected": 3.6,
+        "over": "−125",
+        "under": "−110",
+        "pOver": 51.7
+      }
+    ]
+  },
+  "lineups": [
+    {
+      "rosterId": 1,
+      "manager": "kdutta",
+      "team": "Garbers mirror selfie",
+      "projected": 132.5,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Joe Burrow",
+          "position": "QB",
+          "team": "CIN",
+          "mu": 21.3
+        },
+        {
+          "slot": "RB",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "mu": 17.5
+        },
+        {
+          "slot": "RB",
+          "name": "James Cook III",
+          "position": "RB",
+          "team": "BUF",
+          "mu": 14.9
+        },
+        {
+          "slot": "WR",
+          "name": "George Pickens",
+          "position": "WR",
+          "team": "DAL",
+          "mu": 13.5
+        },
+        {
+          "slot": "WR",
+          "name": "Denzel Boston",
+          "position": "WR",
+          "team": "CLE",
+          "mu": 10.7
+        },
+        {
+          "slot": "TE",
+          "name": "Isaiah Likely",
+          "position": "TE",
+          "team": "NYG",
+          "mu": 11.5
+        },
+        {
+          "slot": "FLEX",
+          "name": "Josh Jacobs",
+          "position": "RB",
+          "team": "GB",
+          "mu": 14
+        },
+        {
+          "slot": "FLEX",
+          "name": "Woody Marks",
+          "position": "RB",
+          "team": "HOU",
+          "mu": 13.9
+        },
+        {
+          "slot": "K",
+          "name": "Cam Little",
+          "position": "K",
+          "team": "JAX",
+          "mu": 8.5
+        },
+        {
+          "slot": "DEF",
+          "name": "Cincinnati Bengals",
+          "position": "DEF",
+          "team": "CIN",
+          "mu": 6.8
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 2,
+      "manager": "rnath499",
+      "team": "Haircut Haircut 🗣️",
+      "projected": 132.2,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "team": "LAR",
+          "mu": 18.6
+        },
+        {
+          "slot": "RB",
+          "name": "Chase Brown",
+          "position": "RB",
+          "team": "CIN",
+          "mu": 16.1
+        },
+        {
+          "slot": "RB",
+          "name": "Austin Ekeler",
+          "position": "RB",
+          "team": "WAS",
+          "mu": 7.4
+        },
+        {
+          "slot": "WR",
+          "name": "Ja'Marr Chase",
+          "position": "WR",
+          "team": "CIN",
+          "mu": 19.7
+        },
+        {
+          "slot": "WR",
+          "name": "Parker Washington",
+          "position": "WR",
+          "team": "JAX",
+          "mu": 14
+        },
+        {
+          "slot": "TE",
+          "name": "Trey McBride",
+          "position": "TE",
+          "team": "ARI",
+          "mu": 15.3
+        },
+        {
+          "slot": "FLEX",
+          "name": "Michael Wilson",
+          "position": "WR",
+          "team": "ARI",
+          "mu": 12.9
+        },
+        {
+          "slot": "FLEX",
+          "name": "Rome Odunze",
+          "position": "WR",
+          "team": "CHI",
+          "mu": 11.5
+        },
+        {
+          "slot": "K",
+          "name": "Matt Gay",
+          "position": "K",
+          "team": "LV",
+          "mu": 8.2
+        },
+        {
+          "slot": "DEF",
+          "name": "Chicago Bears",
+          "position": "DEF",
+          "team": "CHI",
+          "mu": 8.5
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 3,
+      "manager": "jc199",
+      "team": "Return of the Menace",
+      "projected": 128.9,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Dak Prescott",
+          "position": "QB",
+          "team": "DAL",
+          "mu": 19.8
+        },
+        {
+          "slot": "RB",
+          "name": "Javonte Williams",
+          "position": "RB",
+          "team": "DAL",
+          "mu": 18.4
+        },
+        {
+          "slot": "RB",
+          "name": "Kendre Miller",
+          "position": "RB",
+          "team": "NO",
+          "mu": 10.7
+        },
+        {
+          "slot": "WR",
+          "name": "Amon-Ra St. Brown",
+          "position": "WR",
+          "team": "DET",
+          "mu": 20.3
+        },
+        {
+          "slot": "WR",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "team": "TB",
+          "mu": 10.6
+        },
+        {
+          "slot": "TE",
+          "name": "Tyler Warren",
+          "position": "TE",
+          "team": "IND",
+          "mu": 13.2
+        },
+        {
+          "slot": "FLEX",
+          "name": "Braelon Allen",
+          "position": "RB",
+          "team": "NYJ",
+          "mu": 10.5
+        },
+        {
+          "slot": "FLEX",
+          "name": "Xavier Worthy",
+          "position": "WR",
+          "team": "KC",
+          "mu": 10.3
+        },
+        {
+          "slot": "K",
+          "name": "Eddy Pineiro",
+          "position": "K",
+          "team": "SF",
+          "mu": 8.5,
+          "waiver": true
+        },
+        {
+          "slot": "DEF",
+          "name": "Cleveland Browns",
+          "position": "DEF",
+          "team": "CLE",
+          "mu": 6.8
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 4,
+      "manager": "arnst",
+      "team": "Need Loan HMU",
+      "projected": 133.8,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "C.J. Stroud",
+          "position": "QB",
+          "team": "HOU",
+          "mu": 16.8
+        },
+        {
+          "slot": "RB",
+          "name": "Christian McCaffrey",
+          "position": "RB",
+          "team": "SF",
+          "mu": 23
+        },
+        {
+          "slot": "RB",
+          "name": "Chuba Hubbard",
+          "position": "RB",
+          "team": "CAR",
+          "mu": 16.9
+        },
+        {
+          "slot": "WR",
+          "name": "Rashee Rice",
+          "position": "WR",
+          "team": "KC",
+          "mu": 15.7
+        },
+        {
+          "slot": "WR",
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "team": "DEN",
+          "mu": 11.1
+        },
+        {
+          "slot": "TE",
+          "name": "Travis Kelce",
+          "position": "TE",
+          "team": "KC",
+          "mu": 13.2
+        },
+        {
+          "slot": "FLEX",
+          "name": "Ashton Jeanty",
+          "position": "RB",
+          "team": "LV",
+          "mu": 12.2
+        },
+        {
+          "slot": "FLEX",
+          "name": "Adonai Mitchell",
+          "position": "WR",
+          "team": "NYJ",
+          "mu": 8.3
+        },
+        {
+          "slot": "K",
+          "name": "Evan McPherson",
+          "position": "K",
+          "team": "CIN",
+          "mu": 9.2
+        },
+        {
+          "slot": "DEF",
+          "name": "Denver Broncos",
+          "position": "DEF",
+          "team": "DEN",
+          "mu": 7.5
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 5,
+      "manager": "Christopheryu21",
+      "team": "Need Crumbs HMU",
+      "projected": 135.1,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Caleb Williams",
+          "position": "QB",
+          "team": "CHI",
+          "mu": 18.5
+        },
+        {
+          "slot": "RB",
+          "name": "Kenneth Walker III",
+          "position": "RB",
+          "team": "KC",
+          "mu": 22
+        },
+        {
+          "slot": "RB",
+          "name": "Ollie Gordon II",
+          "position": "RB",
+          "team": "MIA",
+          "mu": 13
+        },
+        {
+          "slot": "WR",
+          "name": "Matthew Golden",
+          "position": "WR",
+          "team": "GB",
+          "mu": 14.9
+        },
+        {
+          "slot": "WR",
+          "name": "Tetairoa McMillan",
+          "position": "WR",
+          "team": "CAR",
+          "mu": 13.8
+        },
+        {
+          "slot": "TE",
+          "name": "George Kittle",
+          "position": "TE",
+          "team": "SF",
+          "mu": 15.2
+        },
+        {
+          "slot": "FLEX",
+          "name": "Cam Skattebo",
+          "position": "RB",
+          "team": "NYG",
+          "mu": 11.9
+        },
+        {
+          "slot": "FLEX",
+          "name": "Malik Washington",
+          "position": "WR",
+          "team": "MIA",
+          "mu": 10.8
+        },
+        {
+          "slot": "K",
+          "name": "Trey Smack",
+          "position": "K",
+          "team": "GB",
+          "mu": 7.3
+        },
+        {
+          "slot": "DEF",
+          "name": "San Francisco 49ers",
+          "position": "DEF",
+          "team": "SF",
+          "mu": 7.7
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 6,
+      "manager": "Keeyan99",
+      "team": "Comet club?",
+      "projected": 126.7,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Bryce Young",
+          "position": "QB",
+          "team": "CAR",
+          "mu": 17
+        },
+        {
+          "slot": "RB",
+          "name": "D'Andre Swift",
+          "position": "RB",
+          "team": "CHI",
+          "mu": 16.5
+        },
+        {
+          "slot": "RB",
+          "name": "Jonah Coleman",
+          "position": "RB",
+          "team": "DEN",
+          "mu": 14.5
+        },
+        {
+          "slot": "WR",
+          "name": "Justin Jefferson",
+          "position": "WR",
+          "team": "MIN",
+          "mu": 17.9
+        },
+        {
+          "slot": "WR",
+          "name": "Luther Burden III",
+          "position": "WR",
+          "team": "CHI",
+          "mu": 14.6
+        },
+        {
+          "slot": "TE",
+          "name": "Colston Loveland",
+          "position": "TE",
+          "team": "CHI",
+          "mu": 11
+        },
+        {
+          "slot": "FLEX",
+          "name": "Tre Tucker",
+          "position": "WR",
+          "team": "LV",
+          "mu": 11
+        },
+        {
+          "slot": "FLEX",
+          "name": "J.K. Dobbins",
+          "position": "RB",
+          "team": "DEN",
+          "mu": 10.1
+        },
+        {
+          "slot": "K",
+          "name": "Chase McLaughlin",
+          "position": "K",
+          "team": "TB",
+          "mu": 7.9
+        },
+        {
+          "slot": "DEF",
+          "name": "Minnesota Vikings",
+          "position": "DEF",
+          "team": "MIN",
+          "mu": 6.3
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 7,
+      "manager": "prozan",
+      "team": "Need RB HMU",
+      "projected": 142.7,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Trevor Lawrence",
+          "position": "QB",
+          "team": "JAX",
+          "mu": 19.4
+        },
+        {
+          "slot": "RB",
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "team": "ARI",
+          "mu": 12.2
+        },
+        {
+          "slot": "RB",
+          "name": "Aaron Jones Sr.",
+          "position": "RB",
+          "team": "MIN",
+          "mu": 10
+        },
+        {
+          "slot": "WR",
+          "name": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "team": "SEA",
+          "mu": 24
+        },
+        {
+          "slot": "WR",
+          "name": "Drake London",
+          "position": "WR",
+          "team": "ATL",
+          "mu": 18.5
+        },
+        {
+          "slot": "TE",
+          "name": "Harold Fannin Jr.",
+          "position": "TE",
+          "team": "CLE",
+          "mu": 11.4
+        },
+        {
+          "slot": "FLEX",
+          "name": "Christian Watson",
+          "position": "WR",
+          "team": "GB",
+          "mu": 15.9
+        },
+        {
+          "slot": "FLEX",
+          "name": "Chris Olave",
+          "position": "WR",
+          "team": "NO",
+          "mu": 15.4
+        },
+        {
+          "slot": "K",
+          "name": "Jake Bates",
+          "position": "K",
+          "team": "DET",
+          "mu": 8.3
+        },
+        {
+          "slot": "DEF",
+          "name": "New England Patriots",
+          "position": "DEF",
+          "team": "NE",
+          "mu": 7.6
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 8,
+      "manager": "A5Kobe",
+      "team": "Beriousbeast",
+      "projected": 156.2,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Brock Purdy",
+          "position": "QB",
+          "team": "SF",
+          "mu": 22.3
+        },
+        {
+          "slot": "RB",
+          "name": "Jahmyr Gibbs",
+          "position": "RB",
+          "team": "DET",
+          "mu": 25.8
+        },
+        {
+          "slot": "RB",
+          "name": "Breece Hall",
+          "position": "RB",
+          "team": "NYJ",
+          "mu": 8.4
+        },
+        {
+          "slot": "WR",
+          "name": "CeeDee Lamb",
+          "position": "WR",
+          "team": "DAL",
+          "mu": 20.2
+        },
+        {
+          "slot": "WR",
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU",
+          "mu": 17.3
+        },
+        {
+          "slot": "TE",
+          "name": "Brock Bowers",
+          "position": "TE",
+          "team": "LV",
+          "mu": 18.6
+        },
+        {
+          "slot": "FLEX",
+          "name": "Malik Nabers",
+          "position": "WR",
+          "team": "NYG",
+          "mu": 15.7
+        },
+        {
+          "slot": "FLEX",
+          "name": "T.J. Hockenson",
+          "position": "TE",
+          "team": "MIN",
+          "mu": 10.9
+        },
+        {
+          "slot": "K",
+          "name": "Spencer Shrader",
+          "position": "K",
+          "team": "IND",
+          "mu": 9.5
+        },
+        {
+          "slot": "DEF",
+          "name": "Jacksonville Jaguars",
+          "position": "DEF",
+          "team": "JAX",
+          "mu": 7.5
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 9,
+      "manager": "goochsniffer2nd",
+      "team": "Loan Shark",
+      "projected": 126.3,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Drake Maye",
+          "position": "QB",
+          "team": "NE",
+          "mu": 20.9
+        },
+        {
+          "slot": "RB",
+          "name": "Kyren Williams",
+          "position": "RB",
+          "team": "LAR",
+          "mu": 18.7
+        },
+        {
+          "slot": "RB",
+          "name": "Devin Singletary",
+          "position": "RB",
+          "team": "NYG",
+          "mu": 8.7
+        },
+        {
+          "slot": "WR",
+          "name": "Puka Nacua",
+          "position": "WR",
+          "team": "LAR",
+          "mu": 23.2
+        },
+        {
+          "slot": "WR",
+          "name": "Jakobi Meyers",
+          "position": "WR",
+          "team": "JAX",
+          "mu": 9.3
+        },
+        {
+          "slot": "TE",
+          "name": "Sam LaPorta",
+          "position": "TE",
+          "team": "DET",
+          "mu": 13.4
+        },
+        {
+          "slot": "FLEX",
+          "name": "Dalton Kincaid",
+          "position": "TE",
+          "team": "BUF",
+          "mu": 9.7
+        },
+        {
+          "slot": "FLEX",
+          "name": "DeMario Douglas",
+          "position": "WR",
+          "team": "NE",
+          "mu": 8.5
+        },
+        {
+          "slot": "K",
+          "name": "Ka'imi Fairbairn",
+          "position": "K",
+          "team": "HOU",
+          "mu": 8.9
+        },
+        {
+          "slot": "DEF",
+          "name": "Washington Commanders",
+          "position": "DEF",
+          "team": "WAS",
+          "mu": 5
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 10,
+      "manager": "MBurnes",
+      "team": "George Droyd",
+      "projected": 123.7,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Malik Willis",
+          "position": "QB",
+          "team": "MIA",
+          "mu": 17.8
+        },
+        {
+          "slot": "RB",
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "team": "PHI",
+          "mu": 12.8
+        },
+        {
+          "slot": "RB",
+          "name": "Rhamondre Stevenson",
+          "position": "RB",
+          "team": "NE",
+          "mu": 12
+        },
+        {
+          "slot": "WR",
+          "name": "Tee Higgins",
+          "position": "WR",
+          "team": "CIN",
+          "mu": 16.5
+        },
+        {
+          "slot": "WR",
+          "name": "DJ Moore",
+          "position": "WR",
+          "team": "BUF",
+          "mu": 12.9
+        },
+        {
+          "slot": "TE",
+          "name": "Brenton Strange",
+          "position": "TE",
+          "team": "JAX",
+          "mu": 9.7
+        },
+        {
+          "slot": "FLEX",
+          "name": "Jameson Williams",
+          "position": "WR",
+          "team": "DET",
+          "mu": 12.6
+        },
+        {
+          "slot": "FLEX",
+          "name": "Derrick Henry",
+          "position": "RB",
+          "team": "BAL",
+          "mu": 11.9
+        },
+        {
+          "slot": "K",
+          "name": "Jason Myers",
+          "position": "K",
+          "team": "SEA",
+          "mu": 8.7
+        },
+        {
+          "slot": "DEF",
+          "name": "Seattle Seahawks",
+          "position": "DEF",
+          "team": "SEA",
+          "mu": 8.8
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 11,
+      "manager": "FonckYou",
+      "team": "Gus’s Balls",
+      "projected": 113.6,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Josh Allen",
+          "position": "QB",
+          "team": "BUF",
+          "mu": 22.1
+        },
+        {
+          "slot": "RB",
+          "name": "Bijan Robinson",
+          "position": "RB",
+          "team": "ATL",
+          "mu": 23.1
+        },
+        {
+          "slot": "RB",
+          "name": "Justice Hill",
+          "position": "RB",
+          "team": "BAL",
+          "mu": 6.1
+        },
+        {
+          "slot": "WR",
+          "name": "Jalen Coker",
+          "position": "WR",
+          "team": "CAR",
+          "mu": 13.8
+        },
+        {
+          "slot": "WR",
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "team": "DEN",
+          "mu": 7.3
+        },
+        {
+          "slot": "TE",
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "team": "PHI",
+          "mu": 9.9
+        },
+        {
+          "slot": "FLEX",
+          "name": "Hunter Henry",
+          "position": "TE",
+          "team": "NE",
+          "mu": 7
+        },
+        {
+          "slot": "FLEX",
+          "name": "Keon Coleman",
+          "position": "WR",
+          "team": "BUF",
+          "mu": 6.9
+        },
+        {
+          "slot": "K",
+          "name": "Brandon Aubrey",
+          "position": "K",
+          "team": "DAL",
+          "mu": 9.9
+        },
+        {
+          "slot": "DEF",
+          "name": "Los Angeles Rams",
+          "position": "DEF",
+          "team": "LAR",
+          "mu": 7.5
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 12,
+      "manager": "TheHumSack",
+      "team": "Death By Foriegn War ",
+      "projected": 124.5,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Kirk Cousins",
+          "position": "QB",
+          "team": "LV",
+          "mu": 17.2
+        },
+        {
+          "slot": "RB",
+          "name": "Jonathan Taylor",
+          "position": "RB",
+          "team": "IND",
+          "mu": 17.5
+        },
+        {
+          "slot": "RB",
+          "name": "Quinshon Judkins",
+          "position": "RB",
+          "team": "CLE",
+          "mu": 12.2
+        },
+        {
+          "slot": "WR",
+          "name": "Zay Flowers",
+          "position": "WR",
+          "team": "BAL",
+          "mu": 13.8
+        },
+        {
+          "slot": "WR",
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "team": "LAC",
+          "mu": 13
+        },
+        {
+          "slot": "TE",
+          "name": "Tucker Kraft",
+          "position": "TE",
+          "team": "GB",
+          "mu": 11.6
+        },
+        {
+          "slot": "FLEX",
+          "name": "Stefon Diggs",
+          "position": "WR",
+          "team": "WAS",
+          "mu": 12.2
+        },
+        {
+          "slot": "FLEX",
+          "name": "Rachaad White",
+          "position": "RB",
+          "team": "WAS",
+          "mu": 10.7
+        },
+        {
+          "slot": "K",
+          "name": "Will Reichard",
+          "position": "K",
+          "team": "MIN",
+          "mu": 9.1
+        },
+        {
+          "slot": "DEF",
+          "name": "Philadelphia Eagles",
+          "position": "DEF",
+          "team": "PHI",
+          "mu": 7.4
+        }
+      ],
+      "emptySlots": []
+    }
+  ],
+  "restOfSeason": [
+    {
+      "rosterId": 1,
+      "manager": "kdutta",
+      "team": "Garbers mirror selfie",
+      "projected": 138.1
+    },
+    {
+      "rosterId": 2,
+      "manager": "rnath499",
+      "team": "Haircut Haircut 🗣️",
+      "projected": 138.5
+    },
+    {
+      "rosterId": 3,
+      "manager": "jc199",
+      "team": "Return of the Menace",
+      "projected": 130.4
+    },
+    {
+      "rosterId": 4,
+      "manager": "arnst",
+      "team": "Need Loan HMU",
+      "projected": 139.6
+    },
+    {
+      "rosterId": 5,
+      "manager": "Christopheryu21",
+      "team": "Need Crumbs HMU",
+      "projected": 133.3
+    },
+    {
+      "rosterId": 6,
+      "manager": "Keeyan99",
+      "team": "Comet club?",
+      "projected": 135
+    },
+    {
+      "rosterId": 7,
+      "manager": "prozan",
+      "team": "Need RB HMU",
+      "projected": 146.7
+    },
+    {
+      "rosterId": 8,
+      "manager": "A5Kobe",
+      "team": "Beriousbeast",
+      "projected": 157.6
+    },
+    {
+      "rosterId": 9,
+      "manager": "goochsniffer2nd",
+      "team": "Loan Shark",
+      "projected": 127.5
+    },
+    {
+      "rosterId": 10,
+      "manager": "MBurnes",
+      "team": "George Droyd",
+      "projected": 132.1
+    },
+    {
+      "rosterId": 11,
+      "manager": "FonckYou",
+      "team": "Gus’s Balls",
+      "projected": 128.7
+    },
+    {
+      "rosterId": 12,
+      "manager": "TheHumSack",
+      "team": "Death By Foriegn War ",
+      "projected": 130.7
+    }
+  ],
+  "settled": {
+    "week": 8,
+    "matchups": [
+      {
+        "a": {
+          "rosterId": 12,
+          "manager": "TheHumSack",
+          "team": "Death By Foriegn War ",
+          "points": 97.08
+        },
+        "b": {
+          "rosterId": 5,
+          "manager": "Christopheryu21",
+          "team": "Need Crumbs HMU",
+          "points": 104.88
+        },
+        "played": true,
+        "posted": {
+          "moneyline": {
+            "pA": 55.4,
+            "a": "−145",
+            "b": "+110"
+          },
+          "spread": {
+            "line": -4.5,
+            "a": "−4.5",
+            "b": "+4.5",
+            "price": "−110",
+            "pCover": 50
+          },
+          "total": {
+            "line": 245.5,
+            "over": "−110",
+            "under": "−110",
+            "pOver": 50.1
+          }
+        },
+        "margin": -7.8,
+        "total": 201.96,
+        "winner": "b",
+        "ats": "b",
+        "ou": "b",
+        "brier": 0.307
+      },
+      {
+        "a": {
+          "rosterId": 1,
+          "manager": "kdutta",
+          "team": "Garbers mirror selfie",
+          "points": 164.78
+        },
+        "b": {
+          "rosterId": 10,
+          "manager": "MBurnes",
+          "team": "George Droyd",
+          "points": 121
+        },
+        "played": true,
+        "posted": {
+          "moneyline": {
+            "pA": 66.5,
+            "a": "−250",
+            "b": "+180"
+          },
+          "spread": {
+            "line": -13.5,
+            "a": "−13.5",
+            "b": "+13.5",
+            "price": "−110",
+            "pCover": 49.7
+          },
+          "total": {
+            "line": 262,
+            "over": "−110",
+            "under": "−110",
+            "pOver": 50.2
+          }
+        },
+        "margin": 43.78,
+        "total": 285.78,
+        "winner": "a",
+        "ats": "a",
+        "ou": "a",
+        "brier": 0.112
+      },
+      {
+        "a": {
+          "rosterId": 8,
+          "manager": "A5Kobe",
+          "team": "Beriousbeast",
+          "points": 126.28
+        },
+        "b": {
+          "rosterId": 7,
+          "manager": "prozan",
+          "team": "Need RB HMU",
+          "points": 134
+        },
+        "played": true,
+        "posted": {
+          "moneyline": {
+            "pA": 53.3,
+            "a": "−135",
+            "b": "−100"
+          },
+          "spread": {
+            "line": -3,
+            "a": "−3.0",
+            "b": "+3.0",
+            "price": "−110",
+            "pCover": 49.9
+          },
+          "total": {
+            "line": 280.5,
+            "over": "−110",
+            "under": "−110",
+            "pOver": 49.8
+          }
+        },
+        "margin": -7.72,
+        "total": 260.28,
+        "winner": "b",
+        "ats": "b",
+        "ou": "b",
+        "brier": 0.284
+      },
+      {
+        "a": {
+          "rosterId": 2,
+          "manager": "rnath499",
+          "team": "Haircut Haircut 🗣️",
+          "points": 151.18
+        },
+        "b": {
+          "rosterId": 9,
+          "manager": "goochsniffer2nd",
+          "team": "Loan Shark",
+          "points": 124.76
+        },
+        "played": true,
+        "posted": {
+          "moneyline": {
+            "pA": 55.8,
+            "a": "−150",
+            "b": "+110"
+          },
+          "spread": {
+            "line": -5,
+            "a": "−5.0",
+            "b": "+5.0",
+            "price": "−110",
+            "pCover": 49.9
+          },
+          "total": {
+            "line": 274,
+            "over": "−110",
+            "under": "−110",
+            "pOver": 49.9
+          }
+        },
+        "margin": 26.42,
+        "total": 275.94,
+        "winner": "a",
+        "ats": "a",
+        "ou": "a",
+        "brier": 0.195
+      },
+      {
+        "a": {
+          "rosterId": 6,
+          "manager": "Keeyan99",
+          "team": "Comet club?",
+          "points": 123.96
+        },
+        "b": {
+          "rosterId": 3,
+          "manager": "jc199",
+          "team": "Return of the Menace",
+          "points": 92
+        },
+        "played": true,
+        "posted": {
+          "moneyline": {
+            "pA": 50.5,
+            "a": "−120",
+            "b": "−115"
+          },
+          "spread": {
+            "line": -0.5,
+            "a": "−0.5",
+            "b": "+0.5",
+            "price": "−110",
+            "pCover": 49.9
+          },
+          "total": {
+            "line": 246,
+            "over": "−110",
+            "under": "−110",
+            "pOver": 50.2
+          }
+        },
+        "margin": 31.96,
+        "total": 215.96,
+        "winner": "a",
+        "ats": "a",
+        "ou": "b",
+        "brier": 0.245
+      },
+      {
+        "a": {
+          "rosterId": 11,
+          "manager": "FonckYou",
+          "team": "Gus’s Balls",
+          "points": 109.86
+        },
+        "b": {
+          "rosterId": 4,
+          "manager": "arnst",
+          "team": "Need Loan HMU",
+          "points": 100.6
+        },
+        "played": true,
+        "posted": {
+          "moneyline": {
+            "pA": 69.8,
+            "a": "−300",
+            "b": "+210"
+          },
+          "spread": {
+            "line": -16,
+            "a": "−16.0",
+            "b": "+16.0",
+            "price": "−110",
+            "pCover": 49.7
+          },
+          "total": {
+            "line": 242.5,
+            "over": "−110",
+            "under": "−110",
+            "pOver": 49.7
+          }
+        },
+        "margin": 9.26,
+        "total": 210.46,
+        "winner": "a",
+        "ats": "b",
+        "ou": "b",
+        "brier": 0.091
+      }
+    ],
+    "reportCard": {
+      "games": 6,
+      "straightUp": {
+        "w": 4,
+        "l": 2,
+        "p": 0
+      },
+      "ats": {
+        "w": 3,
+        "l": 3,
+        "p": 0
+      },
+      "total": {
+        "w": 2,
+        "l": 4,
+        "p": 0
+      },
+      "brier": 0.206,
+      "coinFlip": 0.25,
+      "expectedChalkWins": 3.51
+    },
+    "high": {
+      "rosterId": 1,
+      "manager": "kdutta",
+      "team": "Garbers mirror selfie",
+      "points": 164.78
+    },
+    "low": {
+      "rosterId": 3,
+      "manager": "jc199",
+      "team": "Return of the Menace",
+      "points": 92
+    },
+    "punishment": {
+      "low": {
+        "name": "KARAOKE",
+        "rosterId": 3,
+        "manager": "jc199",
+        "team": "Return of the Menace",
+        "points": 92,
+        "price": "+620",
+        "pct": 11.1,
+        "rank": 3,
+        "of": 12,
+        "favourite": {
+          "rosterId": 4,
+          "manager": "arnst",
+          "team": "Need Loan HMU",
+          "pct": 22.9,
+          "price": "+250"
+        },
+        "hitFavourite": false
+      },
+      "high": {
+        "name": "SONG SELECT",
+        "rosterId": 1,
+        "manager": "kdutta",
+        "team": "Garbers mirror selfie",
+        "points": 164.78,
+        "price": "+540",
+        "pct": 12.5,
+        "rank": 4,
+        "of": 12,
+        "favourite": {
+          "rosterId": 8,
+          "manager": "A5Kobe",
+          "team": "Beriousbeast",
+          "pct": 17.1,
+          "price": "+370"
+        },
+        "hitFavourite": false
+      },
+      "joint": {
+        "hit": null,
+        "offered": 6,
+        "low": {
+          "rosterId": 3,
+          "manager": "jc199",
+          "team": "Return of the Menace",
+          "points": 92
+        },
+        "high": {
+          "rosterId": 1,
+          "manager": "kdutta",
+          "team": "Garbers mirror selfie",
+          "points": 164.78
+        }
+      }
+    },
+    "bench": [
+      {
+        "rosterId": 6,
+        "manager": "Keeyan99",
+        "team": "Comet club?",
+        "points": 123.96,
+        "best": 173.06,
+        "left": 49.1,
+        "missed": [
+          {
+            "name": "Tony Pollard",
+            "position": "RB",
+            "points": 28.7
+          },
+          {
+            "name": "Jonah Coleman",
+            "position": "RB",
+            "points": 20.4
+          }
+        ]
+      },
+      {
+        "rosterId": 10,
+        "manager": "MBurnes",
+        "team": "George Droyd",
+        "points": 121,
+        "best": 145.8,
+        "left": 24.8,
+        "missed": [
+          {
+            "name": "Geno Smith",
+            "position": "QB",
+            "points": 19
+          },
+          {
+            "name": "Keenan Allen",
+            "position": "WR",
+            "points": 13.7
+          },
+          {
+            "name": "Pat Freiermuth",
+            "position": "TE",
+            "points": 11.6
+          }
+        ]
+      },
+      {
+        "rosterId": 12,
+        "manager": "TheHumSack",
+        "team": "Death By Foriegn War ",
+        "points": 97.08,
+        "best": 117.68,
+        "left": 20.6,
+        "missed": [
+          {
+            "name": "Cameron Dicker",
+            "position": "K",
+            "points": 11
+          },
+          {
+            "name": "Quinshon Judkins",
+            "position": "RB",
+            "points": 6.9
+          },
+          {
+            "name": "Kenyon Sadiq",
+            "position": "TE",
+            "points": 3.2
+          }
+        ]
+      },
+      {
+        "rosterId": 7,
+        "manager": "prozan",
+        "team": "Need RB HMU",
+        "points": 134,
+        "best": 151.9,
+        "left": 17.9,
+        "missed": [
+          {
+            "name": "Dylan Sampson",
+            "position": "RB",
+            "points": 12.9
+          },
+          {
+            "name": "Chris Rodriguez Jr.",
+            "position": "RB",
+            "points": 12.8
+          }
+        ]
+      },
+      {
+        "rosterId": 9,
+        "manager": "goochsniffer2nd",
+        "team": "Loan Shark",
+        "points": 124.76,
+        "best": 141.06,
+        "left": 16.3,
+        "missed": [
+          {
+            "name": "Dalton Kincaid",
+            "position": "TE",
+            "points": 18.6
+          }
+        ]
+      },
+      {
+        "rosterId": 8,
+        "manager": "A5Kobe",
+        "team": "Beriousbeast",
+        "points": 126.28,
+        "best": 140.48,
+        "left": 14.2,
+        "missed": [
+          {
+            "name": "Blake Corum",
+            "position": "RB",
+            "points": 13.3
+          },
+          {
+            "name": "Seth McGowan",
+            "position": "RB",
+            "points": 2.9
+          }
+        ]
+      },
+      {
+        "rosterId": 2,
+        "manager": "rnath499",
+        "team": "Haircut Haircut 🗣️",
+        "points": 151.18,
+        "best": 165.08,
+        "left": 13.9,
+        "missed": [
+          {
+            "name": "Rome Odunze",
+            "position": "WR",
+            "points": 12.7
+          },
+          {
+            "name": "Austin Ekeler",
+            "position": "RB",
+            "points": 5.6
+          }
+        ]
+      },
+      {
+        "rosterId": 4,
+        "manager": "arnst",
+        "team": "Need Loan HMU",
+        "points": 100.6,
+        "best": 108.9,
+        "left": 8.3,
+        "missed": [
+          {
+            "name": "Mike Washington Jr.",
+            "position": "RB",
+            "points": 8.3
+          }
+        ]
+      },
+      {
+        "rosterId": 1,
+        "manager": "kdutta",
+        "team": "Garbers mirror selfie",
+        "points": 164.78,
+        "best": 171.58,
+        "left": 6.8,
+        "missed": [
+          {
+            "name": "Jordan Addison",
+            "position": "WR",
+            "points": 11.6
+          },
+          {
+            "name": "Denzel Boston",
+            "position": "WR",
+            "points": 9.7
+          }
+        ]
+      },
+      {
+        "rosterId": 3,
+        "manager": "jc199",
+        "team": "Return of the Menace",
+        "points": 92,
+        "best": 98.1,
+        "left": 6.1,
+        "missed": [
+          {
+            "name": "Brian Thomas Jr.",
+            "position": "WR",
+            "points": 8.2
+          }
+        ]
+      },
+      {
+        "rosterId": 11,
+        "manager": "FonckYou",
+        "team": "Gus’s Balls",
+        "points": 109.86,
+        "best": 114.46,
+        "left": 4.6,
+        "missed": [
+          {
+            "name": "Hunter Henry",
+            "position": "TE",
+            "points": 6
+          }
+        ]
+      },
+      {
+        "rosterId": 5,
+        "manager": "Christopheryu21",
+        "team": "Need Crumbs HMU",
+        "points": 104.88,
+        "best": 104.88,
+        "left": 0,
+        "missed": []
+      }
+    ],
+    "versus": [
+      {
+        "rosterId": 1,
+        "manager": "kdutta",
+        "team": "Garbers mirror selfie",
+        "points": 164.78,
+        "projected": 138.4,
+        "diff": 26.38
+      },
+      {
+        "rosterId": 2,
+        "manager": "rnath499",
+        "team": "Haircut Haircut 🗣️",
+        "points": 151.18,
+        "projected": 139.9,
+        "diff": 11.28
+      },
+      {
+        "rosterId": 6,
+        "manager": "Keeyan99",
+        "team": "Comet club?",
+        "points": 123.96,
+        "projected": 124.1,
+        "diff": -0.14
+      },
+      {
+        "rosterId": 10,
+        "manager": "MBurnes",
+        "team": "George Droyd",
+        "points": 121,
+        "projected": 124.9,
+        "diff": -3.9
+      },
+      {
+        "rosterId": 7,
+        "manager": "prozan",
+        "team": "Need RB HMU",
+        "points": 134,
+        "projected": 139.8,
+        "diff": -5.8
+      },
+      {
+        "rosterId": 9,
+        "manager": "goochsniffer2nd",
+        "team": "Loan Shark",
+        "points": 124.76,
+        "projected": 135.2,
+        "diff": -10.44
+      },
+      {
+        "rosterId": 4,
+        "manager": "arnst",
+        "team": "Need Loan HMU",
+        "points": 100.6,
+        "projected": 113.7,
+        "diff": -13.1
+      },
+      {
+        "rosterId": 8,
+        "manager": "A5Kobe",
+        "team": "Beriousbeast",
+        "points": 126.28,
+        "projected": 142.2,
+        "diff": -15.92
+      },
+      {
+        "rosterId": 5,
+        "manager": "Christopheryu21",
+        "team": "Need Crumbs HMU",
+        "points": 104.88,
+        "projected": 121.5,
+        "diff": -16.62
+      },
+      {
+        "rosterId": 11,
+        "manager": "FonckYou",
+        "team": "Gus’s Balls",
+        "points": 109.86,
+        "projected": 129.7,
+        "diff": -19.84
+      },
+      {
+        "rosterId": 12,
+        "manager": "TheHumSack",
+        "team": "Death By Foriegn War ",
+        "points": 97.08,
+        "projected": 125.9,
+        "diff": -28.82
+      },
+      {
+        "rosterId": 3,
+        "manager": "jc199",
+        "team": "Return of the Menace",
+        "points": 92,
+        "projected": 123.5,
+        "diff": -31.5
+      }
+    ]
+  }
+}
