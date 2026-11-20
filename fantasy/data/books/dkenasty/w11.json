@@ -1,0 +1,2800 @@
+{
+  "id": "dkenasty",
+  "week": 11,
+  "season": "2026",
+  "bookName": "DKENASTY SPORTSBOOK",
+  "tagline": "Official betting partner of DKEnasty",
+  "displayName": "DKEnasty",
+  "stakes": {
+    "buyIn": "$100",
+    "pot": "$1,200",
+    "structure": "winner-take-all",
+    "payouts": [
+      {
+        "place": 1,
+        "label": "$1,200",
+        "note": "winner take all — nobody else gets anything"
+      }
+    ],
+    "hysa": null
+  },
+  "preview": {
+    "standfirst": "Twelve hundred dollars, winner take all, and a commissioner who has not yet gotten around to inventing the punishment.",
+    "paragraphs": [
+      "This is a top-heavy league and the board says so immediately. tal262000's DNs open at 20.1% to win it — a fifth of the whole league in one seat — and carry a 9.5-win line and a 149.4-point week-one projection, both the highest on the sheet. His make-the-playoffs price is −2400, the shortest number posted anywhere in either book. From there it falls away to 3.1% at the bottom, a 6.5× spread between best and worst. Nick's league, priced by the identical model on the identical afternoon, runs 3.4×. That gap is dynasty doing exactly what dynasty is supposed to do: good teams keep their players, and advantages compound instead of resetting every August.",
+      "The payout structure then does something quite cruel to all of that. Winner take all means twelve hundred dollars sits in exactly one column of this sheet. A 77.2% chance of making the playoffs is worth, in dollars, nothing at all. A first-round bye is worth nothing. The points title is worth nothing. Every board on this page except the championship is pride, and the model prices them anyway because pride is what most of this league will be playing for by week ten. If you are looking for the only number that can be converted into money, it is the first one.",
+      "The weekly forfeit is the best-designed thing in either league. The low scorer places a ten-dollar parlay with eleven legs — one picked by each of the other managers — and the winnings, should they ever exist, are split league-wide. The lifetime record of this arrangement is zero hits. Trust the Process opens as the favourite to place it at 15.5%, which is consistent with everything else on his line: he is last in the championship, last in the playoffs, last in points, and holds the lowest projection in the league. He is also, in the other league, the reason a seat is currently named after a Cal loss.",
+      "As for the season-long punishment: there isn't one. The market is titled TBD because commissioner Lane spent the offseason proposing dogshit trades rather than designing a forfeit — and because MBurnes, who is still awaiting the punishment he already owes from last season, has been in no rush whatsoever to see it specified. That arrangement suited both of them right up until the board opened, because Burnes is the favourite to finish last again: 15.5% at +420, the shortest price on this market. A man with one undelivered forfeit is now odds-on to acquire a second. Lane's own seat sits at 4.9%, second-safest in the league, which is the sort of thing that tends to reduce a commissioner's urgency. The house's position is that an undesigned punishment is a punishment for everyone, and the market stays open until somebody writes it down."
+    ],
+    "writtenWeek": 1
+  },
+  "meta": {
+    "seed": 1592547110,
+    "sims": 25000,
+    "sources": "SLEEPER PROJECTIONS · 25K SIMS · VARIANCE FIT ON 2025 RESIDUALS",
+    "pulledAt": "2026-11-20T21:56:38.988Z",
+    "playersDate": "2026-11-20",
+    "scoringKeys": 42,
+    "throughWeek": 14,
+    "mae": 0.0195,
+    "overrides": [],
+    "disclosures": [
+      "Rosters frozen as of the pull — trades and pickups after it are not priced. A slot nobody on the roster can play is priced at the best free agent eligible for it, and marked waivers.",
+      "Lineups simulated as optimal; real managers are not, so totals run a touch high.",
+      "Player scores drawn independently, so stacked rosters are slightly under-varianced and moneylines run slightly long.",
+      "Season futures assume this week's rosters play out the year. Injuries, trades and the waiver wire are not forecast — only the historical size of that error is.",
+      "Playoff seeding is simulated on wins then points-for, and playoff games are simulated as games, not decided by season totals.",
+      "Not real betting."
+    ]
+  },
+  "matchups": [
+    {
+      "a": {
+        "rosterId": 12,
+        "manager": "BotBinLaden",
+        "team": "K9 FentPack"
+      },
+      "b": {
+        "rosterId": 10,
+        "manager": "ethansmith2580",
+        "team": "‘22 LA Rams "
+      },
+      "moneyline": {
+        "pA": 72.4,
+        "a": "−350",
+        "b": "+240"
+      },
+      "spread": {
+        "line": -18,
+        "a": "−18.0",
+        "b": "+18.0",
+        "price": "−110",
+        "pCover": 50.1
+      },
+      "total": {
+        "line": 231.5,
+        "over": "−110",
+        "under": "−110",
+        "pOver": 50.2
+      },
+      "projected": {
+        "a": 125.7,
+        "b": 107.3
+      },
+      "simMedian": {
+        "a": 124.2,
+        "b": 106
+      }
+    },
+    {
+      "a": {
+        "rosterId": 8,
+        "manager": "Garrettrh",
+        "team": "Rat"
+      },
+      "b": {
+        "rosterId": 9,
+        "manager": "Christopheryu21",
+        "team": "Trust the Process"
+      },
+      "moneyline": {
+        "pA": 84.9,
+        "a": "−1050",
+        "b": "+520"
+      },
+      "spread": {
+        "line": -31.5,
+        "a": "−31.5",
+        "b": "+31.5",
+        "price": "−110",
+        "pCover": 50.3
+      },
+      "total": {
+        "line": 246.5,
+        "over": "−110",
+        "under": "−110",
+        "pOver": 50.2
+      },
+      "projected": {
+        "a": 139.9,
+        "b": 108.3
+      },
+      "simMedian": {
+        "a": 138.8,
+        "b": 106.9
+      }
+    },
+    {
+      "a": {
+        "rosterId": 4,
+        "manager": "MBurnes",
+        "team": "Little St. Lane’s"
+      },
+      "b": {
+        "rosterId": 6,
+        "manager": "jc199",
+        "team": "Disciples of Yakub"
+      },
+      "moneyline": {
+        "pA": 75.5,
+        "a": "−430",
+        "b": "+280"
+      },
+      "spread": {
+        "line": -22.5,
+        "a": "−22.5",
+        "b": "+22.5",
+        "price": "−110",
+        "pCover": 49.9
+      },
+      "total": {
+        "line": 257.5,
+        "over": "−110",
+        "under": "−110",
+        "pOver": 49.7
+      },
+      "projected": {
+        "a": 141,
+        "b": 118.4
+      },
+      "simMedian": {
+        "a": 139.1,
+        "b": 116.7
+      }
+    },
+    {
+      "a": {
+        "rosterId": 7,
+        "manager": "samlaur",
+        "team": "Empyrean Athletic"
+      },
+      "b": {
+        "rosterId": 3,
+        "manager": "Keeyan99",
+        "team": "Yan Dynasty"
+      },
+      "moneyline": {
+        "pA": 73,
+        "a": "−360",
+        "b": "+240"
+      },
+      "spread": {
+        "line": -19.5,
+        "a": "−19.5",
+        "b": "+19.5",
+        "price": "−110",
+        "pCover": 50.1
+      },
+      "total": {
+        "line": 269,
+        "over": "−110",
+        "under": "−110",
+        "pOver": 50.2
+      },
+      "projected": {
+        "a": 145.2,
+        "b": 125
+      },
+      "simMedian": {
+        "a": 143.9,
+        "b": 124
+      }
+    },
+    {
+      "a": {
+        "rosterId": 5,
+        "manager": "kdutta",
+        "team": "3 AM afters in bull room"
+      },
+      "b": {
+        "rosterId": 11,
+        "manager": "rnath499",
+        "team": "The Washington Redskins"
+      },
+      "moneyline": {
+        "pA": 88.3,
+        "a": "−1850",
+        "b": "+700"
+      },
+      "spread": {
+        "line": -36.5,
+        "a": "−36.5",
+        "b": "+36.5",
+        "price": "−110",
+        "pCover": 50
+      },
+      "total": {
+        "line": 239,
+        "over": "−110",
+        "under": "−110",
+        "pOver": 49.8
+      },
+      "projected": {
+        "a": 138.5,
+        "b": 101.8
+      },
+      "simMedian": {
+        "a": 137.2,
+        "b": 100.4
+      }
+    },
+    {
+      "a": {
+        "rosterId": 2,
+        "manager": "tal262000",
+        "team": "The DNs"
+      },
+      "b": {
+        "rosterId": 1,
+        "manager": "lanek12",
+        "team": "Lane Doe"
+      },
+      "moneyline": {
+        "pA": 57.4,
+        "a": "−160",
+        "b": "+120"
+      },
+      "spread": {
+        "line": -6,
+        "a": "−6.0",
+        "b": "+6.0",
+        "price": "−110",
+        "pCover": 50
+      },
+      "total": {
+        "line": 251.5,
+        "over": "−110",
+        "under": "−110",
+        "pOver": 49.8
+      },
+      "projected": {
+        "a": 129.2,
+        "b": 123.7
+      },
+      "simMedian": {
+        "a": 127.7,
+        "b": 121.9
+      }
+    }
+  ],
+  "punishment": {
+    "weekly": {
+      "name": "THE PARLAY WINDOW",
+      "copy": "Low scorer of the week places a $10 eleven-leg parlay — one leg picked by each other manager. Winnings split league-wide. It has never hit.",
+      "rows": [
+        {
+          "rosterId": 11,
+          "manager": "rnath499",
+          "team": "The Washington Redskins",
+          "pct": 29.3,
+          "price": "+175"
+        },
+        {
+          "rosterId": 10,
+          "manager": "ethansmith2580",
+          "team": "‘22 LA Rams ",
+          "pct": 20.5,
+          "price": "+290"
+        },
+        {
+          "rosterId": 9,
+          "manager": "Christopheryu21",
+          "team": "Trust the Process",
+          "pct": 18.9,
+          "price": "+320"
+        },
+        {
+          "rosterId": 6,
+          "manager": "jc199",
+          "team": "Disciples of Yakub",
+          "pct": 8.7,
+          "price": "+820"
+        },
+        {
+          "rosterId": 1,
+          "manager": "lanek12",
+          "team": "Lane Doe",
+          "pct": 5.8,
+          "price": "+1300"
+        },
+        {
+          "rosterId": 12,
+          "manager": "BotBinLaden",
+          "team": "K9 FentPack",
+          "pct": 4.6,
+          "price": "+1650"
+        },
+        {
+          "rosterId": 3,
+          "manager": "Keeyan99",
+          "team": "Yan Dynasty",
+          "pct": 4.5,
+          "price": "+1700"
+        },
+        {
+          "rosterId": 2,
+          "manager": "tal262000",
+          "team": "The DNs",
+          "pct": 3.3,
+          "price": "+2300"
+        },
+        {
+          "rosterId": 5,
+          "manager": "kdutta",
+          "team": "3 AM afters in bull room",
+          "pct": 1.4,
+          "price": "+5600"
+        },
+        {
+          "rosterId": 4,
+          "manager": "MBurnes",
+          "team": "Little St. Lane’s",
+          "pct": 1.2,
+          "price": "+6800"
+        },
+        {
+          "rosterId": 8,
+          "manager": "Garrettrh",
+          "team": "Rat",
+          "pct": 1,
+          "price": "+7700"
+        },
+        {
+          "rosterId": 7,
+          "manager": "samlaur",
+          "team": "Empyrean Athletic",
+          "pct": 0.8,
+          "price": "+10000"
+        }
+      ],
+      "parlay": {
+        "legs": 11,
+        "stake": 10,
+        "lifetimeHits": 0
+      }
+    },
+    "paired": null,
+    "joints": [],
+    "season": {
+      "name": "THE MILK MILE",
+      "copy": "Season loser runs the milk mile, as named by commissioner Lane in Costa Rica in week 5: one gallon of whole milk and four quarter-mile laps. Drink as much as you like before each lap, as long as the gallon is gone before the last lap starts. Burnes ran it in Costa Rica this season and won."
+    }
+  },
+  "futures": {
+    "structure": "winner-take-all",
+    "payingPlaces": [
+      1
+    ],
+    "standings": [
+      {
+        "rosterId": 2,
+        "manager": "tal262000",
+        "team": "The DNs",
+        "projFinish": 2.6,
+        "medianFinish": 3,
+        "projWins": 10.8,
+        "projLosses": 3.2,
+        "projPoints": 2055,
+        "dist": [
+          24.5,
+          24.8,
+          22.2,
+          22.1,
+          2.8,
+          3.5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$1,200",
+            "pct": 24.5,
+            "price": "+230"
+          }
+        ],
+        "inTheMoney": 24.5,
+        "playoffs": 100,
+        "bye": 87.8,
+        "pointsTitle": 69,
+        "last": 0,
+        "rank": 1
+      },
+      {
+        "rosterId": 5,
+        "manager": "kdutta",
+        "team": "3 AM afters in bull room",
+        "projFinish": 3.3,
+        "medianFinish": 3,
+        "projWins": 9.2,
+        "projLosses": 4.8,
+        "projPoints": 1979,
+        "dist": [
+          22.1,
+          17.2,
+          17,
+          13.8,
+          15.9,
+          12.7,
+          0.2,
+          0.3,
+          0.3,
+          0.4,
+          0,
+          0
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$1,200",
+            "pct": 22.1,
+            "price": "+270"
+          }
+        ],
+        "inTheMoney": 22.1,
+        "playoffs": 98.7,
+        "bye": 31.5,
+        "pointsTitle": 21.6,
+        "last": 0,
+        "rank": 2
+      },
+      {
+        "rosterId": 7,
+        "manager": "samlaur",
+        "team": "Empyrean Athletic",
+        "projFinish": 3.6,
+        "medianFinish": 4,
+        "projWins": 9.7,
+        "projLosses": 4.3,
+        "projPoints": 1913,
+        "dist": [
+          14.6,
+          17.3,
+          16.4,
+          19.1,
+          14,
+          17.6,
+          0.1,
+          0.3,
+          0.2,
+          0.3,
+          0,
+          0
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$1,200",
+            "pct": 14.6,
+            "price": "+460"
+          }
+        ],
+        "inTheMoney": 14.6,
+        "playoffs": 99.1,
+        "bye": 40.4,
+        "pointsTitle": 5.4,
+        "last": 0,
+        "rank": 3
+      },
+      {
+        "rosterId": 11,
+        "manager": "rnath499",
+        "team": "The Washington Redskins",
+        "projFinish": 3.6,
+        "medianFinish": 4,
+        "projWins": 9.8,
+        "projLosses": 4.2,
+        "projPoints": 1866,
+        "dist": [
+          15.6,
+          16.6,
+          16.6,
+          16.8,
+          15.3,
+          17.4,
+          0.5,
+          0.4,
+          0.4,
+          0.4,
+          0,
+          0
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$1,200",
+            "pct": 15.6,
+            "price": "+420"
+          }
+        ],
+        "inTheMoney": 15.6,
+        "playoffs": 98.3,
+        "bye": 36.7,
+        "pointsTitle": 1.8,
+        "last": 0,
+        "rank": 4
+      },
+      {
+        "rosterId": 6,
+        "manager": "jc199",
+        "team": "Disciples of Yakub",
+        "projFinish": 5.1,
+        "medianFinish": 5,
+        "projWins": 7.9,
+        "projLosses": 6.1,
+        "projPoints": 1836,
+        "dist": [
+          9.6,
+          9.5,
+          10.7,
+          10.7,
+          17.7,
+          16.9,
+          5.8,
+          6,
+          6.1,
+          6,
+          0.4,
+          0.5
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$1,200",
+            "pct": 9.6,
+            "price": "+740"
+          }
+        ],
+        "inTheMoney": 9.6,
+        "playoffs": 75.1,
+        "bye": 3.1,
+        "pointsTitle": 1.1,
+        "last": 0.5,
+        "rank": 5
+      },
+      {
+        "rosterId": 12,
+        "manager": "BotBinLaden",
+        "team": "K9 FentPack",
+        "projFinish": 6.2,
+        "medianFinish": 6,
+        "projWins": 7.2,
+        "projLosses": 6.8,
+        "projPoints": 1815,
+        "dist": [
+          5.7,
+          6.3,
+          7.5,
+          7.7,
+          14.5,
+          13.2,
+          10.7,
+          10.5,
+          10.2,
+          9.4,
+          2.1,
+          2.2
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$1,200",
+            "pct": 5.7,
+            "price": "+1350"
+          }
+        ],
+        "inTheMoney": 5.7,
+        "playoffs": 55,
+        "bye": 0.6,
+        "pointsTitle": 0.4,
+        "last": 2.2,
+        "rank": 6
+      },
+      {
+        "rosterId": 4,
+        "manager": "MBurnes",
+        "team": "Little St. Lane’s",
+        "projFinish": 7.4,
+        "medianFinish": 8,
+        "projWins": 6.3,
+        "projLosses": 7.7,
+        "projPoints": 1817,
+        "dist": [
+          3.6,
+          3.6,
+          4.3,
+          3.9,
+          8.4,
+          7.2,
+          16.7,
+          15.5,
+          13.9,
+          12.5,
+          5.4,
+          5.1
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$1,200",
+            "pct": 3.6,
+            "price": "+2150"
+          }
+        ],
+        "inTheMoney": 3.6,
+        "playoffs": 31,
+        "bye": 0,
+        "pointsTitle": 0.4,
+        "last": 5.1,
+        "rank": 7
+      },
+      {
+        "rosterId": 8,
+        "manager": "Garrettrh",
+        "team": "Rat",
+        "projFinish": 7.7,
+        "medianFinish": 8,
+        "projWins": 6.2,
+        "projLosses": 7.8,
+        "projPoints": 1815,
+        "dist": [
+          2.9,
+          2.9,
+          3.2,
+          3,
+          6.1,
+          5.1,
+          18.7,
+          17.6,
+          15.5,
+          14,
+          5.8,
+          5.3
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$1,200",
+            "pct": 2.9,
+            "price": "+2650"
+          }
+        ],
+        "inTheMoney": 2.9,
+        "playoffs": 23.3,
+        "bye": 0,
+        "pointsTitle": 0.4,
+        "last": 5.3,
+        "rank": 8
+      },
+      {
+        "rosterId": 1,
+        "manager": "lanek12",
+        "team": "Lane Doe",
+        "projFinish": 8.4,
+        "medianFinish": 9,
+        "projWins": 6.5,
+        "projLosses": 7.5,
+        "projPoints": 1661,
+        "dist": [
+          1.3,
+          1.7,
+          2.1,
+          2.8,
+          5.2,
+          6.4,
+          12.4,
+          16,
+          14.8,
+          17.7,
+          9.3,
+          10.3
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$1,200",
+            "pct": 1.3,
+            "price": "+6100"
+          }
+        ],
+        "inTheMoney": 1.3,
+        "playoffs": 19.5,
+        "bye": 0,
+        "pointsTitle": 0,
+        "last": 10.3,
+        "rank": 9
+      },
+      {
+        "rosterId": 10,
+        "manager": "ethansmith2580",
+        "team": "‘22 LA Rams ",
+        "projFinish": 9.8,
+        "medianFinish": 10,
+        "projWins": 3.4,
+        "projLosses": 10.6,
+        "projPoints": 1641,
+        "dist": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          14.4,
+          12.7,
+          14.4,
+          12.7,
+          26.8,
+          19
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$1,200",
+            "pct": 0,
+            "price": "+2028000"
+          }
+        ],
+        "inTheMoney": 0,
+        "playoffs": 0,
+        "bye": 0,
+        "pointsTitle": 0,
+        "last": 19,
+        "rank": 10
+      },
+      {
+        "rosterId": 3,
+        "manager": "Keeyan99",
+        "team": "Yan Dynasty",
+        "projFinish": 9.8,
+        "medianFinish": 10,
+        "projWins": 3.2,
+        "projLosses": 10.8,
+        "projPoints": 1705,
+        "dist": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          14.6,
+          12.6,
+          14.9,
+          12.8,
+          25.7,
+          19.4
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$1,200",
+            "pct": 0,
+            "price": "+2028000"
+          }
+        ],
+        "inTheMoney": 0,
+        "playoffs": 0,
+        "bye": 0,
+        "pointsTitle": 0,
+        "last": 19.4,
+        "rank": 11
+      },
+      {
+        "rosterId": 9,
+        "manager": "Christopheryu21",
+        "team": "Trust the Process",
+        "projFinish": 10.6,
+        "medianFinish": 11,
+        "projWins": 3.7,
+        "projLosses": 10.3,
+        "projPoints": 1454,
+        "dist": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          8.1,
+          9.2,
+          13.8,
+          24.7,
+          38.2
+        ],
+        "money": [
+          {
+            "place": 1,
+            "label": "$1,200",
+            "pct": 0,
+            "price": null
+          }
+        ],
+        "inTheMoney": 0,
+        "playoffs": 0,
+        "bye": 0,
+        "pointsTitle": 0,
+        "last": 38.2,
+        "rank": 12
+      }
+    ],
+    "markets": [
+      {
+        "key": "championship",
+        "name": "CHAMPIONSHIP",
+        "pays": "$1,200",
+        "rows": [
+          {
+            "rosterId": 2,
+            "manager": "tal262000",
+            "team": "The DNs",
+            "pct": 24.5,
+            "price": "+210"
+          },
+          {
+            "rosterId": 5,
+            "manager": "kdutta",
+            "team": "3 AM afters in bull room",
+            "pct": 22.1,
+            "price": "+240"
+          },
+          {
+            "rosterId": 11,
+            "manager": "rnath499",
+            "team": "The Washington Redskins",
+            "pct": 15.6,
+            "price": "+380"
+          },
+          {
+            "rosterId": 7,
+            "manager": "samlaur",
+            "team": "Empyrean Athletic",
+            "pct": 14.6,
+            "price": "+420"
+          },
+          {
+            "rosterId": 6,
+            "manager": "jc199",
+            "team": "Disciples of Yakub",
+            "pct": 9.6,
+            "price": "+690"
+          },
+          {
+            "rosterId": 12,
+            "manager": "BotBinLaden",
+            "team": "K9 FentPack",
+            "pct": 5.7,
+            "price": "+1250"
+          },
+          {
+            "rosterId": 4,
+            "manager": "MBurnes",
+            "team": "Little St. Lane’s",
+            "pct": 3.6,
+            "price": "+2000"
+          },
+          {
+            "rosterId": 8,
+            "manager": "Garrettrh",
+            "team": "Rat",
+            "pct": 2.9,
+            "price": "+2500"
+          },
+          {
+            "rosterId": 1,
+            "manager": "lanek12",
+            "team": "Lane Doe",
+            "pct": 1.3,
+            "price": "+5600"
+          },
+          {
+            "rosterId": 10,
+            "manager": "ethansmith2580",
+            "team": "‘22 LA Rams ",
+            "pct": 0,
+            "price": "+1890000"
+          },
+          {
+            "rosterId": 9,
+            "manager": "Christopheryu21",
+            "team": "Trust the Process",
+            "pct": 0,
+            "price": null
+          },
+          {
+            "rosterId": 3,
+            "manager": "Keeyan99",
+            "team": "Yan Dynasty",
+            "pct": 0,
+            "price": "+1890000"
+          }
+        ]
+      },
+      {
+        "key": "lastPlace",
+        "name": "THE MILK MILE",
+        "copy": "Season loser runs the milk mile, as named by commissioner Lane in Costa Rica in week 5: one gallon of whole milk and four quarter-mile laps. Drink as much as you like before each lap, as long as the gallon is gone before the last lap starts. Burnes ran it in Costa Rica this season and won.",
+        "pays": null,
+        "rows": [
+          {
+            "rosterId": 9,
+            "manager": "Christopheryu21",
+            "team": "Trust the Process",
+            "pct": 38.2,
+            "price": "+120"
+          },
+          {
+            "rosterId": 3,
+            "manager": "Keeyan99",
+            "team": "Yan Dynasty",
+            "pct": 19.4,
+            "price": "+330"
+          },
+          {
+            "rosterId": 10,
+            "manager": "ethansmith2580",
+            "team": "‘22 LA Rams ",
+            "pct": 19,
+            "price": "+340"
+          },
+          {
+            "rosterId": 1,
+            "manager": "lanek12",
+            "team": "Lane Doe",
+            "pct": 10.3,
+            "price": "+710"
+          },
+          {
+            "rosterId": 8,
+            "manager": "Garrettrh",
+            "team": "Rat",
+            "pct": 5.3,
+            "price": "+1450"
+          },
+          {
+            "rosterId": 4,
+            "manager": "MBurnes",
+            "team": "Little St. Lane’s",
+            "pct": 5.1,
+            "price": "+1550"
+          },
+          {
+            "rosterId": 12,
+            "manager": "BotBinLaden",
+            "team": "K9 FentPack",
+            "pct": 2.2,
+            "price": "+3800"
+          },
+          {
+            "rosterId": 6,
+            "manager": "jc199",
+            "team": "Disciples of Yakub",
+            "pct": 0.5,
+            "price": "+18000"
+          },
+          {
+            "rosterId": 5,
+            "manager": "kdutta",
+            "team": "3 AM afters in bull room",
+            "pct": 0,
+            "price": "+522000"
+          },
+          {
+            "rosterId": 7,
+            "manager": "samlaur",
+            "team": "Empyrean Athletic",
+            "pct": 0,
+            "price": null
+          },
+          {
+            "rosterId": 2,
+            "manager": "tal262000",
+            "team": "The DNs",
+            "pct": 0,
+            "price": null
+          },
+          {
+            "rosterId": 11,
+            "manager": "rnath499",
+            "team": "The Washington Redskins",
+            "pct": 0,
+            "price": null
+          }
+        ]
+      }
+    ],
+    "winTotals": [
+      {
+        "rosterId": 1,
+        "manager": "lanek12",
+        "team": "Lane Doe",
+        "line": 6.5,
+        "expected": 6.5,
+        "over": "−100",
+        "under": "−135",
+        "pOver": 46.9
+      },
+      {
+        "rosterId": 2,
+        "manager": "tal262000",
+        "team": "The DNs",
+        "line": 10.5,
+        "expected": 10.8,
+        "over": "−220",
+        "under": "+155",
+        "pOver": 63.8
+      },
+      {
+        "rosterId": 3,
+        "manager": "Keeyan99",
+        "team": "Yan Dynasty",
+        "line": 3.5,
+        "expected": 3.2,
+        "over": "+150",
+        "under": "−210",
+        "pOver": 36.9
+      },
+      {
+        "rosterId": 4,
+        "manager": "MBurnes",
+        "team": "Little St. Lane’s",
+        "line": 6.5,
+        "expected": 6.3,
+        "over": "+105",
+        "under": "−145",
+        "pOver": 45.2
+      },
+      {
+        "rosterId": 5,
+        "manager": "kdutta",
+        "team": "3 AM afters in bull room",
+        "line": 9.5,
+        "expected": 9.2,
+        "over": "+115",
+        "under": "−155",
+        "pOver": 43.1
+      },
+      {
+        "rosterId": 6,
+        "manager": "jc199",
+        "team": "Disciples of Yakub",
+        "line": 7.5,
+        "expected": 7.9,
+        "over": "−220",
+        "under": "+155",
+        "pOver": 63.6
+      },
+      {
+        "rosterId": 7,
+        "manager": "samlaur",
+        "team": "Empyrean Athletic",
+        "line": 9.5,
+        "expected": 9.7,
+        "over": "−200",
+        "under": "+145",
+        "pOver": 61.8
+      },
+      {
+        "rosterId": 8,
+        "manager": "Garrettrh",
+        "team": "Rat",
+        "line": 6.5,
+        "expected": 6.2,
+        "over": "+145",
+        "under": "−200",
+        "pOver": 38
+      },
+      {
+        "rosterId": 9,
+        "manager": "Christopheryu21",
+        "team": "Trust the Process",
+        "line": 3.5,
+        "expected": 3.7,
+        "over": "−130",
+        "under": "−100",
+        "pOver": 53
+      },
+      {
+        "rosterId": 10,
+        "manager": "ethansmith2580",
+        "team": "‘22 LA Rams ",
+        "line": 3.5,
+        "expected": 3.4,
+        "over": "+105",
+        "under": "−145",
+        "pOver": 44.8
+      },
+      {
+        "rosterId": 11,
+        "manager": "rnath499",
+        "team": "The Washington Redskins",
+        "line": 9.5,
+        "expected": 9.8,
+        "over": "−200",
+        "under": "+145",
+        "pOver": 62.1
+      },
+      {
+        "rosterId": 12,
+        "manager": "BotBinLaden",
+        "team": "K9 FentPack",
+        "line": 7.5,
+        "expected": 7.2,
+        "over": "+130",
+        "under": "−180",
+        "pOver": 40.2
+      }
+    ]
+  },
+  "lineups": [
+    {
+      "rosterId": 1,
+      "manager": "lanek12",
+      "team": "Lane Doe",
+      "projected": 123.7,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Bo Nix",
+          "position": "QB",
+          "team": "DEN",
+          "mu": 18
+        },
+        {
+          "slot": "RB",
+          "name": "Omarion Hampton",
+          "position": "RB",
+          "team": "LAC",
+          "mu": 10.3
+        },
+        {
+          "slot": "RB",
+          "name": "J.K. Dobbins",
+          "position": "RB",
+          "team": "DEN",
+          "mu": 8.2
+        },
+        {
+          "slot": "WR",
+          "name": "Ja'Marr Chase",
+          "position": "WR",
+          "team": "CIN",
+          "mu": 21.5
+        },
+        {
+          "slot": "WR",
+          "name": "Chris Olave",
+          "position": "WR",
+          "team": "NO",
+          "mu": 15.4
+        },
+        {
+          "slot": "TE",
+          "name": "Sam LaPorta",
+          "position": "TE",
+          "team": "DET",
+          "mu": 12.1
+        },
+        {
+          "slot": "FLEX",
+          "name": "Tetairoa McMillan",
+          "position": "WR",
+          "team": "CAR",
+          "mu": 14.7
+        },
+        {
+          "slot": "FLEX",
+          "name": "Ja'Kobi Lane",
+          "position": "WR",
+          "team": "BAL",
+          "mu": 6.3
+        },
+        {
+          "slot": "K",
+          "name": "Ka'imi Fairbairn",
+          "position": "K",
+          "team": "HOU",
+          "mu": 10
+        },
+        {
+          "slot": "DEF",
+          "name": "Carolina Panthers",
+          "position": "DEF",
+          "team": "CAR",
+          "mu": 7.4
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 2,
+      "manager": "tal262000",
+      "team": "The DNs",
+      "projected": 129.2,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Caleb Williams",
+          "position": "QB",
+          "team": "CHI",
+          "mu": 20.4
+        },
+        {
+          "slot": "RB",
+          "name": "Ashton Jeanty",
+          "position": "RB",
+          "team": "LV",
+          "mu": 11.9
+        },
+        {
+          "slot": "RB",
+          "name": "Ollie Gordon II",
+          "position": "RB",
+          "team": "MIA",
+          "mu": 11.1
+        },
+        {
+          "slot": "WR",
+          "name": "Amon-Ra St. Brown",
+          "position": "WR",
+          "team": "DET",
+          "mu": 18.9
+        },
+        {
+          "slot": "WR",
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU",
+          "mu": 16.2
+        },
+        {
+          "slot": "TE",
+          "name": "Trey McBride",
+          "position": "TE",
+          "team": "ARI",
+          "mu": 13.7
+        },
+        {
+          "slot": "FLEX",
+          "name": "Josh Downs",
+          "position": "WR",
+          "team": "KC",
+          "mu": 10.1
+        },
+        {
+          "slot": "FLEX",
+          "name": "Dalton Kincaid",
+          "position": "TE",
+          "team": "BUF",
+          "mu": 9.6
+        },
+        {
+          "slot": "K",
+          "name": "Tyler Bass",
+          "position": "K",
+          "team": "BUF",
+          "mu": 8.4
+        },
+        {
+          "slot": "DEF",
+          "name": "Buffalo Bills",
+          "position": "DEF",
+          "team": "BUF",
+          "mu": 9
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 3,
+      "manager": "Keeyan99",
+      "team": "Yan Dynasty",
+      "projected": 125,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Patrick Mahomes",
+          "position": "QB",
+          "team": "KC",
+          "mu": 28.4
+        },
+        {
+          "slot": "RB",
+          "name": "Jonathan Taylor",
+          "position": "RB",
+          "team": "IND",
+          "mu": 14.4
+        },
+        {
+          "slot": "RB",
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "team": "ARI",
+          "mu": 7.9
+        },
+        {
+          "slot": "WR",
+          "name": "Justin Jefferson",
+          "position": "WR",
+          "team": "MIN",
+          "mu": 18.5
+        },
+        {
+          "slot": "WR",
+          "name": "Jalen Coker",
+          "position": "WR",
+          "team": "CAR",
+          "mu": 12.7
+        },
+        {
+          "slot": "TE",
+          "name": "Colston Loveland",
+          "position": "TE",
+          "team": "CHI",
+          "mu": 11
+        },
+        {
+          "slot": "FLEX",
+          "name": "Elic Ayomanor",
+          "position": "WR",
+          "team": "TEN",
+          "mu": 10.1
+        },
+        {
+          "slot": "FLEX",
+          "name": "Chimere Dike",
+          "position": "WR",
+          "team": "TEN",
+          "mu": 9.9
+        },
+        {
+          "slot": "K",
+          "name": "Chad Ryland",
+          "position": "K",
+          "team": "ARI",
+          "mu": 6.1
+        },
+        {
+          "slot": "DEF",
+          "name": "Tampa Bay Buccaneers",
+          "position": "DEF",
+          "team": "TB",
+          "mu": 5.9
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 4,
+      "manager": "MBurnes",
+      "team": "Little St. Lane’s",
+      "projected": 141,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Kirk Cousins",
+          "position": "QB",
+          "team": "MIN",
+          "mu": 17.1
+        },
+        {
+          "slot": "RB",
+          "name": "D'Andre Swift",
+          "position": "RB",
+          "team": "CHI",
+          "mu": 19.4
+        },
+        {
+          "slot": "RB",
+          "name": "Jonah Coleman",
+          "position": "RB",
+          "team": "DEN",
+          "mu": 17.1
+        },
+        {
+          "slot": "WR",
+          "name": "Tee Higgins",
+          "position": "WR",
+          "team": "CIN",
+          "mu": 18.5
+        },
+        {
+          "slot": "WR",
+          "name": "Rashee Rice",
+          "position": "WR",
+          "team": "KC",
+          "mu": 17.7
+        },
+        {
+          "slot": "TE",
+          "name": "Brenton Strange",
+          "position": "TE",
+          "team": "JAX",
+          "mu": 9.1
+        },
+        {
+          "slot": "FLEX",
+          "name": "Parker Washington",
+          "position": "WR",
+          "team": "JAX",
+          "mu": 14.2
+        },
+        {
+          "slot": "FLEX",
+          "name": "Ryan Flournoy",
+          "position": "WR",
+          "team": "DAL",
+          "mu": 10.2
+        },
+        {
+          "slot": "K",
+          "name": "Will Reichard",
+          "position": "K",
+          "team": "MIN",
+          "mu": 8.9
+        },
+        {
+          "slot": "DEF",
+          "name": "Houston Texans",
+          "position": "DEF",
+          "team": "HOU",
+          "mu": 8.8
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 5,
+      "manager": "kdutta",
+      "team": "3 AM afters in bull room",
+      "projected": 138.5,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Trevor Lawrence",
+          "position": "QB",
+          "team": "JAX",
+          "mu": 20.4
+        },
+        {
+          "slot": "RB",
+          "name": "Christian McCaffrey",
+          "position": "RB",
+          "team": "SF",
+          "mu": 20
+        },
+        {
+          "slot": "RB",
+          "name": "James Cook III",
+          "position": "RB",
+          "team": "BUF",
+          "mu": 19.1
+        },
+        {
+          "slot": "WR",
+          "name": "Garrett Wilson",
+          "position": "WR",
+          "team": "NYJ",
+          "mu": 15.9
+        },
+        {
+          "slot": "WR",
+          "name": "Jameson Williams",
+          "position": "WR",
+          "team": "DET",
+          "mu": 12.1
+        },
+        {
+          "slot": "TE",
+          "name": "Juwan Johnson",
+          "position": "TE",
+          "team": "NO",
+          "mu": 8.7
+        },
+        {
+          "slot": "FLEX",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "mu": 17.4
+        },
+        {
+          "slot": "FLEX",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "team": "TB",
+          "mu": 9.8
+        },
+        {
+          "slot": "K",
+          "name": "Jake Bates",
+          "position": "K",
+          "team": "DET",
+          "mu": 8.6
+        },
+        {
+          "slot": "DEF",
+          "name": "San Francisco 49ers",
+          "position": "DEF",
+          "team": "SF",
+          "mu": 6.6
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 6,
+      "manager": "jc199",
+      "team": "Disciples of Yakub",
+      "projected": 118.4,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Jared Goff",
+          "position": "QB",
+          "team": "DET",
+          "mu": 16.8
+        },
+        {
+          "slot": "RB",
+          "name": "Jahmyr Gibbs",
+          "position": "RB",
+          "team": "DET",
+          "mu": 23.3
+        },
+        {
+          "slot": "RB",
+          "name": "Bhayshul Tuten",
+          "position": "RB",
+          "team": "JAX",
+          "mu": 15.5
+        },
+        {
+          "slot": "WR",
+          "name": "Mike Evans",
+          "position": "WR",
+          "team": "SF",
+          "mu": 13.3
+        },
+        {
+          "slot": "WR",
+          "name": "Chris Godwin Jr.",
+          "position": "WR",
+          "team": "TB",
+          "mu": 8.5
+        },
+        {
+          "slot": "TE",
+          "name": "Mike Gesicki",
+          "position": "TE",
+          "team": "CIN",
+          "mu": 9
+        },
+        {
+          "slot": "FLEX",
+          "name": "Braelon Allen",
+          "position": "RB",
+          "team": "NYJ",
+          "mu": 9
+        },
+        {
+          "slot": "FLEX",
+          "name": "Tank Dell",
+          "position": "WR",
+          "team": "HOU",
+          "mu": 7.5
+        },
+        {
+          "slot": "K",
+          "name": "Matt Gay",
+          "position": "K",
+          "team": "LV",
+          "mu": 7.3
+        },
+        {
+          "slot": "DEF",
+          "name": "Chicago Bears",
+          "position": "DEF",
+          "team": "CHI",
+          "mu": 8.2
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 7,
+      "manager": "samlaur",
+      "team": "Empyrean Athletic",
+      "projected": 145.2,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Bryce Young",
+          "position": "QB",
+          "team": "CAR",
+          "mu": 18.3
+        },
+        {
+          "slot": "RB",
+          "name": "Cam Skattebo",
+          "position": "RB",
+          "team": "NYG",
+          "mu": 16.8
+        },
+        {
+          "slot": "RB",
+          "name": "Derrick Henry",
+          "position": "RB",
+          "team": "BAL",
+          "mu": 15.5
+        },
+        {
+          "slot": "WR",
+          "name": "CeeDee Lamb",
+          "position": "WR",
+          "team": "DAL",
+          "mu": 21.6
+        },
+        {
+          "slot": "WR",
+          "name": "Stefon Diggs",
+          "position": "WR",
+          "team": "WAS",
+          "mu": 13.3
+        },
+        {
+          "slot": "TE",
+          "name": "Isaiah Likely",
+          "position": "TE",
+          "team": "NYG",
+          "mu": 14.9
+        },
+        {
+          "slot": "FLEX",
+          "name": "Jaylen Warren",
+          "position": "RB",
+          "team": "PIT",
+          "mu": 14.7
+        },
+        {
+          "slot": "FLEX",
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "team": "PHI",
+          "mu": 12.8
+        },
+        {
+          "slot": "K",
+          "name": "Brandon Aubrey",
+          "position": "K",
+          "team": "DAL",
+          "mu": 9.9
+        },
+        {
+          "slot": "DEF",
+          "name": "Detroit Lions",
+          "position": "DEF",
+          "team": "DET",
+          "mu": 7.5,
+          "waiver": true
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 8,
+      "manager": "Garrettrh",
+      "team": "Rat",
+      "projected": 139.9,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Dak Prescott",
+          "position": "QB",
+          "team": "DAL",
+          "mu": 21.7
+        },
+        {
+          "slot": "RB",
+          "name": "Chuba Hubbard",
+          "position": "RB",
+          "team": "CAR",
+          "mu": 15.9
+        },
+        {
+          "slot": "RB",
+          "name": "Chase Brown",
+          "position": "RB",
+          "team": "CIN",
+          "mu": 14.8
+        },
+        {
+          "slot": "WR",
+          "name": "Malik Nabers",
+          "position": "WR",
+          "team": "NYG",
+          "mu": 16.2
+        },
+        {
+          "slot": "WR",
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "team": "LAC",
+          "mu": 11.9
+        },
+        {
+          "slot": "TE",
+          "name": "Brock Bowers",
+          "position": "TE",
+          "team": "LV",
+          "mu": 14.7
+        },
+        {
+          "slot": "FLEX",
+          "name": "Breece Hall",
+          "position": "RB",
+          "team": "NYJ",
+          "mu": 13.7
+        },
+        {
+          "slot": "FLEX",
+          "name": "Jakobi Meyers",
+          "position": "WR",
+          "team": "JAX",
+          "mu": 8.7
+        },
+        {
+          "slot": "K",
+          "name": "Spencer Shrader",
+          "position": "K",
+          "team": "IND",
+          "mu": 9.8
+        },
+        {
+          "slot": "DEF",
+          "name": "Kansas City Chiefs",
+          "position": "DEF",
+          "team": "KC",
+          "mu": 12.3
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 9,
+      "manager": "Christopheryu21",
+      "team": "Trust the Process",
+      "projected": 108.3,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Jayden Daniels",
+          "position": "QB",
+          "team": "WAS",
+          "mu": 21.5
+        },
+        {
+          "slot": "RB",
+          "name": "Javonte Williams",
+          "position": "RB",
+          "team": "DAL",
+          "mu": 21.1
+        },
+        {
+          "slot": "RB",
+          "name": "Austin Ekeler",
+          "position": "RB",
+          "team": "WAS",
+          "mu": 4.7
+        },
+        {
+          "slot": "WR",
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "team": "DEN",
+          "mu": 11.1
+        },
+        {
+          "slot": "WR",
+          "name": "Keon Coleman",
+          "position": "WR",
+          "team": "BUF",
+          "mu": 8.3
+        },
+        {
+          "slot": "TE",
+          "name": "Tyler Warren",
+          "position": "TE",
+          "team": "IND",
+          "mu": 10.8
+        },
+        {
+          "slot": "FLEX",
+          "name": "Chig Okonkwo",
+          "position": "TE",
+          "team": "WAS",
+          "mu": 10.3
+        },
+        {
+          "slot": "FLEX",
+          "name": "Xavier Worthy",
+          "position": "WR",
+          "team": "KC",
+          "mu": 7.7
+        },
+        {
+          "slot": "K",
+          "name": "Eddy Pineiro",
+          "position": "K",
+          "team": "SF",
+          "mu": 7.8
+        },
+        {
+          "slot": "DEF",
+          "name": "Las Vegas Raiders",
+          "position": "DEF",
+          "team": "LV",
+          "mu": 5.1
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 10,
+      "manager": "ethansmith2580",
+      "team": "‘22 LA Rams ",
+      "projected": 107.3,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "J.J. McCarthy",
+          "position": "QB",
+          "team": "NYG",
+          "mu": 15
+        },
+        {
+          "slot": "RB",
+          "name": "David Montgomery",
+          "position": "RB",
+          "team": "HOU",
+          "mu": 14.1
+        },
+        {
+          "slot": "RB",
+          "name": "Travis Etienne Jr.",
+          "position": "RB",
+          "team": "NO",
+          "mu": 8.7
+        },
+        {
+          "slot": "WR",
+          "name": "George Pickens",
+          "position": "WR",
+          "team": "DAL",
+          "mu": 15.1
+        },
+        {
+          "slot": "WR",
+          "name": "DJ Moore",
+          "position": "WR",
+          "team": "BUF",
+          "mu": 12.4
+        },
+        {
+          "slot": "TE",
+          "name": "George Kittle",
+          "position": "TE",
+          "team": "SF",
+          "mu": 12.5
+        },
+        {
+          "slot": "FLEX",
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "team": "PHI",
+          "mu": 9.9
+        },
+        {
+          "slot": "FLEX",
+          "name": "Rachaad White",
+          "position": "RB",
+          "team": "WAS",
+          "mu": 8.7
+        },
+        {
+          "slot": "K",
+          "name": "Cam Little",
+          "position": "K",
+          "team": "JAX",
+          "mu": 8.6
+        },
+        {
+          "slot": "DEF",
+          "name": "Miami Dolphins",
+          "position": "DEF",
+          "team": "MIA",
+          "mu": 2.4
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 11,
+      "manager": "rnath499",
+      "team": "The Washington Redskins",
+      "projected": 101.8,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Josh Allen",
+          "position": "QB",
+          "team": "BUF",
+          "mu": 24.5
+        },
+        {
+          "slot": "RB",
+          "name": "Tony Pollard",
+          "position": "RB",
+          "team": "TEN",
+          "mu": 15.3
+        },
+        {
+          "slot": "RB",
+          "name": "Tyjae Spears",
+          "position": "RB",
+          "team": "TEN",
+          "mu": 7.5
+        },
+        {
+          "slot": "WR",
+          "name": "Luther Burden III",
+          "position": "WR",
+          "team": "CHI",
+          "mu": 15.4
+        },
+        {
+          "slot": "WR",
+          "name": "Adonai Mitchell",
+          "position": "WR",
+          "team": "NYJ",
+          "mu": 9.9
+        },
+        {
+          "slot": "TE",
+          "name": "Eli Stowers",
+          "position": "TE",
+          "team": "PHI",
+          "mu": 2.5
+        },
+        {
+          "slot": "FLEX",
+          "name": "Caleb Douglas",
+          "position": "WR",
+          "team": "MIA",
+          "mu": 8.9
+        },
+        {
+          "slot": "FLEX",
+          "name": "Skyler Bell",
+          "position": "WR",
+          "team": "BUF",
+          "mu": 0.2
+        },
+        {
+          "slot": "K",
+          "name": "Evan McPherson",
+          "position": "K",
+          "team": "CIN",
+          "mu": 9
+        },
+        {
+          "slot": "DEF",
+          "name": "Denver Broncos",
+          "position": "DEF",
+          "team": "DEN",
+          "mu": 8.7
+        }
+      ],
+      "emptySlots": []
+    },
+    {
+      "rosterId": 12,
+      "manager": "BotBinLaden",
+      "team": "K9 FentPack",
+      "projected": 125.7,
+      "players": [
+        {
+          "slot": "QB",
+          "name": "Joe Burrow",
+          "position": "QB",
+          "team": "CIN",
+          "mu": 25.8
+        },
+        {
+          "slot": "RB",
+          "name": "Jordan Mason",
+          "position": "RB",
+          "team": "MIN",
+          "mu": 8.8
+        },
+        {
+          "slot": "RB",
+          "name": "Kyle Monangai",
+          "position": "RB",
+          "team": "CHI",
+          "mu": 8.4
+        },
+        {
+          "slot": "WR",
+          "name": "Zay Flowers",
+          "position": "WR",
+          "team": "BAL",
+          "mu": 15.2
+        },
+        {
+          "slot": "WR",
+          "name": "Carnell Tate",
+          "position": "WR",
+          "team": "TEN",
+          "mu": 13
+        },
+        {
+          "slot": "TE",
+          "name": "Travis Kelce",
+          "position": "TE",
+          "team": "KC",
+          "mu": 14.7
+        },
+        {
+          "slot": "FLEX",
+          "name": "DeVonta Smith",
+          "position": "WR",
+          "team": "PHI",
+          "mu": 12.5
+        },
+        {
+          "slot": "FLEX",
+          "name": "Rome Odunze",
+          "position": "WR",
+          "team": "CHI",
+          "mu": 11.4
+        },
+        {
+          "slot": "K",
+          "name": "Cameron Dicker",
+          "position": "K",
+          "team": "LAC",
+          "mu": 7.9
+        },
+        {
+          "slot": "DEF",
+          "name": "Jacksonville Jaguars",
+          "position": "DEF",
+          "team": "JAX",
+          "mu": 8
+        }
+      ],
+      "emptySlots": []
+    }
+  ],
+  "restOfSeason": [
+    {
+      "rosterId": 1,
+      "manager": "lanek12",
+      "team": "Lane Doe",
+      "projected": 124.2
+    },
+    {
+      "rosterId": 2,
+      "manager": "tal262000",
+      "team": "The DNs",
+      "projected": 149.7
+    },
+    {
+      "rosterId": 3,
+      "manager": "Keeyan99",
+      "team": "Yan Dynasty",
+      "projected": 125.5
+    },
+    {
+      "rosterId": 4,
+      "manager": "MBurnes",
+      "team": "Little St. Lane’s",
+      "projected": 134
+    },
+    {
+      "rosterId": 5,
+      "manager": "kdutta",
+      "team": "3 AM afters in bull room",
+      "projected": 151.2
+    },
+    {
+      "rosterId": 6,
+      "manager": "jc199",
+      "team": "Disciples of Yakub",
+      "projected": 139.4
+    },
+    {
+      "rosterId": 7,
+      "manager": "samlaur",
+      "team": "Empyrean Athletic",
+      "projected": 141.6
+    },
+    {
+      "rosterId": 8,
+      "manager": "Garrettrh",
+      "team": "Rat",
+      "projected": 133
+    },
+    {
+      "rosterId": 9,
+      "manager": "Christopheryu21",
+      "team": "Trust the Process",
+      "projected": 112.7
+    },
+    {
+      "rosterId": 10,
+      "manager": "ethansmith2580",
+      "team": "‘22 LA Rams ",
+      "projected": 125.6
+    },
+    {
+      "rosterId": 11,
+      "manager": "rnath499",
+      "team": "The Washington Redskins",
+      "projected": 143.5
+    },
+    {
+      "rosterId": 12,
+      "manager": "BotBinLaden",
+      "team": "K9 FentPack",
+      "projected": 135.6
+    }
+  ],
+  "settled": {
+    "week": 10,
+    "matchups": [
+      {
+        "a": {
+          "rosterId": 9,
+          "manager": "Christopheryu21",
+          "team": "Trust the Process",
+          "points": 80.26
+        },
+        "b": {
+          "rosterId": 10,
+          "manager": "ethansmith2580",
+          "team": "‘22 LA Rams ",
+          "points": 133.7
+        },
+        "played": true,
+        "posted": {
+          "moneyline": {
+            "pA": 60.3,
+            "a": "−185",
+            "b": "+135"
+          },
+          "spread": {
+            "line": -7.5,
+            "a": "−7.5",
+            "b": "+7.5",
+            "price": "−110",
+            "pCover": 49.9
+          },
+          "total": {
+            "line": 221,
+            "over": "−110",
+            "under": "−110",
+            "pOver": 50.1
+          }
+        },
+        "margin": -53.44,
+        "total": 213.96,
+        "winner": "b",
+        "ats": "b",
+        "ou": "b",
+        "brier": 0.364
+      },
+      {
+        "a": {
+          "rosterId": 12,
+          "manager": "BotBinLaden",
+          "team": "K9 FentPack",
+          "points": 106.96
+        },
+        "b": {
+          "rosterId": 4,
+          "manager": "MBurnes",
+          "team": "Little St. Lane’s",
+          "points": 144.98
+        },
+        "played": true,
+        "posted": {
+          "moneyline": {
+            "pA": 68.8,
+            "a": "−280",
+            "b": "+200"
+          },
+          "spread": {
+            "line": -15.5,
+            "a": "−15.5",
+            "b": "+15.5",
+            "price": "−110",
+            "pCover": 50
+          },
+          "total": {
+            "line": 248,
+            "over": "−110",
+            "under": "−110",
+            "pOver": 49.9
+          }
+        },
+        "margin": -38.02,
+        "total": 251.94,
+        "winner": "b",
+        "ats": "b",
+        "ou": "a",
+        "brier": 0.473
+      },
+      {
+        "a": {
+          "rosterId": 8,
+          "manager": "Garrettrh",
+          "team": "Rat",
+          "points": 147.72
+        },
+        "b": {
+          "rosterId": 3,
+          "manager": "Keeyan99",
+          "team": "Yan Dynasty",
+          "points": 89.32
+        },
+        "played": true,
+        "posted": {
+          "moneyline": {
+            "pA": 69.2,
+            "a": "−290",
+            "b": "+200"
+          },
+          "spread": {
+            "line": -15.5,
+            "a": "−15.5",
+            "b": "+15.5",
+            "price": "−110",
+            "pCover": 50.3
+          },
+          "total": {
+            "line": 252,
+            "over": "−110",
+            "under": "−110",
+            "pOver": 50.2
+          }
+        },
+        "margin": 58.4,
+        "total": 237.04,
+        "winner": "a",
+        "ats": "a",
+        "ou": "b",
+        "brier": 0.095
+      },
+      {
+        "a": {
+          "rosterId": 5,
+          "manager": "kdutta",
+          "team": "3 AM afters in bull room",
+          "points": 154.24
+        },
+        "b": {
+          "rosterId": 6,
+          "manager": "jc199",
+          "team": "Disciples of Yakub",
+          "points": 148.92
+        },
+        "played": true,
+        "posted": {
+          "moneyline": {
+            "pA": 51.7,
+            "a": "−125",
+            "b": "−110"
+          },
+          "spread": {
+            "line": -1.5,
+            "a": "−1.5",
+            "b": "+1.5",
+            "price": "−110",
+            "pCover": 49.7
+          },
+          "total": {
+            "line": 270,
+            "over": "−110",
+            "under": "−110",
+            "pOver": 49.9
+          }
+        },
+        "margin": 5.32,
+        "total": 303.16,
+        "winner": "a",
+        "ats": "a",
+        "ou": "a",
+        "brier": 0.233
+      },
+      {
+        "a": {
+          "rosterId": 7,
+          "manager": "samlaur",
+          "team": "Empyrean Athletic",
+          "points": 148.92
+        },
+        "b": {
+          "rosterId": 1,
+          "manager": "lanek12",
+          "team": "Lane Doe",
+          "points": 103.38
+        },
+        "played": true,
+        "posted": {
+          "moneyline": {
+            "pA": 68.2,
+            "a": "−270",
+            "b": "+195"
+          },
+          "spread": {
+            "line": -15.5,
+            "a": "−15.5",
+            "b": "+15.5",
+            "price": "−110",
+            "pCover": 50.1
+          },
+          "total": {
+            "line": 267.5,
+            "over": "−110",
+            "under": "−110",
+            "pOver": 50.1
+          }
+        },
+        "margin": 45.54,
+        "total": 252.3,
+        "winner": "a",
+        "ats": "a",
+        "ou": "b",
+        "brier": 0.101
+      },
+      {
+        "a": {
+          "rosterId": 2,
+          "manager": "tal262000",
+          "team": "The DNs",
+          "points": 170.06
+        },
+        "b": {
+          "rosterId": 11,
+          "manager": "rnath499",
+          "team": "The Washington Redskins",
+          "points": 117.84
+        },
+        "played": true,
+        "posted": {
+          "moneyline": {
+            "pA": 62.8,
+            "a": "−210",
+            "b": "+150"
+          },
+          "spread": {
+            "line": -11,
+            "a": "−11.0",
+            "b": "+11.0",
+            "price": "−110",
+            "pCover": 50
+          },
+          "total": {
+            "line": 283.5,
+            "over": "−110",
+            "under": "−110",
+            "pOver": 49.8
+          }
+        },
+        "margin": 52.22,
+        "total": 287.9,
+        "winner": "a",
+        "ats": "a",
+        "ou": "a",
+        "brier": 0.138
+      }
+    ],
+    "reportCard": {
+      "games": 6,
+      "straightUp": {
+        "w": 4,
+        "l": 2,
+        "p": 0
+      },
+      "ats": {
+        "w": 4,
+        "l": 2,
+        "p": 0
+      },
+      "total": {
+        "w": 3,
+        "l": 3,
+        "p": 0
+      },
+      "brier": 0.234,
+      "coinFlip": 0.25,
+      "expectedChalkWins": 3.81
+    },
+    "high": {
+      "rosterId": 2,
+      "manager": "tal262000",
+      "team": "The DNs",
+      "points": 170.06
+    },
+    "low": {
+      "rosterId": 9,
+      "manager": "Christopheryu21",
+      "team": "Trust the Process",
+      "points": 80.26
+    },
+    "punishment": {
+      "low": {
+        "name": "THE PARLAY WINDOW",
+        "rosterId": 9,
+        "manager": "Christopheryu21",
+        "team": "Trust the Process",
+        "points": 80.26,
+        "price": "+380",
+        "pct": 16.6,
+        "rank": 2,
+        "of": 12,
+        "favourite": {
+          "rosterId": 10,
+          "manager": "ethansmith2580",
+          "team": "‘22 LA Rams ",
+          "pct": 28.4,
+          "price": "+180"
+        },
+        "hitFavourite": false
+      },
+      "high": null,
+      "joint": null
+    },
+    "bench": [
+      {
+        "rosterId": 3,
+        "manager": "Keeyan99",
+        "team": "Yan Dynasty",
+        "points": 89.32,
+        "best": 118.42,
+        "left": 29.1,
+        "missed": [
+          {
+            "name": "Deebo Samuel Sr.",
+            "position": "WR",
+            "points": 25.9
+          },
+          {
+            "name": "Chimere Dike",
+            "position": "WR",
+            "points": 4.1
+          }
+        ]
+      },
+      {
+        "rosterId": 7,
+        "manager": "samlaur",
+        "team": "Empyrean Athletic",
+        "points": 148.92,
+        "best": 177.9,
+        "left": 28.98,
+        "missed": [
+          {
+            "name": "Jordyn Tyson",
+            "position": "WR",
+            "points": 19
+          },
+          {
+            "name": "DK Metcalf",
+            "position": "WR",
+            "points": 15.4
+          },
+          {
+            "name": "Bryce Young",
+            "position": "QB",
+            "points": 8.1
+          }
+        ]
+      },
+      {
+        "rosterId": 5,
+        "manager": "kdutta",
+        "team": "3 AM afters in bull room",
+        "points": 154.24,
+        "best": 171.64,
+        "left": 17.4,
+        "missed": [
+          {
+            "name": "Mark Andrews",
+            "position": "TE",
+            "points": 16.2
+          },
+          {
+            "name": "Aaron Jones Sr.",
+            "position": "RB",
+            "points": 12.5
+          },
+          {
+            "name": "Malachi Fields",
+            "position": "WR",
+            "points": 9.2
+          }
+        ]
+      },
+      {
+        "rosterId": 6,
+        "manager": "jc199",
+        "team": "Disciples of Yakub",
+        "points": 148.92,
+        "best": 165.32,
+        "left": 16.4,
+        "missed": [
+          {
+            "name": "Pat Freiermuth",
+            "position": "TE",
+            "points": 11.5
+          },
+          {
+            "name": "Keenan Allen",
+            "position": "WR",
+            "points": 11.1
+          },
+          {
+            "name": "Braelon Allen",
+            "position": "RB",
+            "points": 5.6
+          }
+        ]
+      },
+      {
+        "rosterId": 11,
+        "manager": "rnath499",
+        "team": "The Washington Redskins",
+        "points": 117.84,
+        "best": 130.84,
+        "left": 13,
+        "missed": [
+          {
+            "name": "Adonai Mitchell",
+            "position": "WR",
+            "points": 8.9
+          },
+          {
+            "name": "Kyle Pitts Sr.",
+            "position": "TE",
+            "points": 7
+          }
+        ]
+      },
+      {
+        "rosterId": 2,
+        "manager": "tal262000",
+        "team": "The DNs",
+        "points": 170.06,
+        "best": 182.86,
+        "left": 12.8,
+        "missed": [
+          {
+            "name": "Josh Downs",
+            "position": "WR",
+            "points": 15.3
+          }
+        ]
+      },
+      {
+        "rosterId": 12,
+        "manager": "BotBinLaden",
+        "team": "K9 FentPack",
+        "points": 106.96,
+        "best": 117.66,
+        "left": 10.7,
+        "missed": [
+          {
+            "name": "KC Concepcion Jr.",
+            "position": "WR",
+            "points": 11.7
+          }
+        ]
+      },
+      {
+        "rosterId": 10,
+        "manager": "ethansmith2580",
+        "team": "‘22 LA Rams ",
+        "points": 133.7,
+        "best": 140.02,
+        "left": 6.32,
+        "missed": [
+          {
+            "name": "J.J. McCarthy",
+            "position": "QB",
+            "points": 18.12
+          }
+        ]
+      },
+      {
+        "rosterId": 9,
+        "manager": "Christopheryu21",
+        "team": "Trust the Process",
+        "points": 80.26,
+        "best": 84.26,
+        "left": 4,
+        "missed": [
+          {
+            "name": "Chig Okonkwo",
+            "position": "TE",
+            "points": 6.4
+          }
+        ]
+      },
+      {
+        "rosterId": 1,
+        "manager": "lanek12",
+        "team": "Lane Doe",
+        "points": 103.38,
+        "best": 105.58,
+        "left": 2.2,
+        "missed": [
+          {
+            "name": "Mike Washington Jr.",
+            "position": "RB",
+            "points": 3.7
+          }
+        ]
+      },
+      {
+        "rosterId": 8,
+        "manager": "Garrettrh",
+        "team": "Rat",
+        "points": 147.72,
+        "best": 148.22,
+        "left": 0.5,
+        "missed": [
+          {
+            "name": "Brian Thomas Jr.",
+            "position": "WR",
+            "points": 5.9
+          }
+        ]
+      },
+      {
+        "rosterId": 4,
+        "manager": "MBurnes",
+        "team": "Little St. Lane’s",
+        "points": 144.98,
+        "best": 144.98,
+        "left": 0,
+        "missed": []
+      }
+    ],
+    "versus": [
+      {
+        "rosterId": 4,
+        "manager": "MBurnes",
+        "team": "Little St. Lane’s",
+        "points": 144.98,
+        "projected": 117.1,
+        "diff": 27.88
+      },
+      {
+        "rosterId": 10,
+        "manager": "ethansmith2580",
+        "team": "‘22 LA Rams ",
+        "points": 133.7,
+        "projected": 107.5,
+        "diff": 26.2
+      },
+      {
+        "rosterId": 2,
+        "manager": "tal262000",
+        "team": "The DNs",
+        "points": 170.06,
+        "projected": 148.2,
+        "diff": 21.86
+      },
+      {
+        "rosterId": 5,
+        "manager": "kdutta",
+        "team": "3 AM afters in bull room",
+        "points": 154.24,
+        "projected": 136.6,
+        "diff": 17.64
+      },
+      {
+        "rosterId": 6,
+        "manager": "jc199",
+        "team": "Disciples of Yakub",
+        "points": 148.92,
+        "projected": 135.1,
+        "diff": 13.82
+      },
+      {
+        "rosterId": 8,
+        "manager": "Garrettrh",
+        "team": "Rat",
+        "points": 147.72,
+        "projected": 134.8,
+        "diff": 12.92
+      },
+      {
+        "rosterId": 7,
+        "manager": "samlaur",
+        "team": "Empyrean Athletic",
+        "points": 148.92,
+        "projected": 142.2,
+        "diff": 6.72
+      },
+      {
+        "rosterId": 11,
+        "manager": "rnath499",
+        "team": "The Washington Redskins",
+        "points": 117.84,
+        "projected": 136.7,
+        "diff": -18.86
+      },
+      {
+        "rosterId": 1,
+        "manager": "lanek12",
+        "team": "Lane Doe",
+        "points": 103.38,
+        "projected": 126.4,
+        "diff": -23.02
+      },
+      {
+        "rosterId": 12,
+        "manager": "BotBinLaden",
+        "team": "K9 FentPack",
+        "points": 106.96,
+        "projected": 132.5,
+        "diff": -25.54
+      },
+      {
+        "rosterId": 3,
+        "manager": "Keeyan99",
+        "team": "Yan Dynasty",
+        "points": 89.32,
+        "projected": 118.9,
+        "diff": -29.58
+      },
+      {
+        "rosterId": 9,
+        "manager": "Christopheryu21",
+        "team": "Trust the Process",
+        "points": 80.26,
+        "projected": 114.5,
+        "diff": -34.24
+      }
+    ]
+  }
+}
